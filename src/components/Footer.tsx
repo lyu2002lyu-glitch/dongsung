@@ -20,8 +20,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400 mb-4">정책</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3 mt-8">
               <li>
                 <Link to="/privacy" className="text-sm text-gray-300 hover:text-white transition-colors">
                   개인정보처리방침
