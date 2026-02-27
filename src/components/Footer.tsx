@@ -17,6 +17,9 @@ export default function Footer() {
             <p className="text-gray-500 text-xs mt-6">
               © {new Date().getFullYear()} DONGSEUNG. All rights reserved.
             </p>
+            <Link to="/admin/write" className="text-xs text-gray-700 hover:text-gray-400 transition-colors mt-2 inline-block">
+              관리자 글쓰기
+            </Link>
           </div>
 
           <div>

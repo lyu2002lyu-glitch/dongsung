@@ -15,9 +15,12 @@ import Affiliate from './pages/business/Affiliate';
 import Recruitment from './pages/careers/Recruitment';
 import Financial from './pages/ir/Financial';
 import Disclosure from './pages/ir/Disclosure';
+import DisclosureDetail from './pages/ir/DisclosureDetail';
 import Notice from './pages/ir/Notice';
+import NoticeDetail from './pages/ir/NoticeDetail';
 import Privacy from './pages/policy/Privacy';
 import CCTV from './pages/policy/CCTV';
+import AdminWrite from './pages/admin/Write';
 
 export default function App() {
   return (
@@ -34,9 +37,12 @@ export default function App() {
           <Route path="careers/recruitment" element={<Recruitment />} />
           <Route path="ir/financial" element={<Financial />} />
           <Route path="ir/disclosure" element={<Disclosure />} />
+          <Route path="ir/disclosure/:id" element={<DisclosureDetail />} />
           <Route path="ir/notice" element={<Notice />} />
+          <Route path="ir/notice/:id" element={<NoticeDetail />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="cctv" element={<CCTV />} />
+          <Route path="admin/write" element={<AdminWrite />} />
         </Route>
       </Routes>
     </BrowserRouter>

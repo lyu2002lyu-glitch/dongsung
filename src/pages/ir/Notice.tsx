@@ -1,13 +1,47 @@
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
+import { supabase } from '../../lib/supabase';
+
+interface NoticeItem {
+  id: number;
+  title: string;
+  created_at: string;
+  views: number;
+}
 
 export default function Notice() {
-  const notices = [
-    { id: 1, title: '제54기 정기주주총회 소집공고', date: '2024.03.15', views: 450 },
-    { id: 2, title: '전자증권 전환 대상 주권 권리자(주주) 보호 및 조치사항 안내', date: '2023.10.05', views: 320 },
-    { id: 3, title: '제53기 정기주주총회 소집공고', date: '2023.03.14', views: 512 },
-    { id: 4, title: '명의개서정지 공고', date: '2022.12.15', views: 289 },
-    { id: 5, title: '제52기 정기주주총회 소집공고', date: '2022.03.15', views: 480 },
-  ];
+  const [notices, setNotices] = useState<NoticeItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchNotices = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('notices')
+          .select('*')
+          .order('created_at', { ascending: false });
+
+        if (error) {
+          console.error('Error fetching notices:', error);
+        } else {
+          setNotices(data || []);
+        }
+      } catch (err) {
+        console.error('Unexpected error:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchNotices();
+  }, []);
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')}`;
+  };
 
   return (
     <div className="bg-white">
@@ -28,26 +62,44 @@ export default function Notice() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {notices.map((item) => (
-                <tr key={item.id} className="hover:bg-gray-50 transition-colors cursor-pointer group">
-                  <td className="p-4 text-gray-500 text-center">{item.id}</td>
-                  <td className="p-4 font-medium text-black group-hover:underline decoration-1 underline-offset-4">{item.title}</td>
-                  <td className="p-4 text-gray-500 text-center">{item.date}</td>
-                  <td className="p-4 text-gray-500 text-center">{item.views}</td>
+              {loading ? (
+                <tr>
+                  <td colSpan={4} className="p-8 text-center text-gray-500">
+                    데이터를 불러오는 중입니다...
+                  </td>
                 </tr>
-              ))}
+              ) : notices.length === 0 ? (
+                <tr>
+                  <td colSpan={4} className="p-8 text-center text-gray-500">
+                    등록된 전자공고가 없습니다.
+                  </td>
+                </tr>
+              ) : (
+                notices.map((item, index) => (
+                  <tr 
+                    key={item.id} 
+                    onClick={() => navigate(`/ir/notice/${item.id}`)}
+                    className="hover:bg-gray-50 transition-colors cursor-pointer group"
+                  >
+                    <td className="p-4 text-gray-500 text-center">{notices.length - index}</td>
+                    <td className="p-4 font-medium text-black group-hover:underline decoration-1 underline-offset-4">{item.title}</td>
+                    <td className="p-4 text-gray-500 text-center">{formatDate(item.created_at)}</td>
+                    <td className="p-4 text-gray-500 text-center">{item.views || 0}</td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </div>
         
         {/* Pagination placeholder */}
-        <div className="flex justify-center mt-12 space-x-2">
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&lt;</button>
-          <button className="px-4 py-2 bg-black text-white rounded-md font-bold">1</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">2</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">3</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&gt;</button>
-        </div>
+        {!loading && notices.length > 0 && (
+          <div className="flex justify-center mt-12 space-x-2">
+            <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&lt;</button>
+            <button className="px-4 py-2 bg-black text-white rounded-md font-bold">1</button>
+            <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&gt;</button>
+          </div>
+        )}
       </section>
     </div>
   );

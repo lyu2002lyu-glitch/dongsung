@@ -1,13 +1,47 @@
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
+import { supabase } from '../../lib/supabase';
+
+interface DisclosureItem {
+  id: number;
+  title: string;
+  created_at: string;
+  views: number;
+}
 
 export default function Disclosure() {
-  const disclosures = [
-    { id: 1, title: '신규 임원 선임 안내', date: '2023.11.10', views: 124 },
-    { id: 2, title: '타법인 주식 및 출자증권 취득결정', date: '2023.08.25', views: 89 },
-    { id: 3, title: '유형자산 취득결정', date: '2023.05.12', views: 156 },
-    { id: 4, title: '단일판매ㆍ공급계약체결', date: '2023.02.01', views: 210 },
-    { id: 5, title: '대표이사 변경 안내', date: '2022.12.15', views: 345 },
-  ];
+  const [disclosures, setDisclosures] = useState<DisclosureItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchDisclosures = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('disclosures')
+          .select('*')
+          .order('created_at', { ascending: false });
+
+        if (error) {
+          console.error('Error fetching disclosures:', error);
+        } else {
+          setDisclosures(data || []);
+        }
+      } catch (err) {
+        console.error('Unexpected error:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDisclosures();
+  }, []);
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')}`;
+  };
 
   return (
     <div className="bg-white">
@@ -28,26 +62,44 @@ export default function Disclosure() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {disclosures.map((item) => (
-                <tr key={item.id} className="hover:bg-gray-50 transition-colors cursor-pointer group">
-                  <td className="p-4 text-gray-500 text-center">{item.id}</td>
-                  <td className="p-4 font-medium text-black group-hover:underline decoration-1 underline-offset-4">{item.title}</td>
-                  <td className="p-4 text-gray-500 text-center">{item.date}</td>
-                  <td className="p-4 text-gray-500 text-center">{item.views}</td>
+              {loading ? (
+                <tr>
+                  <td colSpan={4} className="p-8 text-center text-gray-500">
+                    데이터를 불러오는 중입니다...
+                  </td>
                 </tr>
-              ))}
+              ) : disclosures.length === 0 ? (
+                <tr>
+                  <td colSpan={4} className="p-8 text-center text-gray-500">
+                    등록된 공시정보가 없습니다.
+                  </td>
+                </tr>
+              ) : (
+                disclosures.map((item, index) => (
+                  <tr 
+                    key={item.id} 
+                    onClick={() => navigate(`/ir/disclosure/${item.id}`)}
+                    className="hover:bg-gray-50 transition-colors cursor-pointer group"
+                  >
+                    <td className="p-4 text-gray-500 text-center">{disclosures.length - index}</td>
+                    <td className="p-4 font-medium text-black group-hover:underline decoration-1 underline-offset-4">{item.title}</td>
+                    <td className="p-4 text-gray-500 text-center">{formatDate(item.created_at)}</td>
+                    <td className="p-4 text-gray-500 text-center">{item.views || 0}</td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
         </div>
         
         {/* Pagination placeholder */}
-        <div className="flex justify-center mt-12 space-x-2">
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&lt;</button>
-          <button className="px-4 py-2 bg-black text-white rounded-md font-bold">1</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">2</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">3</button>
-          <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&gt;</button>
-        </div>
+        {!loading && disclosures.length > 0 && (
+          <div className="flex justify-center mt-12 space-x-2">
+            <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&lt;</button>
+            <button className="px-4 py-2 bg-black text-white rounded-md font-bold">1</button>
+            <button className="px-4 py-2 border border-gray-200 rounded-md text-gray-500 hover:bg-gray-50 transition-colors">&gt;</button>
+          </div>
+        )}
       </section>
     </div>
   );
