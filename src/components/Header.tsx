@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,8 +61,8 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              {/* 첨부해주신 로고 이미지를 public 폴더에 logo.png로 저장하여 사용하도록 설정했습니다. */}
-              <img src="/logo.png" alt="동승 로고" className="h-10 w-auto object-contain" onError={(e) => {
+              {/* 첨부해주신 로고 이미지를 src/assets 폴더로 이동하여 import 방식으로 사용하도록 변경했습니다. (GitHub Pages 경로 문제 해결) */}
+              <img src={logoImg} alt="동승 로고" className="h-10 w-auto object-contain" onError={(e) => {
                 // 이미지가 없을 경우 텍스트로 대체 표시
                 e.currentTarget.style.display = 'none';
                 e.currentTarget.nextElementSibling?.classList.remove('hidden');
