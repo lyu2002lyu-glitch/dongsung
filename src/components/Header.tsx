@@ -61,33 +61,27 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              {/* 첨부해주신 로고 이미지를 src/assets 폴더로 이동하여 import 방식으로 사용하도록 변경했습니다. (GitHub Pages 경로 문제 해결) */}
-              <img src={logoImg} alt="동승 로고" className="h-10 w-auto object-contain" onError={(e) => {
-                // 이미지가 없을 경우 텍스트로 대체 표시
-                e.currentTarget.style.display = 'none';
-                e.currentTarget.nextElementSibling?.classList.remove('hidden');
-              }} />
-              <span className="font-bold text-2xl tracking-tighter hidden">동승</span>
+              <img src={logoImg} alt="동승 로고" className="h-10 w-auto object-contain" />
             </Link>
           </div>
           
           {/* Desktop Menu */}
-          <nav className="hidden md:flex space-x-10">
+          <nav className="hidden md:flex space-x-12">
             {navItems.map((item) => (
               <div key={item.title} className="relative group">
                 <Link
                   to={item.path}
-                  className="text-base font-medium hover:text-gray-500 transition-colors py-8"
+                  className="text-[13px] font-bold text-black hover:text-gray-400 transition-colors py-8 tracking-[0.2em] uppercase"
                 >
                   {item.title}
                 </Link>
-                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-48 bg-white shadow-lg rounded-b-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-48 bg-white border border-gray-100 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
                   <div className="py-2">
                     {item.subItems.map((subItem) => (
                       <Link
                         key={subItem.title}
                         to={subItem.path}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-black"
+                        className="block px-6 py-3 text-[11px] font-medium text-gray-500 hover:bg-gray-50 hover:text-black transition-all tracking-widest uppercase"
                       >
                         {subItem.title}
                       </Link>
@@ -115,14 +109,14 @@ export default function Header() {
         <div className="md:hidden bg-white text-black border-t">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navItems.map((item) => (
-              <div key={item.title} className="py-2">
-                <div className="px-3 py-2 font-bold text-lg">{item.title}</div>
-                <div className="pl-6 space-y-1">
+              <div key={item.title} className="py-1">
+                <div className="px-3 py-1.5 font-bold text-lg">{item.title}</div>
+                <div className="pl-6 space-y-0.5">
                   {item.subItems.map((subItem) => (
                     <Link
                       key={subItem.title}
                       to={subItem.path}
-                      className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-black hover:bg-gray-50 rounded-md"
+                      className="block px-3 py-1.5 text-base font-medium text-gray-600 hover:text-black hover:bg-gray-50 rounded-md"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {subItem.title}
