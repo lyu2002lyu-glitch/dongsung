@@ -152,12 +152,16 @@ export default function Home() {
               </span>
             </motion.p>
 
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 relative">
               <Link to="/company/greeting" className="w-full sm:w-auto group relative px-10 md:px-16 py-4 md:py-6 bg-black text-white font-bold rounded-full overflow-hidden transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
                 <span className="relative z-10 tracking-[0.3em] text-[9px] md:text-[10px]">DISCOVER MORE</span>
                 <div className="absolute inset-0 bg-gray-800 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
               </Link>
-              <Link to="/business/parent" className="w-full sm:w-auto group px-10 md:px-16 py-4 md:py-6 border border-black/10 text-black font-bold rounded-full hover:bg-black hover:text-white transition-all duration-500">
+              
+              {/* Vertical line separator */}
+              <div className="hidden sm:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1px] h-12 bg-gray-200"></div>
+
+              <Link to="/business/parent" className="w-full sm:w-auto group px-10 md:px-16 py-4 md:py-6 border border-black/10 text-black font-bold rounded-full hover:bg-black hover:text-white transition-all duration-500 bg-white">
                 <span className="tracking-[0.3em] text-[9px] md:text-[10px]">BUSINESS PORTFOLIO</span>
               </Link>
             </div>
