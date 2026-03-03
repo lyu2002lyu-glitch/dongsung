@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoImg from '../assets/dongsung-logo.png';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,7 +60,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src={logoImg} alt="동승 로고" className="h-10 w-auto object-contain" />
+              <img src="/dongsung-logo.png" alt="동승 로고" className="h-10 w-auto object-contain" />
             </Link>
           </div>
           
