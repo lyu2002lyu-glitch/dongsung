@@ -1,5 +1,5 @@
 import PageHeader from '../../components/PageHeader';
-import { Flag, Tent, Trophy, MapPin, Star, Users } from 'lucide-react';
+import { ArrowRight, Trophy, MapPin, Star, Users } from 'lucide-react';
 import { GENERATED_IMAGES } from '../../constants/images';
 import { motion } from 'motion/react';
 
@@ -8,12 +8,14 @@ export default function Affiliate() {
     {
       name: '(주)동승 골프앤리조트',
       desc: '자연과 조화를 이루는 친환경 골프 코스와 최고급 시설을 갖춘 리조트를 통해 골퍼들에게 잊지 못할 라운딩 경험을 선사합니다.',
-      icon: <Flag size={40} className="text-black mb-6" strokeWidth={1.5} />,
+      img: 'https://picsum.photos/seed/golf/800/600',
+      link: '#',
     },
     {
       name: '(주)동승 레저',
       desc: '다양한 레저 시설과 프로그램을 기획하고 운영하여, 고객의 건강하고 활기찬 라이프스타일을 지원하는 종합 레저 전문 기업입니다.',
-      icon: <Tent size={40} className="text-black mb-6" strokeWidth={1.5} />,
+      img: 'https://picsum.photos/seed/leisure/800/600',
+      link: '#',
     },
   ];
 
@@ -32,17 +34,39 @@ export default function Affiliate() {
         imageSrc={GENERATED_IMAGES.AFFILIATE}
       />
       <section className="py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-40">
+        <div className="space-y-48 mb-40">
           {companies.map((company, idx) => (
-            <div key={idx} className="group relative overflow-hidden bg-white border border-gray-100 p-16 transition-all duration-500 hover:border-black">
-              <div className="relative z-10">
-                <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-110 transition-transform">
-                  {company.icon}
+            <div key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
+              <div className="w-full lg:w-3/5 relative">
+                <div className="aspect-[16/9] overflow-hidden border border-gray-100">
+                  <img 
+                    src={company.img} 
+                    alt={company.name} 
+                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-6 tracking-tight">{company.name}</h3>
-                <p className="text-gray-500 text-base leading-relaxed font-light">
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gray-50 -z-10"></div>
+              </div>
+              <div className="w-full lg:w-2/5 space-y-10">
+                <div className="space-y-6">
+                  <span className="text-[11px] font-bold text-gray-300 uppercase tracking-[0.4em]">Affiliate</span>
+                  <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight tracking-tight">{company.name}</h2>
+                </div>
+                <p className="text-base text-gray-500 leading-relaxed font-light">
                   {company.desc}
                 </p>
+                <div className="pt-10">
+                  <a 
+                    href={company.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center px-10 py-5 bg-black text-white transition-all duration-300 hover:bg-gray-800"
+                  >
+                    <span className="text-[11px] font-bold tracking-widest uppercase">공식 홈페이지 방문</span>
+                    <ArrowRight size={16} className="ml-3 group-hover:translate-x-1 transition-transform" />
+                  </a>
+                </div>
               </div>
             </div>
           ))}

@@ -13,7 +13,7 @@ export default function Location() {
       <section className="py-32 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
           <div className="bg-gray-50 h-[500px] mb-24 overflow-hidden border border-gray-100">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.441617412762!2d127.00616871221437!3d37.57053597191942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca32609050905%3A0x68rr2c8cx0!2z7ISc7Jq47Yq567OE7IucIOyihOuhnOq1rCDso7TroZwgMjY2!5e0!3m2!1sko!2skr!4v1710000000000!5m2!1sko!2skr"
+              src="https://maps.google.com/maps?q=서울시%20종로구%20종로%20266&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -30,8 +30,8 @@ export default function Location() {
                 <h2 className="text-2xl font-bold mb-10 text-black tracking-tight">본사 정보</h2>
                 <ul className="space-y-10">
                   <li className="flex items-start gap-8">
-                    <div className="w-12 h-12 bg-black text-white flex items-center justify-center shrink-0">
-                      <MapPin size={20} />
+                    <div className="w-12 h-12 bg-gray-50 border border-gray-100 flex items-center justify-center shrink-0">
+                      <MapPin size={20} className="text-gray-400" />
                     </div>
                     <div>
                       <h3 className="font-bold text-black text-base tracking-tight mb-2">주소</h3>

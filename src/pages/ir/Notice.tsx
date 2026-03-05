@@ -32,15 +32,8 @@ export default function Notice() {
             { id: 2, title: '주식명의개서 정지 및 주주명부 폐쇄공고', created_at: '2024-02-10T00:00:00Z', views: 112 },
             { id: 3, title: '제53기 결산공고', created_at: '2023-03-20T00:00:00Z', views: 456 },
           ]);
-        } else if (!data || data.length === 0) {
-          // Fallback to sample data if no data exists
-          setNotices([
-            { id: 1, title: '제54기 정기주주총회 소집공고', created_at: '2024-03-15T00:00:00Z', views: 342 },
-            { id: 2, title: '주식명의개서 정지 및 주주명부 폐쇄공고', created_at: '2024-02-10T00:00:00Z', views: 112 },
-            { id: 3, title: '제53기 결산공고', created_at: '2023-03-20T00:00:00Z', views: 456 },
-          ]);
         } else {
-          setNotices(data);
+          setNotices(data || []);
         }
       } catch (err) {
         console.error('Unexpected error:', err);
@@ -66,8 +59,8 @@ export default function Notice() {
   return (
     <div className="bg-white">
       <PageHeader 
-        title="전자공고" 
-        subtitle="법령 및 정관에 따른 공고사항을 게시합니다." 
+        title="IR공고" 
+        subtitle="동승의 주요 IR 공고 사항을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
       />
       <section className="py-32 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">

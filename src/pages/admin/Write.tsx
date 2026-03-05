@@ -9,12 +9,12 @@ interface Post {
   id: any;
   title: string;
   created_at: string;
-  type: 'disclosures' | 'notices';
+  type: 'notices';
 }
 
 export default function AdminWrite() {
   const navigate = useNavigate();
-  const [board, setBoard] = useState<'disclosures' | 'notices'>('disclosures');
+  const [board, setBoard] = useState<'notices'>('notices');
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -32,21 +32,14 @@ export default function AdminWrite() {
   const fetchPosts = async () => {
     setIsLoadingPosts(true);
     try {
-      const { data: discData, error: discError } = await supabase
-        .from('disclosures')
-        .select('id, title, created_at')
-        .order('created_at', { ascending: false });
-      
       const { data: noticeData, error: noticeError } = await supabase
         .from('notices')
         .select('id, title, created_at')
         .order('created_at', { ascending: false });
 
-      if (discError) throw discError;
       if (noticeError) throw noticeError;
 
       const combined: Post[] = [
-        ...(discData || []).map(p => ({ ...p, type: 'disclosures' as const })),
         ...(noticeData || []).map(p => ({ ...p, type: 'notices' as const }))
       ].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
@@ -97,37 +90,23 @@ export default function AdminWrite() {
     }
   };
 
-  const handleDelete = async (id: any, type: 'disclosures' | 'notices') => {
+  const handleDelete = async (id: any, type: 'notices') => {
     if (!window.confirm('정말 삭제하시겠습니까?')) return;
 
     try {
-      // Try to delete with the provided ID
-      // We use count: 'exact' to verify if the deletion actually happened
+      // id가 숫자형 문자열인 경우에만 숫자로 변환 (UUID 등 방지)
+      const targetId = (typeof id === 'string' && /^\d+$/.test(id)) ? parseInt(id, 10) : id;
+      
       const { error, count } = await supabase
         .from(type)
         .delete({ count: 'exact' })
-        .eq('id', id);
+        .eq('id', targetId);
 
       if (error) throw error;
-
-      // If no rows were deleted, it might be a type mismatch (string vs number)
+      
       if (count === 0) {
-        const targetId = (typeof id === 'string' && /^\d+$/.test(id)) ? parseInt(id, 10) : id;
-        if (targetId !== id) {
-          const { error: retryError, count: retryCount } = await supabase
-            .from(type)
-            .delete({ count: 'exact' })
-            .eq('id', targetId);
-          
-          if (retryError) throw retryError;
-          if (retryCount === 0) {
-            alert('삭제할 게시글을 찾을 수 없거나 권한이 없습니다. (RLS 정책을 확인해주세요)');
-            return;
-          }
-        } else {
-          alert('삭제할 게시글을 찾을 수 없거나 권한이 없습니다. (RLS 정책을 확인해주세요)');
-          return;
-        }
+        alert('삭제할 게시글을 찾을 수 없거나 권한이 없습니다. (Supabase RLS 정책을 확인해주세요)');
+        return;
       }
 
       alert('삭제되었습니다.');
@@ -195,18 +174,7 @@ export default function AdminWrite() {
           </div>
           
           <form onSubmit={handleSubmit} className="space-y-8 bg-white border border-gray-100 p-10 shadow-sm">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Board Category</label>
-                <select
-                  value={board}
-                  onChange={(e) => setBoard(e.target.value as 'disclosures' | 'notices')}
-                  className="w-full border border-gray-200 rounded-none p-4 focus:ring-0 focus:border-black transition-colors text-sm"
-                >
-                  <option value="disclosures">공시정보 (Disclosures)</option>
-                  <option value="notices">전자공고 (Notices)</option>
-                </select>
-              </div>
+            <div className="grid grid-cols-1 gap-8">
               <div>
                 <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Title</label>
                 <input
@@ -285,10 +253,8 @@ export default function AdminWrite() {
                   posts.map((post) => (
                     <tr key={`${post.type}-${post.id}`} className="hover:bg-gray-50/50 transition-colors group">
                       <td className="p-6">
-                        <span className={`text-[10px] font-bold uppercase tracking-widest ${
-                          post.type === 'disclosures' ? 'text-blue-500' : 'text-emerald-500'
-                        }`}>
-                          {post.type === 'disclosures' ? '공시' : '공고'}
+                        <span className="text-[10px] font-bold uppercase tracking-widest text-emerald-500">
+                          공고
                         </span>
                       </td>
                       <td className="p-6">

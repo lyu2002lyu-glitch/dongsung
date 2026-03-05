@@ -31,9 +31,9 @@ export default function Greeting() {
       />
       
       <section className="py-32 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center mb-32">
-          <div className="relative">
-            <div className="aspect-[4/5] overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-stretch mb-32">
+          <div className="relative h-full">
+            <div className="h-full overflow-hidden">
               <img 
                 src={GENERATED_IMAGES.GREETING} 
                 alt="Greeting" 
@@ -43,13 +43,13 @@ export default function Greeting() {
             <div className="absolute -bottom-8 -right-8 w-48 h-48 border border-gray-100 -z-10 hidden lg:block"></div>
           </div>
           
-          <div className="space-y-10">
+          <div className="space-y-10 flex flex-col justify-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl md:text-5xl font-bold mb-10 leading-tight text-black tracking-tight">
+              <h2 className="text-4xl md:text-[45px] font-bold mb-10 leading-tight text-black tracking-tight">
                 "고객과 함께 성장하는 기업,<br />
                 <span className="text-gray-300">동승입니다."</span>
               </h2>

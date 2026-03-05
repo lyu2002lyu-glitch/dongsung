@@ -7,17 +7,17 @@ export default function Recruitment() {
     {
       title: '서류전형',
       desc: '지원자의 역량과 경험을 종합적으로 검토합니다.',
-      icon: <Search size={32} className="text-black" strokeWidth={1.5} />,
+      icon: <Search size={32} strokeWidth={1.5} />,
     },
     {
       title: '면접전형',
       desc: '직무 적합성과 인성을 심층적으로 평가합니다.',
-      icon: <Users size={32} className="text-black" strokeWidth={1.5} />,
+      icon: <Users size={32} strokeWidth={1.5} />,
     },
     {
       title: '최종합격',
       desc: '동승의 새로운 가족으로 합류하게 됩니다.',
-      icon: <UserPlus size={32} className="text-black" strokeWidth={1.5} />,
+      icon: <UserPlus size={32} strokeWidth={1.5} />,
     },
   ];
 
@@ -63,16 +63,16 @@ export default function Recruitment() {
             <h3 className="text-4xl font-bold text-black tracking-tight">채용 절차</h3>
           </div>
 
-          <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-32">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-32 relative z-10">
             {steps.map((step, idx) => (
-              <div key={idx} className="flex flex-col items-center text-center relative w-full max-w-[240px]">
-                <div className="w-24 h-24 bg-black text-white flex items-center justify-center mb-10 transition-all hover:scale-110">
+              <div key={idx} className="flex flex-col items-center text-center relative w-full max-w-[240px] group">
+                <div className="w-24 h-24 bg-white border border-gray-200 text-black flex items-center justify-center mb-10 transition-all duration-500 group-hover:border-black group-hover:bg-black group-hover:text-white rounded-full shadow-sm relative z-20">
                   {step.icon}
                 </div>
                 <h3 className="text-xl font-bold text-black mb-6 tracking-tight">{step.title}</h3>
                 <p className="text-gray-500 leading-relaxed text-sm font-light">{step.desc}</p>
                 {idx < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-12 left-[calc(50%+4rem)] w-[calc(100%-4rem)] h-px bg-gray-100 -z-10"></div>
+                  <div className="hidden md:block absolute top-12 left-[calc(50%+3rem)] w-[calc(100%+2rem)] h-[1px] bg-gray-200 z-0"></div>
                 )}
               </div>
             ))}

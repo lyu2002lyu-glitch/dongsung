@@ -19,44 +19,34 @@ export default function Home() {
   useEffect(() => {
     const fetchIRItems = async () => {
       try {
-        const { data: discData } = await supabase
-          .from('disclosures')
-          .select('id, title, created_at')
-          .order('created_at', { ascending: false })
-          .limit(3);
-        
         const { data: noticeData } = await supabase
           .from('notices')
           .select('id, title, created_at')
           .order('created_at', { ascending: false })
-          .limit(3);
+          .limit(1);
+
+        const noticeItem = noticeData && noticeData.length > 0 ? {
+          ...noticeData[0],
+          type: 'notice' as const,
+          category: 'IR공고'
+        } : {
+          id: 1, title: '제54기 정기주주총회 소집공고', category: 'IR공고', type: 'notice' as const, created_at: '2024-03-15T00:00:00Z'
+        };
 
         const combined: IRItem[] = [
-          ...(discData || []).map(item => ({ 
-            ...item, 
-            type: 'disclosure' as const,
-            category: '공시정보'
-          })),
-          ...(noticeData || []).map(item => ({ 
-            ...item, 
-            type: 'notice' as const,
-            category: '전자공고'
-          }))
-        ].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
-         .slice(0, 3);
+          { id: 'financial', title: '2023년 결산 재무제표 공시', category: '재무현황', type: 'financial', created_at: '2024-02-28T00:00:00Z' },
+          noticeItem,
+          { id: 'disclosure', title: 'DART 공시정보 바로가기', category: 'IR공시', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
+        ];
 
-        // If no data, use sample data from image
-        if (combined.length === 0) {
-          setIrItems([
-            { id: 1, title: '제54기 정기주주총회 소집공고', category: '전자공고', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
-            { id: 'financial', title: '2023년 결산 재무제표 공시', category: '재무정보', type: 'financial', created_at: '2024-02-28T00:00:00Z' },
-            { id: 1, title: '신규 임원 선임 안내', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
-          ] as any);
-        } else {
-          setIrItems(combined);
-        }
+        setIrItems(combined);
       } catch (error) {
         console.error('Error fetching IR items:', error);
+        setIrItems([
+          { id: 'financial', title: '2023년 결산 재무제표 공시', category: '재무현황', type: 'financial', created_at: '2024-02-28T00:00:00Z' },
+          { id: 1, title: '제54기 정기주주총회 소집공고', category: 'IR공고', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
+          { id: 'disclosure', title: 'DART 공시정보 바로가기', category: 'IR공시', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
+        ] as any);
       }
     };
 
@@ -69,7 +59,7 @@ export default function Home() {
   };
 
   const getLink = (item: IRItem) => {
-    if (item.type === 'disclosure') return `/ir/disclosure/${item.id}`;
+    if (item.type === 'disclosure') return `/ir/disclosure`;
     if (item.type === 'notice') return `/ir/notice/${item.id}`;
     if (item.type === 'financial') return `/ir/financial`;
     return '#';
@@ -124,9 +114,9 @@ export default function Home() {
             <h1 className="text-4xl md:text-8xl font-light text-black mb-8 md:mb-12 tracking-tighter leading-[0.85] uppercase">
               <motion.span 
                 initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 0.2, x: 0 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.2, delay: 0.3 }}
-                className="font-thin block"
+                className="font-black tracking-widest block"
               >
                 Dongsung
               </motion.span>
@@ -134,7 +124,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, delay: 0.5 }}
-                className="font-black tracking-[-0.07em] block"
+                className="font-black tracking-widest block text-[oklch(87.2%_0.01_258.338)]"
               >
                 Heritage
               </motion.span>
@@ -153,7 +143,7 @@ export default function Home() {
             </motion.p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 relative">
-              <Link to="/company/greeting" className="w-full sm:w-auto group relative px-10 md:px-16 py-4 md:py-6 bg-black text-white font-bold rounded-full overflow-hidden transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
+              <Link to="/company/greeting" className="w-full sm:w-[280px] text-center group relative px-10 py-4 md:py-6 bg-black text-white font-bold rounded-full overflow-hidden transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
                 <span className="relative z-10 tracking-[0.3em] text-[9px] md:text-[10px]">DISCOVER MORE</span>
                 <div className="absolute inset-0 bg-gray-800 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
               </Link>
@@ -161,22 +151,11 @@ export default function Home() {
               {/* Vertical line separator */}
               <div className="hidden sm:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1px] h-12 bg-gray-200"></div>
 
-              <Link to="/business/parent" className="w-full sm:w-auto group px-10 md:px-16 py-4 md:py-6 border border-black/10 text-black font-bold rounded-full hover:bg-black hover:text-white transition-all duration-500 bg-white">
+              <Link to="/business/parent" className="w-full sm:w-[280px] text-center group px-10 py-4 md:py-6 border border-black/10 text-black font-bold rounded-full hover:bg-black hover:text-white transition-all duration-500 bg-white">
                 <span className="tracking-[0.3em] text-[9px] md:text-[10px]">BUSINESS PORTFOLIO</span>
               </Link>
             </div>
           </motion.div>
-        </div>
-
-        {/* Minimalist Scroll Indicator */}
-        <div className="absolute bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-6">
-          <div className="w-[1px] h-24 bg-gradient-to-b from-black/20 via-black/5 to-transparent relative overflow-hidden">
-            <motion.div 
-              animate={{ y: [0, 96] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-              className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent via-black/20 to-transparent"
-            />
-          </div>
         </div>
       </section>
 
@@ -293,7 +272,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="group relative h-[600px] overflow-hidden"
+              className="group relative h-[400px] overflow-hidden"
             >
               <img 
                 src={GENERATED_IMAGES.MARKET} 
@@ -314,7 +293,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="group relative h-[600px] overflow-hidden"
+              className="group relative h-[400px] overflow-hidden"
             >
               <img 
                 src={GENERATED_IMAGES.HOTEL} 
@@ -440,7 +419,7 @@ export default function Home() {
         <div className="flex justify-between items-end mb-20 border-b border-black pb-10">
           <div>
             <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-4">Notice & IR</h2>
-            <h3 className="text-3xl font-bold text-black tracking-tight">공시 및 공고</h3>
+            <h3 className="text-3xl font-bold text-black tracking-tight">IR 및 정보</h3>
           </div>
           <Link to="/ir/disclosure" className="text-gray-400 hover:text-black flex items-center transition-colors group">
             <span className="text-[11px] font-bold tracking-widest uppercase">View All</span>

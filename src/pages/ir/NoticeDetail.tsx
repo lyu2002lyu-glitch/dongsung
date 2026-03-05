@@ -75,8 +75,8 @@ export default function NoticeDetail() {
   return (
     <div className="bg-white">
       <PageHeader 
-        title="전자공고" 
-        subtitle="법령 및 정관에 따른 공고사항을 게시합니다." 
+        title="IR공고" 
+        subtitle="동승의 주요 IR 공고 사항을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
       />
       <section className="py-32 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">

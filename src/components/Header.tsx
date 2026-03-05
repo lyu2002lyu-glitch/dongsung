@@ -42,12 +42,12 @@ export default function Header() {
       ],
     },
     {
-      title: '공시정보',
+      title: 'IR',
       path: '/ir/financial',
       subItems: [
-        { title: '재무정보', path: '/ir/financial' },
-        { title: '공시정보', path: '/ir/disclosure' },
-        { title: '전자공고', path: '/ir/notice' },
+        { title: '재무현황', path: '/ir/financial' },
+        { title: 'IR공고', path: '/ir/notice' },
+        { title: 'IR공시', path: '/ir/disclosure' },
       ],
     },
   ];
@@ -60,7 +60,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/refs/heads/main/public/logo.jpg" alt="동승 로고" className="h-10 w-auto object-contain" referrerPolicy="no-referrer" />
+              <img src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/refs/heads/main/dongsung-logo.png" alt="동승 로고" className="h-10 w-auto object-contain" referrerPolicy="no-referrer" />
             </Link>
           </div>
           
@@ -70,7 +70,7 @@ export default function Header() {
               <div key={item.title} className="relative group">
                 <Link
                   to={item.path}
-                  className="text-[13px] font-bold text-black hover:text-gray-400 transition-colors py-8 tracking-[0.2em] uppercase"
+                  className="text-[13px] md:text-[20px] font-bold text-black hover:text-gray-400 transition-colors py-8 tracking-[0.1em] uppercase"
                 >
                   {item.title}
                 </Link>
