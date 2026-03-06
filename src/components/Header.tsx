@@ -60,7 +60,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
-              <img src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/refs/heads/main/dongsung-logo.png" alt="동승 로고" className="h-10 w-auto object-contain" referrerPolicy="no-referrer" />
+              <img src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/main/logo.jpg" alt="동승 로고" className="h-10 w-auto object-contain" referrerPolicy="no-referrer" />
             </Link>
           </div>
           

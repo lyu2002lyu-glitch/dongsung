@@ -37,8 +37,8 @@ export default function Affiliate() {
         <div className="space-y-48 mb-40">
           {companies.map((company, idx) => (
             <div key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-              <div className="w-full lg:w-3/5 relative">
-                <div className="aspect-[16/9] overflow-hidden border border-gray-100">
+              <div className="w-full lg:w-[61.8%] relative">
+                <div className="aspect-[1.618/1] overflow-hidden border border-gray-100">
                   <img 
                     src={company.img} 
                     alt={company.name} 
@@ -48,7 +48,7 @@ export default function Affiliate() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gray-50 -z-10"></div>
               </div>
-              <div className="w-full lg:w-2/5 space-y-10">
+              <div className="w-full lg:w-[38.2%] space-y-10">
                 <div className="space-y-6">
                   <span className="text-[11px] font-bold text-gray-300 uppercase tracking-[0.4em]">Affiliate</span>
                   <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight tracking-tight">{company.name}</h2>
@@ -93,7 +93,7 @@ export default function Affiliate() {
 
         {/* Affiliate Infographic */}
         <div className="bg-white border border-gray-100 p-16 md:p-24 flex flex-col lg:flex-row items-center gap-24">
-          <div className="lg:w-1/2">
+          <div className="lg:w-[38.2%]">
             <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Leisure Vision</h2>
             <h3 className="text-4xl md:text-5xl font-bold text-black mb-12 tracking-tight leading-tight">
               라이프스타일의<br />
@@ -103,7 +103,7 @@ export default function Affiliate() {
               동승은 레저와 문화를 통해 고객의 삶에 풍요로움을 더하고, 새로운 라이프스타일 트렌드를 선도합니다.
             </p>
           </div>
-          <div className="lg:w-1/2 grid grid-cols-2 gap-8">
+          <div className="lg:w-[61.8%] grid grid-cols-2 gap-8">
             <div className="bg-gray-50 p-12 border border-gray-100 text-center">
               <div className="text-5xl font-light text-black mb-4">20+</div>
               <div className="text-[10px] font-bold tracking-widest uppercase text-gray-400">Programs</div>

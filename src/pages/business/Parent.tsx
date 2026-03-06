@@ -29,7 +29,7 @@ export default function Parent() {
         {/* Business Infographic */}
         <div className="mb-40 bg-white border border-gray-100 p-16 md:p-24 relative overflow-hidden">
           <div className="relative z-10 flex flex-col lg:flex-row items-center gap-24">
-            <div className="lg:w-1/2">
+            <div className="lg:w-[38.2%]">
               <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Business Structure</h2>
               <h3 className="text-4xl md:text-5xl font-bold tracking-tight mb-12">그룹의 핵심 역량</h3>
               <div className="grid grid-cols-2 gap-8">
@@ -43,7 +43,7 @@ export default function Parent() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 w-full space-y-10">
+            <div className="lg:w-[61.8%] w-full space-y-10">
               {[
                 { label: "Market Leadership", value: 95 },
                 { label: "Service Quality", value: 98 },
@@ -65,9 +65,9 @@ export default function Parent() {
 
         <div className="space-y-48">
           {companies.map((company, idx) => (
-            <div key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-              <div className="w-full lg:w-3/5 relative">
-                <div className="aspect-[16/9] overflow-hidden border border-gray-100">
+            <div id={`company-${idx}`} key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
+              <div className="w-full lg:w-[61.8%] relative">
+                <div className="aspect-[1.618/1] overflow-hidden border border-gray-100">
                   <img 
                     src={company.img} 
                     alt={company.name} 
@@ -77,7 +77,7 @@ export default function Parent() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gray-50 -z-10"></div>
               </div>
-              <div className="w-full lg:w-2/5 space-y-10">
+              <div className="w-full lg:w-[38.2%] space-y-10">
                 <div className="space-y-6">
                   <span className="text-[11px] font-bold text-gray-300 uppercase tracking-[0.4em]">Core Business</span>
                   <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight tracking-tight">{company.name}</h2>

@@ -35,7 +35,7 @@ export default function Greeting() {
           <div className="relative h-full">
             <div className="h-full overflow-hidden">
               <img 
-                src={GENERATED_IMAGES.GREETING} 
+                src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/refs/heads/main/a_sub_01.jpg" 
                 alt="Greeting" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

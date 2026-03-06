@@ -85,33 +85,36 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white py-20">
+      <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-black pb-20 pt-20">
         <div className="absolute inset-0 z-0">
-          <img
-            src={GENERATED_IMAGES.HOME_HERO}
-            alt="Hero Background"
-            className="w-full h-full object-cover opacity-10 scale-105 animate-slow-zoom"
-            referrerPolicy="no-referrer"
-          />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover opacity-60"
+          >
+            <source src="https://raw.githubusercontent.com/lyu2002lyu-glitch/dongsung/main/movie_ver03.mp4" type="video/mp4" />
+          </video>
           {/* Sophisticated Overlays */}
-          <div className="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/60"></div>
         </div>
         
-        <div className="relative z-10 text-center px-4 max-w-7xl mx-auto">
+        <div className="relative z-10 text-center px-4 max-w-7xl mx-auto w-full">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           >
-            <div className="flex items-center justify-center gap-4 mb-8 md:mb-12">
-              <div className="h-[1px] w-8 md:w-12 bg-black/10"></div>
-              <span className="text-gray-400 text-[9px] md:text-[10px] font-bold tracking-[0.4em] md:tracking-[0.6em] uppercase">
+            <div className="flex items-center justify-center gap-4 mb-8 md:mb-10">
+              <div className="h-[1px] w-8 md:w-12 bg-white/30"></div>
+              <span className="text-gray-300 text-[9px] md:text-[10px] font-bold tracking-[0.4em] md:tracking-[0.6em] uppercase">
                 Established 1969
               </span>
-              <div className="h-[1px] w-8 md:w-12 bg-black/10"></div>
+              <div className="h-[1px] w-8 md:w-12 bg-white/30"></div>
             </div>
 
-            <h1 className="text-4xl md:text-8xl font-light text-black mb-8 md:mb-12 tracking-tighter leading-[0.85] uppercase">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 md:mb-8 tracking-tighter leading-[0.9] uppercase">
               <motion.span 
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -124,7 +127,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, delay: 0.5 }}
-                className="font-black tracking-widest block text-[oklch(87.2%_0.01_258.338)]"
+                className="font-black tracking-widest block text-white/50"
               >
                 Heritage
               </motion.span>
@@ -134,24 +137,24 @@ export default function Home() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="text-base md:text-2xl text-gray-400 font-light max-w-3xl mx-auto mb-12 md:mb-20 tracking-[0.1em] md:tracking-[0.15em] leading-relaxed"
+              className="text-sm md:text-xl text-gray-300 font-light max-w-3xl mx-auto mb-10 md:mb-16 tracking-[0.1em] md:tracking-[0.15em] leading-relaxed"
             >
-              <span className="font-extralight">전통의 깊이 위에</span> <span className="font-bold text-black px-2">혁신의 가치</span><span className="font-extralight">를 더하다</span><br />
-              <span className="text-[9px] md:text-[10px] font-bold tracking-[0.4em] md:tracking-[0.6em] text-gray-300 uppercase mt-8 md:mt-12 block border-t border-gray-100 pt-8 md:pt-12 w-fit mx-auto">
+              <span className="font-extralight">전통의 깊이 위에</span> <span className="font-bold text-white px-2">혁신의 가치</span><span className="font-extralight">를 더하다</span><br />
+              <span className="text-[9px] md:text-[10px] font-bold tracking-[0.4em] md:tracking-[0.6em] text-gray-400 uppercase mt-6 md:mt-8 block border-t border-white/10 pt-6 md:pt-8 w-fit mx-auto">
                 Premium Corporate Identity
               </span>
             </motion.p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 relative">
-              <Link to="/company/greeting" className="w-full sm:w-[280px] text-center group relative px-10 py-4 md:py-6 bg-black text-white font-bold rounded-full overflow-hidden transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
+              <Link to="/company/greeting" className="w-full sm:w-[280px] text-center group relative px-10 py-4 md:py-5 bg-white text-black font-bold rounded-full overflow-hidden transition-all duration-500 hover:shadow-[0_20px_40px_rgba(255,255,255,0.1)]">
                 <span className="relative z-10 tracking-[0.3em] text-[9px] md:text-[10px]">DISCOVER MORE</span>
-                <div className="absolute inset-0 bg-gray-800 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
+                <div className="absolute inset-0 bg-gray-200 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
               </Link>
               
               {/* Vertical line separator */}
-              <div className="hidden sm:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1px] h-12 bg-gray-200"></div>
+              <div className="hidden sm:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1px] h-10 bg-white/20"></div>
 
-              <Link to="/business/parent" className="w-full sm:w-[280px] text-center group px-10 py-4 md:py-6 border border-black/10 text-black font-bold rounded-full hover:bg-black hover:text-white transition-all duration-500 bg-white">
+              <Link to="/business/parent" className="w-full sm:w-[280px] text-center group px-10 py-4 md:py-5 border border-white/30 text-white font-bold rounded-full hover:bg-white hover:text-black transition-all duration-500 bg-transparent">
                 <span className="tracking-[0.3em] text-[9px] md:text-[10px]">BUSINESS PORTFOLIO</span>
               </Link>
             </div>
@@ -274,18 +277,20 @@ export default function Home() {
               viewport={{ once: true }}
               className="group relative h-[400px] overflow-hidden"
             >
-              <img 
-                src={GENERATED_IMAGES.MARKET} 
-                alt="동대문종합시장" 
-                className="w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
-              <div className="absolute inset-0 flex flex-col justify-end p-12">
-                <h4 className="text-2xl font-bold text-white mb-4 tracking-tight">동대문종합시장</h4>
-                <p className="text-white/80 text-sm font-light leading-relaxed max-w-md">
-                  대한민국 패션의 중심, 반세기를 이어온 전통의 가치
-                </p>
-              </div>
+              <Link to="/business/parent#company-0" className="block w-full h-full">
+                <img 
+                  src={GENERATED_IMAGES.MARKET} 
+                  alt="동대문종합시장" 
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
+                <div className="absolute inset-0 flex flex-col justify-end p-12">
+                  <h4 className="text-2xl font-bold text-white mb-4 tracking-tight">동대문종합시장</h4>
+                  <p className="text-white/80 text-sm font-light leading-relaxed max-w-md">
+                    대한민국 패션의 중심, 반세기를 이어온 전통의 가치
+                  </p>
+                </div>
+              </Link>
             </motion.div>
 
             <motion.div 
@@ -295,18 +300,20 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="group relative h-[400px] overflow-hidden"
             >
-              <img 
-                src={GENERATED_IMAGES.HOTEL} 
-                alt="JW메리어트 동대문 스퀘어 서울" 
-                className="w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
-              <div className="absolute inset-0 flex flex-col justify-end p-12">
-                <h4 className="text-2xl font-bold text-white mb-4 tracking-tight">JW메리어트 동대문 스퀘어 서울</h4>
-                <p className="text-white/80 text-sm font-light leading-relaxed max-w-md">
-                  럭셔리의 새로운 기준, 동대문의 랜드마크
-                </p>
-              </div>
+              <Link to="/business/parent#company-1" className="block w-full h-full">
+                <img 
+                  src={GENERATED_IMAGES.HOTEL} 
+                  alt="JW메리어트 동대문 스퀘어 서울" 
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500"></div>
+                <div className="absolute inset-0 flex flex-col justify-end p-12">
+                  <h4 className="text-2xl font-bold text-white mb-4 tracking-tight">JW메리어트 동대문 스퀘어 서울</h4>
+                  <p className="text-white/80 text-sm font-light leading-relaxed max-w-md">
+                    럭셔리의 새로운 기준, 동대문의 랜드마크
+                  </p>
+                </div>
+              </Link>
             </motion.div>
           </div>
         </div>

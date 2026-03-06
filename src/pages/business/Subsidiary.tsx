@@ -49,8 +49,8 @@ export default function Subsidiary() {
         <div className="space-y-48 mb-40">
           {companies.map((company, idx) => (
             <div key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-              <div className="w-full lg:w-3/5 relative">
-                <div className="aspect-[16/9] overflow-hidden border border-gray-100">
+              <div className="w-full lg:w-[61.8%] relative">
+                <div className="aspect-[1.618/1] overflow-hidden border border-gray-100">
                   <img 
                     src={company.img} 
                     alt={company.name} 
@@ -60,7 +60,7 @@ export default function Subsidiary() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gray-50 -z-10"></div>
               </div>
-              <div className="w-full lg:w-2/5 space-y-10">
+              <div className="w-full lg:w-[38.2%] space-y-10">
                 <div className="space-y-6">
                   <span className="text-[11px] font-bold text-gray-300 uppercase tracking-[0.4em]">Subsidiary</span>
                   <h2 className="text-3xl md:text-4xl font-bold text-black leading-tight tracking-tight">{company.name}</h2>

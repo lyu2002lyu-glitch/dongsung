@@ -5,9 +5,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 
 export default function Financial() {
   const reports = [
-    { year: '2024', title: '제55기 결산 재무제표', date: '2025.04.03' },
-    { year: '2023', title: '제54기 결산 재무제표', date: '2024.04.03' },
-    { year: '2022', title: '제53기 결산 재무제표', date: '2023.04.04' },
+    { year: '2024', title: '제55기 결산 재무제표', date: '2025.04.03', file: '/reports/financial_report_2024.pdf' },
+    { year: '2023', title: '제54기 결산 재무제표', date: '2024.04.03', file: '/reports/financial_report_2023.pdf' },
+    { year: '2022', title: '제53기 결산 재무제표', date: '2023.04.04', file: '/reports/financial_report_2022.pdf' },
   ];
 
   const chartData = [
@@ -163,9 +163,14 @@ export default function Financial() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-xs text-gray-400 font-light tracking-widest">{report.date}</span>
-                  <button className="w-10 h-10 bg-black text-white flex items-center justify-center transition-all hover:scale-110">
+                  <a 
+                    href={report.file}
+                    download={`동승_결산_재무제표_${report.year}.pdf`}
+                    className="w-10 h-10 bg-black text-white flex items-center justify-center transition-all hover:scale-110"
+                    title={`${report.year}년 재무제표 다운로드`}
+                  >
                     <Download size={16} strokeWidth={1.5} />
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
