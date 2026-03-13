@@ -63,8 +63,8 @@ export default function Financial() {
               <Award className="text-gray-400" size={24} />
               <span className="text-gray-400 font-bold tracking-widest text-xs uppercase">Industry Leadership</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-4">
-              부동산 임대 및 관리업 <span className="font-bold text-white">산업 내 19위</span>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white">
+              부동산 임대 및 관리업
             </h2>
             <p className="text-gray-400 max-w-xl">
               (주)동승은 동종 업계 상위권의 시장 지배력을 보유하고 있으며, 
@@ -72,12 +72,21 @@ export default function Financial() {
             </p>
           </div>
           <div className="text-center md:text-right relative z-10">
-            <div className="text-6xl md:text-8xl font-black opacity-20 absolute -top-10 -right-10 select-none">19th</div>
             <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl inline-block">
               <div className="text-xs text-gray-400 uppercase tracking-widest mb-1">Credit Rating</div>
               <div className="text-3xl font-bold text-white">A+ <span className="text-sm font-normal text-gray-400">Stable</span></div>
             </div>
           </div>
+        </motion.div>
+
+        {/* Disclaimer */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-16 bg-gray-50 p-6 rounded-2xl text-gray-600 text-sm leading-relaxed"
+        >
+          본 홈페이지에 기재된 사업내용은 모회사인 동승의 별도기준 사업과 연결대상 종속회사를 포함한 그룹 기준 사업을 구분하여 설명하고 있습니다. 세부 재무정보는 사업보고서 및 감사보고서를 참조하시기 바랍니다.
         </motion.div>
 
         {/* Key Metrics Bento Grid */}
