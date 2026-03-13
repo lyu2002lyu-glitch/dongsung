@@ -110,9 +110,11 @@ async function startServer() {
             }
             console.error("-----------------------------------------");
           }
+          return res.status(500).json({ error: `메일 발송 실패: ${emailError.message}` });
         }
       } else {
         console.warn("SMTP credentials missing in environment variables (SMTP_USER/SMTP_PASS). Skipping email.");
+        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다. 환경 변수를 확인해주세요." });
       }
 
       res.json({ success: true, message: "신고가 정상적으로 접수되었습니다." });
