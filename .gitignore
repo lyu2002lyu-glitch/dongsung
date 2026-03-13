@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Large media and binary files that cause GitHub export to fail
+*.mp4
+*.db
+*.sqlite
+*.pdf

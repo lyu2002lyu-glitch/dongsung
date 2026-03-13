@@ -1,0 +1,20 @@
+// This file will store the generated image paths
+export const GENERATED_IMAGES = {
+  HOME_HERO: 'https://images.unsplash.com/photo-1600607687940-4e2a09695d51?auto=format&fit=crop&q=80&w=1920&h=1080',
+  GREETING: 'https://img.freepik.com/free-photo/closeup-thoughtful-entrepreneur-with-clasped-hands_1262-18201.jpg',
+  HISTORY: 'https://img.freepik.com/free-photo/numerology-concept-still-life_23-2150171547.jpg',
+  LOCATION: 'https://img.freepik.com/free-photo/silhouette-people-city_23-2149211302.jpg',
+  PARENT: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=1920&h=400',
+  SUBSIDIARY: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1920&h=400',
+  AFFILIATE: 'https://img.freepik.com/free-photo/details-ball-sport_23-2151869848.jpg',
+  CAREERS: 'https://img.freepik.com/free-photo/headhunters-interviewing-female-job-candidate_1163-4674.jpg',
+  FINANCIAL: 'https://img.freepik.com/free-photo/business-team-analyzing-financial-report_23-2151957112.jpg',
+  DISCLOSURE: 'https://img.freepik.com/free-photo/cropped-anonymous-officer-typing-white-keyboard_1098-19197.jpg',
+  NOTICE: 'https://img.freepik.com/free-photo/cropped-anonymous-officer-typing-white-keyboard_1098-19197.jpg',
+  ETHICS_REGULATION: 'https://img.freepik.com/free-photo/business-man-working-office-desktop_23-2148174069.jpg',
+  ETHICS_CHARTER: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1920&h=400',
+  ETHICS_REPORT: 'https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&q=80&w=1920&h=400',
+  ADMIN: 'https://images.unsplash.com/photo-1434626881859-194d67b2b86f?auto=format&fit=crop&q=80&w=1920&h=400',
+  MARKET: '/main_01.jpg',
+  HOTEL: '/main_02.jpg',
+};
