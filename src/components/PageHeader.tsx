@@ -23,15 +23,22 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
               referrerPolicy="no-referrer"
             />
           ) : (
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover opacity-60"
-            >
-              <source src="/movie_ver03.mp4" type="video/mp4" />
-            </video>
+            <div 
+              className="w-full h-full absolute inset-0"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  <video
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    class="w-full h-full object-cover opacity-60"
+                  >
+                    <source src="/movie_ver03.mp4" type="video/mp4" />
+                  </video>
+                `
+              }}
+            />
           )}
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
         </div>

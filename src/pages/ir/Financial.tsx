@@ -64,11 +64,10 @@ export default function Financial() {
               <span className="text-gray-400 font-bold tracking-widest text-xs uppercase">Industry Leadership</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white">
-              부동산 임대 및 관리업
+              Urban Real Estate Hospitality 플랫폼
             </h2>
             <p className="text-gray-400 max-w-xl">
-              (주)동승은 동종 업계 상위권의 시장 지배력을 보유하고 있으며, 
-              안정적인 재무 건전성을 바탕으로 업계 리더로서의 입지를 굳건히 하고 있습니다.
+              Asset Value + Stable Cash flow + Growth
             </p>
           </div>
           <div className="text-center md:text-right relative z-10">
@@ -86,7 +85,7 @@ export default function Financial() {
           viewport={{ once: true }}
           className="mb-16 bg-gray-50 p-6 rounded-2xl text-gray-600 text-sm leading-relaxed"
         >
-          본 홈페이지에 기재된 사업내용은 모회사인 동승의 별도기준 사업과 연결대상 종속회사를 포함한 그룹 기준 사업을 구분하여 설명하고 있습니다. 세부 재무정보는 사업보고서 및 감사보고서를 참조하시기 바랍니다.
+          본 사업 내용은 ㈜동승의 별도 기준 사업 내용을 설명하고 있습니다. 재무정보는 법인별 개별 사업보고서 및 감사보고서를 참고해 주시기 바랍니다.
         </motion.div>
 
         {/* Key Metrics Bento Grid */}

@@ -39,7 +39,7 @@ export default function Header() {
       subItems: [
         { title: '모회사', path: '/business/parent' },
         { title: '종속회사', path: '/business/subsidiary' },
-        { title: '관계회사', path: '/business/affiliate' },
+        { title: '특수관계회사', path: '/business/affiliate' },
       ],
     },
     {
@@ -56,7 +56,7 @@ export default function Header() {
       icon: <TrendingUp size={20} />,
       subItems: [
         { title: '재무정보', path: '/ir/financial' },
-        { title: 'IR정보', path: '/ir/notice' },
+        { title: '공시/공고/IR', path: '/ir/notice' },
         { title: '공시정보', path: '/ir/disclosure' },
       ],
     },

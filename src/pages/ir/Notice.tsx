@@ -59,7 +59,7 @@ export default function Notice() {
   return (
     <div className="bg-white">
       <PageHeader 
-        title="IR정보" 
+        title="공시/공고/IR" 
         subtitle="동승의 주요 IR 공고 사항을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
       />

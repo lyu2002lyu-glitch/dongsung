@@ -29,8 +29,8 @@ export default function Affiliate() {
   return (
     <div className="bg-white">
       <PageHeader 
-        title="관계회사" 
-        subtitle="레저 및 라이프스타일 산업을 선도하는 관계회사를 소개합니다." 
+        title="특수관계회사" 
+        subtitle="레저 및 라이프스타일 산업을 선도하는 특수관계회사를 소개합니다." 
         imageSrc={GENERATED_IMAGES.AFFILIATE}
       />
       <section className="section-padding container-default">

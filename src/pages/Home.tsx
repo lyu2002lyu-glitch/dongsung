@@ -28,9 +28,9 @@ export default function Home() {
         const noticeItem = noticeData && noticeData.length > 0 ? {
           ...noticeData[0],
           type: 'notice' as const,
-          category: 'IR정보'
+          category: '공시/공고/IR'
         } : {
-          id: 1, title: '제54기 정기주주총회 소집공고', category: 'IR정보', type: 'notice' as const, created_at: '2024-03-15T00:00:00Z'
+          id: 1, title: '제54기 정기주주총회 소집공고', category: '공시/공고/IR', type: 'notice' as const, created_at: '2024-03-15T00:00:00Z'
         };
 
         const combined: IRItem[] = [
@@ -44,7 +44,7 @@ export default function Home() {
         console.error('Error fetching IR items:', error);
         setIrItems([
           { id: 'financial', title: '2024년 결산 재무제표 공시', category: '재무정보', type: 'financial', created_at: '2025-02-28T00:00:00Z' },
-          { id: 1, title: '제54기 정기주주총회 소집공고', category: 'IR정보', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
+          { id: 1, title: '제54기 정기주주총회 소집공고', category: '공시/공고/IR', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
           { id: 'disclosure', title: 'DART 공시정보 바로가기', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
         ] as any);
       }
@@ -87,15 +87,22 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-black pb-20 pt-20">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover opacity-60"
-          >
-            <source src="/movie_ver03.mp4" type="video/mp4" />
-          </video>
+          <div 
+            className="w-full h-full absolute inset-0"
+            dangerouslySetInnerHTML={{
+              __html: `
+                <video
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="w-full h-full object-cover opacity-60"
+                >
+                  <source src="/movie_ver03.mp4" type="video/mp4" />
+                </video>
+              `
+            }}
+          />
           {/* Sophisticated Overlays */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/60"></div>
         </div>
@@ -368,7 +375,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
                   <Briefcase size={24} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-h4 text-black mb-6 tracking-tight">관계회사</h3>
+                <h3 className="text-h4 text-black mb-6 tracking-tight">특수관계회사</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
                   (주)동승 골프앤리조트, (주)동승 레저 등 레저 및 라이프스타일 산업을 선도합니다.
                 </p>
