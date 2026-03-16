@@ -56,7 +56,7 @@ export default function Header() {
       icon: <TrendingUp size={20} />,
       subItems: [
         { title: '재무정보', path: '/ir/financial' },
-        { title: '공시/공고/IR', path: '/ir/notice' },
+        { title: '공고/IR', path: '/ir/notice' },
         { title: '공시정보', path: '/ir/disclosure' },
       ],
     },

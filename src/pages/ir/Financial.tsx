@@ -85,7 +85,7 @@ export default function Financial() {
           viewport={{ once: true }}
           className="mb-16 bg-gray-50 p-6 rounded-2xl text-gray-600 text-sm leading-relaxed"
         >
-          본 사업 내용은 ㈜동승의 별도 기준 사업 내용을 설명하고 있습니다. 재무정보는 법인별 개별 사업보고서 및 감사보고서를 참고해 주시기 바랍니다.
+          본 사업 내용은 ㈜동승의 별도 기준 사업 내용을 설명하고 있습니다. 법인별 재무정보는 개별 사업보고서 및 감사보고서를 참고해 주시기 바랍니다.
         </motion.div>
 
         {/* Key Metrics Bento Grid */}

@@ -170,7 +170,7 @@ export default function Privacy() {
                 <p>이 름 : 이상식</p>
                 <p>전화 : 02-2262-0312</p>
                 <p>메일 : sslee@dongsungin.com</p>
-                <p>소 속 : 고객관리부</p>
+                <p>소 속 : 관리본부</p>
                 <p>직 위 : 상무</p>
               </div>
             </div>
