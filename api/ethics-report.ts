@@ -21,8 +21,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const smtpHost = process.env.SMTP_HOST || "smtp.naver.com";
     const smtpPort = parseInt(process.env.SMTP_PORT || "465");
     const smtpSecure = process.env.SMTP_SECURE === "true" || smtpPort === 465;
-    const smtpUser = process.env.SMTP_USER;
-    const smtpPass = process.env.SMTP_PASS;
+    const smtpUser = process.env.SMTP_USER || "dongsung1970@naver.com";
+    const smtpPass = process.env.SMTP_PASS || "DKTP59K99YEP";
 
       if (smtpUser && smtpPass) {
         try {
