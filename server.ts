@@ -12,10 +12,14 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_FILE = path.join(__dirname, "ethics_reports.json");
+const PARTNERSHIP_FILE = path.join(__dirname, "partnership_inquiries.json");
 
-// Initialize data file if it doesn't exist
+// Initialize data files if they don't exist
 if (!fs.existsSync(DATA_FILE)) {
   fs.writeFileSync(DATA_FILE, JSON.stringify([]));
+}
+if (!fs.existsSync(PARTNERSHIP_FILE)) {
+  fs.writeFileSync(PARTNERSHIP_FILE, JSON.stringify([]));
 }
 
 async function startServer() {
@@ -86,10 +90,10 @@ async function startServer() {
           await transporter.sendMail(mailOptions);
         } catch (emailError: any) {
           console.error("Failed to send email notification:", emailError.message);
-          return res.status(500).json({ error: `메일 발송 실패: ${emailError.message}` });
+          // Don't fail the request if email fails, just log it
         }
       } else {
-        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다." });
+        console.warn("SMTP credentials not found. Report saved to file only.");
       }
 
       res.json({ success: true, message: "신고가 정상적으로 접수되었습니다." });
@@ -108,7 +112,24 @@ async function startServer() {
     }
 
     try {
-      // Send Email
+      // 1. Save to JSON file
+      const inquiries = JSON.parse(fs.readFileSync(PARTNERSHIP_FILE, "utf-8"));
+      const newInquiry = {
+        id: Date.now(),
+        company_name,
+        person_name,
+        phone_prefix,
+        phone_middle,
+        phone_last,
+        email,
+        content,
+        status: "pending",
+        created_at: new Date().toISOString()
+      };
+      inquiries.push(newInquiry);
+      fs.writeFileSync(PARTNERSHIP_FILE, JSON.stringify(inquiries, null, 2));
+
+      // 2. Send Email
       const smtpHost = process.env.SMTP_HOST || "smtp.naver.com";
       const smtpPort = parseInt(process.env.SMTP_PORT || "465");
       const smtpSecure = process.env.SMTP_SECURE === "true" || smtpPort === 465;
@@ -144,10 +165,10 @@ async function startServer() {
           await transporter.sendMail(mailOptions);
         } catch (emailError: any) {
           console.error("Failed to send email notification:", emailError.message);
-          return res.status(500).json({ error: `메일 발송 실패: ${emailError.message}` });
+          // Don't fail the request if email fails, just log it
         }
       } else {
-        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다." });
+        console.warn("SMTP credentials not found. Inquiry saved to file only.");
       }
 
       res.json({ success: true, message: "문의가 정상적으로 접수되었습니다." });
