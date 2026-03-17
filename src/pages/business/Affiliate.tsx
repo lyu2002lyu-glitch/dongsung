@@ -80,7 +80,7 @@ export default function Affiliate() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="p-12 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-all group bg-white"
+              className="p-12 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-all group bg-white flex flex-col items-center text-center"
             >
               <div className="w-12 h-12 bg-gray-50 border border-gray-100 flex items-center justify-center mb-10 text-black group-hover:bg-black group-hover:text-white transition-colors rounded-md">
                 {item.icon}

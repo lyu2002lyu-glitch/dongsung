@@ -100,7 +100,7 @@ export default function Subsidiary() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="p-12 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-all"
+                  className="p-12 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-all flex flex-col items-center text-center"
                 >
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-black text-white mb-10 rounded-md">
                     {item.icon}

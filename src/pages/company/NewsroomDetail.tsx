@@ -146,6 +146,14 @@ export default function NewsroomDetail() {
               {news.content}
             </div>
           </div>
+          <div className="mt-24 flex justify-center">
+            <button 
+              onClick={() => navigate('/company/newsroom')}
+              className="btn-primary rounded-md px-12 py-4"
+            >
+              <span className="text-[14px] font-bold uppercase tracking-widest">목록으로</span>
+            </button>
+          </div>
         </div>
       </section>
     </div>

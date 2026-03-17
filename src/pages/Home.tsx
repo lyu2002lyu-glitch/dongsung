@@ -22,15 +22,16 @@ export default function Home() {
         const { data: noticeData } = await supabase
           .from('notices')
           .select('id, title, created_at')
+          .not('title', 'ilike', '[RECRUIT]%')
           .order('created_at', { ascending: false })
           .limit(1);
 
         const noticeItem = noticeData && noticeData.length > 0 ? {
           ...noticeData[0],
           type: 'notice' as const,
-          category: '공시/공고/IR'
+          category: '공고/IR'
         } : {
-          id: 1, title: '제54기 정기주주총회 소집공고', category: '공시/공고/IR', type: 'notice' as const, created_at: '2024-03-15T00:00:00Z'
+          id: 1, title: '제54기 정기주주총회 소집공고', category: '공고/IR', type: 'notice' as const, created_at: '2024-03-15T00:00:00Z'
         };
 
         const combined: IRItem[] = [
@@ -44,7 +45,7 @@ export default function Home() {
         console.error('Error fetching IR items:', error);
         setIrItems([
           { id: 'financial', title: '2024년 결산 재무제표 공시', category: '재무정보', type: 'financial', created_at: '2025-02-28T00:00:00Z' },
-          { id: 1, title: '제54기 정기주주총회 소집공고', category: '공시/공고/IR', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
+          { id: 1, title: '제54기 정기주주총회 소집공고', category: '공고/IR', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
           { id: 'disclosure', title: 'DART 공시정보 바로가기', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
         ] as any);
       }

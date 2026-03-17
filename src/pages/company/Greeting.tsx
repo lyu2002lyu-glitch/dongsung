@@ -44,7 +44,7 @@ export default function Greeting() {
             <div className="absolute -bottom-8 -right-8 w-48 h-48 border border-gray-100 -z-10 hidden lg:block rounded-xl"></div>
           </div>
           
-          <div className="space-y-10 flex flex-col justify-center">
+          <div className="space-y-10 flex flex-col justify-center h-full">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +102,7 @@ export default function Greeting() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.2 }}
-                  className="p-12 md:p-16 border-b md:border-b-0 md:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-colors duration-500"
+                  className="p-12 md:p-16 border-b md:border-b-0 md:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-colors duration-500 flex flex-col items-center text-center"
                 >
                   <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 rounded-md">
                     {item.icon}
