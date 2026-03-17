@@ -132,7 +132,7 @@ export default function Header() {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
               <img 
-                src={location.pathname.startsWith('/en') ? "/logo_02.png" : "/logo_01.png"} 
+                src={currentLang === 'en' ? "/logo_02.png" : "/logo_01.png"} 
                 alt="동승 로고" 
                 className="h-10 w-auto object-contain" 
                 referrerPolicy="no-referrer" 
