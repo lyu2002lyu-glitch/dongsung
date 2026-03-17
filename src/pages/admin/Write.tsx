@@ -9,19 +9,38 @@ interface Post {
   id: any;
   title: string;
   created_at: string;
-  type: 'notices';
+  type: 'notices' | 'newsroom';
 }
 
 export default function AdminWrite() {
   const navigate = useNavigate();
-  const [board, setBoard] = useState<'notices'>('notices');
+  const [board, setBoard] = useState<'notices' | 'newsroom'>('notices');
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [posts, setPosts] = useState<Post[]>([]);
   const [isLoadingPosts, setIsLoadingPosts] = useState(false);
+  const [modalConfig, setModalConfig] = useState<{
+    isOpen: boolean;
+    message: string;
+    type: 'alert' | 'confirm';
+    onConfirm?: () => void;
+  }>({ isOpen: false, message: '', type: 'alert' });
+
+  const showAlert = (message: string) => {
+    setModalConfig({ isOpen: true, message, type: 'alert' });
+  };
+
+  const showConfirm = (message: string, onConfirm: () => void) => {
+    setModalConfig({ isOpen: true, message, type: 'confirm', onConfirm });
+  };
+
+  const closeModal = () => {
+    setModalConfig({ ...modalConfig, isOpen: false });
+  };
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -37,10 +56,17 @@ export default function AdminWrite() {
         .select('id, title, created_at')
         .order('created_at', { ascending: false });
 
-      if (noticeError) throw noticeError;
+      const { data: newsData, error: newsError } = await supabase
+        .from('newsroom')
+        .select('id, title, created_at')
+        .order('created_at', { ascending: false });
+
+      if (noticeError && noticeError.code !== '42P01') console.error(noticeError);
+      if (newsError && newsError.code !== '42P01') console.error(newsError);
 
       const combined: Post[] = [
-        ...(noticeData || []).map(p => ({ ...p, type: 'notices' as const }))
+        ...(noticeData || []).map(p => ({ ...p, type: 'notices' as const })),
+        ...(newsData || []).map(p => ({ ...p, type: 'newsroom' as const }))
       ].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
       setPosts(combined);
@@ -56,7 +82,7 @@ export default function AdminWrite() {
     if (password === '1234') {
       setIsAuthenticated(true);
     } else {
-      alert('비밀번호가 틀렸습니다.');
+      showAlert('비밀번호가 틀렸습니다.');
       setPassword('');
     }
   };
@@ -66,55 +92,66 @@ export default function AdminWrite() {
     if (!isAuthenticated) return;
     
     if (!title.trim() || !content.trim()) {
-      alert('제목과 내용을 모두 입력해주세요.');
+      showAlert('제목과 내용을 모두 입력해주세요.');
       return;
     }
 
     setIsSubmitting(true);
     try {
+      const payload: any = { title, content };
+      if (board === 'newsroom' && imageUrl.trim()) {
+        payload.image_url = imageUrl.trim();
+      }
+
       const { error } = await supabase
         .from(board)
-        .insert([{ title, content }]);
+        .insert([payload]);
 
       if (error) throw error;
 
-      alert('게시글이 성공적으로 등록되었습니다.');
+      showAlert('게시글이 성공적으로 등록되었습니다.');
       setTitle('');
       setContent('');
+      setImageUrl('');
       fetchPosts();
     } catch (error) {
       console.error('Error inserting post:', error);
-      alert('게시글 등록 중 오류가 발생했습니다.');
+      showAlert('게시글 등록 중 오류가 발생했습니다.');
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const handleDelete = async (id: any, type: 'notices') => {
-    if (!window.confirm('정말 삭제하시겠습니까?')) return;
+  const handleDelete = (id: any, type: 'notices' | 'newsroom') => {
+    showConfirm('정말 삭제하시겠습니까?', async () => {
+      try {
+        console.log(`Attempting to delete ${type} with id:`, id);
+        
+        const { data, error } = await supabase
+          .from(type)
+          .delete()
+          .eq('id', id)
+          .select();
 
-    try {
-      // id가 숫자형 문자열인 경우에만 숫자로 변환 (UUID 등 방지)
-      const targetId = (typeof id === 'string' && /^\d+$/.test(id)) ? parseInt(id, 10) : id;
-      
-      const { error, count } = await supabase
-        .from(type)
-        .delete({ count: 'exact' })
-        .eq('id', targetId);
+        console.log('Delete response:', { data, error });
 
-      if (error) throw error;
-      
-      if (count === 0) {
-        alert('삭제할 게시글을 찾을 수 없거나 권한이 없습니다. (Supabase RLS 정책을 확인해주세요)');
-        return;
+        if (error) {
+          showAlert(`Supabase 오류: ${error.message}`);
+          return;
+        }
+        
+        if (!data || data.length === 0) {
+          showAlert(`삭제 실패: ID(${id})인 게시글을 찾을 수 없거나 RLS 권한이 없습니다. (Supabase SQL을 다시 확인해주세요)`);
+          return;
+        }
+
+        showAlert('삭제되었습니다.');
+        await fetchPosts();
+      } catch (error: any) {
+        console.error('Error deleting post:', error);
+        showAlert(`네트워크/실행 오류: ${error.message || '알 수 없는 오류'}`);
       }
-
-      alert('삭제되었습니다.');
-      await fetchPosts();
-    } catch (error: any) {
-      console.error('Error deleting post:', error);
-      alert(`삭제 중 오류가 발생했습니다: ${error.message || '알 수 없는 오류'}`);
-    }
+    });
   };
 
   const formatDate = (dateString: string) => {
@@ -176,6 +213,18 @@ export default function AdminWrite() {
           <form onSubmit={handleSubmit} className="space-y-8 bg-white border border-gray-100 p-10 shadow-sm rounded-xl">
             <div className="grid grid-cols-1 gap-8">
               <div>
+                <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Board</label>
+                <select
+                  value={board}
+                  onChange={(e) => setBoard(e.target.value as 'notices' | 'newsroom')}
+                  className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
+                >
+                  <option value="notices">공고/IR</option>
+                  <option value="newsroom">뉴스룸</option>
+                </select>
+              </div>
+
+              <div>
                 <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Title</label>
                 <input
                   type="text"
@@ -186,6 +235,19 @@ export default function AdminWrite() {
                   required
                 />
               </div>
+
+              {board === 'newsroom' && (
+                <div>
+                  <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Image URL (Optional)</label>
+                  <input
+                    type="url"
+                    value={imageUrl}
+                    onChange={(e) => setImageUrl(e.target.value)}
+                    className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
+                    placeholder="이미지 URL을 입력하세요 (예: https://example.com/image.jpg)"
+                  />
+                </div>
+              )}
             </div>
             
             <div>
@@ -252,8 +314,8 @@ export default function AdminWrite() {
                   posts.map((post) => (
                     <tr key={`${post.type}-${post.id}`} className="hover:bg-gray-50/50 transition-colors group">
                       <td className="p-6">
-                        <span className="text-[10px] font-bold uppercase tracking-widest text-emerald-500">
-                          공고
+                        <span className={`text-[10px] font-bold uppercase tracking-widest ${post.type === 'notices' ? 'text-emerald-500' : 'text-blue-500'}`}>
+                          {post.type === 'notices' ? '공고' : '뉴스룸'}
                         </span>
                       </td>
                       <td className="p-6">
@@ -279,6 +341,39 @@ export default function AdminWrite() {
           </div>
         </div>
       </section>
+
+      {/* Custom Modal */}
+      {modalConfig.isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="bg-white rounded-xl shadow-lg max-w-sm w-full p-6 animate-in fade-in zoom-in duration-200">
+            <h3 className="text-lg font-bold mb-4">
+              {modalConfig.type === 'confirm' ? '확인' : '알림'}
+            </h3>
+            <p className="text-gray-600 mb-6">{modalConfig.message}</p>
+            <div className="flex justify-end gap-3">
+              {modalConfig.type === 'confirm' && (
+                <button
+                  onClick={closeModal}
+                  className="px-4 py-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+                >
+                  취소
+                </button>
+              )}
+              <button
+                onClick={() => {
+                  if (modalConfig.type === 'confirm' && modalConfig.onConfirm) {
+                    modalConfig.onConfirm();
+                  }
+                  closeModal();
+                }}
+                className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md hover:bg-gray-800 transition-colors"
+              >
+                확인
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -10,6 +10,8 @@ import Home from './pages/Home';
 import Greeting from './pages/company/Greeting';
 import History from './pages/company/History';
 import Location from './pages/company/Location';
+import Newsroom from './pages/company/Newsroom';
+import NewsroomDetail from './pages/company/NewsroomDetail';
 import Parent from './pages/business/Parent';
 import Subsidiary from './pages/business/Subsidiary';
 import Affiliate from './pages/business/Affiliate';
@@ -36,6 +38,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="company/greeting" element={<Greeting />} />
           <Route path="company/history" element={<History />} />
+          <Route path="company/newsroom" element={<Newsroom />} />
+          <Route path="company/newsroom/:id" element={<NewsroomDetail />} />
           <Route path="company/location" element={<Location />} />
           <Route path="business/parent" element={<Parent />} />
           <Route path="business/subsidiary" element={<Subsidiary />} />

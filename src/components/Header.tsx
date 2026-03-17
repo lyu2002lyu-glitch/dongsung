@@ -29,6 +29,7 @@ export default function Header() {
       subItems: [
         { title: '인사말', path: '/company/greeting' },
         { title: '연혁', path: '/company/history' },
+        { title: '뉴스룸', path: '/company/newsroom' },
         { title: '찾아오시는길', path: '/company/location' },
       ],
     },
