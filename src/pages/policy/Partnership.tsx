@@ -105,6 +105,18 @@ export default function Partnership() {
                   console.error('Supabase error:', dbError);
                   throw new Error('데이터베이스 저장 중 오류가 발생했습니다.');
                 }
+
+                // Send email notification
+                try {
+                  await fetch('/api/partnership-inquiry', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data),
+                  });
+                } catch (emailError) {
+                  console.error('Failed to send email:', emailError);
+                  // Don't fail the whole process if only email fails
+                }
                 
                 setIsModalOpen(true);
                 (e.target as HTMLFormElement).reset();
