@@ -274,7 +274,11 @@ export default function Recruitment() {
                   className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-8 bg-white border border-gray-100 rounded-xl hover:border-black hover:shadow-md transition-all group"
                 >
                   <div className="flex items-center gap-6 mb-4 sm:mb-0">
-                    <span className={`px-4 py-1 text-[11px] font-bold rounded-full ${job.type === '신입' ? 'bg-blue-50 text-blue-600' : 'bg-orange-50 text-orange-600'}`}>
+                    <span className={`px-4 py-1 text-[11px] font-bold rounded-full ${
+                      job.type === '신입' ? 'bg-blue-50 text-blue-600' : 
+                      job.type === '경력' ? 'bg-orange-50 text-orange-600' : 
+                      'bg-emerald-50 text-emerald-600'
+                    }`}>
                       {job.type}
                     </span>
                     <h4 className="text-h5 text-black group-hover:text-gray-600 transition-colors">{job.title}</h4>

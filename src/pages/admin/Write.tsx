@@ -18,7 +18,7 @@ export default function AdminWrite() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [imageUrl, setImageUrl] = useState('');
-  const [recruitmentType, setRecruitmentType] = useState<'경력' | '신입'>('경력');
+  const [recruitmentType, setRecruitmentType] = useState<'경력' | '신입' | '무관'>('경력');
   const [recruitmentUrl, setRecruitmentUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [password, setPassword] = useState('');
@@ -250,11 +250,12 @@ export default function AdminWrite() {
                   <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Recruitment Type</label>
                   <select
                     value={recruitmentType}
-                    onChange={(e) => setRecruitmentType(e.target.value as '경력' | '신입')}
+                    onChange={(e) => setRecruitmentType(e.target.value as '경력' | '신입' | '무관')}
                     className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
                   >
                     <option value="경력">경력</option>
                     <option value="신입">신입</option>
+                    <option value="무관">무관</option>
                   </select>
                 </div>
               )}
