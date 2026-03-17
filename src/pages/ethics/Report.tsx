@@ -160,7 +160,9 @@ export default function Report() {
                     .from('ethics_reports')
                     .insert([{
                       reporter_name: data.reporter_name,
-                      phone: `${data.phone_prefix}-${data.phone_middle}-${data.phone_last}`,
+                      phone_prefix: data.phone_prefix,
+                      phone_middle: data.phone_middle,
+                      phone_last: data.phone_last,
                       email: data.email,
                       title: data.title,
                       content: data.content,
