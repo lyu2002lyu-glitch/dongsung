@@ -9,15 +9,17 @@ interface Post {
   id: any;
   title: string;
   created_at: string;
-  type: 'notices' | 'newsroom';
+  type: 'notices' | 'newsroom' | 'recruitments';
 }
 
 export default function AdminWrite() {
   const navigate = useNavigate();
-  const [board, setBoard] = useState<'notices' | 'newsroom'>('notices');
+  const [board, setBoard] = useState<'notices' | 'newsroom' | 'recruitments'>('notices');
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [imageUrl, setImageUrl] = useState('');
+  const [recruitmentType, setRecruitmentType] = useState<'경력' | '신입'>('경력');
+  const [recruitmentUrl, setRecruitmentUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -65,7 +67,8 @@ export default function AdminWrite() {
       if (newsError && newsError.code !== '42P01') console.error(newsError);
 
       const combined: Post[] = [
-        ...(noticeData || []).map(p => ({ ...p, type: 'notices' as const })),
+        ...(noticeData || []).filter(p => !p.title.startsWith('[RECRUIT]')).map(p => ({ ...p, type: 'notices' as const })),
+        ...(noticeData || []).filter(p => p.title.startsWith('[RECRUIT]')).map(p => ({ ...p, title: p.title.replace('[RECRUIT] ', ''), type: 'recruitments' as const })),
         ...(newsData || []).map(p => ({ ...p, type: 'newsroom' as const }))
       ].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
 
@@ -91,20 +94,35 @@ export default function AdminWrite() {
     e.preventDefault();
     if (!isAuthenticated) return;
     
-    if (!title.trim() || !content.trim()) {
+    if (board !== 'recruitments' && (!title.trim() || !content.trim())) {
       showAlert('제목과 내용을 모두 입력해주세요.');
+      return;
+    }
+    if (board === 'recruitments' && (!title.trim() || !recruitmentUrl.trim())) {
+      showAlert('채용 제목과 URL을 모두 입력해주세요.');
       return;
     }
 
     setIsSubmitting(true);
     try {
-      const payload: any = { title, content };
-      if (board === 'newsroom' && imageUrl.trim()) {
-        payload.image_url = imageUrl.trim();
+      let payload: any = {};
+      let targetTable = board;
+
+      if (board === 'recruitments') {
+        targetTable = 'notices';
+        payload = {
+          title: `[RECRUIT] ${title}`,
+          content: JSON.stringify({ type: recruitmentType, url: recruitmentUrl })
+        };
+      } else {
+        payload = { title, content };
+        if (board === 'newsroom' && imageUrl.trim()) {
+          payload.image_url = imageUrl.trim();
+        }
       }
 
       const { error } = await supabase
-        .from(board)
+        .from(targetTable)
         .insert([payload]);
 
       if (error) throw error;
@@ -113,6 +131,7 @@ export default function AdminWrite() {
       setTitle('');
       setContent('');
       setImageUrl('');
+      setRecruitmentUrl('');
       fetchPosts();
     } catch (error) {
       console.error('Error inserting post:', error);
@@ -122,13 +141,14 @@ export default function AdminWrite() {
     }
   };
 
-  const handleDelete = (id: any, type: 'notices' | 'newsroom') => {
+  const handleDelete = (id: any, type: 'notices' | 'newsroom' | 'recruitments') => {
     showConfirm('정말 삭제하시겠습니까?', async () => {
       try {
-        console.log(`Attempting to delete ${type} with id:`, id);
+        const targetTable = type === 'recruitments' ? 'notices' : type;
+        console.log(`Attempting to delete ${type} (table: ${targetTable}) with id:`, id);
         
         const { data, error } = await supabase
-          .from(type)
+          .from(targetTable)
           .delete()
           .eq('id', id)
           .select();
@@ -216,13 +236,28 @@ export default function AdminWrite() {
                 <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Board</label>
                 <select
                   value={board}
-                  onChange={(e) => setBoard(e.target.value as 'notices' | 'newsroom')}
+                  onChange={(e) => setBoard(e.target.value as 'notices' | 'newsroom' | 'recruitments')}
                   className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
                 >
                   <option value="notices">공고/IR</option>
                   <option value="newsroom">뉴스룸</option>
+                  <option value="recruitments">채용공고</option>
                 </select>
               </div>
+
+              {board === 'recruitments' && (
+                <div>
+                  <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Recruitment Type</label>
+                  <select
+                    value={recruitmentType}
+                    onChange={(e) => setRecruitmentType(e.target.value as '경력' | '신입')}
+                    className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
+                  >
+                    <option value="경력">경력</option>
+                    <option value="신입">신입</option>
+                  </select>
+                </div>
+              )}
 
               <div>
                 <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Title</label>
@@ -231,10 +266,24 @@ export default function AdminWrite() {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                   className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
-                  placeholder="게시글 제목을 입력하세요"
+                  placeholder={board === 'recruitments' ? "채용공고 제목을 입력하세요" : "게시글 제목을 입력하세요"}
                   required
                 />
               </div>
+
+              {board === 'recruitments' && (
+                <div>
+                  <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">URL</label>
+                  <input
+                    type="url"
+                    value={recruitmentUrl}
+                    onChange={(e) => setRecruitmentUrl(e.target.value)}
+                    className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m"
+                    placeholder="공고 확인 URL을 입력하세요"
+                    required
+                  />
+                </div>
+              )}
 
               {board === 'newsroom' && (
                 <div>
@@ -250,17 +299,19 @@ export default function AdminWrite() {
               )}
             </div>
             
-            <div>
-              <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Content</label>
-              <textarea
-                value={content}
-                onChange={(e) => setContent(e.target.value)}
-                rows={12}
-                className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m resize-none"
-                placeholder="상세 내용을 입력하세요"
-                required
-              />
-            </div>
+            {board !== 'recruitments' && (
+              <div>
+                <label className="block text-[11px] font-bold text-gray-400 uppercase tracking-widest mb-3">Content</label>
+                <textarea
+                  value={content}
+                  onChange={(e) => setContent(e.target.value)}
+                  rows={12}
+                  className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m resize-none"
+                  placeholder="상세 내용을 입력하세요"
+                  required={board !== 'recruitments'}
+                />
+              </div>
+            )}
             
             <div className="flex justify-end pt-4">
               <button
@@ -314,8 +365,8 @@ export default function AdminWrite() {
                   posts.map((post) => (
                     <tr key={`${post.type}-${post.id}`} className="hover:bg-gray-50/50 transition-colors group">
                       <td className="p-6">
-                        <span className={`text-[10px] font-bold uppercase tracking-widest ${post.type === 'notices' ? 'text-emerald-500' : 'text-blue-500'}`}>
-                          {post.type === 'notices' ? '공고' : '뉴스룸'}
+                        <span className={`text-[10px] font-bold uppercase tracking-widest ${post.type === 'notices' ? 'text-emerald-500' : post.type === 'recruitments' ? 'text-orange-500' : 'text-blue-500'}`}>
+                          {post.type === 'notices' ? '공고' : post.type === 'recruitments' ? '채용공고' : '뉴스룸'}
                         </span>
                       </td>
                       <td className="p-6">

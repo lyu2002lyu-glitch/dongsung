@@ -44,7 +44,7 @@ export default function Header() {
       ],
     },
     {
-      title: '인재경영',
+      title: '인재채용',
       path: '/careers/recruitment',
       icon: <Users size={20} />,
       subItems: [

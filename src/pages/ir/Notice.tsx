@@ -33,7 +33,8 @@ export default function Notice() {
             { id: 3, title: '제53기 결산공고', created_at: '2023-03-20T00:00:00Z', views: 456 },
           ]);
         } else {
-          setNotices(data || []);
+          const filteredNotices = (data || []).filter(notice => !notice.title.startsWith('[RECRUIT]'));
+          setNotices(filteredNotices);
         }
       } catch (err) {
         console.error('Unexpected error:', err);
