@@ -6,6 +6,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeMobileTab, setActiveMobileTab] = useState(0);
+  const [currentLang, setCurrentLang] = useState('ko');
   const location = useLocation();
 
   useEffect(() => {
@@ -15,6 +16,55 @@ export default function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    // Check cookie for language
+    const match = document.cookie.match(/(^|;) ?googtrans=([^;]*)(;|$)/);
+    if (match && match[2] === '/ko/en') {
+      setCurrentLang('en');
+    } else {
+      setCurrentLang('ko');
+    }
+  }, []);
+
+  const toggleLanguage = () => {
+    const targetLang = currentLang === 'ko' ? 'en' : 'ko';
+    
+    if (targetLang === 'ko') {
+      // Clear Google Translate cookies to completely disable translation and restore original text
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/;`;
+      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${window.location.hostname}; path=/;`;
+      
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/auto;";
+      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/auto;`;
+      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${window.location.hostname}; path=/auto;`;
+      
+      window.location.reload();
+      return;
+    }
+
+    // 1. Try to trigger Google Translate select element directly
+    const selectElement = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+    if (selectElement) {
+      selectElement.value = targetLang;
+      selectElement.dispatchEvent(new Event('change'));
+      setCurrentLang(targetLang);
+    } else {
+      // 2. Fallback: Set cookies and reload
+      const cookieValue = `/ko/${targetLang}`;
+      document.cookie = `googtrans=${cookieValue}; path=/`;
+      document.cookie = `googtrans=${cookieValue}; domain=${window.location.hostname}; path=/`;
+      document.cookie = `googtrans=${cookieValue}; domain=.${window.location.hostname}; path=/`;
+      
+      // Also set for auto
+      document.cookie = `googtrans=/auto/${targetLang}; path=/`;
+      document.cookie = `googtrans=/auto/${targetLang}; domain=${window.location.hostname}; path=/`;
+      document.cookie = `googtrans=/auto/${targetLang}; domain=.${window.location.hostname}; path=/`;
+      
+      window.location.reload();
+    }
+  };
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -78,7 +128,7 @@ export default function Header() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${headerBg}`}>
       <div className="container-default">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 gap-4 lg:gap-8">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2">
               <img 
@@ -91,12 +141,14 @@ export default function Header() {
           </div>
           
           {/* Desktop Menu */}
-          <nav className="hidden md:flex space-x-12">
+          <nav className={`hidden md:flex flex-1 justify-end ${currentLang === 'en' ? 'space-x-4 lg:space-x-8' : 'space-x-8 lg:space-x-12'}`}>
             {navItems.map((item) => (
               <div key={item.title} className="relative group">
                 <Link
                   to={item.path}
-                  className="text-h5 font-black text-black hover:text-gray-400 transition-colors py-8 tracking-[0.1em] uppercase"
+                  className={`font-black text-black hover:text-gray-400 transition-colors py-8 uppercase whitespace-nowrap ${
+                    currentLang === 'en' ? 'text-[13px] tracking-wider' : 'text-h5 tracking-[0.1em]'
+                  }`}
                 >
                   {item.title}
                 </Link>
@@ -117,15 +169,30 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="flex items-center justify-end gap-2 md:gap-4">
+            {/* Language Toggle */}
             <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-full hover:bg-gray-100 transition-colors focus:outline-none"
-              aria-label="Toggle menu"
+              onClick={toggleLanguage}
+              className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
+              aria-label="Toggle Language"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {currentLang === 'en' ? (
+                <span className="text-xs font-bold text-gray-600">KOR</span>
+              ) : (
+                <span className="text-xs font-bold text-gray-600">ENG</span>
+              )}
             </button>
+
+            {/* Mobile Menu Button */}
+            <div className="md:hidden flex items-center">
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="p-2 rounded-full hover:bg-gray-100 transition-colors focus:outline-none"
+                aria-label="Toggle menu"
+              >
+                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
       </div>

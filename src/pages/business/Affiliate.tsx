@@ -6,13 +6,13 @@ import { motion } from 'motion/react';
 export default function Affiliate() {
   const companies = [
     {
-      name: '㈜동승 골프앤리조트',
+      name: '㈜동승골프앤리조트',
       desc: '뉴스프링빌 CC (경기도 이천)는 소수정예 고객님들께 최상의 맞춤 서비스를 제공하는 품격 높은 컨트리 클럽을 지향하고 있습니다.\n자연의 아름다움과 편안함을 담아 설계한 코스와 이천을 한눈에 내려다볼 수 있는 호텔급 골프텔 매종드시엘에서 품격 있는 차별화된 서비스를 경험할 수 있습니다.',
       img: '/c_sub_01.jpg',
       link: 'https://icheon.newspring.co.kr/Home/Index',
     },
     {
-      name: '㈜동승 레저',
+      name: '㈜동승레저',
       desc: '뉴스프링빌 Ⅱ CC (경상북도 상주)는 병풍처럼 펼쳐진 아름다운 백화산과 어울리는 자연친화적인 코스 설계를 통해 고객님들께 운동의 즐거움과 자연의 편안함의 통시에 전해드리고 있습니다. 스페니쉬 스타일의 클럽하우스와 풍미 깊은 와인을 즐기실 수 있는 와이너리, 최상의 숙박시설을 갖춘 게스트하우스, 등 자연 속에서 고객님들께서 즐거움과 편안함을 즐기실 수 있도록 준비했습니다.',
       img: '/c_sub_02.jpg',
       link: 'https://sangju.newspring.co.kr/Home/Index',

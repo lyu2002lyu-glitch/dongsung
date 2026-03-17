@@ -14,17 +14,23 @@ interface IRItem {
 }
 
 export default function Home() {
-  const [irItems, setIrItems] = useState<IRItem[]>([]);
+  const [irItems, setIrItems] = useState<IRItem[]>([
+    { id: 'financial', title: '2024년 결산 재무제표 공시', category: '재무정보', type: 'financial', created_at: '2025-02-28T00:00:00Z' },
+    { id: 1, title: '제54기 정기주주총회 소집공고', category: '공고/IR', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
+    { id: 'disclosure', title: 'DART 공시정보 바로가기', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
+  ]);
 
   useEffect(() => {
     const fetchIRItems = async () => {
       try {
-        const { data: noticeData } = await supabase
+        const { data: noticeData, error } = await supabase
           .from('notices')
           .select('id, title, created_at')
           .not('title', 'ilike', '[RECRUIT]%')
           .order('created_at', { ascending: false })
           .limit(1);
+
+        if (error) throw error;
 
         const noticeItem = noticeData && noticeData.length > 0 ? {
           ...noticeData[0],
@@ -40,14 +46,13 @@ export default function Home() {
           { id: 'disclosure', title: 'DART 공시정보 바로가기', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
         ];
 
-        setIrItems(combined);
+        setIrItems(prev => {
+          if (JSON.stringify(prev) === JSON.stringify(combined)) return prev;
+          return combined;
+        });
       } catch (error) {
         console.error('Error fetching IR items:', error);
-        setIrItems([
-          { id: 'financial', title: '2024년 결산 재무제표 공시', category: '재무정보', type: 'financial', created_at: '2025-02-28T00:00:00Z' },
-          { id: 1, title: '제54기 정기주주총회 소집공고', category: '공고/IR', type: 'notice', created_at: '2024-03-15T00:00:00Z' },
-          { id: 'disclosure', title: 'DART 공시정보 바로가기', category: '공시정보', type: 'disclosure', created_at: '2023-11-10T00:00:00Z' },
-        ] as any);
+        // Do nothing on error since we already have defaults
       }
     };
 
@@ -55,8 +60,14 @@ export default function Home() {
   }, []);
 
   const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')}`;
+    if (!dateString) return '-';
+    try {
+      const date = new Date(dateString);
+      if (isNaN(date.getTime())) return '-';
+      return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, '0')}.${String(date.getDate()).padStart(2, '0')}`;
+    } catch (e) {
+      return '-';
+    }
   };
 
   const getLink = (item: IRItem) => {
@@ -361,7 +372,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-h4 text-black mb-6 tracking-tight">종속회사</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
-                  코트야드 바이 메리어트 평택, (주)동승 파크앤리조트 등 글로벌 확장을 주도합니다.
+                  코트야드 바이 메리어트 평택, (주)동승파크앤리조트 등 글로벌 확장을 주도합니다.
                 </p>
                 <div className="flex items-center text-black font-bold">
                   <span className="text-[12px] tracking-[0.1em] uppercase">자세히 보기</span>
@@ -378,7 +389,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-h4 text-black mb-6 tracking-tight">특수관계회사</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
-                  (주)동승 골프앤리조트, (주)동승 레저 등 레저 및 라이프스타일 산업을 선도합니다.
+                  (주)동승골프앤리조트, (주)동승레저 등 레저 및 라이프스타일 산업을 선도합니다.
                 </p>
                 <div className="flex items-center text-black font-bold">
                   <span className="text-[12px] tracking-[0.1em] uppercase">자세히 보기</span>
@@ -443,8 +454,8 @@ export default function Home() {
         </div>
         
         <div className="divide-y divide-gray-100">
-          {irItems.map((item, idx) => (
-            <Link key={idx} to={getLink(item)} className="group flex flex-col sm:flex-row sm:items-center py-8 hover:bg-gray-50 transition-all duration-300 px-6 -mx-6 rounded-lg">
+          {irItems.map((item) => (
+            <Link key={`${item.type}-${item.id}`} to={getLink(item)} className="group flex flex-col sm:flex-row sm:items-center py-8 hover:bg-gray-50 transition-all duration-300 px-6 -mx-6 rounded-lg">
               <div className="flex items-center mb-4 sm:mb-0 sm:w-80 shrink-0">
                 <span className="text-body-s font-bold text-gray-500 w-32">{item.category}</span>
                 <span className="text-gray-400 text-body-s">{formatDate(item.created_at)}</span>

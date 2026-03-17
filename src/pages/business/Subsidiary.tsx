@@ -24,7 +24,7 @@ export default function Subsidiary() {
       link: '#',
     },
     {
-      name: '㈜동승 파크앤리조트',
+      name: '㈜동승파크앤리조트',
       desc: '자연과 사람의 조화를 컨셉으로 한 유기농 식자재의 재배와 친환경적인 테마파크 및 휴양림 조성 등 청정 자연환경의 보존을 통한 복합 인프라를 개발하고 있습니다.',
       img: '/b_sub_02.jpg',
       link: '#',
