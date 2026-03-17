@@ -50,7 +50,7 @@ async function startServer() {
       reports.push(newReport);
       fs.writeFileSync(DATA_FILE, JSON.stringify(reports, null, 2));
 
-      // 2. Send Email (Optional)
+      // 2. Send Email
       const smtpHost = process.env.SMTP_HOST || "smtp.naver.com";
       const smtpPort = parseInt(process.env.SMTP_PORT || "465");
       const smtpSecure = process.env.SMTP_SECURE === "true" || smtpPort === 465;
@@ -59,21 +59,15 @@ async function startServer() {
 
       if (smtpUser && smtpPass) {
         try {
-          console.log(`Attempting to send email via ${smtpHost}:${smtpPort} (User: ${smtpUser})`);
-          
           const transportConfig: any = {
             host: smtpHost,
             port: smtpPort,
             secure: smtpSecure,
             auth: { user: smtpUser, pass: smtpPass },
-            tls: {
-              rejectUnauthorized: false
-            }
+            tls: { rejectUnauthorized: false }
           };
 
-          // Special handling for Gmail to improve reliability
           if (smtpHost.toLowerCase().includes("gmail.com")) {
-            console.log("Using specialized Gmail service configuration...");
             delete transportConfig.host;
             delete transportConfig.port;
             delete transportConfig.secure;
@@ -90,36 +84,75 @@ async function startServer() {
           };
 
           await transporter.sendMail(mailOptions);
-          console.log("Email notification sent successfully.");
         } catch (emailError: any) {
           console.error("Failed to send email notification:", emailError.message);
-          
-          if (emailError.message.includes("535")) {
-            console.error("--- SMTP AUTHENTICATION FAILURE HELP ---");
-            console.error(`Detected Provider: ${smtpHost}`);
-            console.error(`Configured User: ${smtpUser}`);
-            
-            if (smtpHost.toLowerCase().includes("gmail.com")) {
-              console.error("GMAIL ERROR 535-5.7.8: This means your password was rejected.");
-              console.error("FIX: You MUST use an 'App Password' if 2-Step Verification is enabled.");
-              console.error("1. Go to: https://myaccount.google.com/apppasswords");
-              console.error("2. Generate a password for 'Mail' and 'Other (Custom Name)'.");
-              console.error("3. Copy the 16-character code and paste it into SMTP_PASS in AI Studio Secrets.");
-            } else if (smtpHost.toLowerCase().includes("naver.com")) {
-              console.error("NAVER ERROR 535: Ensure SMTP is enabled in Naver Mail settings and use an App Password if 2FA is active.");
-            }
-            console.error("-----------------------------------------");
-          }
           return res.status(500).json({ error: `메일 발송 실패: ${emailError.message}` });
         }
       } else {
-        console.warn("SMTP credentials missing in environment variables (SMTP_USER/SMTP_PASS). Skipping email.");
-        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다. 환경 변수를 확인해주세요." });
+        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다." });
       }
 
       res.json({ success: true, message: "신고가 정상적으로 접수되었습니다." });
     } catch (error) {
       console.error("Error processing report:", error);
+      res.status(500).json({ error: "처리 중 오류가 발생했습니다." });
+    }
+  });
+
+  // API Route for partnership inquiry
+  app.post("/api/partnership-inquiry", async (req, res) => {
+    const { company_name, person_name, phone_prefix, phone_middle, phone_last, email, content } = req.body;
+
+    if (!company_name || !person_name) {
+      return res.status(400).json({ error: "회사명과 성함은 필수입니다." });
+    }
+
+    try {
+      // Send Email
+      const smtpHost = process.env.SMTP_HOST || "smtp.naver.com";
+      const smtpPort = parseInt(process.env.SMTP_PORT || "465");
+      const smtpSecure = process.env.SMTP_SECURE === "true" || smtpPort === 465;
+      const smtpUser = process.env.SMTP_USER;
+      const smtpPass = process.env.SMTP_PASS;
+
+      if (smtpUser && smtpPass) {
+        try {
+          const transportConfig: any = {
+            host: smtpHost,
+            port: smtpPort,
+            secure: smtpSecure,
+            auth: { user: smtpUser, pass: smtpPass },
+            tls: { rejectUnauthorized: false }
+          };
+
+          if (smtpHost.toLowerCase().includes("gmail.com")) {
+            delete transportConfig.host;
+            delete transportConfig.port;
+            delete transportConfig.secure;
+            transportConfig.service = 'gmail';
+          }
+
+          const transporter = nodemailer.createTransport(transportConfig);
+
+          const mailOptions = {
+            from: `"업무제휴문의" <${smtpUser}>`,
+            to: "yulee@dongsungin.com",
+            subject: `[업무 제휴 문의] ${company_name}`,
+            text: `회사명: ${company_name}\n담당자: ${person_name}\n연락처: ${phone_prefix}-${phone_middle}-${phone_last}\n이메일: ${email}\n내용: ${content}`
+          };
+
+          await transporter.sendMail(mailOptions);
+        } catch (emailError: any) {
+          console.error("Failed to send email notification:", emailError.message);
+          return res.status(500).json({ error: `메일 발송 실패: ${emailError.message}` });
+        }
+      } else {
+        return res.status(500).json({ error: "서버의 메일 설정(SMTP)이 누락되었습니다." });
+      }
+
+      res.json({ success: true, message: "문의가 정상적으로 접수되었습니다." });
+    } catch (error) {
+      console.error("Error processing inquiry:", error);
       res.status(500).json({ error: "처리 중 오류가 발생했습니다." });
     }
   });

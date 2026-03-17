@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import { GENERATED_IMAGES } from '../../constants/images';
 import { motion, AnimatePresence } from 'motion/react';
@@ -6,6 +7,9 @@ import { AlertTriangle, Lock, Phone, Mail, CheckCircle, X } from 'lucide-react';
 
 export default function Report() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [consent, setConsent] = useState<string>('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   return (
     <div className="bg-white">
@@ -139,6 +143,14 @@ export default function Report() {
             <form 
               onSubmit={async (e) => {
                 e.preventDefault();
+                setErrorMessage('');
+                
+                if (consent !== 'agree') {
+                  setErrorMessage('개인정보 수집 및 이용에 동의해 주셔야 제보가 가능합니다.');
+                  return;
+                }
+                
+                setIsSubmitting(true);
                 const formData = new FormData(e.currentTarget);
                 const data = Object.fromEntries(formData.entries());
                 
@@ -152,12 +164,15 @@ export default function Report() {
                   if (response.ok) {
                     setIsModalOpen(true);
                     (e.target as HTMLFormElement).reset();
+                    setConsent('');
                   } else {
                     const err = await response.json();
-                    alert(err.error || '접수 중 오류가 발생했습니다.');
+                    setErrorMessage(err.error || '접수 중 오류가 발생했습니다.');
                   }
                 } catch (error) {
-                  alert('서버와 통신 중 오류가 발생했습니다.');
+                  setErrorMessage('서버와 통신 중 오류가 발생했습니다.');
+                } finally {
+                  setIsSubmitting(false);
                 }
               }}
               className="text-left border-b border-gray-200"
@@ -245,14 +260,88 @@ export default function Report() {
                 </div>
               </div>
 
+              {/* 개인정보 수집 및 이용동의 */}
+              <div className="mt-16 mb-8">
+                <h3 className="text-h4 mb-6 font-bold">개인정보 수집 및 이용동의</h3>
+                
+                <div className="border-t border-gray-200 pt-8">
+                  <p className="text-gray-600 mb-6">
+                    동승(주)에서는 개인정보 보호를 위하여 개인정보 보호지침을 마련하고 이를 준수하고 있습니다.
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">1. 개인 정보의 수집·이용 목적</h4>
+                      <p className="text-gray-600 pl-4">윤리경영위반 신고자 정보 수집</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">2. 수집하는 개인정보의 항목</h4>
+                      <p className="text-gray-600 pl-4">성함, 휴대폰번호, 이메일, 제목, 내용</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">3. 개인정보의 보유·이용 기간</h4>
+                      <p className="text-gray-600 pl-4">수집일로부터 5년</p>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 mb-8 leading-relaxed">
+                    위의 개인정보 수집 동의를 거부할 수 있으나, 거부 시 온라인 제보 접수를 받을 수 없습니다. 더 자세한 내용은 <Link to="/privacy" className="text-blue-600 hover:underline">개인정보 처리방침</Link>을 확인해 주세요.
+                  </p>
+
+                  <div className="bg-gray-50 p-6 rounded-xl">
+                    <h4 className="font-bold text-gray-900 mb-4">개인정보 수집 및 이용동의 (필수) <span className="text-error">*</span></h4>
+                    <div className="flex flex-col gap-3">
+                      <label className="flex items-center gap-3 cursor-pointer">
+                        <input 
+                          type="radio" 
+                          name="privacy_consent" 
+                          value="agree"
+                          checked={consent === 'agree'}
+                          onChange={(e) => setConsent(e.target.value)}
+                          className="w-5 h-5 text-black focus:ring-black border-gray-300"
+                        />
+                        <span className="text-gray-700">동의합니다</span>
+                      </label>
+                      <label className="flex items-center gap-3 cursor-pointer">
+                        <input 
+                          type="radio" 
+                          name="privacy_consent" 
+                          value="disagree"
+                          checked={consent === 'disagree'}
+                          onChange={(e) => setConsent(e.target.value)}
+                          className="w-5 h-5 text-black focus:ring-black border-gray-300"
+                        />
+                        <span className="text-gray-700">동의하지 않습니다 (상담 불가)</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Buttons */}
-              <div className="py-16 flex flex-col sm:flex-row justify-center gap-4">
-                <button type="submit" className="btn-primary min-w-[200px] text-lg">
-                  제출하기
-                </button>
-                <button type="reset" className="btn-secondary min-w-[200px] text-lg">
-                  취소하기
-                </button>
+              <div className="py-16 flex flex-col items-center gap-4 border-t border-gray-200">
+                {errorMessage && (
+                  <div className="text-error font-medium mb-4 bg-red-50 px-6 py-3 rounded-lg w-full max-w-md text-center">
+                    {errorMessage}
+                  </div>
+                )}
+                <div className="flex flex-col sm:flex-row justify-center gap-4 w-full">
+                  <button 
+                    type="submit" 
+                    disabled={isSubmitting}
+                    className="bg-black text-white font-bold rounded-lg min-w-[200px] text-lg py-4 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {isSubmitting ? '제출 중...' : '제출하기'}
+                  </button>
+                  <button 
+                    type="reset" 
+                    disabled={isSubmitting}
+                    onClick={() => setErrorMessage('')}
+                    className="bg-white text-black font-bold border border-gray-300 rounded-lg min-w-[200px] text-lg py-4 transition-colors hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    취소하기
+                  </button>
+                </div>
               </div>
             </form>
           </div>

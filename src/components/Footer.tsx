@@ -1,13 +1,16 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Footer() {
+  const location = useLocation();
+  const isEnglish = location.pathname.startsWith('/en');
+
   return (
     <footer className="bg-black text-white py-20 border-t border-white/10">
       <div className="container-default">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-h4 tracking-widest mb-8 block uppercase">
-              (주)동승
+              {isEnglish ? 'Dongseung Co., Ltd.' : '(주)동승'}
             </Link>
             <div className="text-gray-400 text-body-s max-w-sm space-y-2">
               <p>서울특별시 종로구 종로 266</p>
@@ -28,6 +31,11 @@ export default function Footer() {
               <li>
                 <Link to="/cctv" className="text-body-s font-bold text-gray-400 hover:text-white transition-colors tracking-widest uppercase">
                   영상정보처리기기 운영·관리 방침
+                </Link>
+              </li>
+              <li>
+                <Link to="/partnership" className="text-body-s font-bold text-gray-400 hover:text-white transition-colors tracking-widest uppercase">
+                  업무 제휴 문의
                 </Link>
               </li>
             </ul>

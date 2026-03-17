@@ -24,6 +24,7 @@ import Charter from './pages/ethics/Charter';
 import Report from './pages/ethics/Report';
 import Privacy from './pages/policy/Privacy';
 import CCTV from './pages/policy/CCTV';
+import Partnership from './pages/policy/Partnership';
 import AdminWrite from './pages/admin/Write';
 
 export default function App() {
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="ethics/report" element={<Report />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="cctv" element={<CCTV />} />
+          <Route path="partnership" element={<Partnership />} />
           <Route path="admin/write" element={<AdminWrite />} />
         </Route>
       </Routes>
