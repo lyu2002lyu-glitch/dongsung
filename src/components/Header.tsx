@@ -37,7 +37,7 @@ export default function Header() {
       path: '/business/parent',
       icon: <Briefcase size={20} />,
       subItems: [
-        { title: '모회사', path: '/business/parent' },
+        { title: '동승', path: '/business/parent' },
         { title: '종속회사', path: '/business/subsidiary' },
         { title: '특수관계회사', path: '/business/affiliate' },
       ],

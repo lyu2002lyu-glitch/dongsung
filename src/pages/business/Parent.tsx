@@ -21,7 +21,7 @@ export default function Parent() {
   return (
     <div className="bg-white">
       <PageHeader 
-        title="모회사" 
+        title="동승" 
         subtitle="동승 그룹의 핵심 사업을 소개합니다." 
         imageSrc={GENERATED_IMAGES.PARENT}
       />

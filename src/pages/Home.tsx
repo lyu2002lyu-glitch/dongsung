@@ -341,7 +341,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
                   <Building2 size={24} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-h4 text-black mb-6 tracking-tight">모회사</h3>
+                <h3 className="text-h4 text-black mb-6 tracking-tight">동승</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
                   동대문종합시장, JW메리어트 동대문 스퀘어 서울 등 그룹의 핵심 사업을 이끌어갑니다.
                 </p>

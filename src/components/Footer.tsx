@@ -45,6 +45,8 @@ export default function Footer() {
                 <option value="http://www.ddm-mall.com/" className="bg-black text-white">동대문종합시장</option>
                 <option value="https://www.marriott.co.kr/hotels/travel/seldp-jw-marriott-dongdaemun-square-seoul/" className="bg-black text-white">JW메리어트 동대문 스퀘어 서울</option>
                 <option value="https://www.marriott.co.kr/hotels/travel/selcy-courtyard-seoul-botanic-park/" className="bg-black text-white">코트야드 바이 메리어트 평택</option>
+                <option value="https://icheon.newspring.co.kr/Home/Index" className="bg-black text-white">㈜동승 골프앤리조트</option>
+                <option value="https://sangju.newspring.co.kr/Home/Index" className="bg-black text-white">㈜동승 레저</option>
               </select>
               <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
                 <svg className="w-3 h-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
