@@ -4,6 +4,7 @@ import PageHeader from '../../components/PageHeader';
 import { GENERATED_IMAGES } from '../../constants/images';
 import { motion, AnimatePresence } from 'motion/react';
 import { CheckCircle, X } from 'lucide-react';
+import { supabase } from '../../lib/supabase';
 
 export default function Partnership() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -89,21 +90,27 @@ export default function Partnership() {
               const data = Object.fromEntries(formData.entries());
               
               try {
-                const response = await fetch('/api/partnership-inquiry', {
-                  method: 'POST',
-                  headers: { 'Content-Type': 'application/json' },
-                  body: JSON.stringify(data),
-                });
+                const { error: dbError } = await supabase
+                  .from('partnership_inquiries')
+                  .insert([{
+                    company_name: data.company_name,
+                    person_name: data.person_name,
+                    phone: `${data.phone_prefix}-${data.phone_middle}-${data.phone_last}`,
+                    email: data.email,
+                    content: data.content,
+                    status: 'pending'
+                  }]);
                 
-                if (response.ok) {
-                  setIsModalOpen(true);
-                  (e.target as HTMLFormElement).reset();
-                  setConsent('');
-                } else {
-                  const err = await response.json();
-                  setErrorMessage(err.error || '접수 중 오류가 발생했습니다.');
+                if (dbError) {
+                  console.error('Supabase error:', dbError);
+                  throw new Error('데이터베이스 저장 중 오류가 발생했습니다.');
                 }
+                
+                setIsModalOpen(true);
+                (e.target as HTMLFormElement).reset();
+                setConsent('');
               } catch (error) {
+                console.error('Error submitting inquiry:', error);
                 setErrorMessage('서버와 통신 중 오류가 발생했습니다.');
               } finally {
                 setIsSubmitting(false);
