@@ -405,7 +405,7 @@ export default function Home() {
         <div className="container-default">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
             <div>
-              <h2 className="text-h2 mb-10 tracking-tight whitespace-nowrap text-gray-500">
+              <h2 className="text-h2 mb-10 tracking-tight whitespace-normal md:whitespace-nowrap text-gray-500">
                 산업을 연결하고, <br /> <span className="text-black">가치를 확장하는 플랫폼</span>
               </h2>
               <p className="text-gray-500 text-body-l mb-16">
