@@ -12,7 +12,7 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
   const isLight = variant === 'light';
 
   return (
-    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center py-20 md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
+    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center pt-[100px] pb-[20px] md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
       {!isLight && (
         <div className="absolute inset-0 z-0">
           {imageSrc ? (
