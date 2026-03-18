@@ -105,8 +105,8 @@ export default function Affiliate() {
           </div>
           <div className="lg:w-[61.8%] grid grid-cols-2 gap-8">
             <div className="bg-gray-50 p-12 border border-gray-100 text-center rounded-lg">
-              <div className="text-h1 font-light text-black mb-4">20+</div>
-              <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Programs</div>
+              <div className="text-h1 font-light text-black mb-4">36+</div>
+              <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Golf Courses</div>
             </div>
             <div className="bg-black p-12 text-white text-center rounded-lg">
               <div className="text-h1 font-bold mb-4">98%</div>

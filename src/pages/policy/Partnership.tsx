@@ -266,7 +266,7 @@ export default function Partnership() {
                         onChange={(e) => setConsent(e.target.value)}
                         className="w-5 h-5 text-black focus:ring-black border-gray-300"
                       />
-                      <span className="text-gray-700">동의하지 않습니다 (상담 불가)</span>
+                      <span className="text-gray-700">동의하지 않습니다</span>
                     </label>
                   </div>
                 </div>

@@ -20,21 +20,21 @@ export default function Financial() {
 
   const stats = [
     { 
-      label: '매출액', 
+      label: '매출액 (2024년 정보)', 
       value: '789억', 
       growth: '-0.9%', 
       icon: <TrendingUp className="text-black" size={20} />,
       desc: '지속적인 임대 수익 및 사업 확장'
     },
     { 
-      label: '영업이익', 
+      label: '영업이익 (2024년 정보)', 
       value: '199억', 
       growth: '-17.1%', 
       icon: <BarChart3 className="text-black" size={20} />,
       desc: '효율적인 운영 관리를 통한 수익 극대화'
     },
     { 
-      label: '당기순이익', 
+      label: '당기순이익 (2024년 정보)', 
       value: '244억', 
       growth: '+0.3%', 
       icon: <PieChart className="text-black" size={20} />,
@@ -97,10 +97,10 @@ export default function Financial() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-all group"
+              className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm transition-all group"
             >
               <div className="flex justify-between items-start mb-8">
-                <div className="p-3 bg-gray-50 rounded-2xl group-hover:bg-black group-hover:text-white transition-colors">
+                <div className="p-3 bg-gray-50 rounded-2xl transition-colors">
                   {stat.icon}
                 </div>
                 <div className="flex items-center gap-1 text-black font-bold text-sm">
@@ -141,7 +141,7 @@ export default function Financial() {
                     dataKey="name" 
                     axisLine={false} 
                     tickLine={false} 
-                    tick={{ fill: '#9CA3AF', fontSize: 12 }}
+                    tick={{ fill: '#9CA3AF', fontSize: 14 }}
                     dy={10}
                     interval={0}
                   />
@@ -157,7 +157,7 @@ export default function Financial() {
                     fillOpacity={1} 
                     fill="url(#colorRevenue)" 
                   >
-                    <LabelList dataKey="revenue" position="top" fill="#4a4a4a" fontSize={12} formatter={(value: number) => `${value}억`} />
+                    <LabelList dataKey="revenue" position="top" fill="#4a4a4a" fontSize={14} formatter={(value: number) => `${value}억`} />
                   </Area>
                 </AreaChart>
               </ResponsiveContainer>
@@ -172,7 +172,7 @@ export default function Financial() {
           >
             <div className="flex justify-between items-center mb-10">
               <h3 className="text-xl font-bold tracking-tight">영업이익 성장률</h3>
-              <span className="text-xs text-gray-400 font-medium">단위: 억원</span>
+              <span className="text-sm text-gray-400 font-medium">단위: 억원</span>
             </div>
             <div className="h-[300px] w-full">
               <ResponsiveContainer width="100%" height="100%">
@@ -182,7 +182,7 @@ export default function Financial() {
                     dataKey="name" 
                     axisLine={false} 
                     tickLine={false} 
-                    tick={{ fill: '#9CA3AF', fontSize: 12 }}
+                    tick={{ fill: '#9CA3AF', fontSize: 14 }}
                     dy={10}
                     interval={0}
                   />
@@ -195,7 +195,7 @@ export default function Financial() {
                     {chartData.map((entry, index) => (
                       <Cell key={`cell-${index}`} fill={index === chartData.length - 1 ? '#000000' : '#E5E7EB'} />
                     ))}
-                    <LabelList dataKey="profit" position="top" fill="#4a4a4a" fontSize={12} formatter={(value: number) => `${value}억`} />
+                    <LabelList dataKey="profit" position="top" fill="#4a4a4a" fontSize={14} formatter={(value: number) => `${value}억`} />
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
@@ -211,13 +211,13 @@ export default function Financial() {
           className="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden mb-24"
         >
           <div className="p-8 border-b border-gray-50 flex justify-between items-center bg-gray-50/50">
-            <h3 className="text-lg font-bold tracking-tight">요약 재무제표</h3>
-            <span className="text-xs text-gray-400 font-medium">단위: 백만원</span>
+            <h3 className="text-xl font-bold tracking-tight">요약 재무제표</h3>
+            <span className="text-sm text-gray-400 font-medium">단위: 백만원</span>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="text-gray-400 text-[11px] uppercase tracking-widest font-bold">
+                <tr className="text-gray-400 text-xs uppercase tracking-widest font-bold">
                   <th className="px-8 py-6">항목</th>
                   <th className="px-8 py-6 text-black">2024년 (제55기)</th>
                   <th className="px-8 py-6">2023년 (제54기)</th>
@@ -234,11 +234,11 @@ export default function Financial() {
                   { label: '자본총계', v24: '163,215', v23: '136,798', v22: '112,207', v21: '93,122' },
                 ].map((row, idx) => (
                   <tr key={idx} className="hover:bg-gray-50 transition-colors group">
-                    <td className="px-8 py-6 font-bold text-gray-900 text-sm">{row.label}</td>
-                    <td className="px-8 py-6 font-bold text-black text-sm">{row.v24}</td>
-                    <td className="px-8 py-6 text-gray-500 text-sm font-light">{row.v23}</td>
-                    <td className="px-8 py-6 text-gray-500 text-sm font-light">{row.v22}</td>
-                    <td className="px-8 py-6 text-gray-500 text-sm font-light">{row.v21}</td>
+                    <td className="px-8 py-6 font-bold text-gray-900 text-base">{row.label}</td>
+                    <td className="px-8 py-6 font-bold text-black text-base">{row.v24}</td>
+                    <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v23}</td>
+                    <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v22}</td>
+                    <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v21}</td>
                   </tr>
                 ))}
               </tbody>

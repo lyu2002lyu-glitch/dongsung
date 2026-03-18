@@ -115,10 +115,10 @@ export default function Greeting() {
             
             <div className="mt-32 pt-24 border-t border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
               {[
-                { label: "Founded", value: "1969" },
-                { label: "Employees", value: "500+" },
-                { label: "Assets", value: "1.2T" },
-                { label: "Global", value: "No.1" }
+                { label: "창립 연도", value: "1969" },
+                { label: "임직원 수", value: "200+" },
+                { label: "업계 위상", value: "No.1" },
+                { label: "사업 영역", value: "Global" }
               ].map((stat, idx) => (
                 <div key={idx}>
                   <div className="text-h2 font-light mb-3">{stat.value}</div>

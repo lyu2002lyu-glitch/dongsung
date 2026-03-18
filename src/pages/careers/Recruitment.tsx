@@ -60,7 +60,7 @@ export default function Recruitment() {
     },
     {
       title: '1차면접',
-      desc: '실무진과 함께 직무 역량과 창의성 공유',
+      desc: '실무진과 직무·창의성 공유',
       icon: <Users size={32} strokeWidth={1.5} />,
     },
     {
@@ -136,17 +136,19 @@ export default function Recruitment() {
         <div className="text-center mb-32">
           <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Mission</h2>
           <h3 className="text-h2 text-black mb-12 tracking-tight flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 break-keep">
-            <span>우리의 미션은</span>
-            <span className="text-gray-700 font-medium">"디자이너에게 영감을 주는 것"입니다.</span>
+            <span>우리의 미션은 "</span>
+            <span className="font-bold text-black">디자이너에게 영감을 주는 것</span>
+            <span>"입니다.</span>
           </h3>
           <p className="text-gray-500 text-body-m max-w-4xl mx-auto leading-relaxed">
-            우리는 패션 창작을 위한 모든 재료(원단, 부자재, 액세서리 등)가 집약된 전 세계 3위 규모의 클러스터로서, 국내 패션 브랜드, 디자이너, 개인 창작자 등 패션을 창조하는 크리에이터들이 반드시 방문해야 하는 필수 생태계입니다.
+            우리는 패션 창작을 위한 모든 재료(원단, 부자재, 액세서리 등)가 집약된 전 세계 3위 규모의 클러스터로서, <br />
+            국내 패션 브랜드, 디자이너, 개인 창작자 등 패션을 창조하는 크리에이터들이 반드시 방문해야 하는 필수 생태계입니다.
           </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 mt-16">
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
               <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">고객본부</h4>
-              <p className="text-gray-600 text-body-m">고객(판매자+구매자)을 위한 서비스 미션수행</p>
+              <p className="text-gray-600 text-body-m">고객(판매자+구매자)을<br />위한 서비스 미션수행</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
               <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">시설본부</h4>
@@ -154,7 +156,11 @@ export default function Recruitment() {
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
               <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">관리본부</h4>
-              <p className="text-gray-600 text-body-m">구성원들을 위한 일하기 좋은 환경 미션 수행</p>
+              <p className="text-gray-600 text-body-m">구성원들을 위한 일하기<br />좋은 환경 미션 수행</p>
+            </div>
+            <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
+              <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">MD본부</h4>
+              <p className="text-gray-600 text-body-m">지속가능한 상권구성<br />= 컨셉 + 실현</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
               <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">안전관리실</h4>

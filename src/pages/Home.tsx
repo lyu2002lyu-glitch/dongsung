@@ -188,8 +188,7 @@ export default function Home() {
             <div className="lg:w-1/2">
               <h2 className="text-body-s font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Vision 2030</h2>
               <h3 className="text-h1 mb-10 tracking-tight">
-                미래를 향한<br />
-                <span className="text-gray-300">새로운 도약</span>
+                <span className="text-gray-500">미래를 향한</span> 새로운 도약
               </h3>
               <p className="text-gray-500 text-body-l mb-16 max-w-xl">
                 동승은 2030년을 향한 새로운 비전을 통해 지속가능한 성장과 사회적 가치 실현을 목표로 합니다.
@@ -294,7 +293,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="group relative h-[400px] overflow-hidden rounded-xl"
+              className="group relative h-[400px] overflow-hidden rounded-xl bg-gray-100"
             >
               <Link to="/business/parent#company-0" className="block w-full h-full">
                 <img 
@@ -317,7 +316,7 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="group relative h-[400px] overflow-hidden rounded-xl"
+              className="group relative h-[400px] overflow-hidden rounded-xl bg-gray-100"
             >
               <Link to="/business/parent#company-1" className="block w-full h-full">
                 <img 
@@ -402,16 +401,15 @@ export default function Home() {
       </section>
 
       {/* Trust Indicator / History Highlight */}
-      <section className="bg-white text-black section-padding border-b border-gray-100">
+      <section className="bg-gray-50 text-black section-padding border-b border-gray-100">
         <div className="container-default">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
             <div>
-              <h2 className="text-h2 mb-10 tracking-tight">
-                반세기의 신뢰,<br />
-                <span className="text-gray-300">100년을 향한 도약</span>
+              <h2 className="text-h2 mb-10 tracking-tight whitespace-nowrap text-gray-500">
+                산업을 연결하고, <span className="text-black">가치를 확장하는 플랫폼</span>
               </h2>
               <p className="text-gray-500 text-body-l mb-16">
-                1970년 동대문종합시장 설립 이래, 동승은 끊임없는 도전과 혁신으로 대한민국 산업의 발전을 이끌어왔습니다. 앞으로도 변함없는 신뢰를 바탕으로 더 큰 미래를 열어가겠습니다.
+                1969년 동대문종합시장에서 시작된 동승은, 이제 단순한 공간을 넘어 사람·상품·비즈니스를 유기적으로 연결하는 플랫폼으로 진화하고 있습니다.  신뢰를 기반으로 더 빠르고, 더 효율적인 산업 생태계를 만들어갑니다.
               </p>
               <Link to="/company/history" className="btn-primary rounded-md">
                 <span className="text-[14px] font-bold tracking-widest uppercase">연혁 보기</span>
@@ -420,12 +418,12 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-12">
               <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">1970</div>
+                <div className="text-h1 mb-4">1969</div>
                 <div className="text-gray-500 text-body-s">창립 연도</div>
               </div>
               <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">8+</div>
-                <div className="text-gray-500 text-body-s">주요 계열사</div>
+                <div className="text-h1 mb-4">200+</div>
+                <div className="text-gray-500 text-body-s">임직원 수</div>
               </div>
               <div className="border-t border-gray-100 pt-10">
                 <div className="text-h1 mb-4">No.1</div>

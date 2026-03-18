@@ -38,8 +38,8 @@ export default function Parent() {
                   <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Years</div>
                 </div>
                 <div className="p-10 bg-gray-50 border border-gray-100 rounded-lg">
-                  <div className="text-h2 font-light mb-3">1.2T</div>
-                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Assets</div>
+                  <div className="text-h2 font-light mb-3">200+</div>
+                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Employees</div>
                 </div>
               </div>
             </div>

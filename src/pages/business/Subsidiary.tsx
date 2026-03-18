@@ -111,18 +111,6 @@ export default function Subsidiary() {
               ))}
             </div>
             
-            <div className="mt-32 pt-24 border-t border-gray-100 flex flex-wrap justify-center gap-24 text-center">
-              {[
-                { label: "Global Reach", value: "15+" },
-                { label: "Market Share", value: "42%" },
-                { label: "Growth Rate", value: "12.5%" }
-              ].map((stat, idx) => (
-                <div key={idx}>
-                  <div className="text-h1 font-light mb-4">{stat.value}</div>
-                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">{stat.label}</div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
