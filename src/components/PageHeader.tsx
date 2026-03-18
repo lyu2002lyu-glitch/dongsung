@@ -12,7 +12,7 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
   const isLight = variant === 'light';
 
   return (
-    <div className={`relative h-[300px] md:h-[400px] flex items-center justify-center mt-20 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
+    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center pt-28 pb-16 md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
       {!isLight && (
         <div className="absolute inset-0 z-0">
           {imageSrc ? (
@@ -50,11 +50,11 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className={`text-h1 mb-10 tracking-tight ${isLight ? 'text-black' : 'text-white'}`}>
+          <h1 className={`text-3xl md:text-h1 mb-10 tracking-tight ${isLight ? 'text-black' : 'text-white'}`}>
             {title}
           </h1>
           <div className={`w-12 h-[1px] mx-auto mb-10 ${isLight ? 'bg-black/20' : 'bg-white/50'}`} />
-          <p className={`text-body-m tracking-[0.3em] uppercase max-w-2xl mx-auto ${isLight ? 'text-gray-600' : 'text-gray-300'}`}>
+          <p className={`text-body-s md:text-body-m tracking-[0.1em] md:tracking-[0.3em] uppercase max-w-2xl mx-auto ${isLight ? 'text-gray-600' : 'text-gray-300'}`}>
             {subtitle}
           </p>
         </motion.div>
