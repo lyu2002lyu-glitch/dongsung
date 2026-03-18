@@ -191,7 +191,7 @@ export default function Home() {
                 <span className="text-gray-500">미래를 향한</span> 새로운 도약
               </h3>
               <p className="text-gray-500 text-body-l mb-16 max-w-xl">
-                동승은 2030년을 향한 새로운 비전을 통해 지속가능한 성장과 사회적 가치 실현을 목표로 합니다.
+                동승은 2030년 비전을 중심으로 디지털 전환, 지속가능한 성장, 글로벌 확장을 핵심 전략 축으로 설정하고, 이를 기반으로 사업 경쟁력을 고도화하며 사회적 가치 창출을 동시에 실현하고자 합니다.
               </p>
               
               <div className="space-y-10">
