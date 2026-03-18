@@ -406,7 +406,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
             <div>
               <h2 className="text-h2 mb-10 tracking-tight whitespace-nowrap text-gray-500">
-                산업을 연결하고, <span className="text-black">가치를 확장하는 플랫폼</span>
+                산업을 연결하고, <br /> <span className="text-black">가치를 확장하는 플랫폼</span>
               </h2>
               <p className="text-gray-500 text-body-l mb-16">
                 1969년 동대문종합시장에서 시작된 동승은, 이제 단순한 공간을 넘어 사람·상품·비즈니스를 유기적으로 연결하는 플랫폼으로 진화하고 있습니다.  신뢰를 기반으로 더 빠르고, 더 효율적인 산업 생태계를 만들어갑니다.
