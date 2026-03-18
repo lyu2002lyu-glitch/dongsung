@@ -12,7 +12,7 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
   const isLight = variant === 'light';
 
   return (
-    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center pt-28 pb-16 md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
+    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center py-20 md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
       {!isLight && (
         <div className="absolute inset-0 z-0">
           {imageSrc ? (
@@ -50,7 +50,7 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className={`text-3xl md:text-h1 mb-10 tracking-tight ${isLight ? 'text-black' : 'text-white'}`}>
+          <h1 className={`text-3xl md:text-h1 mb-10 tracking-tight font-bold ${isLight ? 'text-black' : 'text-white'}`}>
             {title}
           </h1>
           <div className={`w-12 h-[1px] mx-auto mb-10 ${isLight ? 'bg-black/20' : 'bg-white/50'}`} />
