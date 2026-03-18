@@ -78,6 +78,9 @@ export default function DisclosureDetail() {
         title="공시정보" 
         subtitle="주요 경영사항을 신속하고 정확하게 알려드립니다." 
         imageSrc={GENERATED_IMAGES.DISCLOSURE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-4xl">
         {loading ? (

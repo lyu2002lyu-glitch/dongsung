@@ -119,6 +119,9 @@ export default function History() {
         title="연혁" 
         subtitle="동승이 걸어온 발자취입니다." 
         imageSrc={GENERATED_IMAGES.HISTORY}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-5xl">
         <div className="relative">

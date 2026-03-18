@@ -44,6 +44,9 @@ export default function Subsidiary() {
         title="종속회사" 
         subtitle="글로벌 확장을 주도하는 동승의 종속회사를 소개합니다." 
         imageSrc={GENERATED_IMAGES.SUBSIDIARY}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
         <div className="space-y-48 mb-40">

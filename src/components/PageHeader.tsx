@@ -6,13 +6,18 @@ interface PageHeaderProps {
   subtitle: string;
   imageSrc?: string;
   variant?: 'dark' | 'light';
+  paddingTop?: string;
+  paddingBottom?: string;
+  pcVerticalAlignment?: 'center' | 'bottom';
 }
 
-export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark' }: PageHeaderProps) {
+export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark', paddingTop, paddingBottom, pcVerticalAlignment = 'center' }: PageHeaderProps) {
   const isLight = variant === 'light';
+  const verticalAlignClass = pcVerticalAlignment === 'bottom' ? 'items-center md:items-end' : 'items-center';
+  const contentPaddingClass = pcVerticalAlignment === 'bottom' ? 'md:pb-20' : '';
 
   return (
-    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex items-center justify-center pt-[100px] pb-[20px] md:py-0 overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
+    <div className={`relative min-h-[300px] h-auto md:h-[400px] flex ${verticalAlignClass} justify-center ${paddingTop || 'pt-[100px] md:py-0'} ${paddingBottom || 'pb-[20px] md:py-0'} overflow-hidden ${isLight ? 'bg-white' : 'bg-black'}`}>
       {!isLight && (
         <div className="absolute inset-0 z-0">
           {imageSrc ? (
@@ -44,7 +49,7 @@ export default function PageHeader({ title, subtitle, imageSrc, variant = 'dark'
         </div>
       )}
 
-      <div className="relative z-10 text-center px-4">
+      <div className={`relative z-10 text-center px-4 ${contentPaddingClass}`}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

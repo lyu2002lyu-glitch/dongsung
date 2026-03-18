@@ -48,6 +48,9 @@ export default function Financial() {
         title="재무정보" 
         subtitle="투명한 경영과 견고한 재무 구조를 바탕으로 신뢰를 쌓아갑니다." 
         imageSrc={GENERATED_IMAGES.FINANCIAL}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       
       <section className="py-24 container-default max-w-7xl">

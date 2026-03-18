@@ -24,6 +24,9 @@ export default function Parent() {
         title="동승" 
         subtitle="동승 그룹의 핵심 사업을 소개합니다." 
         imageSrc={GENERATED_IMAGES.PARENT}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
         {/* Business Infographic */}

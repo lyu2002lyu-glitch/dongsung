@@ -28,6 +28,9 @@ export default function Greeting() {
         title="인사말" 
         subtitle="동승을 찾아주신 여러분을 진심으로 환영합니다." 
         imageSrc={GENERATED_IMAGES.GREETING}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       
       <section className="section-padding container-default">

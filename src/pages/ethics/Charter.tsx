@@ -175,6 +175,9 @@ export default function Charter() {
         title="윤리헌장 및 강령" 
         subtitle="올바른 기업 문화를 선도하는 동승의 윤리경영 원칙입니다." 
         imageSrc={GENERATED_IMAGES.ETHICS_CHARTER}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       
       <section className="section-padding container-default">

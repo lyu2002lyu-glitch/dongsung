@@ -15,6 +15,9 @@ export default function Location() {
         title="찾아오시는길" 
         subtitle="동승으로 오시는 길을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.LOCATION}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-5xl">
           <div className="bg-gray-50 h-[500px] mb-24 overflow-hidden border border-gray-100 rounded-xl relative">

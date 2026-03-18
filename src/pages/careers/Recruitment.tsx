@@ -131,6 +131,9 @@ export default function Recruitment() {
         title="채용정보" 
         subtitle="동승과 함께 미래를 이끌어갈 인재를 모십니다." 
         imageSrc={GENERATED_IMAGES.CAREERS}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
         <div className="text-center mb-32">

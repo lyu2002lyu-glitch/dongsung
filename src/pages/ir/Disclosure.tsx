@@ -8,6 +8,9 @@ export default function Disclosure() {
         title="공시정보" 
         subtitle="주요 경영사항을 신속하고 정확하게 알려드립니다." 
         imageSrc={GENERATED_IMAGES.DISCLOSURE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-5xl">
         <div className="w-full h-[800px] border border-gray-200 rounded-xl overflow-hidden">

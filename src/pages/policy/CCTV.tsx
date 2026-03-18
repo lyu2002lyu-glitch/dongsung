@@ -8,6 +8,9 @@ export default function CCTV() {
         title="영상정보처리기기 운영·관리 방침" 
         subtitle="동승은 본 영상정보처리기기 운영·관리 방침을 통해 처리하는 영상정보가 어떠한 용도와 방식으로 이용·관리되고 있는지 알려 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-4xl">
         <div className="prose prose-gray max-w-none text-gray-600 text-body-m">

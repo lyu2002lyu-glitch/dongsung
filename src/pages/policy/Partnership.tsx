@@ -59,6 +59,9 @@ export default function Partnership() {
         title="업무 제휴 문의" 
         subtitle="동승과 함께 새로운 미래를 만들어갈 파트너를 모십니다." 
         imageSrc="https://img.freepik.com/free-photo/motivated-business-people-put-hands-together-loyalty-engagement-concept-closeup_1163-4718.jpg"
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
         <motion.div

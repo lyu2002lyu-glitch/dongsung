@@ -32,6 +32,9 @@ export default function Affiliate() {
         title="특수관계회사" 
         subtitle="레저 및 라이프스타일 산업을 선도하는 특수관계회사를 소개합니다." 
         imageSrc={GENERATED_IMAGES.AFFILIATE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
         <div className="space-y-48 mb-40">

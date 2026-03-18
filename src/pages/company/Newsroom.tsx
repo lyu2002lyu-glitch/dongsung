@@ -84,6 +84,9 @@ export default function Newsroom() {
         title="뉴스룸" 
         subtitle="동승의 최신 소식과 다양한 활동을 전해드립니다." 
         imageSrc={GENERATED_IMAGES.GREETING}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-7xl">
         <div className="flex items-center gap-4 mb-12">

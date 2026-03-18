@@ -63,6 +63,9 @@ export default function Notice() {
         title="공고/IR" 
         subtitle="동승의 주요 IR 공고 사항을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-5xl">
         <div className="overflow-x-auto border-t-2 border-black">

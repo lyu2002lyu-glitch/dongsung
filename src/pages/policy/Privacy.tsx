@@ -8,6 +8,9 @@ export default function Privacy() {
         title="개인정보처리방침" 
         subtitle="동승은 개인정보보호법에 따라 정보주체의 개인정보를 보호하고 원활하게 처리하기 위하여 본 개인정보처리방침을 공개합니다." 
         imageSrc={GENERATED_IMAGES.DISCLOSURE}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default max-w-4xl">
         <div className="prose prose-gray max-w-none text-gray-600 text-body-m">

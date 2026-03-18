@@ -58,6 +58,9 @@ export default function Report() {
         title="윤리경영위반 신고" 
         subtitle="투명하고 깨끗한 기업문화를 위해 임직원의 비윤리적 행위를 신고받습니다." 
         imageSrc={GENERATED_IMAGES.ETHICS_REPORT}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       
       <section className="section-padding container-default">

@@ -257,6 +257,9 @@ export default function InternalInfo() {
         title="내부정보관리규정" 
         subtitle="투명하고 공정한 기업 운영을 위한 내부정보 관리 규정입니다." 
         imageSrc={GENERATED_IMAGES.ETHICS_REGULATION}
+        paddingTop="pt-[100px] md:pt-0"
+        paddingBottom="pb-[20px] md:pb-0"
+        pcVerticalAlignment="bottom"
       />
       
       <section className="section-padding container-default">
