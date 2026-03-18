@@ -82,7 +82,7 @@ export default function AdminWrite() {
 
   const handlePasswordSubmit = (e: FormEvent) => {
     e.preventDefault();
-    if (password === '1234') {
+    if (password === 'Lee5245lee!') {
       setIsAuthenticated(true);
     } else {
       showAlert('비밀번호가 틀렸습니다.');
