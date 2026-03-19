@@ -61,7 +61,7 @@ export default function Notice() {
     <div className="bg-white">
       <PageHeader 
         title="공고/IR" 
-        subtitle="동승의 주요 IR 공고 사항을 안내해 드립니다." 
+        subtitle="동승의 공고 및 IR 안내 사항을 안내해 드립니다." 
         imageSrc={GENERATED_IMAGES.NOTICE}
         paddingTop="pt-[100px] md:pt-0"
         paddingBottom="pb-[20px] md:pb-0"
