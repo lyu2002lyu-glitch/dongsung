@@ -59,12 +59,12 @@ export default function Recruitment() {
       icon: <Search size={32} strokeWidth={1.5} />,
     },
     {
-      title: '1차면접',
+      title: '1차 면접',
       desc: '실무진과 직무·창의성 공유',
       icon: <Users size={32} strokeWidth={1.5} />,
     },
     {
-      title: '2차면접',
+      title: '2차 면접',
       desc: '경영진과 함께 동승의 비전을 나눔',
       icon: <Users size={32} strokeWidth={1.5} />,
     },
@@ -139,9 +139,7 @@ export default function Recruitment() {
         <div className="text-center mb-32">
           <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Mission</h2>
           <h3 className="text-h2 text-black mb-12 tracking-tight flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 break-keep">
-            <span>우리의 미션은 "</span>
-            <span className="font-bold text-black">디자이너에게 영감을 주는 것</span>
-            <span>"입니다.</span>
+            <span className="font-bold text-black">우리의 미션은 "디자이너에게 영감을 주는 것"입니다.</span>
           </h3>
           <p className="text-gray-500 text-body-m max-w-4xl mx-auto leading-relaxed">
             우리는 패션 창작을 위한 모든 재료(원단, 부자재, 액세서리 등)가 집약된 전 세계 3위 규모의 클러스터로서, <br />
@@ -207,7 +205,7 @@ export default function Recruitment() {
                 <span className="text-h4 font-bold text-gray-300 group-hover:text-gray-500">{item.num}</span>
                 <h3 className="text-h4 tracking-tight">{item.title}</h3>
               </div>
-              <p className="text-gray-500 group-hover:text-gray-400 text-body-m leading-relaxed">{item.desc}</p>
+              <p className="text-gray-500 group-hover:text-gray-400 text-body-m leading-relaxed break-keep px-2 lg:px-6">{item.desc}</p>
             </div>
           ))}
         </div>
