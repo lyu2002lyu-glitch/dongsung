@@ -187,6 +187,13 @@ body {
 .goog-te-banner-frame {
   display: none !important;
 }
+#goog-gt-tt, 
+.goog-te-balloon-frame, 
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+.VIpgJd-yAWNEb-hvhgNd-aXYTce,
+.VIpgJd-yAWNEb-hvhgNd {
+  display: none !important;
+}
 .goog-tooltip {
   display: none !important;
 }
