@@ -30,15 +30,27 @@ export default function Header() {
   const toggleLanguage = () => {
     const targetLang = currentLang === 'ko' ? 'en' : 'ko';
     
+    const host = window.location.hostname;
+    const rootDomain = host.replace(/^www\./, '');
+    const domains = [
+      host,
+      `.${host}`,
+      rootDomain,
+      `.${rootDomain}`
+    ];
+    
     if (targetLang === 'ko') {
       // Clear Google Translate cookies to completely disable translation and restore original text
-      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/;`;
-      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${window.location.hostname}; path=/;`;
+      const paths = ['/', '/auto'];
       
-      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/auto;";
-      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/auto;`;
-      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${window.location.hostname}; path=/auto;`;
+      domains.forEach(domain => {
+        paths.forEach(path => {
+          document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${domain}; path=${path};`;
+        });
+      });
+      paths.forEach(path => {
+        document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=${path};`;
+      });
       
       window.location.reload();
       return;
@@ -53,14 +65,13 @@ export default function Header() {
     } else {
       // 2. Fallback: Set cookies and reload
       const cookieValue = `/ko/${targetLang}`;
-      document.cookie = `googtrans=${cookieValue}; path=/`;
-      document.cookie = `googtrans=${cookieValue}; domain=${window.location.hostname}; path=/`;
-      document.cookie = `googtrans=${cookieValue}; domain=.${window.location.hostname}; path=/`;
       
-      // Also set for auto
+      domains.forEach(domain => {
+        document.cookie = `googtrans=${cookieValue}; domain=${domain}; path=/`;
+        document.cookie = `googtrans=/auto/${targetLang}; domain=${domain}; path=/`;
+      });
+      document.cookie = `googtrans=${cookieValue}; path=/`;
       document.cookie = `googtrans=/auto/${targetLang}; path=/`;
-      document.cookie = `googtrans=/auto/${targetLang}; domain=${window.location.hostname}; path=/`;
-      document.cookie = `googtrans=/auto/${targetLang}; domain=.${window.location.hostname}; path=/`;
       
       window.location.reload();
     }
