@@ -37,11 +37,11 @@ export default function NoticeDetail() {
           // Fallback to sample data
           setData({
             id: Number(id),
-            title: id === '1' ? '제54기 정기주주총회 소집공고' : '샘플 전자 공고',
+            title: id === '1' ? '제56기 정기주주총회 소집공고' : '샘플 전자 공고',
             content: id === '1'
-              ? '제54기 정기주주총회를 아래와 같이 개최하오니 참석하여 주시기 바랍니다.\n\n1. 일시: 2024년 3월 28일 오전 10시\n2. 장소: 본사 대강당\n3. 의안: 제54기 재무제표 승인, 이사 선임, 감사 선임 등'
+              ? '제56기 정기주주총회를 아래와 같이 개최하오니 참석하여 주시기 바랍니다.\n\n1. 일시: 2025년 3월 28일 오전 10시\n2. 장소: 본사 대강당\n3. 의안: 제56기 재무제표 승인, 이사 선임, 감사 선임 등'
               : '본 게시물은 데이터베이스 연결 전 노출되는 샘플 데이터입니다.',
-            created_at: id === '1' ? '2024-03-15T00:00:00Z' : new Date().toISOString(),
+            created_at: id === '1' ? '2025-03-15T00:00:00Z' : new Date().toISOString(),
             views: 342
           });
         } else if (items && items.length > 0) {

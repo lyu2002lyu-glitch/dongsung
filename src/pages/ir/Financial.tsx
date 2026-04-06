@@ -6,37 +6,37 @@ import { motion } from 'motion/react';
 
 export default function Financial() {
   const reports = [
-    { year: '2024', title: '제55기 결산 재무제표', date: '2025.04.03', size: '1.2MB', url: '/fiscalyear2024.pdf' },
-    { year: '2023', title: '제54기 결산 재무제표', date: '2024.04.03', size: '1.1MB', url: '/fiscalyear2023.pdf' },
-    { year: '2022', title: '제53기 결산 재무제표', date: '2023.04.04', size: '1.3MB', url: '/fiscalyear2022.pdf' },
+    { year: '2025', title: '제57기 결산 재무제표', date: '2026.03.23', size: '1.4MB', url: 'https://www.dongsungin.com/fiscalyear2025.pdf' },
+    { year: '2024', title: '제56기 결산 재무제표', date: '2025.04.03', size: '1.2MB', url: 'https://www.dongsungin.com/fiscalyear2024.pdf' },
+    { year: '2023', title: '제55기 결산 재무제표', date: '2024.04.03', size: '1.1MB', url: 'https://www.dongsungin.com/fiscalyear2023.pdf' },
   ];
 
   const chartData = [
-    { name: '2021', revenue: 564, profit: 102 },
     { name: '2022', revenue: 724, profit: 215 },
     { name: '2023', revenue: 796, profit: 241 },
     { name: '2024', revenue: 789, profit: 199 },
+    { name: '2025', revenue: 786, profit: 133 },
   ];
 
   const stats = [
     { 
-      label: '매출액 (2024년 정보)', 
-      value: '789억', 
-      growth: '-0.9%', 
+      label: '매출액 (2025년 정보)', 
+      value: '786억', 
+      growth: '-0.4%', 
       icon: <TrendingUp className="text-black" size={20} />,
       desc: '지속적인 임대 수익 및 사업 확장'
     },
     { 
-      label: '영업이익 (2024년 정보)', 
-      value: '199억', 
-      growth: '-17.1%', 
+      label: '영업이익 (2025년 정보)', 
+      value: '133억', 
+      growth: '-33.2%', 
       icon: <BarChart3 className="text-black" size={20} />,
       desc: '효율적인 운영 관리를 통한 수익 극대화'
     },
     { 
-      label: '당기순이익 (2024년 정보)', 
-      value: '244억', 
-      growth: '+0.3%', 
+      label: '당기순이익 (2025년 정보)', 
+      value: '145억', 
+      growth: '-40.6%', 
       icon: <PieChart className="text-black" size={20} />,
       desc: '안정적인 자산 가치 상승 반영'
     }
@@ -222,26 +222,26 @@ export default function Financial() {
               <thead>
                 <tr className="text-gray-400 text-xs uppercase tracking-widest font-bold">
                   <th className="px-8 py-6">항목</th>
-                  <th className="px-8 py-6 text-black">2024년 (제55기)</th>
-                  <th className="px-8 py-6">2023년 (제54기)</th>
-                  <th className="px-8 py-6">2022년 (제53기)</th>
-                  <th className="px-8 py-6">2021년 (제52기)</th>
+                  <th className="px-8 py-6 text-black">2025년 (제57기)</th>
+                  <th className="px-8 py-6">2024년 (제56기)</th>
+                  <th className="px-8 py-6">2023년 (제55기)</th>
+                  <th className="px-8 py-6">2022년 (제54기)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
                 {[
-                  { label: '매출액', v24: '78,933', v23: '79,633', v22: '72,368', v21: '56,366' },
-                  { label: '영업이익', v24: '19,932', v23: '24,053', v22: '21,514', v21: '10,173' },
-                  { label: '당기순이익', v24: '24,423', v23: '24,361', v22: '17,266', v21: '10,436' },
-                  { label: '자산총계', v24: '374,276', v23: '360,935', v22: '347,236', v21: '329,053' },
-                  { label: '자본총계', v24: '163,215', v23: '136,798', v22: '112,207', v21: '93,122' },
+                  { label: '매출액', v25: '78,625', v24: '78,933', v23: '79,633', v22: '72,368' },
+                  { label: '영업이익', v25: '13,296', v24: '19,932', v23: '24,053', v22: '21,514' },
+                  { label: '당기순이익', v25: '14,525', v24: '24,423', v23: '24,361', v22: '17,266' },
+                  { label: '자산총계', v25: '492,936', v24: '374,276', v23: '360,935', v22: '347,236' },
+                  { label: '자본총계', v25: '302,982', v24: '163,215', v23: '136,798', v22: '112,207' },
                 ].map((row, idx) => (
                   <tr key={idx} className="hover:bg-gray-50 transition-colors group">
                     <td className="px-8 py-6 font-bold text-gray-900 text-base">{row.label}</td>
-                    <td className="px-8 py-6 font-bold text-black text-base">{row.v24}</td>
+                    <td className="px-8 py-6 font-bold text-black text-base">{row.v25}</td>
+                    <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v24}</td>
                     <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v23}</td>
                     <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v22}</td>
-                    <td className="px-8 py-6 text-gray-600 text-base font-medium">{row.v21}</td>
                   </tr>
                 ))}
               </tbody>

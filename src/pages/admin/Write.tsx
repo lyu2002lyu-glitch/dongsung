@@ -309,7 +309,7 @@ export default function AdminWrite() {
                   rows={12}
                   className="w-full border border-gray-200 rounded-md p-4 focus:ring-0 focus:border-black transition-colors text-body-m resize-none"
                   placeholder="상세 내용을 입력하세요"
-                  required={board !== 'recruitments'}
+                  required
                 />
               </div>
             )}

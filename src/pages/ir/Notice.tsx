@@ -28,9 +28,9 @@ export default function Notice() {
           console.error('Error fetching notices:', error);
           // Fallback to sample data if Supabase fails
           setNotices([
-            { id: 1, title: '제54기 정기주주총회 소집공고', created_at: '2024-03-15T00:00:00Z', views: 342 },
-            { id: 2, title: '주식명의개서 정지 및 주주명부 폐쇄공고', created_at: '2024-02-10T00:00:00Z', views: 112 },
-            { id: 3, title: '제53기 결산공고', created_at: '2023-03-20T00:00:00Z', views: 456 },
+            { id: 1, title: '제56기 정기주주총회 소집공고', created_at: '2025-03-15T00:00:00Z', views: 342 },
+            { id: 2, title: '주식명의개서 정지 및 주주명부 폐쇄공고', created_at: '2025-02-10T00:00:00Z', views: 112 },
+            { id: 3, title: '제55기 결산공고', created_at: '2024-03-20T00:00:00Z', views: 456 },
           ]);
         } else {
           const filteredNotices = (data || []).filter(notice => !notice.title.startsWith('[RECRUIT]'));
@@ -40,9 +40,9 @@ export default function Notice() {
         console.error('Unexpected error:', err);
         // Fallback to sample data on unexpected error
         setNotices([
-          { id: 1, title: '제55기 정기주주총회 소집공고', created_at: new Date().toISOString(), views: 124 },
+          { id: 1, title: '제57기 정기주주총회 소집공고', created_at: new Date().toISOString(), views: 124 },
           { id: 2, title: '주식명의개서 정지 및 주주명부 폐쇄공고', created_at: new Date(Date.now() - 86400000 * 30).toISOString(), views: 89 },
-          { id: 3, title: '제54기 결산공고', created_at: new Date(Date.now() - 86400000 * 365).toISOString(), views: 256 },
+          { id: 3, title: '제56기 결산공고', created_at: new Date(Date.now() - 86400000 * 365).toISOString(), views: 256 },
         ]);
       } finally {
         setLoading(false);
