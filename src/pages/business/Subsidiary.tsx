@@ -6,8 +6,8 @@ import { motion } from 'motion/react';
 export default function Subsidiary() {
   const companies = [
     {
-      name: '코트야드 바이 메리어트 평택',
-      desc: '코트야드 메리어트 평택은 삼성전자, 캠프 험프리스 등과 인접한 평택 최초의 글로벌 호텔로, 230개의 현대적 객실과 다양한 다이닝 공간, 실내 수영장, 피트니스 센터 등을 갖추고 있습니다. 비즈니스 및 레저 여행객을 위한 최적의 입지를 바탕으로, 고품격 서비스와 시설로 차별화된 숙박 경험을 제공합니다.',
+      name: '(주)동승호텔앤리조트',
+      desc: '코트야드 바이 메리어트 평택은 삼성전자, 캠프 험프리스 등과 인접한 평택 최초의 글로벌 호텔로, 230개의 현대적 객실과 다양한 다이닝 공간, 실내 수영장, 피트니스 센터 등을 갖추고 있습니다. 비즈니스 및 레저 여행객을 위한 최적의 입지를 바탕으로, 고품격 서비스와 시설로 차별화된 숙박 경험을 제공합니다.',
       img: '/b_sub_01.jpg',
       link: 'https://link24.kr/90ceGcH',
     },
@@ -71,7 +71,7 @@ export default function Subsidiary() {
                 <p className="text-body-m text-gray-500 whitespace-pre-line">
                   {company.desc}
                 </p>
-                {company.name === '코트야드 바이 메리어트 평택' && (
+                {company.name === '(주)동승호텔앤리조트' && (
                   <div className="pt-10">
                     <a 
                       href={company.link} 

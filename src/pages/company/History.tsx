@@ -83,7 +83,7 @@ export default function History() {
     {
       year: '1990',
       events: [
-        { month: '12', desc: ['동진문화재단 설립'] },
+        { month: '12', desc: ['(재)동승문화재단 설립'] },
       ],
     },
     {

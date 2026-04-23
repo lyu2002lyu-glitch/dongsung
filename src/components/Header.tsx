@@ -102,6 +102,7 @@ export default function Header() {
         { title: '동승', path: '/business/parent' },
         { title: '종속회사', path: '/business/subsidiary' },
         { title: '특수관계회사', path: '/business/affiliate' },
+        { title: '문화재단', path: '/business/foundation' },
       ],
     },
     {

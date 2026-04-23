@@ -52,7 +52,7 @@ export default function Footer() {
                 <option value="" className="bg-black text-white">FAMILY SITE</option>
                 <option value="http://www.ddm-mall.com/" className="bg-black text-white">동대문종합시장</option>
                 <option value="https://www.marriott.co.kr/hotels/travel/seldp-jw-marriott-dongdaemun-square-seoul/" className="bg-black text-white">JW메리어트 동대문 스퀘어 서울</option>
-                <option value="https://www.marriott.co.kr/hotels/travel/selcy-courtyard-seoul-botanic-park/" className="bg-black text-white">코트야드 바이 메리어트 평택</option>
+                <option value="https://www.marriott.co.kr/hotels/travel/selcy-courtyard-seoul-botanic-park/" className="bg-black text-white">(주)동승호텔앤리조트</option>
                 <option value="https://icheon.newspring.co.kr/Home/Index" className="bg-black text-white">㈜동승골프앤리조트</option>
                 <option value="https://sangju.newspring.co.kr/Home/Index" className="bg-black text-white">㈜동승레저</option>
               </select>

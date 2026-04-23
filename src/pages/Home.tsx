@@ -345,9 +345,9 @@ export default function Home() {
             <p className="text-gray-500 text-body-l">다양한 분야에서 최고의 가치를 제공합니다.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 border border-gray-100 rounded-xl overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border border-gray-100 rounded-xl overflow-hidden">
             {/* Parent Company */}
-            <Link to="/business/parent" className="group block border-b md:border-b-0 md:border-r border-gray-100 last:border-r-0">
+            <Link to="/business/parent" className="group block border-b lg:border-b-0 border-r border-gray-100 last:border-r-0">
               <div className="p-12 md:p-16 h-full transition-all duration-500 hover:bg-gray-50">
                 <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
                   <Building2 size={24} strokeWidth={1.5} />
@@ -364,14 +364,14 @@ export default function Home() {
             </Link>
 
             {/* Subsidiary */}
-            <Link to="/business/subsidiary" className="group block border-b md:border-b-0 md:border-r border-gray-100 last:border-r-0">
+            <Link to="/business/subsidiary" className="group block border-b lg:border-b-0 border-r border-gray-100 last:border-r-0">
               <div className="p-12 md:p-16 h-full transition-all duration-500 hover:bg-gray-50">
                 <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
                   <Globe size={24} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-h4 text-black mb-6 tracking-tight">종속회사</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
-                  코트야드 바이 메리어트 평택, (주)동승파크앤리조트 등 글로벌 확장을 주도합니다.
+                  (주)동승호텔앤리조트, (주)동승파크앤리조트 등 글로벌 확장을 주도합니다.
                 </p>
                 <div className="flex items-center text-black font-bold">
                   <span className="text-[12px] tracking-[0.1em] uppercase">자세히 보기</span>
@@ -381,7 +381,7 @@ export default function Home() {
             </Link>
 
             {/* Affiliate */}
-            <Link to="/business/affiliate" className="group block">
+            <Link to="/business/affiliate" className="group block border-b md:border-b-0 border-r border-gray-100 last:border-r-0">
               <div className="p-12 md:p-16 h-full transition-all duration-500 hover:bg-gray-50">
                 <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
                   <Briefcase size={24} strokeWidth={1.5} />
@@ -389,6 +389,23 @@ export default function Home() {
                 <h3 className="text-h4 text-black mb-6 tracking-tight">특수관계회사</h3>
                 <p className="text-gray-500 mb-10 text-body-m">
                   (주)동승골프앤리조트, (주)동승레저 등 레저 및 라이프스타일 산업을 선도합니다.
+                </p>
+                <div className="flex items-center text-black font-bold">
+                  <span className="text-[12px] tracking-[0.1em] uppercase">자세히 보기</span>
+                  <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
+
+            {/* Foundation */}
+            <Link to="/business/foundation" className="group block">
+              <div className="p-12 md:p-16 h-full transition-all duration-500 hover:bg-gray-50">
+                <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-10 group-hover:scale-105 transition-transform rounded-md">
+                  <Heart size={24} strokeWidth={1.5} />
+                </div>
+                <h3 className="text-h4 text-black mb-6 tracking-tight">문화재단</h3>
+                <p className="text-gray-500 mb-10 text-body-m">
+                  교육과 인재육성을 통해 더 가치 있는 미래를 만들어가는 (재)동승문화재단입니다.
                 </p>
                 <div className="flex items-center text-black font-bold">
                   <span className="text-[12px] tracking-[0.1em] uppercase">자세히 보기</span>

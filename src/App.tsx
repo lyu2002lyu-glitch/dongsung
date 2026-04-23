@@ -15,6 +15,7 @@ import NewsroomDetail from './pages/company/NewsroomDetail';
 import Parent from './pages/business/Parent';
 import Subsidiary from './pages/business/Subsidiary';
 import Affiliate from './pages/business/Affiliate';
+import Foundation from './pages/business/Foundation';
 import Recruitment from './pages/careers/Recruitment';
 import Financial from './pages/ir/Financial';
 import Disclosure from './pages/ir/Disclosure';
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="business/parent" element={<Parent />} />
           <Route path="business/subsidiary" element={<Subsidiary />} />
           <Route path="business/affiliate" element={<Affiliate />} />
+          <Route path="business/foundation" element={<Foundation />} />
           <Route path="careers/recruitment" element={<Recruitment />} />
           <Route path="ir/financial" element={<Financial />} />
           <Route path="ir/disclosure" element={<Disclosure />} />
