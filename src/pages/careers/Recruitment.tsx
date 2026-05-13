@@ -156,7 +156,7 @@ export default function Recruitment() {
               <p className="text-gray-600 text-body-m">매력적인 공간 조성을 위한 미션수행</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
-              <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">관리본부</h4>
+              <h4 className="text-h5 font-bold mb-4 border-b border-gray-100 pb-4">지원본부</h4>
               <p className="text-gray-600 text-body-m">구성원들을 위한 일하기<br />좋은 환경 미션 수행</p>
             </div>
             <div className="bg-white border border-gray-200 p-8 rounded-xl text-center hover:border-black transition-colors">
