@@ -1,5 +1,5 @@
 import PageHeader from '../../components/PageHeader';
-import { ArrowRight, Trophy, MapPin, Star, Users } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { GENERATED_IMAGES } from '../../constants/images';
 import { motion } from 'motion/react';
 
@@ -17,13 +17,6 @@ export default function Affiliate() {
       img: '/c_sub_02.jpg',
       link: 'https://sangju.newspring.co.kr/Home/Index',
     },
-  ];
-
-  const features = [
-    { icon: <Trophy />, title: "최고의 시설", desc: "국내 최고 수준의 레저 시설과 인프라 구축" },
-    { icon: <MapPin />, title: "전략적 위치", desc: "접근성이 뛰어난 최적의 입지 조건 확보" },
-    { icon: <Star />, title: "차별화된 서비스", desc: "고객 맞춤형 프리미엄 서비스 제공" },
-    { icon: <Users />, title: "커뮤니티 활성화", desc: "회원 간의 유대감 형성을 위한 다양한 프로그램" }
   ];
 
   return (
@@ -72,25 +65,6 @@ export default function Affiliate() {
                 </div>
               </div>
             </div>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 border border-gray-100 mb-40 rounded-xl overflow-hidden">
-          {features.map((item, idx) => (
-            <motion.div 
-              key={idx} 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="p-12 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-r-0 hover:bg-gray-50 transition-all group bg-white flex flex-col items-center text-center"
-            >
-              <div className="w-12 h-12 bg-gray-50 border border-gray-100 flex items-center justify-center mb-10 text-black group-hover:bg-black group-hover:text-white transition-colors rounded-md">
-                {item.icon}
-              </div>
-              <h4 className="text-h4 mb-6 tracking-tight">{item.title}</h4>
-              <p className="text-gray-500 text-body-m">{item.desc}</p>
-            </motion.div>
           ))}
         </div>
 

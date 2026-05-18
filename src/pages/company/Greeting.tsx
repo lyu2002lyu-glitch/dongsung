@@ -53,13 +53,6 @@ export default function Greeting() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-h2 mb-10 tracking-tight leading-tight font-light">
-                <span className="text-gray-300">
-                  패션 크리에이터에게 영감을 주는<br />
-                  가장 창의적인 생태계를 구축합니다,
-                </span>{" "}
-                <span className="font-bold text-black">동승</span>
-              </h2>
               <div className="text-gray-700 space-y-6 text-body-m leading-relaxed">
                 <p>
                   ㈜동승이 지난 50 년간 일관되게 집중해온 회사의 소명은, 패션 크리에이터에게 영감을 주는 생태계를 구축하는 것입니다.
@@ -109,20 +102,6 @@ export default function Greeting() {
                   <h5 className="text-h4 mb-6 tracking-tight">{item.title}</h5>
                   <p className="text-gray-500 text-body-m">{item.desc}</p>
                 </motion.div>
-              ))}
-            </div>
-            
-            <div className="mt-32 pt-24 border-t border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-              {[
-                { label: "창립 연도", value: "1969" },
-                { label: "임직원 수", value: "200+" },
-                { label: "업계 위상", value: "No.1" },
-                { label: "사업 영역", value: "Global" }
-              ].map((stat, idx) => (
-                <div key={idx}>
-                  <div className="text-h2 font-light mb-3">{stat.value}</div>
-                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">{stat.label}</div>
-                </div>
               ))}
             </div>
           </div>

@@ -29,43 +29,6 @@ export default function Parent() {
         pcVerticalAlignment="bottom"
       />
       <section className="section-padding container-default">
-        {/* Business Infographic */}
-        <div className="mb-40 bg-white border border-gray-100 p-16 md:p-24 relative overflow-hidden rounded-xl">
-          <div className="relative z-10 flex flex-col lg:flex-row items-center gap-24">
-            <div className="lg:w-[38.2%]">
-              <h2 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.6em] mb-8">Business Structure</h2>
-              <h3 className="text-h2 tracking-tight mb-12">그룹의 핵심 역량</h3>
-              <div className="grid grid-cols-2 gap-8">
-                <div className="p-10 bg-gray-50 border border-gray-100 rounded-lg">
-                  <div className="text-h2 font-light mb-3">50+</div>
-                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Years</div>
-                </div>
-                <div className="p-10 bg-gray-50 border border-gray-100 rounded-lg">
-                  <div className="text-h2 font-light mb-3">200+</div>
-                  <div className="text-body-s font-bold tracking-widest uppercase text-gray-400">Employees</div>
-                </div>
-              </div>
-            </div>
-            <div className="lg:w-[61.8%] w-full space-y-10">
-              {[
-                { label: "Market Leadership", value: 95 },
-                { label: "Service Quality", value: 98 },
-                { label: "Innovation Index", value: 88 }
-              ].map((item, idx) => (
-                <div key={idx} className="space-y-4">
-                  <div className="flex justify-between text-body-s font-bold tracking-widest uppercase text-gray-400">
-                    <span>{item.label}</span>
-                    <span className="text-black">{item.value}%</span>
-                  </div>
-                  <div className="h-[1px] w-full bg-gray-100">
-                    <div className="h-full bg-black" style={{ width: `${item.value}%` }}></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
         <div className="space-y-48">
           {companies.map((company, idx) => (
             <div id={`company-${idx}`} key={idx} className={`flex flex-col lg:flex-row gap-24 items-center ${idx % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
