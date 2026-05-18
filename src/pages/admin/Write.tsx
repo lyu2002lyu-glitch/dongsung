@@ -2,8 +2,7 @@ import { useState, FormEvent, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import { supabase } from '../../lib/supabase';
-import { GENERATED_IMAGES } from '../../constants/images';
-import { Trash2 } from 'lucide-react';
+import { Trash2, Edit2 } from 'lucide-react';
 
 interface Post {
   id: any;
@@ -22,7 +21,7 @@ export default function AdminWrite() {
   const [recruitmentUrl, setRecruitmentUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [password, setPassword] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => sessionStorage.getItem('isAdminAuthorized') === 'true');
   const [posts, setPosts] = useState<Post[]>([]);
   const [isLoadingPosts, setIsLoadingPosts] = useState(false);
   const [modalConfig, setModalConfig] = useState<{
@@ -84,6 +83,7 @@ export default function AdminWrite() {
     e.preventDefault();
     if (password === 'Lee5245lee!') {
       setIsAuthenticated(true);
+      sessionStorage.setItem('isAdminAuthorized', 'true');
     } else {
       showAlert('비밀번호가 틀렸습니다.');
       setPassword('');
@@ -377,13 +377,22 @@ export default function AdminWrite() {
                         <span className="text-[11px] font-bold text-gray-400 tracking-tighter">{formatDate(post.created_at)}</span>
                       </td>
                       <td className="p-6 text-center">
-                        <button 
-                          onClick={() => handleDelete(post.id, post.type)}
-                          className="text-gray-300 hover:text-red-500 transition-colors p-2"
-                          title="Delete Post"
-                        >
-                          <Trash2 size={16} />
-                        </button>
+                        <div className="flex items-center justify-center gap-2">
+                          <button 
+                            onClick={() => navigate(`/admin/edit/${post.type}/${post.id}`)}
+                            className="text-gray-300 hover:text-blue-500 transition-colors p-2"
+                            title="Edit Post"
+                          >
+                            <Edit2 size={16} />
+                          </button>
+                          <button 
+                            onClick={() => handleDelete(post.id, post.type)}
+                            className="text-gray-300 hover:text-red-500 transition-colors p-2"
+                            title="Delete Post"
+                          >
+                            <Trash2 size={16} />
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))

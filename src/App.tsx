@@ -29,6 +29,7 @@ import Privacy from './pages/policy/Privacy';
 import CCTV from './pages/policy/CCTV';
 import Partnership from './pages/policy/Partnership';
 import AdminWrite from './pages/admin/Write';
+import AdminEdit from './pages/admin/Edit';
 
 export default function App() {
   return (
@@ -59,6 +60,7 @@ export default function App() {
           <Route path="cctv" element={<CCTV />} />
           <Route path="partnership" element={<Partnership />} />
           <Route path="admin/write" element={<AdminWrite />} />
+          <Route path="admin/edit/:type/:id" element={<AdminEdit />} />
         </Route>
       </Routes>
     </BrowserRouter>
