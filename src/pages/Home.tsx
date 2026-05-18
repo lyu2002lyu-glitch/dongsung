@@ -418,40 +418,19 @@ export default function Home() {
       </section>
 
       {/* Trust Indicator / History Highlight */}
-      <section className="bg-gray-50 text-black section-padding border-b border-gray-100">
-        <div className="container-default">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
-            <div>
-              <h2 className="text-h2 mb-10 tracking-tight whitespace-normal md:whitespace-nowrap text-gray-500">
-                산업을 연결하고, <br /> <span className="text-black">가치를 확장하는 플랫폼</span>
-              </h2>
-              <p className="text-gray-500 text-body-l mb-16">
-                1969년 동대문종합시장에서 시작된 동승은, 이제 단순한 공간을 넘어 사람·상품·비즈니스를 유기적으로 연결하는 플랫폼으로 진화하고 있습니다.  신뢰를 기반으로 더 빠르고, 더 효율적인 산업 생태계를 만들어갑니다.
-              </p>
-              <Link to="/company/history" className="btn-primary rounded-md">
-                <span className="text-[14px] font-bold tracking-widest uppercase">연혁 보기</span>
-                <ArrowRight size={16} className="ml-3" />
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 gap-12">
-              <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">1969</div>
-                <div className="text-gray-500 text-body-s">창립 연도</div>
-              </div>
-              <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">200+</div>
-                <div className="text-gray-500 text-body-s">임직원 수</div>
-              </div>
-              <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">No.1</div>
-                <div className="text-gray-500 text-body-s">업계 위상</div>
-              </div>
-              <div className="border-t border-gray-100 pt-10">
-                <div className="text-h1 mb-4">Global</div>
-                <div className="text-gray-500 text-body-s">사업 영역</div>
-              </div>
-            </div>
-          </div>
+      <section className="bg-gray-50 text-black section-padding border-b border-gray-100 text-center">
+        <div className="container-default max-w-4xl mx-auto">
+          <h2 className="text-h2 mb-10 tracking-tight text-gray-500">
+            산업을 연결하고, <br /> <span className="text-black">가치를 확장하는 플랫폼</span>
+          </h2>
+          <p className="text-gray-500 text-body-l mb-16">
+            1969년 동대문종합시장에서 시작된 동승은, 이제 단순한 공간을 넘어 사람·상품·비즈니스를 유기적으로 연결하는 플랫폼으로 진화하고 있습니다.<br className="hidden md:block" />
+            신뢰를 기반으로 더 빠르고, 더 효율적인 산업 생태계를 만들어갑니다.
+          </p>
+          <Link to="/company/history" className="btn-primary rounded-md inline-flex">
+            <span className="text-[14px] font-bold tracking-widest uppercase">연혁 보기</span>
+            <ArrowRight size={16} className="ml-3" />
+          </Link>
         </div>
       </section>
 
