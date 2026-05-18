@@ -106,14 +106,6 @@ export default function Header() {
       ],
     },
     {
-      title: '인재채용',
-      path: '/careers/recruitment',
-      icon: <Users size={20} />,
-      subItems: [
-        { title: '채용정보', path: '/careers/recruitment' },
-      ],
-    },
-    {
       title: '투자정보',
       path: '/ir/financial',
       icon: <TrendingUp size={20} />,
