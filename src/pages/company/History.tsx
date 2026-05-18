@@ -42,7 +42,6 @@ export default function History() {
       events: [
         { month: '02', title: 'DSAF, LLC 설립', desc: '미국 조지아주 애틀란타에 DSAF, LLC를 설립하며, 동승의 해외 사업 기반을 확대하고 글로벌 네트워크를 강화했습니다.' },
         { month: '03', title: 'DSAK, LLC 설립', desc: '미국 조지아주 애틀란타에 DSAK, LLC를 설립하여 해외 법인 운영 역량을 강화하고, 글로벌 사업 확장의 토대를 마련했습니다.' },
-        { month: '03', title: '강진 테마파크 조성사업 착수', desc: '지역 관광 활성화와 레저 문화 확산을 목표로 강진 테마파크 조성사업에 착수하며, 복합 관광 개발 분야로 사업 영역을 넓혔습니다.' },
       ],
     },
     {
