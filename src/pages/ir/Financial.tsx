@@ -1,5 +1,5 @@
 import PageHeader from '../../components/PageHeader';
-import { Download, TrendingUp, PieChart, BarChart3, ArrowUpRight, FileText, ShieldCheck, Award } from 'lucide-react';
+import { Download, TrendingUp, PieChart, BarChart3, ArrowUpRight, FileText, ShieldCheck } from 'lucide-react';
 import { GENERATED_IMAGES } from '../../constants/images';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, AreaChart, Area, LabelList } from 'recharts';
 import { motion } from 'motion/react';
@@ -54,33 +54,6 @@ export default function Financial() {
       />
       
       <section className="py-24 container-default max-w-7xl">
-        {/* Industry Rank Highlight */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mb-16 bg-black text-white p-8 md:p-12 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden relative"
-        >
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-4">
-              <Award className="text-gray-400" size={24} />
-              <span className="text-gray-400 font-bold tracking-widest text-xs uppercase">Industry Leadership</span>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-white">
-              Urban Real Estate Hospitality 플랫폼
-            </h2>
-            <p className="text-gray-400 max-w-xl">
-              Asset Value + Stable Cash flow + Growth
-            </p>
-          </div>
-          <div className="text-center md:text-right relative z-10">
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl inline-block">
-              <div className="text-xs text-gray-400 uppercase tracking-widest mb-1">Credit Rating</div>
-              <div className="text-3xl font-bold text-white">A+ <span className="text-sm font-normal text-gray-400">Stable</span></div>
-            </div>
-          </div>
-        </motion.div>
-
         {/* Disclaimer */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
