@@ -17,7 +17,7 @@ export default function Footer() {
               <p>대표전화: 02-2262-0114 | 팩스: 02-2262-0111</p>
             </div>
             <p className="text-gray-500 text-body-s font-medium tracking-widest uppercase mt-12">
-              © {new Date().getFullYear()} DONGSEUNG. All rights reserved.
+              © {new Date().getFullYear()} DONGSUNG. All rights reserved.
             </p>
           </div>
 
