@@ -3,6 +3,28 @@
   "framework": null,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "dongsung-store-archive-lyu2002lyu-glitchs-projects.vercel.app"
+        }
+      ],
+      "destination": "https://ddm-store-log-lyu.vercel.app/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "dongsung-store-archive.vercel.app"
+        }
+      ],
+      "destination": "https://ddm-store-log-lyu.vercel.app/:path*",
+      "permanent": false
+    },
+    {
       "source": "/admin",
       "destination": "https://store-photo-log-uw2026.lyu2002.chatgpt.site/admin",
       "permanent": false
