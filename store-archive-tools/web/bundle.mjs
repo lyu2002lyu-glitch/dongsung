@@ -1,0 +1,11 @@
+import {build} from 'esbuild';
+import {cp, mkdir, readFile, rm, writeFile} from 'node:fs/promises';
+import {basename} from 'node:path';
+await rm('dist',{recursive:true,force:true});
+await mkdir('dist',{recursive:true});
+const result=await build({entryPoints:['entry.tsx'],outdir:'dist',bundle:true,format:'esm',splitting:true,platform:'browser',target:['es2020'],jsx:'automatic',minify:true,metafile:true,define:{'process.env.NODE_ENV':'"production"'},entryNames:'assets/dashboard-[hash]',chunkNames:'assets/chunk-[hash]',legalComments:'eof'});
+const entry=Object.entries(result.metafile.outputs).find(([,v])=>v.entryPoint==='entry.tsx');
+if(!entry?.[1].cssBundle)throw Error('Dashboard entry or style missing');
+await cp('static','dist',{recursive:true});
+const html=(await readFile('index.template.html','utf8')).replace('__ENTRY__','/assets/'+basename(entry[0])).replace('__CSS__','/assets/'+basename(entry[1].cssBundle));
+await writeFile('dist/index.html',html);

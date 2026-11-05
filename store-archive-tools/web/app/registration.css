@@ -1,0 +1,25 @@
+.registration-sheet .drawer-header { border-bottom: 1px solid var(--line); flex: none; }
+.registration-sheet { max-height: 100dvh; }
+.registration-scroll { min-height: 0; overscroll-behavior: contain; padding-bottom: max(28px, env(safe-area-inset-bottom)); }
+.registration-scroll > .field-group, .registration-location { margin-bottom: 22px; }
+.registration-scroll .field-group input { font-size: 16px; }
+.registration-location { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.registration-location .field-group { min-width: 0; }
+.registration-location small { font-weight: 450; font-size: 11px; color: #75847e; }
+.registration-photos { padding-top: 22px; border-top: 1px solid var(--line); }
+.registration-photos .photo-field-heading h3 { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 650; }
+.registration-photos .photo-field-heading em { font-style: normal; color: var(--green); font-size: 10px; }
+.registration-pickers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.native-picker, .replace-picker { position: relative; overflow: hidden; cursor: pointer; }
+.native-picker { display: flex; align-items: center; justify-content: center; gap: 9px; flex-direction: column; border: 1px solid #d6e5dd; border-radius: 9px; min-height: 95px; color: var(--green); }
+.native-picker.camera-action { background: #eff7f2; }
+.native-picker strong { font-size: 14px; }
+.native-picker input, .replace-picker input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.native-picker:focus-within, .replace-picker:focus-within { outline: 3px solid #73bcb0; outline-offset: 2px; }
+.native-picker:has(input:disabled), .replace-picker:has(input:disabled) { opacity: .55; }
+.registration-hint, .registration-submit p { font-size: 12px; color: #67776f; line-height: 1.65; word-break: keep-all; }
+.registration-hint { margin-top: 10px; }
+.replace-picker { display: inline-flex; gap: 4px; align-items: center; color: var(--green); min-height: 34px; font-size: 12px; }
+.registration-submit { border-top: 1px solid var(--line); margin-top: 25px; padding-top: 19px; }
+.registration-submit .button { margin-top: 13px; width: 100%; min-height: 49px; font-size: 15px; }
+@media (max-width: 700px) { .registration-scroll { padding: 20px; padding-bottom: max(28px, env(safe-area-inset-bottom)); } .native-picker { min-height: 88px; } }

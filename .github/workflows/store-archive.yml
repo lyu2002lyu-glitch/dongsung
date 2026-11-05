@@ -1,0 +1,59 @@
+name: 매장 데이터 동기화
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/store-archive.yml"
+      - "store-archive-tools/sync.py"
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dongsung-store-archive-data
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    if: github.repository == 'lyu2002lyu-glitch/dongsung' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: main의 동기화 스크립트 준비
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          path: control
+          persist-credentials: false
+          sparse-checkout: |
+            store-archive-tools
+      - name: 매장 데이터 브랜치 열기
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: store-archive-data
+          path: mirror-out
+          sparse-checkout: |
+            data/store-archive
+      - name: 공개 매장 정보와 사진을 검증하고 보관
+        working-directory: mirror-out
+        env:
+          STORE_ARCHIVE_ORIGIN: ${{ vars.STORE_ARCHIVE_ORIGIN }}
+        run: python3 ../control/store-archive-tools/sync.py
+      - name: 변경된 기록을 데이터 브랜치에 커밋
+        working-directory: mirror-out
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add --force -A -- data/store-archive
+          if git diff --cached --quiet -- data/store-archive; then
+            echo "이미 최신 상태입니다."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "매장 정보 및 사진 동기화" -- data/store-archive
+          git push origin HEAD:refs/heads/store-archive-data
