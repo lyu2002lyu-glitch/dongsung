@@ -1,0 +1,22 @@
+{
+  "building": "",
+  "createdAt": "2026-11-05T06:34:43.410Z",
+  "floor": "",
+  "id": "62aedf94-0273-4fca-b340-45f68ca97bed",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"00e9f8a74b89c818e2d2cc64cf28d832\"",
+      "id": "3ad727f0-acb1-4df6-b5ef-39a55c801085",
+      "mime": "image/jpeg",
+      "name": "17938604609388832382099577651121.jpg",
+      "path": "photos/3ad727f0-acb1-4df6-b5ef-39a55c801085.jpg",
+      "sha256": "9bd26074714dbfd362104f00f66f3a458c7ff765a3e49eef0f13d7043c29015a",
+      "size": 4575157,
+      "url": "/api/photos/3ad727f0-acb1-4df6-b5ef-39a55c801085"
+    }
+  ],
+  "unit": "C5012",
+  "updatedAt": null,
+  "version": 0
+}
