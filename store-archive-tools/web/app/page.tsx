@@ -11,7 +11,8 @@ type Photo = { id: string; url: string; name: string; size: number; mime: string
 type StoreEntry = { id: string; name: string; unit: string; createdAt: string; photos: Photo[] };
 type Collection = { items: StoreEntry[]; total: number; page: number; pageSize: number; stats: { stores: number; photos: number; today: number; latestAt: string | null } };
 type DraftPhoto = PreparedPhoto & { key: number };
-type FieldErrors = Partial<Record<"name" | "unit" | "building" | "floor" | "photos", string>>;
+type FieldErrors = Partial<Record<"unit" | "photos", string>>;
+function storeLabel(store: StoreEntry) { return store.name?.trim() || store.unit; }
 function dateLabel(value: string, time = false) {
   return new Intl.DateTimeFormat("ko-KR", { year: "numeric", month: "2-digit", day: "2-digit", ...(time ? { hour: "2-digit", minute: "2-digit", hour12: false } : {}), timeZone: "Asia/Seoul" }).format(new Date(value));
 }
@@ -83,7 +84,7 @@ export default function Dashboard() {
   }, [selected]);
   const resetSearch = () => { setQuery(""); setDebouncedQuery(""); setPage(1); };
   const openDetail = (item: StoreEntry, index = 0) => { setPhotoIndex(index); setSelected(item); };
-  const onSaved = (item: StoreEntry) => { setRegisterOpen(false); resetSearch(); setSort("latest"); setRefreshKey(k => k + 1); setToast(`${item.name}의 정보와 사진 ${item.photos.length}장이 저장되었습니다.`); };
+  const onSaved = (item: StoreEntry) => { setRegisterOpen(false); resetSearch(); setSort("latest"); setRefreshKey(k => k + 1); setToast(`${storeLabel(item)}의 정보와 사진 ${item.photos.length}장이 저장되었습니다.`); };
   const stats = collection?.stats;
   const pages = collection ? Math.max(1, Math.ceil(collection.total / collection.pageSize)) : 1;
 
@@ -101,13 +102,13 @@ export default function Dashboard() {
     <div className="main-shell">
       <header className="topbar"><div className="breadcrumb"><span>워크스페이스</span><ChevronRight size={14}/><strong>등록된 매장</strong></div><a href="/" className="mobile-brand"><Store size={21}/><strong>매장 기록</strong></a><div className="header-actions"><a className="admin-entry" href="https://store-photo-log-uw2026.lyu2002.chatgpt.site/admin"><ShieldCheck size={15}/>관리자</a><div className={`connection ${ready === false ? "offline" : ""}`}><i className={ready === null ? "checking" : ""}/>{ready === null ? "저장소 확인 중" : ready ? "저장소 연결됨" : "저장소 연결 확인 필요"}</div></div></header>
       <main className="main-content">
-        <section className="page-heading"><div><p className="eyebrow">STORE COLLECTION</p><h1>매장을 기록하는<br className="mobile-break"/> 가장 간편한 방법</h1><p className="heading-description">로그인 없이 매장 정보와 현장 사진을 등록하고 찾아보세요.</p></div><button className="button primary add-store" onClick={() => setRegisterOpen(true)}><Plus size={19}/>새 매장 등록</button></section>
+        <section className="page-heading"><div><p className="eyebrow">STORE COLLECTION</p><h1>매장을 기록하는<br className="mobile-break"/> 가장 간편한 방법</h1><p className="heading-description">로그인 없이 매장호수와 현장 사진을 등록하고 찾아보세요.</p></div><button className="button primary add-store" onClick={() => setRegisterOpen(true)}><Plus size={19}/>새 매장 등록</button></section>
         <section className="stats-grid" aria-label="등록 현황">
           <div className="stat-card"><span className="stat-icon green"><Store size={21}/></span><div><p>전체 매장</p><strong>{stats?.stores.toLocaleString() ?? "—"}<small>개</small></strong></div><span className="stat-foot">누적 등록</span></div>
           <div className="stat-card"><span className="stat-icon blue"><ImageIcon size={21}/></span><div><p>저장된 사진</p><strong>{stats?.photos.toLocaleString() ?? "—"}<small>장</small></strong></div><span className="stat-foot">매장별 보관</span></div>
           <div className="stat-card"><span className="stat-icon amber"><Clock3 size={21}/></span><div><p>오늘 등록</p><strong>{stats?.today.toLocaleString() ?? "—"}<small>개</small></strong></div><span className="stat-foot">한국 시간 기준</span></div>
         </section>
-        <section className="workflow-strip"><span className="workflow-caption"><Camera size={19}/>현장에서 바로 기록하세요</span><div className="workflow-steps"><span><b>1</b>매장명</span><ChevronRight/><span><b>2</b>매장호수</span><ChevronRight/><span><b>3</b>사진 촬영</span><ChevronRight/><span><b>4</b>등록 완료</span></div></section>
+        <section className="workflow-strip"><span className="workflow-caption"><Camera size={19}/>현장에서 바로 기록하세요</span><div className="workflow-steps"><span><b>1</b>매장호수</span><ChevronRight/><span><b>2</b>사진 촬영 또는 선택</span><ChevronRight/><span><b>3</b>등록 완료</span></div></section>
         <section className="collection-section" aria-label="등록된 매장 조회">
           <div className="section-heading"><div><h2>등록된 매장 <span>{collection?.total.toLocaleString() ?? "0"}</span></h2><p>매장명 또는 호수로 원하는 매장을 찾아보세요.</p></div><button className="text-button refresh-button" onClick={() => setRefreshKey(k => k + 1)} disabled={loading} aria-label="목록 새로고침"><RefreshCw size={16} className={loading ? "spin" : ""}/><span>새로고침</span></button></div>
           <div className="collection-toolbar"><div className="search-field"><Search size={19}/><input aria-label="매장명 또는 매장호수 검색" placeholder="매장명 또는 매장호수 검색" value={query} onChange={e => setQuery(e.target.value)}/>{query && <button onClick={resetSearch} aria-label="검색 초기화"><X size={16}/></button>}</div><div className="view-tools"><label className="sort-field"><span className="sr-only">정렬 방식</span><select value={sort} onChange={e => { setSort(e.target.value); setPage(1); }}><option value="latest">최신 등록순</option><option value="name">매장명순</option><option value="unit">매장호수순</option></select></label><div className="view-switch" aria-label="보기 방식"><button aria-label="리스트 보기" aria-pressed={view === "list"} className={view === "list" ? "selected" : ""} onClick={() => setView("list")}><List size={18}/></button><button aria-label="갤러리 보기" aria-pressed={view === "gallery"} className={view === "gallery" ? "selected" : ""} onClick={() => setView("gallery")}><LayoutGrid size={18}/></button></div></div></div>
@@ -115,8 +116,8 @@ export default function Dashboard() {
           <div className={`collection-body ${view}`} aria-busy={loading}>
             {error ? <div className="empty-state error-state" role="alert"><span className="empty-icon"><CircleAlert size={33}/></span><h3>목록을 불러오지 못했어요</h3><p>{error}</p><button className="button secondary" onClick={() => setRefreshKey(k => k + 1)}><RefreshCw size={16}/>다시 시도</button></div>
               : loading ? <div className="loading-state"><LoaderCircle className="spin" size={25}/><span>매장 기록을 불러오는 중입니다.</span></div>
-              : !collection?.items.length ? <div className="empty-state">{debouncedQuery ? <><span className="empty-icon"><Search size={35}/></span><h3>검색된 매장이 없습니다</h3><p>매장명이나 호수의 일부만 입력해 보세요.</p><button className="button secondary" onClick={resetSearch}>전체 목록 보기</button></> : <><div className="empty-illustration"><div className="illustration-card back"><ImageIcon size={25}/></div><div className="illustration-card front"><Store size={34}/><i/><i/></div><span className="illustration-plus"><Plus size={17}/></span></div><h3>첫 번째 매장을 기록해 보세요</h3><p>매장명과 호수를 입력하고 사진을 더하면<br/>이곳에 매장 기록이 차곡차곡 쌓입니다.</p><button className="button primary" onClick={() => setRegisterOpen(true)}><Plus size={17}/>새 매장 등록</button><span className="empty-hint"><ShieldCheck size={13}/>로그인 없이 매장 정보를 등록할 수 있습니다.</span></> }</div>
-              : view === "list" ? <><div className="desktop-list"><table><thead><tr><th>매장 사진</th><th>매장명</th><th>매장호수</th><th>사진</th><th>등록일시</th><th><span className="sr-only">상세보기</span></th></tr></thead><tbody>{collection.items.map(item => <tr key={item.id}><td><button className="table-thumb" onClick={() => openDetail(item)} aria-label={`${item.name} 사진 확대`}><img crossOrigin="anonymous" src={item.photos[0]?.url} alt={`${item.name} 대표 사진`} loading="lazy"/><span><Maximize2 size={15}/></span></button></td><td><button className="store-name" onClick={() => openDetail(item)}>{item.name}</button></td><td><span className="unit-tag">{item.unit}</span></td><td><span className="photo-count"><ImageIcon size={15}/>{item.photos.length}장</span></td><td className="date-cell">{dateLabel(item.createdAt, true)}</td><td><button className="detail-button" onClick={() => openDetail(item)}>상세보기<ChevronRight size={14}/></button></td></tr>)}</tbody></table></div><div className="mobile-store-list">{collection.items.map(item => <StoreCard key={item.id} item={item} onOpen={openDetail} compact/>)}</div></>
+              : !collection?.items.length ? <div className="empty-state">{debouncedQuery ? <><span className="empty-icon"><Search size={35}/></span><h3>검색된 매장이 없습니다</h3><p>매장명이나 호수의 일부만 입력해 보세요.</p><button className="button secondary" onClick={resetSearch}>전체 목록 보기</button></> : <><div className="empty-illustration"><div className="illustration-card back"><ImageIcon size={25}/></div><div className="illustration-card front"><Store size={34}/><i/><i/></div><span className="illustration-plus"><Plus size={17}/></span></div><h3>첫 번째 매장을 기록해 보세요</h3><p>매장호수를 입력하고 사진을 더하면<br/>이곳에 매장 기록이 차곡차곡 쌓입니다.</p><button className="button primary" onClick={() => setRegisterOpen(true)}><Plus size={17}/>새 매장 등록</button><span className="empty-hint"><ShieldCheck size={13}/>로그인 없이 매장 정보를 등록할 수 있습니다.</span></> }</div>
+              : view === "list" ? <><div className="desktop-list"><table><thead><tr><th>매장 사진</th><th>매장</th><th>매장호수</th><th>사진</th><th>등록일시</th><th><span className="sr-only">상세보기</span></th></tr></thead><tbody>{collection.items.map(item => <tr key={item.id}><td><button className="table-thumb" onClick={() => openDetail(item)} aria-label={`${storeLabel(item)} 사진 확대`}><img crossOrigin="anonymous" src={item.photos[0]?.url} alt={`${storeLabel(item)} 대표 사진`} loading="lazy"/><span><Maximize2 size={15}/></span></button></td><td><button className="store-name" onClick={() => openDetail(item)}>{storeLabel(item)}</button></td><td><span className="unit-tag">{item.unit}</span></td><td><span className="photo-count"><ImageIcon size={15}/>{item.photos.length}장</span></td><td className="date-cell">{dateLabel(item.createdAt, true)}</td><td><button className="detail-button" onClick={() => openDetail(item)}>상세보기<ChevronRight size={14}/></button></td></tr>)}</tbody></table></div><div className="mobile-store-list">{collection.items.map(item => <StoreCard key={item.id} item={item} onOpen={openDetail} compact/>)}</div></>
               : <div className="gallery-grid">{collection.items.map(item => <StoreCard key={item.id} item={item} onOpen={openDetail}/>)}</div>}
           </div>
           {!loading && !error && !!collection?.items.length && <div className="pagination"><span>전체 {collection.total.toLocaleString()}개 중 {(page - 1) * collection.pageSize + 1}–{Math.min(page * collection.pageSize, collection.total)}개</span><div><button disabled={page <= 1} onClick={() => setPage(p => p - 1)} aria-label="이전 페이지"><ChevronLeft size={17}/></button><strong>{page} <span>/ {pages}</span></strong><button disabled={page >= pages} onClick={() => setPage(p => p + 1)} aria-label="다음 페이지"><ChevronRight size={17}/></button></div></div>}
@@ -126,16 +127,14 @@ export default function Dashboard() {
     </div>
     <Registration open={registerOpen} onClose={() => setRegisterOpen(false)} onSaved={onSaved}/>
     {toast && <div className="toast" role="status"><CheckCircle2 size={20}/><span>{toast}</span><button onClick={() => setToast("")} aria-label="알림 닫기"><X size={16}/></button></div>}
-    {selected && <div className="lightbox-backdrop" onMouseDown={e => { if (e.target === e.currentTarget) setSelected(null); }}><div className="lightbox" role="dialog" aria-modal="true" aria-labelledby="photo-dialog-title" ref={detailRef}><header className="lightbox-header"><div><span className="lightbox-unit"><MapPin size={13}/>{selected.unit}</span><h2 id="photo-dialog-title">{selected.name}</h2><p>{dateLabel(selected.createdAt, true)} 등록 · 사진 {selected.photos.length}장</p></div><button className="lightbox-close" onClick={() => setSelected(null)} aria-label="사진 상세 닫기" data-autofocus><X size={23}/></button></header><div className="lightbox-stage">{selected.photos.length > 1 && <button className="photo-nav prev" aria-label="이전 사진" onClick={() => setPhotoIndex(i => (i - 1 + selected.photos.length) % selected.photos.length)}><ChevronLeft size={25}/></button>}<img crossOrigin="anonymous" src={selected.photos[photoIndex]?.url} alt={`${selected.name} · ${selected.unit} · 사진 ${photoIndex + 1}`}/>{selected.photos.length > 1 && <button className="photo-nav next" aria-label="다음 사진" onClick={() => setPhotoIndex(i => (i + 1) % selected.photos.length)}><ChevronRight size={25}/></button>}<span className="photo-position">{photoIndex + 1} / {selected.photos.length}</span></div><footer className="lightbox-footer"><div className="thumbnail-track">{selected.photos.map((photo, i) => <button key={photo.id} className={photoIndex === i ? "active" : ""} onClick={() => setPhotoIndex(i)} aria-label={`${i + 1}번째 사진 보기`} aria-pressed={photoIndex === i}><img crossOrigin="anonymous" src={photo.url} alt={`사진 ${i + 1}`} loading="lazy"/></button>)}</div><span className="photo-filename">{selected.photos[photoIndex]?.name}</span></footer></div></div>}
+    {selected && <div className="lightbox-backdrop" onMouseDown={e => { if (e.target === e.currentTarget) setSelected(null); }}><div className="lightbox" role="dialog" aria-modal="true" aria-labelledby="photo-dialog-title" ref={detailRef}><header className="lightbox-header"><div>{selected.name?.trim() && <span className="lightbox-unit"><MapPin size={13}/>{selected.unit}</span>}<h2 id="photo-dialog-title">{storeLabel(selected)}</h2><p>{dateLabel(selected.createdAt, true)} 등록 · 사진 {selected.photos.length}장</p></div><button className="lightbox-close" onClick={() => setSelected(null)} aria-label="사진 상세 닫기" data-autofocus><X size={23}/></button></header><div className="lightbox-stage">{selected.photos.length > 1 && <button className="photo-nav prev" aria-label="이전 사진" onClick={() => setPhotoIndex(i => (i - 1 + selected.photos.length) % selected.photos.length)}><ChevronLeft size={25}/></button>}<img crossOrigin="anonymous" src={selected.photos[photoIndex]?.url} alt={`${selected.name?.trim() ? `${selected.name} · ` : ""}${selected.unit} · 사진 ${photoIndex + 1}`}/>{selected.photos.length > 1 && <button className="photo-nav next" aria-label="다음 사진" onClick={() => setPhotoIndex(i => (i + 1) % selected.photos.length)}><ChevronRight size={25}/></button>}<span className="photo-position">{photoIndex + 1} / {selected.photos.length}</span></div><footer className="lightbox-footer"><div className="thumbnail-track">{selected.photos.map((photo, i) => <button key={photo.id} className={photoIndex === i ? "active" : ""} onClick={() => setPhotoIndex(i)} aria-label={`${i + 1}번째 사진 보기`} aria-pressed={photoIndex === i}><img crossOrigin="anonymous" src={photo.url} alt={`사진 ${i + 1}`} loading="lazy"/></button>)}</div><span className="photo-filename">{selected.photos[photoIndex]?.name}</span></footer></div></div>}
   </div>;
 }
 
 function StoreCard({ item, onOpen, compact = false }: { item: StoreEntry; onOpen: (item: StoreEntry) => void; compact?: boolean }) {
-  return <article className={`store-card ${compact ? "compact" : ""}`}><button className="store-card-image" onClick={() => onOpen(item)} aria-label={`${item.name} 사진 확대`}><img crossOrigin="anonymous" src={item.photos[0]?.url} alt={`${item.name} 대표 사진`} loading="lazy"/><span><ImageIcon size={13}/>{item.photos.length}</span><i><Maximize2 size={20}/></i></button><div className="store-card-body"><span className="unit-tag">{item.unit}</span><button className="store-name" onClick={() => onOpen(item)}>{item.name}</button><div className="store-card-bottom"><span>{dateLabel(item.createdAt)}</span><button aria-label={`${item.name} 상세보기`} onClick={() => onOpen(item)}><ArrowUpRight size={18}/></button></div></div></article>;
+  return <article className={`store-card ${compact ? "compact" : ""}`}><button className="store-card-image" onClick={() => onOpen(item)} aria-label={`${storeLabel(item)} 사진 확대`}><img crossOrigin="anonymous" src={item.photos[0]?.url} alt={`${storeLabel(item)} 대표 사진`} loading="lazy"/><span><ImageIcon size={13}/>{item.photos.length}</span><i><Maximize2 size={20}/></i></button><div className="store-card-body">{item.name?.trim() && <span className="unit-tag">{item.unit}</span>}<button className="store-name" onClick={() => onOpen(item)}>{storeLabel(item)}</button><div className="store-card-bottom"><span>{dateLabel(item.createdAt)}</span><button aria-label={`${storeLabel(item)} 상세보기`} onClick={() => onOpen(item)}><ArrowUpRight size={18}/></button></div></div></article>;
 }
 
-const buildingSuggestions = ['A동', 'B동', 'C동', 'D동', '신관'];
-const floorSuggestions = ['지하2층', '지하1층', ...Array.from({length: 10}, (_, n) => `${n + 1}층`)];
 
 type RegistrationProps = { open: boolean; onClose: () => void; onSaved: (item: StoreEntry) => void };
 type UploadResponse = { item?: StoreEntry; error?: string; fields?: FieldErrors };
@@ -165,10 +164,7 @@ function uploadRegistration(form: FormData, onProgress: (value: number) => void)
 }
 
 function Registration({ open, onClose, onSaved }: RegistrationProps) {
-  const [name, setName] = useState('');
   const [unit, setUnit] = useState('');
-  const [building, setBuilding] = useState('');
-  const [floor, setFloor] = useState('');
   const [photos, setPhotos] = useState<DraftPhoto[]>([]);
   const [fields, setFields] = useState<FieldErrors>({});
   const [error, setError] = useState('');
@@ -200,7 +196,7 @@ function Registration({ open, onClose, onSaved }: RegistrationProps) {
   }
   function showFieldErrors(next: FieldErrors) {
     setFields(next);
-    const field = (['name', 'unit', 'building', 'floor', 'photos'] as const).find(key => next[key]);
+    const field = (['unit', 'photos'] as const).find(key => next[key]);
     if (!field) return;
     requestAnimationFrame(() => {
       const element = document.getElementById(`store-${field}`);
@@ -264,7 +260,6 @@ function Registration({ open, onClose, onSaved }: RegistrationProps) {
     event.preventDefault();
     if (submitLock.current || processingLock.current) return;
     const errors: FieldErrors = {};
-    if (!name.trim()) errors.name = '매장명을 입력해 주세요.';
     if (!unit.trim()) errors.unit = '매장호수를 입력해 주세요.';
     if (!photosRef.current.length) errors.photos = '매장 사진을 1장 이상 추가해 주세요.';
     if (Object.keys(errors).length) { showFieldErrors(errors); return; }
@@ -276,10 +271,7 @@ function Registration({ open, onClose, onSaved }: RegistrationProps) {
       if (!requestId.current) requestId.current = makeRequestId();
       const form = new FormData();
       form.set('requestId', requestId.current);
-      form.set('name', name.trim());
       form.set('unit', unit.trim());
-      form.set('building', building.trim());
-      form.set('floor', floor.trim());
       photosRef.current.forEach(photo => form.append('photos', photo.blob, photo.name));
       const result = await uploadRegistration(form, setUploadPercent);
       if (!result.item) {
@@ -289,7 +281,7 @@ function Registration({ open, onClose, onSaved }: RegistrationProps) {
       photosRef.current.forEach(photo => URL.revokeObjectURL(photo.url));
       updatePhotos([]);
       requestId.current = '';
-      setName(''); setUnit(''); setBuilding(''); setFloor(''); setFields({});
+      setUnit(''); setFields({});
       onSaved(result.item);
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : '저장에 실패했습니다. 다시 시도해 주세요.');
@@ -304,12 +296,7 @@ function Registration({ open, onClose, onSaved }: RegistrationProps) {
     <div className="registration-drawer registration-sheet" role="dialog" aria-modal="true" aria-labelledby="registration-title" ref={dialogRef}>
       <header className="drawer-header"><h2 id="registration-title">새 매장 등록</h2><button className="icon-button" type="button" onClick={close} disabled={disabled} aria-label="등록 창 닫기"><X size={23}/></button></header>
       <form className="drawer-body registration-scroll" onSubmit={save} noValidate>
-        <div className="field-group"><label htmlFor="store-name">매장명 <span>필수</span></label><input id="store-name" maxLength={100} required value={name} disabled={busy} placeholder="예: 동대문 원단" autoComplete="organization" onChange={event => {setName(event.target.value);changed('name');}} aria-invalid={!!fields.name} aria-describedby={fields.name ? 'name-error' : undefined}/>{fields.name && <p className="field-error" id="name-error">{fields.name}</p>}</div>
-        <div className="field-group"><label htmlFor="store-unit">매장호수 <span>필수</span></label><input id="store-unit" maxLength={60} required value={unit} disabled={busy} placeholder="예: A-204 또는 204호" autoComplete="off" onChange={event => {setUnit(event.target.value);changed('unit');}} aria-invalid={!!fields.unit} aria-describedby={fields.unit ? 'unit-error' : undefined}/>{fields.unit && <p className="field-error" id="unit-error">{fields.unit}</p>}</div>
-        <div className="registration-location">
-          <div className="field-group"><label htmlFor="store-building">동 <small>선택</small></label><input id="store-building" list="building-suggestions" maxLength={40} value={building} disabled={busy} autoComplete="off" placeholder="예: A동" onChange={event => {setBuilding(event.target.value);changed('building');}} aria-invalid={!!fields.building}/><datalist id="building-suggestions">{buildingSuggestions.map(value => <option key={value} value={value}/>)}</datalist>{fields.building && <p className="field-error">{fields.building}</p>}</div>
-          <div className="field-group"><label htmlFor="store-floor">층 <small>선택</small></label><input id="store-floor" list="floor-suggestions" maxLength={40} value={floor} disabled={busy} autoComplete="off" placeholder="예: 2층" onChange={event => {setFloor(event.target.value);changed('floor');}} aria-invalid={!!fields.floor}/><datalist id="floor-suggestions">{floorSuggestions.map(value => <option key={value} value={value}/>)}</datalist>{fields.floor && <p className="field-error">{fields.floor}</p>}</div>
-        </div>
+        <div className="field-group"><label htmlFor="store-unit">매장호수 <span>필수</span></label><input id="store-unit" maxLength={60} required value={unit} disabled={busy} placeholder="예: A동 2층 204호 또는 A-204" autoComplete="off" onChange={event => {setUnit(event.target.value);changed('unit');}} aria-invalid={!!fields.unit} aria-describedby={fields.unit ? 'unit-error' : undefined}/>{fields.unit && <p className="field-error" id="unit-error">{fields.unit}</p>}</div>
         <section className="registration-photos" aria-labelledby="registration-photos-label">
           <div className="photo-field-heading"><h3 id="registration-photos-label">매장 사진 <em>필수</em></h3><span>{photos.length} / {MAX_PHOTOS}장</span></div>
           <div className="registration-pickers">
