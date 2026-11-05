@@ -5,7 +5,9 @@ import os
 import re
 import shutil
 import tempfile
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib import error, parse, request
@@ -46,7 +48,7 @@ def validate_origin(origin):
 class Source:
     def __init__(self, origin):
         self.origin = validate_origin(origin)
-        self.opener = request.build_opener(NoRedirects())
+        self._local = threading.local()
 
     def get(self, path, limit, etag=None, extra_headers=None):
         # Construct paths here; never follow a URL contained in a public store.
@@ -56,9 +58,11 @@ class Source:
         if etag:
             headers["If-None-Match"] = etag
         req = request.Request(self.origin + path, headers=headers)
+        if not hasattr(self._local, "opener"):
+            self._local.opener = request.build_opener(NoRedirects())
         for attempt in range(3):
             try:
-                with self.opener.open(req, timeout=30) as response:
+                with self._local.opener.open(req, timeout=30) as response:
                     content = response.read(limit + 1)
                     valid_status = response.status == 200 or (response.status == 206 and "Range" in headers)
                     if not valid_status or len(content) > limit:
@@ -243,12 +247,24 @@ def synchronize(source, root, clock=None):
         tmp = Path(temp)
         staged = tmp / "new"
         staged.mkdir()
-        index = []
-        for store_id in sorted(before):
+        ordered_ids = sorted(before)
+        tasks = []
+        for store_id in ordered_ids:
             record = before[store_id]
             folder = staged / "stores" / store_id
             folder.mkdir(parents=True)
-            images = [fetch_image(source, record, image, archive, folder) for image in record["photos"]]
+            tasks.extend((record, image, folder) for image in record["photos"])
+        # Wait for all running downloads to stop before the temporary directory is removed.
+        # map preserves input order even when downloads finish out of order.
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            images = list(executor.map(
+                lambda task: fetch_image(source, task[0], task[1], archive, task[2]), tasks))
+        image_iter = iter(images)
+        index = []
+        for store_id in ordered_ids:
+            record = before[store_id]
+            folder = staged / "stores" / store_id
+            images = [next(image_iter) for _ in record["photos"]]
             contents = json_bytes({**record, "photos": images})
             (folder / "record.json").write_bytes(contents)
             index.append({"id": store_id, "version": record["version"], "recordSha256": sha(contents)})
