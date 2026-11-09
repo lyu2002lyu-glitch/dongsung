@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:12:10.784Z",
+  "floor": "지하층",
+  "id": "4579f847-fc47-4487-9f9a-176250950036",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"daf84c1419924bafff8d0d6aeea02a9b\"",
+      "id": "819414c2-7636-48f7-904f-81cef62d1305",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208313962.jpg",
+      "path": "photos/819414c2-7636-48f7-904f-81cef62d1305.jpg",
+      "sha256": "55937355e7d65e967c0c4b89be28679d01634e132198e878588c997b64ea6b7e",
+      "size": 548650,
+      "url": "/api/photos/819414c2-7636-48f7-904f-81cef62d1305"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "털 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb520",
+  "updatedAt": null,
+  "version": 1
+}

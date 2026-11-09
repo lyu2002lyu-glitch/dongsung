@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:47:49.596Z",
+  "floor": "5층",
+  "id": "2cfd71b6-dc25-4626-a294-a378e98ce2eb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"570fd3b1a2f738e3fdf90463bbcacb5c\"",
+      "id": "d70be692-dda2-4a46-a922-d08ff0d29ae3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203266863.jpg",
+      "path": "photos/d70be692-dda2-4a46-a922-d08ff0d29ae3.jpg",
+      "sha256": "e653fb531aa0144a4c8e0fc239ce7f5be7fbcfd1ca12e518e3793cb9d8815323",
+      "size": 763521,
+      "url": "/api/photos/d70be692-dda2-4a46-a922-d08ff0d29ae3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈",
+    "키링 스트랩",
+    "장식 참"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5223",
+  "updatedAt": null,
+  "version": 0
+}

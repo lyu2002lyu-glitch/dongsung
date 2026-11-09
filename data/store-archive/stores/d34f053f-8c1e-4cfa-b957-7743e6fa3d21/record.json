@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:14:51.024Z",
+  "floor": "5층",
+  "id": "d34f053f-8c1e-4cfa-b957-7743e6fa3d21",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5484093a0dfcf3ed41710d70f8b93f7c\"",
+      "id": "3b0514f8-7e51-4d41-834c-158296c88d06",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201288170.jpg",
+      "path": "photos/3b0514f8-7e51-4d41-834c-158296c88d06.jpg",
+      "sha256": "83c07ac3ca5e5537f8609ccb2f6dce17f5a9aa37b429ce0556daf7345fe14948",
+      "size": 855449,
+      "url": "/api/photos/3b0514f8-7e51-4d41-834c-158296c88d06"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폼폼 키링",
+    "비즈 키링",
+    "헤어핀"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5040",
+  "updatedAt": null,
+  "version": 0
+}

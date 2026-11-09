@@ -1,7 +1,7 @@
 {
-  "building": "",
+  "building": "A동",
   "createdAt": "2026-11-09T02:02:44.255Z",
-  "floor": "",
+  "floor": "5층",
   "id": "bfd4b51a-a242-4b92-aff7-c901398e9570",
   "name": "",
   "photos": [
@@ -25,5 +25,5 @@
   "productItemsSource": "photo",
   "unit": "A5144-1b",
   "updatedAt": null,
-  "version": 0
+  "version": 1
 }

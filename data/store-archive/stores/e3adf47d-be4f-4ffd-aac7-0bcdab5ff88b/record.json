@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:49:45.003Z",
+  "floor": "지하층",
+  "id": "e3adf47d-be4f-4ffd-aac7-0bcdab5ff88b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"820faa0bc4213a0f5539c9d598d2d7dc\"",
+      "id": "d8144bee-bb53-464c-8363-ef71758b1124",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206977578.jpg",
+      "path": "photos/d8144bee-bb53-464c-8363-ef71758b1124.jpg",
+      "sha256": "9c70c5ce16f166f0a42c6b16c371af89e78d1e123321c50fe3bf732d0d45f554",
+      "size": 508859,
+      "url": "/api/photos/d8144bee-bb53-464c-8363-ef71758b1124"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "배색 뜨개실",
+    "부클 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb92",
+  "updatedAt": null,
+  "version": 1
+}

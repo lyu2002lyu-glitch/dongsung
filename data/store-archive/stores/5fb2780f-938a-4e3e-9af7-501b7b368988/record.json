@@ -1,0 +1,27 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:38:13.922Z",
+  "floor": "지하층",
+  "id": "5fb2780f-938a-4e3e-9af7-501b7b368988",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"faa8e13a904541778db30a317c38a4f8\"",
+      "id": "de1648e2-184e-4d4d-bda7-bce2552d0d06",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209883179.jpg",
+      "path": "photos/de1648e2-184e-4d4d-bda7-bce2552d0d06.jpg",
+      "sha256": "77fae0c21fb958b85bf27c04fafd18f3fd6097a1ee09940ec326dd986c019481",
+      "size": 459122,
+      "url": "/api/photos/de1648e2-184e-4d4d-bda7-bce2552d0d06"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 편물 견본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb093",
+  "updatedAt": "2026-11-09T09:02:43.207Z",
+  "version": 2
+}

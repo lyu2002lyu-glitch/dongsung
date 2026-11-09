@@ -1,0 +1,29 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:37:09.068Z",
+  "floor": "지하층",
+  "id": "57dd9a14-c850-4f4a-8926-88174008c6cc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9df4ea9c05e69ed7669b9d555320b6aa\"",
+      "id": "d9b31204-8e9c-4f5d-8145-819c71c91e62",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209807739.jpg",
+      "path": "photos/d9b31204-8e9c-4f5d-8145-819c71c91e62.jpg",
+      "sha256": "96eff41458b84ab35df29a4bbab1c6d6b1fc12391b9d4cdc2463a1b01fcdb71a",
+      "size": 875063,
+      "url": "/api/photos/d9b31204-8e9c-4f5d-8145-819c71c91e62"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 체인",
+    "가방 손잡이",
+    "가방 스트랩"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb096",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:44:31.571Z",
+  "floor": "5층",
+  "id": "5ac76e76-4087-4b46-9a08-2bc16970b543",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2402ae38b6c201ba558cfbff04e2f714\"",
+      "id": "ef270809-8a6b-41c5-97d9-589b8c345c51",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203064564.jpg",
+      "path": "photos/ef270809-8a6b-41c5-97d9-589b8c345c51.jpg",
+      "sha256": "1987977dff3c3c760c9cac36806440f7910987997dbb73410dea589097b8c9af",
+      "size": 727872,
+      "url": "/api/photos/ef270809-8a6b-41c5-97d9-589b8c345c51"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 테이프",
+    "비즈 장식 줄",
+    "진주 모양 장식 줄"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5204",
+  "updatedAt": null,
+  "version": 0
+}

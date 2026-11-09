@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:55:43.278Z",
+  "floor": "지하층",
+  "id": "ca41cea5-2ba4-44cb-bb19-35b6f0405a43",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9f701cea269c5e3da796233617ecc60b\"",
+      "id": "02003b6a-83a2-4729-bc15-199f1617b3ed",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207330980.jpg",
+      "path": "photos/02003b6a-83a2-4729-bc15-199f1617b3ed.jpg",
+      "sha256": "69d4fe6fcf5eb5d949392b436c9f51d5012e620b13ee861f399e0129025c2956",
+      "size": 484135,
+      "url": "/api/photos/02003b6a-83a2-4729-bc15-199f1617b3ed"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "콘사",
+    "니트용 원사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb239",
+  "updatedAt": null,
+  "version": 1
+}

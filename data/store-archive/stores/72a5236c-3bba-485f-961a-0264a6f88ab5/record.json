@@ -1,0 +1,30 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:24:18.579Z",
+  "floor": "지하층",
+  "id": "72a5236c-3bba-485f-961a-0264a6f88ab5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"08d274d9d714abd97c8701a8f70e0855\"",
+      "id": "61ade3d7-36d2-456c-ac12-5c1737218ce8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209044040.jpg",
+      "path": "photos/61ade3d7-36d2-456c-ac12-5c1737218ce8.jpg",
+      "sha256": "f1b437beaffc77f2dd435ca7d2a10c46c4c385f199afe39fa4421e3c1e6c7659",
+      "size": 662836,
+      "url": "/api/photos/61ade3d7-36d2-456c-ac12-5c1737218ce8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "가방 스트랩",
+    "지퍼",
+    "가방 잠금장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb012",
+  "updatedAt": "2026-11-09T09:05:48.713Z",
+  "version": 2
+}

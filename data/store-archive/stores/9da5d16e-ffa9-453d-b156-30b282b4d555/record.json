@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:19:36.048Z",
+  "floor": "지하층",
+  "id": "9da5d16e-ffa9-453d-b156-30b282b4d555",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c89df93da99d18fae13421f595c36b99\"",
+      "id": "d07473ff-8f75-412c-8a0e-8a77b60e96e3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208767007.jpg",
+      "path": "photos/d07473ff-8f75-412c-8a0e-8a77b60e96e3.jpg",
+      "sha256": "ce1b37a83c42293fa0c30b669ec6aed55475a3dacc58d0a81c87e6bc158a323e",
+      "size": 336628,
+      "url": "/api/photos/d07473ff-8f75-412c-8a0e-8a77b60e96e3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "부직포 패턴지",
+    "부직포 심지",
+    "접착솜"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb574",
+  "updatedAt": null,
+  "version": 1
+}

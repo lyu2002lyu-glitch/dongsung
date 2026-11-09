@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:30:38.307Z",
+  "floor": "5층",
+  "id": "c428cc62-01c0-464d-a65e-5afecfc01092",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"057bc5be473cdaab4f84a03dc7af513d\"",
+      "id": "f064caed-283f-454a-b09b-a720d88be8dc",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202232033.jpg",
+      "path": "photos/f064caed-283f-454a-b09b-a720d88be8dc.jpg",
+      "sha256": "ad06bd30fb73695c35e6d438d1a59a489b15dd9433125fe1fa4c3b7e75c9ec5b",
+      "size": 856830,
+      "url": "/api/photos/f064caed-283f-454a-b09b-a720d88be8dc"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 체인",
+    "큰 고리 체인",
+    "가는 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5126",
+  "updatedAt": null,
+  "version": 0
+}

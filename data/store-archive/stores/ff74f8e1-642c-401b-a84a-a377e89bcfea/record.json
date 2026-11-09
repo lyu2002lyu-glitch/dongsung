@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:28:16.571Z",
+  "floor": "5층",
+  "id": "ff74f8e1-642c-401b-a84a-a377e89bcfea",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6aa43ce1f92574358f0872a6a514ac39\"",
+      "id": "af4a6862-2f72-4574-bb36-72fec950f25e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202084486.jpg",
+      "path": "photos/af4a6862-2f72-4574-bb36-72fec950f25e.jpg",
+      "sha256": "d191919a2ccf4a828d5edfece6be69197539be78e38fa73cf6e432eaad8cbff2",
+      "size": 710879,
+      "url": "/api/photos/af4a6862-2f72-4574-bb36-72fec950f25e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 비즈",
+    "모양 구슬",
+    "스트랩"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5099",
+  "updatedAt": null,
+  "version": 0
+}

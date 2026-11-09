@@ -1,0 +1,27 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:41:48.957Z",
+  "floor": "지하층",
+  "id": "70230222-ab09-4294-b5a3-d56fb1e8a9d3",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9b25b1d8caabf49fce16edd9fc6bb12e\"",
+      "id": "b0a5622e-672a-4a88-981c-e5fda61aabef",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794210101345.jpg",
+      "path": "photos/b0a5622e-672a-4a88-981c-e5fda61aabef.jpg",
+      "sha256": "2a672e7cd77cfd1afccf47b655b261e454b0949f95e92f3ca7d5fa20460d9c4b",
+      "size": 317619,
+      "url": "/api/photos/b0a5622e-672a-4a88-981c-e5fda61aabef"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "롤 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb002",
+  "updatedAt": null,
+  "version": 1
+}

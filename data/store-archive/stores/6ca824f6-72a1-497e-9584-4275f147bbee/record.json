@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:41:16.769Z",
+  "floor": "5층",
+  "id": "6ca824f6-72a1-497e-9584-4275f147bbee",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"71fdc226aec5456a43b00ce98ae3e95c\"",
+      "id": "15438fd0-5512-4dee-8ec5-fe6c8e929d76",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202873328.jpg",
+      "path": "photos/15438fd0-5512-4dee-8ec5-fe6c8e929d76.jpg",
+      "sha256": "d84cabc6733b537e65bc406a7701f643c3aef154caa24c2d7faffe5419c36945",
+      "size": 636856,
+      "url": "/api/photos/15438fd0-5512-4dee-8ec5-fe6c8e929d76"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "매듭 술 장식",
+    "금속 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5188",
+  "updatedAt": null,
+  "version": 0
+}

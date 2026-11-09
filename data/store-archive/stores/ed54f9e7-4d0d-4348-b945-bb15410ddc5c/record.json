@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:47:11.932Z",
+  "floor": "지하층",
+  "id": "ed54f9e7-4d0d-4348-b945-bb15410ddc5c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ead8a54be57342f18eab77e2da2f12b6\"",
+      "id": "9d52435e-7a3b-4ce9-a1b1-4fdb07d1bc71",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206824298.jpg",
+      "path": "photos/9d52435e-7a3b-4ce9-a1b1-4fdb07d1bc71.jpg",
+      "sha256": "466b944c38ee24570101a9ca2f0268281a8468966598152ed9eb4134450a03c7",
+      "size": 518788,
+      "url": "/api/photos/9d52435e-7a3b-4ce9-a1b1-4fdb07d1bc71"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "굵은 뜨개실",
+    "기모 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab106",
+  "updatedAt": null,
+  "version": 1
+}

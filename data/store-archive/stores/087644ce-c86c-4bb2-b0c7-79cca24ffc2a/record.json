@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:17:07.268Z",
+  "floor": "5층",
+  "id": "087644ce-c86c-4bb2-b0c7-79cca24ffc2a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"14b1bc47be7b3297cfcfb0836b5107a5\"",
+      "id": "a116a6ac-a214-4665-b2ae-8350657f4a19",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201424173.jpg",
+      "path": "photos/a116a6ac-a214-4665-b2ae-8350657f4a19.jpg",
+      "sha256": "6e1f5f36322235ad7ca346d514e09b0eabe7620156244e13a8266846c781681c",
+      "size": 766638,
+      "url": "/api/photos/a116a6ac-a214-4665-b2ae-8350657f4a19"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 비즈",
+    "장식 파츠",
+    "비즈 장식 펜"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5050",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:47:10.414Z",
+  "floor": "5층",
+  "id": "477c10ab-4c60-47f1-a31c-8503ca37fda0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f5ee395774d2943523cc1d3f1b49af28\"",
+      "id": "130e52e6-5f99-406a-ad68-44f4366db88a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203227683.jpg",
+      "path": "photos/130e52e6-5f99-406a-ad68-44f4366db88a.jpg",
+      "sha256": "0318bf360bd15b65b4731bbb66d4a673e23eed63fdf0df7dceca212f50f2d923",
+      "size": 673675,
+      "url": "/api/photos/130e52e6-5f99-406a-ad68-44f4366db88a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "목걸이",
+    "반지",
+    "귀걸이",
+    "펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5220",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:35:29.803Z",
+  "floor": "지하층",
+  "id": "0af482de-7a6a-4121-8f9f-a570a1e187d6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"09e8e0c9b707d051b466074e83a13ad9\"",
+      "id": "6777ad10-1d36-42f0-ba6a-9e4a63127c06",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206122146.jpg",
+      "path": "photos/6777ad10-1d36-42f0-ba6a-9e4a63127c06.jpg",
+      "sha256": "86b6f78e0f8739728a0c3f59404fb21c7ea0a836385bcbad3d541434965e2af5",
+      "size": 700574,
+      "url": "/api/photos/6777ad10-1d36-42f0-ba6a-9e4a63127c06"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반짝이 수세미실",
+    "단색 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab041",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:36:50.891Z",
+  "floor": "5층",
+  "id": "214b0437-9e0d-4e8b-a93c-067f1dcf4444",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0ff3a6ea61777ba1f5b909a25a9f16a6\"",
+      "id": "b423af91-3fe8-4477-81cf-d650fdedc2d8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202607009.jpg",
+      "path": "photos/b423af91-3fe8-4477-81cf-d650fdedc2d8.jpg",
+      "sha256": "2878cfd9a0dc5a6ffba7647e80c290b4d6a76a1109fe705d246720deb5d253d5",
+      "size": 669795,
+      "url": "/api/photos/b423af91-3fe8-4477-81cf-d650fdedc2d8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 줄비즈",
+    "진주 모양 줄비즈",
+    "태슬 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5158",
+  "updatedAt": null,
+  "version": 0
+}

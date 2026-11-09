@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:48:32.646Z",
+  "floor": "5층",
+  "id": "48aa2602-227a-448e-85f3-e603b31a1bd9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8f9ead33805b879da248342c8e5ba812\"",
+      "id": "2ad4599a-e3b0-4503-a515-5b4e34af1b76",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203309825.jpg",
+      "path": "photos/2ad4599a-e3b0-4503-a515-5b4e34af1b76.jpg",
+      "sha256": "a96e2a809c2d3a4bc87e8471d657d10ca33a014e56609301af45fb6984ba5c69",
+      "size": 751570,
+      "url": "/api/photos/2ad4599a-e3b0-4503-a515-5b4e34af1b76"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "로프 스트랩",
+    "미니어처 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5226",
+  "updatedAt": null,
+  "version": 0
+}

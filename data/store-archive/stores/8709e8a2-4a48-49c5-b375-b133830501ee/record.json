@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:40:09.903Z",
+  "floor": "5층",
+  "id": "8709e8a2-4a48-49c5-b375-b133830501ee",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"04a77a6629a0a0994cd5440835b59b8a\"",
+      "id": "af432ba9-be76-4733-8435-ceb4430000fa",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202802210.jpg",
+      "path": "photos/af432ba9-be76-4733-8435-ceb4430000fa.jpg",
+      "sha256": "8b065928bcaf0f9ff39873a53cfd0f605b51eec11f3e86d162a1fed901f93139",
+      "size": 750041,
+      "url": "/api/photos/af432ba9-be76-4733-8435-ceb4430000fa"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 장식 액세서리",
+    "구슬 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5182",
+  "updatedAt": null,
+  "version": 0
+}

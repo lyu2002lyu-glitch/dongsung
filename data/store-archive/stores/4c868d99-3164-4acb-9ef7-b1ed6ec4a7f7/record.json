@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:10:18.317Z",
+  "floor": "지하층",
+  "id": "4c868d99-3164-4acb-9ef7-b1ed6ec4a7f7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c82baeddd13a6fea51e3f2d7e75c99a1\"",
+      "id": "196b5873-6aa7-4568-abd3-21068a261686",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208202190.jpg",
+      "path": "photos/196b5873-6aa7-4568-abd3-21068a261686.jpg",
+      "sha256": "ce680757e672b09277d87d2239f1da5db3257516a3c8214145b45363f3debfb1",
+      "size": 604316,
+      "url": "/api/photos/196b5873-6aa7-4568-abd3-21068a261686"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실",
+    "그라데이션 뜨개실",
+    "반짝이 수세미실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb254",
+  "updatedAt": null,
+  "version": 1
+}

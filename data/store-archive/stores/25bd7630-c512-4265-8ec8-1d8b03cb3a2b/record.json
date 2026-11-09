@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:25:32.762Z",
+  "floor": "5층",
+  "id": "25bd7630-c512-4265-8ec8-1d8b03cb3a2b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"15544d7518d59c4de4b4baf42ec24e30\"",
+      "id": "b1972e0b-45a4-446d-86b9-49d1de6390ea",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201927918.jpg",
+      "path": "photos/b1972e0b-45a4-446d-86b9-49d1de6390ea.jpg",
+      "sha256": "855d8611d253178d07e51693e6843adc467d0782daf2ef118f64460d677cb3d2",
+      "size": 625101,
+      "url": "/api/photos/b1972e0b-45a4-446d-86b9-49d1de6390ea"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "귀걸이",
+    "피어싱 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5089",
+  "updatedAt": null,
+  "version": 0
+}

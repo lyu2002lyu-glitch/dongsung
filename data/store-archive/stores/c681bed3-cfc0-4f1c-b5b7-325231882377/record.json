@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:42:56.665Z",
+  "floor": "5층",
+  "id": "c681bed3-cfc0-4f1c-b5b7-325231882377",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"259474c161b69d8c99e26e1972a08068\"",
+      "id": "f1d2ae7c-4d20-4e54-bec2-231b23570f96",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202972149.jpg",
+      "path": "photos/f1d2ae7c-4d20-4e54-bec2-231b23570f96.jpg",
+      "sha256": "858885f269c6bed023e106510549a44c763baaf77599715d57dd486b34c24c04",
+      "size": 939704,
+      "url": "/api/photos/f1d2ae7c-4d20-4e54-bec2-231b23570f96"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 키링",
+    "술 장식",
+    "금속 참",
+    "컬러 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5198",
+  "updatedAt": null,
+  "version": 0
+}

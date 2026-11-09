@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:26:37.187Z",
+  "floor": "지하층",
+  "id": "26f62481-a124-4e42-b51d-bbd71b81d581",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7c5ab1458fc38918916b77973cb38743\"",
+      "id": "5e8a4074-78a5-49f4-8d01-398dbfff5393",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205593059.jpg",
+      "path": "photos/5e8a4074-78a5-49f4-8d01-398dbfff5393.jpg",
+      "sha256": "f3bf1bf5740c4916060863895dfff6506164fe01bd7783557a9d5dcaf648f074",
+      "size": 544119,
+      "url": "/api/photos/5e8a4074-78a5-49f4-8d01-398dbfff5393"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "대용량 색상 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb261",
+  "updatedAt": null,
+  "version": 1
+}

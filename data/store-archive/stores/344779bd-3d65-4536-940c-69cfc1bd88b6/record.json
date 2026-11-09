@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:19:10.130Z",
+  "floor": "지하층",
+  "id": "344779bd-3d65-4536-940c-69cfc1bd88b6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4a81c2d4c0bb6e3aac27e328c248283f\"",
+      "id": "b201a9c6-bbee-4579-bf16-5110f8f9f04b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208733709.jpg",
+      "path": "photos/b201a9c6-bbee-4579-bf16-5110f8f9f04b.jpg",
+      "sha256": "c1f5993237d9f5282df64fa79c468814933bb45429f26b3448cdc2f9347d4979",
+      "size": 698102,
+      "url": "/api/photos/b201a9c6-bbee-4579-bf16-5110f8f9f04b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식",
+    "폼폼 장식",
+    "장식 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb576",
+  "updatedAt": null,
+  "version": 1
+}

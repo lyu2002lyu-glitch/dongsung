@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:02:17.480Z",
+  "floor": "지하층",
+  "id": "e2cb70fc-f898-40d1-95a1-aaee5494742c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"eb94006118688a265e4f10ceee9f634c\"",
+      "id": "bb9f082d-0a95-4a24-9a47-e7b319b71d02",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204133323.jpg",
+      "path": "photos/bb9f082d-0a95-4a24-9a47-e7b319b71d02.jpg",
+      "sha256": "3ff15ea168a95347a19a0ce70855137f9f59f3d83dcab38e19a47a2bad125519",
+      "size": 539332,
+      "url": "/api/photos/bb9f082d-0a95-4a24-9a47-e7b319b71d02"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단 견본",
+    "색상별 원단 견본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb273",
+  "updatedAt": null,
+  "version": 1
+}

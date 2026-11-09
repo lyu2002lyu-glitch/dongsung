@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:15:11.482Z",
+  "floor": "5층",
+  "id": "2987d321-d8c2-425b-a062-5cf435a4c5da",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"267883e9d5a5c6cfe6b2f7e967d77b0b\"",
+      "id": "44ca7369-6ce3-4374-8d20-b45d25b428a7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201305882.jpg",
+      "path": "photos/44ca7369-6ce3-4374-8d20-b45d25b428a7.jpg",
+      "sha256": "1a1d0e12e730386ab0f0e03177d850a827b07e8427b8a2c628bbe3d4baa06578",
+      "size": 617274,
+      "url": "/api/photos/44ca7369-6ce3-4374-8d20-b45d25b428a7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "하트 모양 장식",
+    "과일 모양 장식",
+    "봉제 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5041",
+  "updatedAt": null,
+  "version": 0
+}

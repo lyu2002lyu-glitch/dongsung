@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:13:03.104Z",
+  "floor": "지하층",
+  "id": "2697f821-fec1-4fb4-84bc-9eb5a347590f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5768202683bd2c158f26e8180f6e8f66\"",
+      "id": "0ed8bfd1-2fed-4846-bf6a-0a0c0a3bdd3f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208362933.jpg",
+      "path": "photos/0ed8bfd1-2fed-4846-bf6a-0a0c0a3bdd3f.jpg",
+      "sha256": "0da931525c7f4766da6bd18c9ba6b9b3ad9127a4954d112791b9b472aefc1c75",
+      "size": 910578,
+      "url": "/api/photos/0ed8bfd1-2fed-4846-bf6a-0a0c0a3bdd3f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 체인",
+    "금속 버클",
+    "가방 연결 고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb524",
+  "updatedAt": null,
+  "version": 1
+}

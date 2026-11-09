@@ -1,0 +1,27 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:36:14.913Z",
+  "floor": "지하층",
+  "id": "2accaf99-e2fc-4506-ae05-c2065bcb5a5b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6db4bd84ae516a4c567d1faae35468ed\"",
+      "id": "8b17eff7-45c3-4d1b-bebd-e41c0c21518d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209755723.jpg",
+      "path": "photos/8b17eff7-45c3-4d1b-bebd-e41c0c21518d.jpg",
+      "sha256": "cf3c0191c3ecba5a25a9144d11323f1059f517c65e4acb2c3d54ad2f3cf658f9",
+      "size": 640713,
+      "url": "/api/photos/8b17eff7-45c3-4d1b-bebd-e41c0c21518d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb130",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:25:08.225Z",
+  "floor": "지하층",
+  "id": "b738e739-e8b1-4e16-aa5d-a614fcb1708c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1dd539f2e812aa9be283ee688bf101c5\"",
+      "id": "7a81db1b-e498-4eab-9713-d4b623e53e08",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209092112.jpg",
+      "path": "photos/7a81db1b-e498-4eab-9713-d4b623e53e08.jpg",
+      "sha256": "d0423b747783678e28ee59201b13ca2d9a230c97c980071702a5fdc4dafc70fa",
+      "size": 638829,
+      "url": "/api/photos/7a81db1b-e498-4eab-9713-d4b623e53e08"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식",
+    "꽃 모양 장식",
+    "장식 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb014",
+  "updatedAt": "2026-11-09T09:05:36.728Z",
+  "version": 2
+}

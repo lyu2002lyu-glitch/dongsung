@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:13:33.320Z",
+  "floor": "5층",
+  "id": "5cc3011d-5b4e-4296-b073-a991f4c8b13e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e8d49da2765bd7df5cb697714108a4dd\"",
+      "id": "05bf34eb-1ce2-47d5-95c0-25a79997c530",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201206898.jpg",
+      "path": "photos/05bf34eb-1ce2-47d5-95c0-25a79997c530.jpg",
+      "sha256": "10acc5a96236e9e2507cfd22322ba2a9acbd04caca7d8f9dd1554d1a251fa12b",
+      "size": 697429,
+      "url": "/api/photos/05bf34eb-1ce2-47d5-95c0-25a79997c530"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 체인",
+    "장식용 체인 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5032",
+  "updatedAt": null,
+  "version": 0
+}

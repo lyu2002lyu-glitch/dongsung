@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:29:22.343Z",
+  "floor": "5층",
+  "id": "f008738f-8f14-4805-a6d9-f819dbb760e0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e3a728abc045ba79791515fed99dbc1a\"",
+      "id": "00c7e5ab-c60a-4eb7-a5ae-574d7546b27f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202155993.jpg",
+      "path": "photos/00c7e5ab-c60a-4eb7-a5ae-574d7546b27f.jpg",
+      "sha256": "a097efc075d353ac1ba9df4ee365ddefadb6b11c2da01fa7726d0208591e9a4e",
+      "size": 794294,
+      "url": "/api/photos/00c7e5ab-c60a-4eb7-a5ae-574d7546b27f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 구슬",
+    "진주 모양 비즈",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5109",
+  "updatedAt": null,
+  "version": 0
+}

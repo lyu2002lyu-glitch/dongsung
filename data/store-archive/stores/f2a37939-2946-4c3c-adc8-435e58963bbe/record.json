@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:11:48.856Z",
+  "floor": "지하층",
+  "id": "f2a37939-2946-4c3c-adc8-435e58963bbe",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ba428b09fd1c5922ddf90448fd6361de\"",
+      "id": "c363b806-8140-4a7e-ad43-985d976e515c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204701491.jpg",
+      "path": "photos/c363b806-8140-4a7e-ad43-985d976e515c.jpg",
+      "sha256": "2b512108f4361824112588dcbc16584f927b5b73cbafe9a18a677dc6ddc04d4e",
+      "size": 587765,
+      "url": "/api/photos/c363b806-8140-4a7e-ad43-985d976e515c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "보슬보슬한 뜨개실",
+    "색상별 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab028-1",
+  "updatedAt": null,
+  "version": 1
+}

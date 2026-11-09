@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:25:47.834Z",
+  "floor": "6층",
+  "id": "65712717-200f-46e8-9683-c13df247acfb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"adc828531521930cefaf4fb6ea733319\"",
+      "id": "8b2ae318-197c-4278-94f8-52e1a5fbb666",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201943594.jpg",
+      "path": "photos/8b2ae318-197c-4278-94f8-52e1a5fbb666.jpg",
+      "sha256": "95ad3284a7c4d6217241b5b6822639391232fdaf2f6e5e512b57b5c742a4f77d",
+      "size": 728175,
+      "url": "/api/photos/8b2ae318-197c-4278-94f8-52e1a5fbb666"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "투명 비즈",
+    "장식 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A6093",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:27:39.964Z",
+  "floor": "지하층",
+  "id": "2074bc7c-545f-4618-a762-8c1aac335347",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4443578caca1354bdab7c1083fbb4b57\"",
+      "id": "c676a788-c42f-4b69-ac9f-7d329e2671ea",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209243988.jpg",
+      "path": "photos/c676a788-c42f-4b69-ac9f-7d329e2671ea.jpg",
+      "sha256": "3fa5904a898712549d299ebf0d990ed2a4bccafec5acbc448d2e99419a01f97c",
+      "size": 561575,
+      "url": "/api/photos/c676a788-c42f-4b69-ac9f-7d329e2671ea"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "숄더백",
+    "토트백",
+    "패브릭 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb066",
+  "updatedAt": "2026-11-09T09:04:57.011Z",
+  "version": 2
+}

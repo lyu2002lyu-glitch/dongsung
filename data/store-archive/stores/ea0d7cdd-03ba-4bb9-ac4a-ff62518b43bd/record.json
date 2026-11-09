@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:46:55.583Z",
+  "floor": "5층",
+  "id": "ea0d7cdd-03ba-4bb9-ac4a-ff62518b43bd",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b4b4acfa8c0b0e19abe245912ea6b00c\"",
+      "id": "fa917905-4edc-46e3-b90b-64cf8d90dc41",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203210664.jpg",
+      "path": "photos/fa917905-4edc-46e3-b90b-64cf8d90dc41.jpg",
+      "sha256": "b1099b061f60226dcd5b6a265883118b68a1ef480d1fc16e22af0b4df2a62f06",
+      "size": 740469,
+      "url": "/api/photos/fa917905-4edc-46e3-b90b-64cf8d90dc41"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "알 비즈",
+    "체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5219",
+  "updatedAt": null,
+  "version": 0
+}

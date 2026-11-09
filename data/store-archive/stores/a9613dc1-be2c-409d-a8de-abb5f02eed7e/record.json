@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:49:09.431Z",
+  "floor": "5층",
+  "id": "a9613dc1-be2c-409d-a8de-abb5f02eed7e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"73fd66d8b9a3a11713f7d0aed69580c1\"",
+      "id": "b061977e-3d18-4fb1-814b-9bf5ab41e6c0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203342679.jpg",
+      "path": "photos/b061977e-3d18-4fb1-814b-9bf5ab41e6c0.jpg",
+      "sha256": "c640ed96cac6859cc778b69ebc2497ec075f8bf374c4bd806e7e37355f2a2506",
+      "size": 646247,
+      "url": "/api/photos/b061977e-3d18-4fb1-814b-9bf5ab41e6c0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 머리장식",
+    "머리띠",
+    "장식 리본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5229",
+  "updatedAt": null,
+  "version": 0
+}

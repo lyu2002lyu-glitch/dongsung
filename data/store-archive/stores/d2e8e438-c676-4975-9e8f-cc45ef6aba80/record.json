@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:46:36.939Z",
+  "floor": "5층",
+  "id": "d2e8e438-c676-4975-9e8f-cc45ef6aba80",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"51088ad0d9b5a9255a1ff19b380a4a26\"",
+      "id": "f88405af-3266-48ec-93cc-6c955994a376",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203193130.jpg",
+      "path": "photos/f88405af-3266-48ec-93cc-6c955994a376.jpg",
+      "sha256": "98eb394e4b4af58da055659460b808f83a1ca0ea1dc79c58619e3a8e329ac73f",
+      "size": 662043,
+      "url": "/api/photos/f88405af-3266-48ec-93cc-6c955994a376"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 스트랩",
+    "금속 연결 고리",
+    "버클",
+    "공예용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5218",
+  "updatedAt": null,
+  "version": 0
+}

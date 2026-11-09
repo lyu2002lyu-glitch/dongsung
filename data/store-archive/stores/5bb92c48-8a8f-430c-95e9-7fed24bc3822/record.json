@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:11:06.232Z",
+  "floor": "지하층",
+  "id": "5bb92c48-8a8f-430c-95e9-7fed24bc3822",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d4e7f244ec3448e7b482b26b68c8282a\"",
+      "id": "a5bdec55-2714-43f2-a6d0-a3e47c00d7dd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204659817.jpg",
+      "path": "photos/a5bdec55-2714-43f2-a6d0-a3e47c00d7dd.jpg",
+      "sha256": "9ec9669f3a6684d1cdf93d9df80e236a5177c6024188dc2bf74e19fc280746d1",
+      "size": 516928,
+      "url": "/api/photos/a5bdec55-2714-43f2-a6d0-a3e47c00d7dd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "재봉실",
+    "색상 띠 테이프",
+    "색상 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab029-1",
+  "updatedAt": null,
+  "version": 1
+}

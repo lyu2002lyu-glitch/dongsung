@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:31:05.690Z",
+  "floor": "지하층",
+  "id": "ef3d82c8-0492-4a93-b2f0-cac45c6b0ae2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b6ca5d9f8176561879effe3b4797a460\"",
+      "id": "88c6b227-f15b-4b9c-83df-c61ad9460bd3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209451419.jpg",
+      "path": "photos/88c6b227-f15b-4b9c-83df-c61ad9460bd3.jpg",
+      "sha256": "25156304e232838e427596af0be33f4f87d173553ae0182f19184d3c1c282b4a",
+      "size": 536390,
+      "url": "/api/photos/88c6b227-f15b-4b9c-83df-c61ad9460bd3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "커튼 레일",
+    "커튼봉",
+    "무늬 커튼"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb093",
+  "updatedAt": "2026-11-09T09:04:05.787Z",
+  "version": 2
+}

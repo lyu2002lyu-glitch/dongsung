@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:12:56.351Z",
+  "floor": "5층",
+  "id": "8311fdee-8ddf-492c-b756-606c2102037c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6a9d9acf86eff9cba824511680be9644\"",
+      "id": "93d8df58-f0c7-41e9-b8e9-ba589b8b28c3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201170067.jpg",
+      "path": "photos/93d8df58-f0c7-41e9-b8e9-ba589b8b28c3.jpg",
+      "sha256": "0c4cedbf5f3fbca996812c0f963e413418a1467c5d2ea1c9e12b25afaa7aa781",
+      "size": 660637,
+      "url": "/api/photos/93d8df58-f0c7-41e9-b8e9-ba589b8b28c3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 모양 비즈",
+    "진주 모양 비즈",
+    "컬러 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5029",
+  "updatedAt": null,
+  "version": 0
+}

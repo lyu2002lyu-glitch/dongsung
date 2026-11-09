@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:35:28.281Z",
+  "floor": "5층",
+  "id": "f8a71ba4-978f-424a-bd80-14416cdcf8ea",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b5dd68412487d29a1e1918d64cdae3b2\"",
+      "id": "23c623c0-9d64-4e81-adef-028b227c21da",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202524840.jpg",
+      "path": "photos/23c623c0-9d64-4e81-adef-028b227c21da.jpg",
+      "sha256": "eda744f7947239f989726f18fee146cc15f0f69323eb3dde1e06b23e46ac2332",
+      "size": 694390,
+      "url": "/api/photos/23c623c0-9d64-4e81-adef-028b227c21da"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "과일 모양 키링",
+    "장식 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5150",
+  "updatedAt": null,
+  "version": 0
+}

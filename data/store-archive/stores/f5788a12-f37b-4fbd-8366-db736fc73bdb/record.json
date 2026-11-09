@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:20:48.779Z",
+  "floor": "지하층",
+  "id": "f5788a12-f37b-4fbd-8366-db736fc73bdb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b3fc435f4c13790c2173644223a849ca\"",
+      "id": "059c1c38-f187-4cea-bc9a-d2ac67bfad0e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205237615.jpg",
+      "path": "photos/059c1c38-f187-4cea-bc9a-d2ac67bfad0e.jpg",
+      "sha256": "221a197b6a98e24fdf36d86b8b7c80a5352fb31e12f2781fc6ec522dccbe375f",
+      "size": 635273,
+      "url": "/api/photos/059c1c38-f187-4cea-bc9a-d2ac67bfad0e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 재봉실",
+    "금색 장식실",
+    "콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab031-1",
+  "updatedAt": null,
+  "version": 1
+}

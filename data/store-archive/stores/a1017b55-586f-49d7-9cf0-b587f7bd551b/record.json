@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:57:24.767Z",
+  "floor": "지하층",
+  "id": "a1017b55-586f-49d7-9cf0-b587f7bd551b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3dc3e08da68611befd487e875613507e\"",
+      "id": "57c84e73-e7d2-4c33-b069-a11eec460f3a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203840147.jpg",
+      "path": "photos/57c84e73-e7d2-4c33-b069-a11eec460f3a.jpg",
+      "sha256": "2225629e1e6986dda82394e198491d072797f353b46044b21e9b39a262904acd",
+      "size": 523007,
+      "url": "/api/photos/57c84e73-e7d2-4c33-b069-a11eec460f3a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "동물 무늬 원단",
+    "꽃무늬 원단",
+    "누빔 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab003-8",
+  "updatedAt": null,
+  "version": 1
+}

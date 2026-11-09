@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:42:07.203Z",
+  "floor": "지하층",
+  "id": "88103031-dd2c-4fe1-9487-4d7ba4228269",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"095f328089858fab6fd4777ad8345a79\"",
+      "id": "8fe56d3a-7b6a-4827-ae31-7c873ef6e88d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206520123.jpg",
+      "path": "photos/8fe56d3a-7b6a-4827-ae31-7c873ef6e88d.jpg",
+      "sha256": "e5d604e6ad88b239d7dea01e48e05738351c306ac55d946e2b84477f39cb4afa",
+      "size": 395169,
+      "url": "/api/photos/8fe56d3a-7b6a-4827-ae31-7c873ef6e88d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "배색 뜨개실",
+    "기모 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb87",
+  "updatedAt": null,
+  "version": 1
+}

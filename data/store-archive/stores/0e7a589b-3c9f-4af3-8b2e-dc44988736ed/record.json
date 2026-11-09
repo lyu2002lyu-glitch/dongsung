@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:44:10.539Z",
+  "floor": "5층",
+  "id": "0e7a589b-3c9f-4af3-8b2e-dc44988736ed",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0408da7048f5592b15f0f44488711241\"",
+      "id": "6780429d-d338-47cd-b532-b1ff61d13360",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203045697.jpg",
+      "path": "photos/6780429d-d338-47cd-b532-b1ff61d13360.jpg",
+      "sha256": "2d99824571770b51e207652b7ce87550badac510bae2f845f5f2ede69cd09c72",
+      "size": 637059,
+      "url": "/api/photos/6780429d-d338-47cd-b532-b1ff61d13360"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반려동물용 의류",
+    "프릴 원피스",
+    "줄무늬 상의"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5203",
+  "updatedAt": null,
+  "version": 0
+}

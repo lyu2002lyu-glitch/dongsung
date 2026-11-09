@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:39:13.286Z",
+  "floor": "5층",
+  "id": "37d9b723-ad86-4051-a320-f66565780e1b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7f22b3bd02f091f0bb7fad3acbdc5117\"",
+      "id": "0bbe9714-d4ac-4687-96ca-b2b36387bdc0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202750509.jpg",
+      "path": "photos/0bbe9714-d4ac-4687-96ca-b2b36387bdc0.jpg",
+      "sha256": "2f397a7892cf6b9cd8ab8c5d003550bf6ca71173709f33f0764a1790b9214faa",
+      "size": 763475,
+      "url": "/api/photos/0bbe9714-d4ac-4687-96ca-b2b36387bdc0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "색상 비즈",
+    "비즈 장식 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5176",
+  "updatedAt": null,
+  "version": 0
+}

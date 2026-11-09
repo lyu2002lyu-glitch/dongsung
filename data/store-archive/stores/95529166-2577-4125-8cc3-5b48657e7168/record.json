@@ -19,11 +19,10 @@
   "productAnalysisStatus": "ready",
   "productItems": [
     "인형 키링",
-    "천 파우치",
-    "천 가방"
+    "천 파우치"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "C5019",
-  "updatedAt": null,
-  "version": 0
+  "updatedAt": "2026-11-09T03:54:31.299Z",
+  "version": 2
 }

@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:53:42.018Z",
+  "floor": "지하층",
+  "id": "73807886-28f4-463d-9c1b-09d6e1643398",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"af5f3d95d974511dac70dae96670f042\"",
+      "id": "28e4895d-0364-451f-958c-2f2ce86f68e3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207215929.jpg",
+      "path": "photos/28e4895d-0364-451f-958c-2f2ce86f68e3.jpg",
+      "sha256": "50c059016f7b115d0b375139accbfbbc2e626a5ace4de49afd5af3030b02e3a0",
+      "size": 435872,
+      "url": "/api/photos/28e4895d-0364-451f-958c-2f2ce86f68e3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "지퍼",
+    "의류용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb227",
+  "updatedAt": null,
+  "version": 1
+}

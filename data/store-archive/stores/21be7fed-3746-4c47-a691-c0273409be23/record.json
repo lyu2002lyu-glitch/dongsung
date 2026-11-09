@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:12:35.583Z",
+  "floor": "5층",
+  "id": "21be7fed-3746-4c47-a691-c0273409be23",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f4aca9241ebbe598ac6625071d7991e9\"",
+      "id": "cb1680da-5e2c-43d4-a448-745351be28f1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201152550.jpg",
+      "path": "photos/cb1680da-5e2c-43d4-a448-745351be28f1.jpg",
+      "sha256": "74328f7735bd630b91323bd1dba4ecfa4b30ce64426250dec77563d1275c152b",
+      "size": 592020,
+      "url": "/api/photos/cb1680da-5e2c-43d4-a448-745351be28f1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄 비즈",
+    "컬러 구슬",
+    "무늬 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5028",
+  "updatedAt": null,
+  "version": 0
+}

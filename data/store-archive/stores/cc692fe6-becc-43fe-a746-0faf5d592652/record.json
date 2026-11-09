@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:51:47.227Z",
+  "floor": "지하층",
+  "id": "cc692fe6-becc-43fe-a746-0faf5d592652",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"36e23bfd9992f65b724637d293fed8de\"",
+      "id": "c73d9510-8b21-4556-8139-48e1ad902495",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207103151.jpg",
+      "path": "photos/c73d9510-8b21-4556-8139-48e1ad902495.jpg",
+      "sha256": "36889965f8a494855037b23eebdd00b4a1208b8d45078fbdcffb81ecdb442350",
+      "size": 514337,
+      "url": "/api/photos/c73d9510-8b21-4556-8139-48e1ad902495"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb216",
+  "updatedAt": null,
+  "version": 1
+}

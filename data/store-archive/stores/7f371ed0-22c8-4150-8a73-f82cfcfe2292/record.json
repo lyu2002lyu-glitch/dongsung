@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:21:35.016Z",
+  "floor": "지하층",
+  "id": "7f371ed0-22c8-4150-8a73-f82cfcfe2292",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5b752be6f5c48a997830db69de60e101\"",
+      "id": "0bf033c7-cbf8-4cf3-97cd-6df0e9be1ce1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205281350.jpg",
+      "path": "photos/0bf033c7-cbf8-4cf3-97cd-6df0e9be1ce1.jpg",
+      "sha256": "0e04fe1d6136449eda53e15fc5bf6e22c7a1e1a378b24e919cfc827d222102de",
+      "size": 564017,
+      "url": "/api/photos/0bf033c7-cbf8-4cf3-97cd-6df0e9be1ce1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "토탈 부자재 매장"
+  ],
+  "productItemsSource": "admin",
+  "unit": "Ab030-4",
+  "updatedAt": "2026-11-09T08:16:14.882Z",
+  "version": 2
+}

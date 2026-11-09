@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:15:05.526Z",
+  "floor": "지하층",
+  "id": "22e1b7ed-ba12-4042-bbed-2d9fd43164a8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b6020beb9014563029af1b5abee890f7\"",
+      "id": "5a9ad6de-8b6e-41ca-bee0-ee2de853b25f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204901593.jpg",
+      "path": "photos/5a9ad6de-8b6e-41ca-bee0-ee2de853b25f.jpg",
+      "sha256": "c84baafd3b5dfbf73b0dba76f27679a912148eb213c0e27f3521bf7f962f122f",
+      "size": 360393,
+      "url": "/api/photos/5a9ad6de-8b6e-41ca-bee0-ee2de853b25f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 니트 소재",
+    "골지 니트 소재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb279-5",
+  "updatedAt": null,
+  "version": 1
+}

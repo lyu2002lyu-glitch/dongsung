@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:23:33.208Z",
+  "floor": "지하층",
+  "id": "abfabd7b-5e9b-4cac-8937-f8dd7b1c456a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0396e512e850d6fdf62ce6ee03fbaa2f\"",
+      "id": "12b14e5d-a46c-438d-afca-71c884770eeb",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205409454.jpg",
+      "path": "photos/12b14e5d-a46c-438d-afca-71c884770eeb.jpg",
+      "sha256": "82dc42f3a6cd8ecbe5607ce406e55445da50a2a322152ee977344d53aba1b8f2",
+      "size": 506259,
+      "url": "/api/photos/12b14e5d-a46c-438d-afca-71c884770eeb"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "퍼 뜨개실",
+    "단색 뜨개실",
+    "다색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab003-4",
+  "updatedAt": null,
+  "version": 1
+}

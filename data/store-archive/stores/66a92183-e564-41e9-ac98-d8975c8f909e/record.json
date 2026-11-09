@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:35:43.076Z",
+  "floor": "5층",
+  "id": "66a92183-e564-41e9-ac98-d8975c8f909e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b2fd94005fcc5b78438d25d46e692d25\"",
+      "id": "7b62c5aa-2d5f-4de9-adcd-a7cf8ae2135e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202538820.jpg",
+      "path": "photos/7b62c5aa-2d5f-4de9-adcd-a7cf8ae2135e.jpg",
+      "sha256": "7b5075ba12dcf27513c4f8db1546ef5712bd12b59060c969ec6dd694d540b370",
+      "size": 827904,
+      "url": "/api/photos/7b62c5aa-2d5f-4de9-adcd-a7cf8ae2135e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "낱개 구슬",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5152",
+  "updatedAt": null,
+  "version": 0
+}

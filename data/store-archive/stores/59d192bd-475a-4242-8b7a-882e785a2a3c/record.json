@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T07:05:16.819Z",
+  "floor": "지하층",
+  "id": "59d192bd-475a-4242-8b7a-882e785a2a3c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"38c6136a6eabe04e26db7bb045290090\"",
+      "id": "37da71e7-02b8-4f57-aa30-747ee8e3c801",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207898608.jpg",
+      "path": "photos/37da71e7-02b8-4f57-aa30-747ee8e3c801.jpg",
+      "sha256": "715b1c9309ede8974585af48cc2d8fa407190db0835287540a4b4cb11c878201",
+      "size": 676716,
+      "url": "/api/photos/37da71e7-02b8-4f57-aa30-747ee8e3c801"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "코바늘",
+    "구슬 비즈",
+    "금속 장식 부자재",
+    "무늬 리본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab146",
+  "updatedAt": null,
+  "version": 1
+}

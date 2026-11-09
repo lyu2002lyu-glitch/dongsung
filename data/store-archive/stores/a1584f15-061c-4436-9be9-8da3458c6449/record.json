@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:16:40.037Z",
+  "floor": "지하층",
+  "id": "a1584f15-061c-4436-9be9-8da3458c6449",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8c8f84ca12f0cc2edec545043116f2ce\"",
+      "id": "38aa578f-aeef-4943-937a-d199f97fc2e3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204988377.jpg",
+      "path": "photos/38aa578f-aeef-4943-937a-d199f97fc2e3.jpg",
+      "sha256": "906a230cbe17bcaa4dd4803643303c3e1382312b17a55d4e3569ac527c5f8cb5",
+      "size": 365470,
+      "url": "/api/photos/38aa578f-aeef-4943-937a-d199f97fc2e3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폴리 타프타 원단",
+    "안감 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb286",
+  "updatedAt": null,
+  "version": 1
+}

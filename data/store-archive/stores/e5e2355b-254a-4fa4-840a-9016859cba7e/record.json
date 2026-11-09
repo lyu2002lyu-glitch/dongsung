@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:39:02.877Z",
+  "floor": "5층",
+  "id": "e5e2355b-254a-4fa4-840a-9016859cba7e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5aa1224a57bc919e79f40a26172ac8af\"",
+      "id": "631a64d3-de78-43b1-bc40-4a8a12aac4ed",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202737949.jpg",
+      "path": "photos/631a64d3-de78-43b1-bc40-4a8a12aac4ed.jpg",
+      "sha256": "e373f0d131fb2a7718d41c552015f3eb8fcad9962102dda2853fd68c36ecd69a",
+      "size": 581855,
+      "url": "/api/photos/631a64d3-de78-43b1-bc40-4a8a12aac4ed"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "미니 인형",
+    "인형 의상",
+    "인형 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5174",
+  "updatedAt": null,
+  "version": 0
+}

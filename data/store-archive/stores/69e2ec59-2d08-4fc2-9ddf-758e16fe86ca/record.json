@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:31:09.079Z",
+  "floor": "5층",
+  "id": "69e2ec59-2d08-4fc2-9ddf-758e16fe86ca",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1b1ad52e611e9ba2abd5a9385621b1b8\"",
+      "id": "df424296-3846-4d94-8767-cb88f2ae6bef",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202264553.jpg",
+      "path": "photos/df424296-3846-4d94-8767-cb88f2ae6bef.jpg",
+      "sha256": "b30011a2c56201b374f40ada287e0bd8d9f5a4dacedb13d0762ea6636056f4c9",
+      "size": 725824,
+      "url": "/api/photos/df424296-3846-4d94-8767-cb88f2ae6bef"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식",
+    "과일 모양 장식",
+    "컬러 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5140",
+  "updatedAt": null,
+  "version": 0
+}

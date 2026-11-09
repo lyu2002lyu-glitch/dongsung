@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:36:16.320Z",
+  "floor": "5층",
+  "id": "3693138d-2575-42cd-b537-033b662b7ffd",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"57423d45365674611844104584086a8f\"",
+      "id": "305f5aa4-3022-49dc-a101-a8addfe5e368",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202570657.jpg",
+      "path": "photos/305f5aa4-3022-49dc-a101-a8addfe5e368.jpg",
+      "sha256": "228c02482ea9361142c8db6565e691dafeb272aca08fbdd7309a68d5810b067b",
+      "size": 755799,
+      "url": "/api/photos/305f5aa4-3022-49dc-a101-a8addfe5e368"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "스트랩 키링",
+    "과일 모양 장식",
+    "색상 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5155",
+  "updatedAt": null,
+  "version": 0
+}

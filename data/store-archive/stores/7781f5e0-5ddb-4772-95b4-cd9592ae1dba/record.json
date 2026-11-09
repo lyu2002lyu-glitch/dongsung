@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:13:08.942Z",
+  "floor": "5층",
+  "id": "7781f5e0-5ddb-4772-95b4-cd9592ae1dba",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"16edf1df8f1e7debc6cbd756cd9ef372\"",
+      "id": "98bb3833-30f8-4091-a6fc-3bc9d5cc873d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201185848.jpg",
+      "path": "photos/98bb3833-30f8-4091-a6fc-3bc9d5cc873d.jpg",
+      "sha256": "6fb3a102adbffb9cea1ecc4cec95fd2524c08ae26e2311e680b7246b8c9773dc",
+      "size": 854178,
+      "url": "/api/photos/98bb3833-30f8-4091-a6fc-3bc9d5cc873d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "헤어 집게핀",
+    "장식 머리핀"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5031",
+  "updatedAt": null,
+  "version": 0
+}

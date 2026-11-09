@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:14:11.473Z",
+  "floor": "지하층",
+  "id": "90fa4c8a-6784-48b6-a263-868f7951f886",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ecb44be37221ba781ca8e8a48dd7ea62\"",
+      "id": "65ee62a4-ca25-4475-8097-40171d7a59b3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204846565.jpg",
+      "path": "photos/65ee62a4-ca25-4475-8097-40171d7a59b3.jpg",
+      "sha256": "311eea4089b83957838f2df05d753f25675a471239954a6dcd1c3f75e9739480",
+      "size": 396783,
+      "url": "/api/photos/65ee62a4-ca25-4475-8097-40171d7a59b3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "대용량 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb271-7",
+  "updatedAt": null,
+  "version": 1
+}

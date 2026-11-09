@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:45:53.901Z",
+  "floor": "5층",
+  "id": "16ef7edf-0d7c-45ce-bfaa-92c89f125590",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"02a5dbd99a9fd6ef51fe9843e268ce4f\"",
+      "id": "34034b08-c7a4-4990-a4d3-468b17cb11e3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203150451.jpg",
+      "path": "photos/34034b08-c7a4-4990-a4d3-468b17cb11e3.jpg",
+      "sha256": "35dabb743f1f0b67d52ac8f3d9f1e52ba2e3b5a5d4ab63d31f9f6c7b0e009e64",
+      "size": 544820,
+      "url": "/api/photos/34034b08-c7a4-4990-a4d3-468b17cb11e3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반지",
+    "귀걸이",
+    "팔찌",
+    "목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5213",
+  "updatedAt": null,
+  "version": 0
+}

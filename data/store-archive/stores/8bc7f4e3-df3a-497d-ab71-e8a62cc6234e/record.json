@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:09:28.441Z",
+  "floor": "5층",
+  "id": "8bc7f4e3-df3a-497d-ab71-e8a62cc6234e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6a3cb06ea5450a37a0fd095525e6c41e\"",
+      "id": "465b1055-5a1e-4c50-abb8-24afa4df8bb2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200960675.jpg",
+      "path": "photos/465b1055-5a1e-4c50-abb8-24afa4df8bb2.jpg",
+      "sha256": "cb7f7e44197a38625e08f6f8aba8d08050b2e76d8de77c231425fd9414395fb8",
+      "size": 697760,
+      "url": "/api/photos/465b1055-5a1e-4c50-abb8-24afa4df8bb2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "미니어처 뜨개 장식",
+    "인형 키링",
+    "꽃 모양 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5019",
+  "updatedAt": null,
+  "version": 0
+}

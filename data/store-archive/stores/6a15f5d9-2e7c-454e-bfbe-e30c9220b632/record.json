@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:42:28.430Z",
+  "floor": "5층",
+  "id": "6a15f5d9-2e7c-454e-bfbe-e30c9220b632",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c4f2c46bb1eb96b0a7a461a1bd074d73\"",
+      "id": "4a0866a9-3bee-4861-92af-ccc1a54a08e6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202942890.jpg",
+      "path": "photos/4a0866a9-3bee-4861-92af-ccc1a54a08e6.jpg",
+      "sha256": "ad0fca88ac23925879421f47149cd4c0d2d0fa2777e8692cb1fc6aea0c452626",
+      "size": 580978,
+      "url": "/api/photos/4a0866a9-3bee-4861-92af-ccc1a54a08e6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "귀걸이",
+    "비즈 팔찌",
+    "펜던트 목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5195",
+  "updatedAt": null,
+  "version": 0
+}

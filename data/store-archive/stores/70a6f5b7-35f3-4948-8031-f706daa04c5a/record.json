@@ -1,7 +1,7 @@
 {
-  "building": "",
+  "building": "B동",
   "createdAt": "2026-11-09T01:47:37.586Z",
-  "floor": "",
+  "floor": "5층",
   "id": "70a6f5b7-35f3-4948-8031-f706daa04c5a",
   "name": "",
   "photos": [
@@ -26,5 +26,5 @@
   "productItemsSource": "photo",
   "unit": "B5216-1",
   "updatedAt": null,
-  "version": 0
+  "version": 1
 }

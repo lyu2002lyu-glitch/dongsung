@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:34:16.447Z",
+  "floor": "5층",
+  "id": "0794d93f-ba13-4a93-bfd4-932da1b20761",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1b64e0eb8f4d1a0d99a47a58321fbc49\"",
+      "id": "2ff68780-8e05-494b-9015-735152600de9",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202453377.jpg",
+      "path": "photos/2ff68780-8e05-494b-9015-735152600de9.jpg",
+      "sha256": "d36360ec23bc1b4e4988e534761de08a7f956f7404e13bc4f4638279994dfef7",
+      "size": 720755,
+      "url": "/api/photos/2ff68780-8e05-494b-9015-735152600de9"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "모양 비즈",
+    "작은 장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5142",
+  "updatedAt": null,
+  "version": 0
+}

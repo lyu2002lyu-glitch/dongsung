@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:29:54.532Z",
+  "floor": "5층",
+  "id": "656e4340-e800-4461-9f10-4e57bf2d880c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"222655daaf48f599b0beda6fc5712a58\"",
+      "id": "ad0739a6-c803-412b-8ba2-ae51c0535ec3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202187755.jpg",
+      "path": "photos/ad0739a6-c803-412b-8ba2-ae51c0535ec3.jpg",
+      "sha256": "4e26b6c0da7f69bd6503435aff4c940e09e7f89967d57fbd02fb8a61df2f0ccc",
+      "size": 697397,
+      "url": "/api/photos/ad0739a6-c803-412b-8ba2-ae51c0535ec3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 모양 헤어 장식",
+    "진주 모양 헤어 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5104",
+  "updatedAt": null,
+  "version": 0
+}

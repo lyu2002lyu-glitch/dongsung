@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:08:32.836Z",
+  "floor": "5층",
+  "id": "d75fe458-1f99-483e-96f7-c20927afa168",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"92923019cd1d17971e5bf0d5ccc25ec0\"",
+      "id": "b6d76aa0-6920-47ba-8e08-485a282cc24a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200908799.jpg",
+      "path": "photos/b6d76aa0-6920-47ba-8e08-485a282cc24a.jpg",
+      "sha256": "8a5dfe842c3164fa09f0137e9462b23f1177da978c0032b42892a2ff6025cf9e",
+      "size": 707951,
+      "url": "/api/photos/b6d76aa0-6920-47ba-8e08-485a282cc24a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 체인",
+    "금속 체인",
+    "장식 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5013",
+  "updatedAt": null,
+  "version": 0
+}

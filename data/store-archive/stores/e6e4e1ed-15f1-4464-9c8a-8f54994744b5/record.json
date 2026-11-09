@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:35:56.957Z",
+  "floor": "5층",
+  "id": "e6e4e1ed-15f1-4464-9c8a-8f54994744b5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ec46e69a2b5364b83d1d1e1388b8fcff\"",
+      "id": "c4e8d727-061a-4cb4-b074-18dcbf5b67df",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202553398.jpg",
+      "path": "photos/c4e8d727-061a-4cb4-b074-18dcbf5b67df.jpg",
+      "sha256": "ed26368777c769102fcdfe1886c01ec5edb0f45f00b04b14344852b3990f99dc",
+      "size": 898378,
+      "url": "/api/photos/c4e8d727-061a-4cb4-b074-18dcbf5b67df"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "투명 비즈",
+    "캐릭터 장식",
+    "키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5154",
+  "updatedAt": null,
+  "version": 0
+}

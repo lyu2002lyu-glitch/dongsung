@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:24:46.248Z",
+  "floor": "5층",
+  "id": "7bd2b0ca-57a9-4d4d-a5e2-d3fb65d68547",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8388d99c31eaca39b0e99aeca507bff5\"",
+      "id": "0eb1ac7f-598e-493f-a4cb-7766a1605124",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201882813.jpg",
+      "path": "photos/0eb1ac7f-598e-493f-a4cb-7766a1605124.jpg",
+      "sha256": "edc6ab461484ad6975fc61639fe1e8e814aa7ea82ac3cde5b47d88c3bac4d35b",
+      "size": 730408,
+      "url": "/api/photos/0eb1ac7f-598e-493f-a4cb-7766a1605124"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 파우치",
+    "캐릭터 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5087",
+  "updatedAt": null,
+  "version": 0
+}

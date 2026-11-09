@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:18:44.630Z",
+  "floor": "지하층",
+  "id": "6673e563-ed83-4e25-a975-42f37b148a54",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1ed5e7fa4abc0fba0b3366f12f9c3cc5\"",
+      "id": "0c97eeb5-8433-447d-9356-495b9d731371",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208708065.jpg",
+      "path": "photos/0c97eeb5-8433-447d-9356-495b9d731371.jpg",
+      "sha256": "3403b7832adf7398ddff001adf13973b204f0afeb0f4c131ed84603dea7fcaf6",
+      "size": 617135,
+      "url": "/api/photos/0c97eeb5-8433-447d-9356-495b9d731371"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 키링",
+    "장식 술",
+    "폼폼 트리밍"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb579",
+  "updatedAt": null,
+  "version": 1
+}

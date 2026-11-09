@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:36:01.859Z",
+  "floor": "지하층",
+  "id": "9c15263e-489c-4835-b323-ef5c4d307675",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4a782105b449de34a4a819e3fc6e2c17\"",
+      "id": "281347e8-d599-45dd-9c99-7d77ac23b64b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206155940.jpg",
+      "path": "photos/281347e8-d599-45dd-9c99-7d77ac23b64b.jpg",
+      "sha256": "1b5c0b723f0b76ceb35fe91114d68dc45d6a162647614577d4b6fafad4788a16",
+      "size": 522240,
+      "url": "/api/photos/281347e8-d599-45dd-9c99-7d77ac23b64b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "털실",
+    "여러 색이 섞인 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bbq80",
+  "updatedAt": null,
+  "version": 1
+}

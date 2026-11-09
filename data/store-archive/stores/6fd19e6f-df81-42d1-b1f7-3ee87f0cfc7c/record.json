@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:27:54.152Z",
+  "floor": "지하층",
+  "id": "6fd19e6f-df81-42d1-b1f7-3ee87f0cfc7c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1690ffb05942fb0d01e3c87bf3fec592\"",
+      "id": "2cd4499f-4718-494a-b1bd-881a48ddae57",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209267370.jpg",
+      "path": "photos/2cd4499f-4718-494a-b1bd-881a48ddae57.jpg",
+      "sha256": "172cde9b34f107753cc09c641f9757f9143fa047417a6aeaeadf448b3bd99380",
+      "size": 241432,
+      "url": "/api/photos/2cd4499f-4718-494a-b1bd-881a48ddae57"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "흰색 원단",
+    "남색 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb026",
+  "updatedAt": "2026-11-09T09:04:53.013Z",
+  "version": 2
+}

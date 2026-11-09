@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:20:29.310Z",
+  "floor": "지하층",
+  "id": "ae800d6c-56f4-42c1-9c35-51bfebfa50b9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4560d94346bc880b06a869a6e3cf83c9\"",
+      "id": "3424950b-8e72-4a3a-88c5-e4eabab63f30",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208816724.jpg",
+      "path": "photos/3424950b-8e72-4a3a-88c5-e4eabab63f30.jpg",
+      "sha256": "b1496d44353623e6ad36b3dad678ebf1fb98d9dcafe79c7580ced9e3fe6917fb",
+      "size": 416663,
+      "url": "/api/photos/3424950b-8e72-4a3a-88c5-e4eabab63f30"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "자투리 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb563",
+  "updatedAt": null,
+  "version": 1
+}

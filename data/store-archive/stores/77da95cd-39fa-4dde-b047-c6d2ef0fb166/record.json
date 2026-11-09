@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:31:28.629Z",
+  "floor": "지하층",
+  "id": "77da95cd-39fa-4dde-b047-c6d2ef0fb166",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5e4fd9692b7e9f3b0a43fa09c170a871\"",
+      "id": "bfab84d4-a821-4c16-a074-490b000dd58c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209477416.jpg",
+      "path": "photos/bfab84d4-a821-4c16-a074-490b000dd58c.jpg",
+      "sha256": "a7825583646539a2e16ed1ef156f55c025cbe0d0ff5fa1924e8ffcdec465dd9f",
+      "size": 476355,
+      "url": "/api/photos/bfab84d4-a821-4c16-a074-490b000dd58c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "커튼 레일",
+    "커튼봉",
+    "커튼봉 마개"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb094",
+  "updatedAt": "2026-11-09T09:03:57.253Z",
+  "version": 2
+}

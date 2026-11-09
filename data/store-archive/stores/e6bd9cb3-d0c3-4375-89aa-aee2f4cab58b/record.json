@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:45:43.763Z",
+  "floor": "지하층",
+  "id": "e6bd9cb3-d0c3-4375-89aa-aee2f4cab58b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cafd035471172cfca1aa4a180414581a\"",
+      "id": "de8630f7-9e0a-47fd-89c8-9b97a23e3dc5",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206738675.jpg",
+      "path": "photos/de8630f7-9e0a-47fd-89c8-9b97a23e3dc5.jpg",
+      "sha256": "16766f9caa96a2df26e58b9203737ff51f57e1790fc579505d2bf38e1ca3b42f",
+      "size": 404593,
+      "url": "/api/photos/de8630f7-9e0a-47fd-89c8-9b97a23e3dc5"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트용 원사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab074",
+  "updatedAt": null,
+  "version": 1
+}

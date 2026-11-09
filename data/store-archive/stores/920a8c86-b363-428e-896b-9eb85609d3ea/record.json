@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:07:34.996Z",
+  "floor": "지하층",
+  "id": "920a8c86-b363-428e-896b-9eb85609d3ea",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fcdee1bd598538d0c9a009f9f2c97601\"",
+      "id": "1bc98342-1a00-421c-991c-e73310eeaecc",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204449280.jpg",
+      "path": "photos/1bc98342-1a00-421c-991c-e73310eeaecc.jpg",
+      "sha256": "c77c33f10ab0f0d6b48983dfed8b5eeee3ade01ed981bfb5ae9a8e8b4c9f568d",
+      "size": 406878,
+      "url": "/api/photos/1bc98342-1a00-421c-991c-e73310eeaecc"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 콘사",
+    "뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab024-4",
+  "updatedAt": null,
+  "version": 1
+}

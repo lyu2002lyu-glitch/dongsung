@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:46:21.496Z",
+  "floor": "5층",
+  "id": "a604a3bd-bab7-4281-8bae-a67601c15b29",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0271cd75ad8d9a04cb7b9dbe02da4af6\"",
+      "id": "709fd280-2511-4b6f-ae70-1d7221122d25",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203178604.jpg",
+      "path": "photos/709fd280-2511-4b6f-ae70-1d7221122d25.jpg",
+      "sha256": "fcaa375975ca0f4c459de3766bcc807b36060369647e11437ed3a47d75be82d6",
+      "size": 617693,
+      "url": "/api/photos/709fd280-2511-4b6f-ae70-1d7221122d25"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 파우치",
+    "인형 키링",
+    "장식 참",
+    "비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5216",
+  "updatedAt": null,
+  "version": 0
+}

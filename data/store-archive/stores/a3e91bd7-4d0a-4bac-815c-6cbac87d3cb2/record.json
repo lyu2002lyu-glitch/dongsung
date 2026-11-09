@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:24:45.076Z",
+  "floor": "지하층",
+  "id": "a3e91bd7-4d0a-4bac-815c-6cbac87d3cb2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"805d8eece8f64420cbd48203d32472b9\"",
+      "id": "6f96bb48-3869-47da-8427-b2c015abebd5",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209066982.jpg",
+      "path": "photos/6f96bb48-3869-47da-8427-b2c015abebd5.jpg",
+      "sha256": "c61d653ecb4420dbdfab9cb5ae2bf964cdeb858d437ebdde8af8fc975feed92c",
+      "size": 783419,
+      "url": "/api/photos/6f96bb48-3869-47da-8427-b2c015abebd5"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폼폼 장식",
+    "태슬 장식",
+    "구슬 태슬"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb013",
+  "updatedAt": "2026-11-09T09:05:42.340Z",
+  "version": 2
+}

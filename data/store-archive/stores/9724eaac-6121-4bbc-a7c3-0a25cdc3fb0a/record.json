@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:59:32.954Z",
+  "floor": "지하층",
+  "id": "9724eaac-6121-4bbc-a7c3-0a25cdc3fb0a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"66e6e66f0c00f4a621b9f21c34fa208c\"",
+      "id": "fc63d424-5418-4046-8658-41b902aca23d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203968311.jpg",
+      "path": "photos/fc63d424-5418-4046-8658-41b902aca23d.jpg",
+      "sha256": "a80a74cee44bc21240c6d2f17679ed66dd7a70c706d97cd713288ecbc6f33803",
+      "size": 691947,
+      "url": "/api/photos/fc63d424-5418-4046-8658-41b902aca23d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "흰색 재봉실",
+    "색상 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab021-1",
+  "updatedAt": null,
+  "version": 1
+}

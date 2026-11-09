@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:45:26.702Z",
+  "floor": "5층",
+  "id": "c7914990-449d-400d-b80d-de78dbb5b2d1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"00ae6466b72640cdb08cab4a4b6bfead\"",
+      "id": "fcadae4a-3787-4664-a913-29b6b2f97973",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203122905.jpg",
+      "path": "photos/fcadae4a-3787-4664-a913-29b6b2f97973.jpg",
+      "sha256": "7cdd97ccffa26d22944c613f5b8b5dcb02bc545933b630cf96d1d3a7091a7efe",
+      "size": 502322,
+      "url": "/api/photos/fcadae4a-3787-4664-a913-29b6b2f97973"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체인 목걸이",
+    "펜던트 목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5211",
+  "updatedAt": null,
+  "version": 0
+}

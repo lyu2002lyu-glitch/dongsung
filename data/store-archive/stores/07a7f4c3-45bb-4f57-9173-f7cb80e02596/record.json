@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:59:37.889Z",
+  "floor": "지하층",
+  "id": "07a7f4c3-45bb-4f57-9173-f7cb80e02596",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6b6595c1a800c2290272f695043785ab\"",
+      "id": "a34a5052-c6ee-4914-abb4-ab5baba4d433",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207561233.jpg",
+      "path": "photos/a34a5052-c6ee-4914-abb4-ab5baba4d433.jpg",
+      "sha256": "323904425654f9edc86d8f7ba53a002ea08618f332483890bbee175d51ce8c03",
+      "size": 385493,
+      "url": "/api/photos/a34a5052-c6ee-4914-abb4-ab5baba4d433"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "한복 치마",
+    "한복 저고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab124",
+  "updatedAt": null,
+  "version": 1
+}

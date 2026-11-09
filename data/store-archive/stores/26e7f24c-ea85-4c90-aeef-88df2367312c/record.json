@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:37:45.200Z",
+  "floor": "지하층",
+  "id": "26e7f24c-ea85-4c90-aeef-88df2367312c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3ef7ee453f7c2a60845d998e043bedaf\"",
+      "id": "89fd627f-7112-4de1-8ed2-5226054b57bc",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206258729.jpg",
+      "path": "photos/89fd627f-7112-4de1-8ed2-5226054b57bc.jpg",
+      "sha256": "2732722b319459a0bb1aea5a46cd384528d207567585a7ff894969d820787836",
+      "size": 397796,
+      "url": "/api/photos/89fd627f-7112-4de1-8ed2-5226054b57bc"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 니트 소재",
+    "기모 니트 소재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb292",
+  "updatedAt": null,
+  "version": 1
+}

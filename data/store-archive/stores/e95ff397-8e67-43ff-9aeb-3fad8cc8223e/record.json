@@ -1,0 +1,31 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:11:40.362Z",
+  "floor": "지하층",
+  "id": "e95ff397-8e67-43ff-9aeb-3fad8cc8223e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7b63b14431a5e610ce119a8810ef32a2\"",
+      "id": "f717619a-9cb4-4ab9-abe9-c00129a45394",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208280323.jpg",
+      "path": "photos/f717619a-9cb4-4ab9-abe9-c00129a45394.jpg",
+      "sha256": "8eead93429678c9cda88b35aa48066e0f82c8cadeb42a0a218e2e6ec0af4dc91",
+      "size": 852130,
+      "url": "/api/photos/f717619a-9cb4-4ab9-abe9-c00129a45394"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "가방 잠금장식",
+    "재단가위",
+    "스냅 단추",
+    "금속 연결 고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb545",
+  "updatedAt": null,
+  "version": 1
+}

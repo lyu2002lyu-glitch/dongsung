@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:32:14.927Z",
+  "floor": "지하층",
+  "id": "5abcf301-2d85-4932-a771-a65de428e09f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"89d505bce8b31e892fb83cdfb9526551\"",
+      "id": "a766c458-6147-4970-933e-17a18e27b052",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209522147.jpg",
+      "path": "photos/a766c458-6147-4970-933e-17a18e27b052.jpg",
+      "sha256": "39719e103bc949b22b46d9c0c7149b74fcbb74d5c6e253149f96c9490d2ebe7d",
+      "size": 412152,
+      "url": "/api/photos/a766c458-6147-4970-933e-17a18e27b052"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄무늬 원단",
+    "기하학 무늬 원단",
+    "자동차 무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb096",
+  "updatedAt": "2026-11-09T09:03:37.893Z",
+  "version": 2
+}

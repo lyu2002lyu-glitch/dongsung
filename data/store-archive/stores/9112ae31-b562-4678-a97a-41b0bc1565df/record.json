@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:12:34.824Z",
+  "floor": "지하층",
+  "id": "9112ae31-b562-4678-a97a-41b0bc1565df",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"267f710e05a5fac99151a0f714ca535a\"",
+      "id": "d326ea29-0c4a-426d-95d8-cc1d4f5a25fe",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208337887.jpg",
+      "path": "photos/d326ea29-0c4a-426d-95d8-cc1d4f5a25fe.jpg",
+      "sha256": "a92c43200ada4bcb42e6cf1f8e84432889124085689ab0f0edbf5f1449a34a6a",
+      "size": 712249,
+      "url": "/api/photos/d326ea29-0c4a-426d-95d8-cc1d4f5a25fe"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 웨빙 스트랩",
+    "금속 D링",
+    "가방 연결 고리",
+    "길이 조절 버클"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb522",
+  "updatedAt": null,
+  "version": 1
+}

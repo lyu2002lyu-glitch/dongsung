@@ -1,0 +1,27 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T04:13:34.526Z",
+  "floor": "5층",
+  "id": "b1764971-c271-4e6c-90b5-6d974395aeeb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6cb8ebe1226a3b87139121a8c86756e9\"",
+      "id": "ed2ceef7-37ec-4e95-bb3f-2a99e07e6792",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794197610876.jpg",
+      "path": "photos/ed2ceef7-37ec-4e95-bb3f-2a99e07e6792.jpg",
+      "sha256": "4b3e8375c61e30cb45bc13e19a83ae4dd25fc3cb4ced4f8c1261fd60f605d200",
+      "size": 1167636,
+      "url": "/api/photos/ed2ceef7-37ec-4e95-bb3f-2a99e07e6792"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "아일렛 달린 컬러 웨빙 탭"
+  ],
+  "productItemsSource": "photo",
+  "unit": "C5096",
+  "updatedAt": null,
+  "version": 0
+}

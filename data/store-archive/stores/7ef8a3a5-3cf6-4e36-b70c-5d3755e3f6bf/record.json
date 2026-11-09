@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:52:10.350Z",
+  "floor": "지하층",
+  "id": "7ef8a3a5-3cf6-4e36-b70c-5d3755e3f6bf",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"61a69b4cf1516b8c24e336610332dfff\"",
+      "id": "cff300a5-f514-41bb-ab90-57c6804a8d61",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207126655.jpg",
+      "path": "photos/cff300a5-f514-41bb-ab90-57c6804a8d61.jpg",
+      "sha256": "a474473fd5ec41441da5d6571c69b039a70c72efc5840983f68f363f9a48e430",
+      "size": 698044,
+      "url": "/api/photos/cff300a5-f514-41bb-ab90-57c6804a8d61"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb219",
+  "updatedAt": null,
+  "version": 1
+}

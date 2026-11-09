@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:28:41.298Z",
+  "floor": "지하층",
+  "id": "aaafc5ed-e060-493b-aa71-12a544d9a3f0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"409e8b5e8be54553c3165d80c1c43657\"",
+      "id": "2321ab15-9972-4971-9333-6110a64dc4d8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205716978.jpg",
+      "path": "photos/2321ab15-9972-4971-9333-6110a64dc4d8.jpg",
+      "sha256": "034c440e5ce4b5de4792174056d2bb9821520311b8cb69b006897daa69b6ca34",
+      "size": 511086,
+      "url": "/api/photos/2321ab15-9972-4971-9333-6110a64dc4d8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "모헤어 뜨개실",
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab038-4",
+  "updatedAt": null,
+  "version": 1
+}

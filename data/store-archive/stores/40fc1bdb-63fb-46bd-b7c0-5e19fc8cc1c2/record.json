@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:34:13.888Z",
+  "floor": "지하층",
+  "id": "40fc1bdb-63fb-46bd-b7c0-5e19fc8cc1c2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7eccb4e575305c70edce83b3bba89f33\"",
+      "id": "418910cd-3cea-499b-aa8d-7728b7401536",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206047196.jpg",
+      "path": "photos/418910cd-3cea-499b-aa8d-7728b7401536.jpg",
+      "sha256": "dffc412af121d02dd3aaa4368041086ffae4450fdb674b750da7adaeef27badf",
+      "size": 701140,
+      "url": "/api/photos/418910cd-3cea-499b-aa8d-7728b7401536"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab047",
+  "updatedAt": null,
+  "version": 1
+}

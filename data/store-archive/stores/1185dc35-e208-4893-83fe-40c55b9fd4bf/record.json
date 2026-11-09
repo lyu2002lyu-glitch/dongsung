@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:24:24.752Z",
+  "floor": "5층",
+  "id": "1185dc35-e208-4893-83fe-40c55b9fd4bf",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"79b8e53c5b02d6d85869b238da5996ff\"",
+      "id": "ad09dd19-fab8-4772-aca2-be89ab9e8755",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201858797.jpg",
+      "path": "photos/ad09dd19-fab8-4772-aca2-be89ab9e8755.jpg",
+      "sha256": "164ff836ffd3c7ebc15e8f07d03ac8b92d74b71aa2e80fd267fb356cffc8a343",
+      "size": 653645,
+      "url": "/api/photos/ad09dd19-fab8-4772-aca2-be89ab9e8755"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "팔찌",
+    "반지",
+    "체인 액세서리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5086",
+  "updatedAt": null,
+  "version": 0
+}

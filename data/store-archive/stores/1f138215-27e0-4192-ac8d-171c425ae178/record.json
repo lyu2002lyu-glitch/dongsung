@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:48:08.103Z",
+  "floor": "5층",
+  "id": "1f138215-27e0-4192-ac8d-171c425ae178",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"85f30d470d2d1fd236ec2d13f2908929\"",
+      "id": "7b842ed5-3c43-430f-b4db-6b7318e3c2f8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203282388.jpg",
+      "path": "photos/7b842ed5-3c43-430f-b4db-6b7318e3c2f8.jpg",
+      "sha256": "5ad0be17f98dba386a7a0095b06b42986a64688a92eb130077fa68c87aa9a298",
+      "size": 708676,
+      "url": "/api/photos/7b842ed5-3c43-430f-b4db-6b7318e3c2f8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 장식 참",
+    "연결 고리",
+    "체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5224",
+  "updatedAt": null,
+  "version": 0
+}

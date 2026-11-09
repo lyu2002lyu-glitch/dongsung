@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:34:27.494Z",
+  "floor": "지하층",
+  "id": "91302186-5a38-4968-80e9-8c7428f69af2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1bb2b9ee4597345552fdd5cdad8d8b33\"",
+      "id": "66412ca5-ee2f-49de-8ec6-bf23587f5b2e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209654244.jpg",
+      "path": "photos/66412ca5-ee2f-49de-8ec6-bf23587f5b2e.jpg",
+      "sha256": "618e8292ae96ebc521c0af20f6eab68a62718ed9e45ba33e868e67ab8bac2d69",
+      "size": 438150,
+      "url": "/api/photos/66412ca5-ee2f-49de-8ec6-bf23587f5b2e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 원단",
+    "짜임 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb110",
+  "updatedAt": null,
+  "version": 1
+}

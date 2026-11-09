@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:22:54.704Z",
+  "floor": "5층",
+  "id": "4a9055ac-cde5-43d1-bf26-be71ab7b4521",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"bebbeb6d0c69d381664e56aedaef02b7\"",
+      "id": "8df6d35d-4ab5-4a07-98cd-c156149c66e3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201770511.jpg",
+      "path": "photos/8df6d35d-4ab5-4a07-98cd-c156149c66e3.jpg",
+      "sha256": "1ceab83d99c268452b95910b6513a946e8762d1eb8ad9cb65a9a29dbec2a1116",
+      "size": 917732,
+      "url": "/api/photos/8df6d35d-4ab5-4a07-98cd-c156149c66e3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "모양 비즈",
+    "장식 스트랩",
+    "키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5077",
+  "updatedAt": null,
+  "version": 0
+}

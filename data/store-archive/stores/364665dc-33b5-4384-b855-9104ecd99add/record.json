@@ -1,0 +1,27 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:40:21.182Z",
+  "floor": "지하층",
+  "id": "364665dc-33b5-4384-b855-9104ecd99add",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4a79619fd4cffb5e172c014a15999f42\"",
+      "id": "cca87d5d-c5e2-4b5b-af37-777f704e3fd6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794210011555.jpg",
+      "path": "photos/cca87d5d-c5e2-4b5b-af37-777f704e3fd6.jpg",
+      "sha256": "ea8f4837c9d17d8dd394fb58775b480e23987dc01bc40c2be92bd86cf4ea8295",
+      "size": 423526,
+      "url": "/api/photos/cca87d5d-c5e2-4b5b-af37-777f704e3fd6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "누빔 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb046",
+  "updatedAt": null,
+  "version": 1
+}

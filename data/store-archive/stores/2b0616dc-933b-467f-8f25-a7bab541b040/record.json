@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:07:06.276Z",
+  "floor": "5층",
+  "id": "2b0616dc-933b-467f-8f25-a7bab541b040",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"125044fb049b0def60c9c11f6bfc829d\"",
+      "id": "a572c640-0b6b-423a-8446-6b1f903255d7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200819337.jpg",
+      "path": "photos/a572c640-0b6b-423a-8446-6b1f903255d7.jpg",
+      "sha256": "dda8cdbfc896df29f841a1c5c45a3bf1cc529721771138ed77c98f9cc786b1cb",
+      "size": 630414,
+      "url": "/api/photos/a572c640-0b6b-423a-8446-6b1f903255d7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "레이스 테이프",
+    "진주 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5003",
+  "updatedAt": null,
+  "version": 0
+}

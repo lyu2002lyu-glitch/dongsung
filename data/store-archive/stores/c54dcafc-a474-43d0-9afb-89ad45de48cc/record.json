@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:32:35.450Z",
+  "floor": "지하층",
+  "id": "c54dcafc-a474-43d0-9afb-89ad45de48cc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"66d0f36d2bbcd1909426b104cc1fae26\"",
+      "id": "385ef3bb-5cb8-4843-b4e8-33c9a40af3f2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209545900.jpg",
+      "path": "photos/385ef3bb-5cb8-4843-b4e8-33c9a40af3f2.jpg",
+      "sha256": "3bdf14410c6ca8245c0019c294b3263b9a7427a88f1b39e8b7e2743b4fe5beca",
+      "size": 361480,
+      "url": "/api/photos/385ef3bb-5cb8-4843-b4e8-33c9a40af3f2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "누빔 원단",
+    "단색 원단",
+    "쿠션"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb079",
+  "updatedAt": "2026-11-09T09:03:30.474Z",
+  "version": 2
+}

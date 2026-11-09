@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:21:12.302Z",
+  "floor": "지하층",
+  "id": "1f9898a9-6f9a-4396-ae9e-7e05f0210acb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"37e8d0573042e1fe4351f94537653aa9\"",
+      "id": "d93f5758-5394-4d86-9805-c92e475db802",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208855777.jpg",
+      "path": "photos/d93f5758-5394-4d86-9805-c92e475db802.jpg",
+      "sha256": "0fdaebd524353bba64714965f28cff6fe6a7ed75d68b5a759ced28a4c1de39b2",
+      "size": 631602,
+      "url": "/api/photos/d93f5758-5394-4d86-9805-c92e475db802"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "원형 수세미",
+    "반짝이 수세미실",
+    "뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb735",
+  "updatedAt": null,
+  "version": 1
+}

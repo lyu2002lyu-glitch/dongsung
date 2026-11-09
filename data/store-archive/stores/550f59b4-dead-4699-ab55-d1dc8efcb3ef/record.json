@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:34:39.862Z",
+  "floor": "5층",
+  "id": "550f59b4-dead-4699-ab55-d1dc8efcb3ef",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8973be3d40d59fa701783a3c51356802\"",
+      "id": "dc955898-a10c-4754-81bb-afde13a11341",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202476436.jpg",
+      "path": "photos/dc955898-a10c-4754-81bb-afde13a11341.jpg",
+      "sha256": "30d2f31c7d448d250d0dfad538ea0e5cb048d8e509cd310efb58f3ffdd22c22e",
+      "size": 605237,
+      "url": "/api/photos/dc955898-a10c-4754-81bb-afde13a11341"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 머리핀",
+    "곱창 머리끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5144",
+  "updatedAt": null,
+  "version": 0
+}

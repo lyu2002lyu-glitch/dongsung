@@ -20,11 +20,10 @@
   "productItems": [
     "무지 원단",
     "물방울무늬 원단",
-    "체크 원단",
-    "셔츠"
+    "체크 원단"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "C5012",
-  "updatedAt": null,
-  "version": 0
+  "updatedAt": "2026-11-09T03:51:50.252Z",
+  "version": 1
 }

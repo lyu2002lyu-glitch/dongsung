@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:38:03.640Z",
+  "floor": "지하층",
+  "id": "3662d639-f60d-4ebe-b1f8-24b37e2a9bef",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5007bec867099a8822e1a452281b4136\"",
+      "id": "792a9479-3d2c-4504-8239-63f21494a00c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206273696.jpg",
+      "path": "photos/792a9479-3d2c-4504-8239-63f21494a00c.jpg",
+      "sha256": "ad039dd0759a5610ae48e41ed617c310e372dea5c2b5137559b1a4a0f69d20a6",
+      "size": 457963,
+      "url": "/api/photos/792a9479-3d2c-4504-8239-63f21494a00c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "재봉실",
+    "대용량 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb293",
+  "updatedAt": null,
+  "version": 1
+}

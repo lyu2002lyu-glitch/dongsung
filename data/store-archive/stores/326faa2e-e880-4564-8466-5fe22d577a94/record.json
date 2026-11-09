@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:46:07.440Z",
+  "floor": "5층",
+  "id": "326faa2e-e880-4564-8466-5fe22d577a94",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f6d7733208f203e9e0becf028c72b4f9\"",
+      "id": "9eaf58a2-f7fb-4410-9191-fd1146dc5621",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203163872.jpg",
+      "path": "photos/9eaf58a2-f7fb-4410-9191-fd1146dc5621.jpg",
+      "sha256": "91e29744d31180bd07a305073d95811a238cdf1cf7082d10d7f43f1f76c04fef",
+      "size": 838913,
+      "url": "/api/photos/9eaf58a2-f7fb-4410-9191-fd1146dc5621"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "모양 비즈",
+    "미니어처 장식",
+    "태슬 장식",
+    "로프 스트랩"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5214",
+  "updatedAt": null,
+  "version": 0
+}

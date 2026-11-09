@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:43:51.641Z",
+  "floor": "5층",
+  "id": "5ba1e198-d781-4af5-9bd0-70140136052e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e183ee8816774c39f7e365cde0cda4f9\"",
+      "id": "5c14b3ab-27d5-4859-810f-60743cfd2e08",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203027922.jpg",
+      "path": "photos/5c14b3ab-27d5-4859-810f-60743cfd2e08.jpg",
+      "sha256": "26898e1cbdc2b1fb368324fd4aefc1b8e788bc1a93f6dff175ad3a811b323e99",
+      "size": 642458,
+      "url": "/api/photos/5c14b3ab-27d5-4859-810f-60743cfd2e08"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "스톤 장식 반지",
+    "민자 반지",
+    "꽃 모양 반지"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5202",
+  "updatedAt": null,
+  "version": 0
+}

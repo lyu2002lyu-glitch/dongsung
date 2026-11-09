@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:20:45.231Z",
+  "floor": "5층",
+  "id": "39c071c9-1a0d-47a7-8a77-2f8009c4733d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ead262d5180c6919e7714529d95a97b1\"",
+      "id": "0d65cd0f-a390-4870-b0f7-994cb69a82cc",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201640127.jpg",
+      "path": "photos/0d65cd0f-a390-4870-b0f7-994cb69a82cc.jpg",
+      "sha256": "bcabc0f342a9772a766990b6d13d1edc9095587fe1282889a23614f1cba7cf3b",
+      "size": 697256,
+      "url": "/api/photos/0d65cd0f-a390-4870-b0f7-994cb69a82cc"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 리본",
+    "레이스 장식",
+    "금속 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5067",
+  "updatedAt": null,
+  "version": 0
+}

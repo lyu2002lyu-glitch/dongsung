@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T05:54:02.642Z",
+  "floor": "지하층",
+  "id": "bfef9aa5-411e-44f9-b665-2453410964b8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"47dae90d7d80e885eed684ee01c0e93b\"",
+      "id": "dccedb1f-84e3-4261-84a5-11abe00271b7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203636094.jpg",
+      "path": "photos/dccedb1f-84e3-4261-84a5-11abe00271b7.jpg",
+      "sha256": "b850d0dee9e947e0f03a3770f6631dd26a37639f12dcb9f5ec28d4079ee10508",
+      "size": 533556,
+      "url": "/api/photos/dccedb1f-84e3-4261-84a5-11abe00271b7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "파스텔톤 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb267-3",
+  "updatedAt": null,
+  "version": 1
+}

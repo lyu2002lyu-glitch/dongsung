@@ -1,0 +1,28 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:41:34.313Z",
+  "floor": "지하층",
+  "id": "9bc44c89-2089-4d54-a3ac-eae54450b8c4",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"07468657a05e1081a4cf43c7660468d8\"",
+      "id": "686515b5-2d92-4499-bab0-5ec370b3d4d8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794210085249.jpg",
+      "path": "photos/686515b5-2d92-4499-bab0-5ec370b3d4d8.jpg",
+      "sha256": "c8094cc66c12ca99de314dc4111ae5fc3ffcd3872ddf086b10f4a2186631f1dd",
+      "size": 321871,
+      "url": "/api/photos/686515b5-2d92-4499-bab0-5ec370b3d4d8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "검정 원단",
+    "흰색 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb003",
+  "updatedAt": null,
+  "version": 1
+}

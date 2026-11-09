@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:12:00.707Z",
+  "floor": "5층",
+  "id": "1a6a16a9-f472-4d81-98ea-dfa6bc1d3dc5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"563a328e112fd8219145c79ba758cdce\"",
+      "id": "72b30ee9-56ac-4199-bc1b-1401c8962f30",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201116749.jpg",
+      "path": "photos/72b30ee9-56ac-4199-bc1b-1401c8962f30.jpg",
+      "sha256": "38a81ff192262180081336b1db2f0fded592168aceb5983a74b0f04273291b98",
+      "size": 657742,
+      "url": "/api/photos/72b30ee9-56ac-4199-bc1b-1401c8962f30"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 체인",
+    "장식용 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5026",
+  "updatedAt": null,
+  "version": 0
+}

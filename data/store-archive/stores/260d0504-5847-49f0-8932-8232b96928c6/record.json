@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:29:51.574Z",
+  "floor": "지하층",
+  "id": "260d0504-5847-49f0-8932-8232b96928c6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"394b7699e87db4561493f0b09a8133b4\"",
+      "id": "4018f075-e51a-4791-b0f2-a3659bf72b9d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205785166.jpg",
+      "path": "photos/4018f075-e51a-4791-b0f2-a3659bf72b9d.jpg",
+      "sha256": "c4e3ad75680fd42881a4173fd763c73f0ccf6ea428760eb8d5547b172d9fae70",
+      "size": 545147,
+      "url": "/api/photos/4018f075-e51a-4791-b0f2-a3659bf72b9d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "아동 한복",
+    "한복 치마",
+    "한복 저고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab037-4",
+  "updatedAt": null,
+  "version": 1
+}

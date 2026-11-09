@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:52:59.822Z",
+  "floor": "지하층",
+  "id": "1976fc72-fef2-4795-bacf-d035222c0a1d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4099ca42d2a2b909a59157a279ae54ab\"",
+      "id": "1e9d984a-3590-4ec7-82e2-4dd254c7e51b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207175078.jpg",
+      "path": "photos/1e9d984a-3590-4ec7-82e2-4dd254c7e51b.jpg",
+      "sha256": "3159180649c70a4b264549b0204eb687f5a2ace3f52ccc981f7e30ed2b761346",
+      "size": 454474,
+      "url": "/api/photos/1e9d984a-3590-4ec7-82e2-4dd254c7e51b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 끈",
+    "의류용 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb176-1",
+  "updatedAt": null,
+  "version": 1
+}

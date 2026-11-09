@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:08:10.132Z",
+  "floor": "지하층",
+  "id": "d0a3af1a-42b6-4f7e-9a92-a11fd11c8527",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e6da5022c9e101d73d3b85b6fb775506\"",
+      "id": "3db7f605-9981-4046-9300-273eeb7a6615",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204485876.jpg",
+      "path": "photos/3db7f605-9981-4046-9300-273eeb7a6615.jpg",
+      "sha256": "a5bb9b709e372d7df111793f5db6a3a8b32fe5e1d323c184c92678023623f634",
+      "size": 490809,
+      "url": "/api/photos/3db7f605-9981-4046-9300-273eeb7a6615"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "분홍색·주황색 실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab024",
+  "updatedAt": null,
+  "version": 1
+}

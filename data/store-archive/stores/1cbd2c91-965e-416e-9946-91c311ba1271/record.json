@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:20:58.623Z",
+  "floor": "5층",
+  "id": "1cbd2c91-965e-416e-9946-91c311ba1271",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b95f878b2a3c454deadebce7dfaa1b85\"",
+      "id": "29704ee2-05ee-416f-b1ba-b353f8efb88a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201654312.jpg",
+      "path": "photos/29704ee2-05ee-416f-b1ba-b353f8efb88a.jpg",
+      "sha256": "450984c15b3f6507770bde920c206c7d81a3bf1a37e9ff50de7563bfd0a58fa4",
+      "size": 614980,
+      "url": "/api/photos/29704ee2-05ee-416f-b1ba-b353f8efb88a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 테이프",
+    "프릴 레이스",
+    "리본 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5106",
+  "updatedAt": null,
+  "version": 0
+}

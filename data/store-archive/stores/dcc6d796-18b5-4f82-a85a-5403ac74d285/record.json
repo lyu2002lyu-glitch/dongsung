@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:54:27.035Z",
+  "floor": "지하층",
+  "id": "dcc6d796-18b5-4f82-a85a-5403ac74d285",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ead4c91e499f545d61526c67a0f1949c\"",
+      "id": "8435380b-df46-48d0-b021-7e6a25cdcb9a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207262651.jpg",
+      "path": "photos/8435380b-df46-48d0-b021-7e6a25cdcb9a.jpg",
+      "sha256": "f67cdcdcf955f42dc6daff64cee2aa90639b181c9a7cbd5772a498ff76cd6ea7",
+      "size": 525641,
+      "url": "/api/photos/8435380b-df46-48d0-b021-7e6a25cdcb9a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실",
+    "콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb233",
+  "updatedAt": null,
+  "version": 1
+}

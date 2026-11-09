@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:58:49.679Z",
+  "floor": "지하층",
+  "id": "52733687-6478-412f-a49d-8dbefa8ace3b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"62dc0e27267673b652d53aa89f536fcb\"",
+      "id": "9b64fe86-f467-4c79-892d-81c658669bf3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207516764.jpg",
+      "path": "photos/9b64fe86-f467-4c79-892d-81c658669bf3.jpg",
+      "sha256": "9c26b7a0b5efd250c1c5034e8985d895ac2da2a561ed3ba58cd321c5eb127a24",
+      "size": 536853,
+      "url": "/api/photos/9b64fe86-f467-4c79-892d-81c658669bf3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab129",
+  "updatedAt": null,
+  "version": 1
+}

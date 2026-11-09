@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:29:51.265Z",
+  "floor": "지하층",
+  "id": "6b92efa1-37bf-48e8-bc7c-4c1aacc0914a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fec402664aa285ecaee456f226749a6b\"",
+      "id": "d00d6149-1cf5-4379-9d68-fe3967202d5d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209372872.jpg",
+      "path": "photos/d00d6149-1cf5-4379-9d68-fe3967202d5d.jpg",
+      "sha256": "530c282cc71569593ce44528f3e0f2f4f5b5a210bec87ef59ccfca2a611083a7",
+      "size": 548718,
+      "url": "/api/photos/d00d6149-1cf5-4379-9d68-fe3967202d5d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "멜란지 알파카 뜨개실",
+    "굵은 뜨개실",
+    "반짝이 수세미실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb044",
+  "updatedAt": "2026-11-09T09:04:33.940Z",
+  "version": 2
+}

@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:07:57.990Z",
+  "floor": "지하층",
+  "id": "883bff35-53d0-4894-bab6-69dc8604ca4c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5297709914d35b062367225f7305f703\"",
+      "id": "ce080198-9b6e-4dce-b5a5-332fd7256a3c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204473356.jpg",
+      "path": "photos/ce080198-9b6e-4dce-b5a5-332fd7256a3c.jpg",
+      "sha256": "7366a02d796302e714de5a6ea18dcedb5f7d943d4ebf2a420536891eb842e2b1",
+      "size": 428616,
+      "url": "/api/photos/ce080198-9b6e-4dce-b5a5-332fd7256a3c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 원단",
+    "털 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab024-2",
+  "updatedAt": null,
+  "version": 1
+}

@@ -19,11 +19,10 @@
   "productAnalysisStatus": "ready",
   "productItems": [
     "무지 원단",
-    "프린트 면 원단",
-    "앞치마"
+    "프린트 면 원단"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "C5056",
-  "updatedAt": null,
-  "version": 0
+  "updatedAt": "2026-11-09T03:53:26.560Z",
+  "version": 1
 }

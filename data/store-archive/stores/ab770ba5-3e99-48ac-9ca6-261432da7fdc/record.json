@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:00:32.252Z",
+  "floor": "지하층",
+  "id": "ab770ba5-3e99-48ac-9ca6-261432da7fdc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"db1078e1029cbf9f423e39836c48b88a\"",
+      "id": "6f4655ba-106b-49ce-8f73-07946a749e1e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204028560.jpg",
+      "path": "photos/6f4655ba-106b-49ce-8f73-07946a749e1e.jpg",
+      "sha256": "012fb415c63b5b292da03eefb12e302728752c7104af68839ee6200781b706c7",
+      "size": 233631,
+      "url": "/api/photos/6f4655ba-106b-49ce-8f73-07946a749e1e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 니트 원단 견본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb268",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:00:51.850Z",
+  "floor": "지하층",
+  "id": "92ad6383-e7d0-4432-9c33-cbc4626c2c0a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"30504c81b1049a17af9813c7940d79c0\"",
+      "id": "45dc6cc0-9d23-40b7-937e-8554e542d86b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204048373.jpg",
+      "path": "photos/45dc6cc0-9d23-40b7-937e-8554e542d86b.jpg",
+      "sha256": "603400a1c278feaae8f4d618740d3568639f6ebd1f0eff2fac51d4f16732bcfd",
+      "size": 554899,
+      "url": "/api/photos/45dc6cc0-9d23-40b7-937e-8554e542d86b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb271-13",
+  "updatedAt": null,
+  "version": 1
+}

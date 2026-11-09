@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:37:06.168Z",
+  "floor": "5층",
+  "id": "5f4bb901-a46b-4d6b-940b-c250dc9d1f16",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"413f4fc9e292c5ef5c85f124aa54ec0b\"",
+      "id": "5198d22f-06a5-456b-8ddc-0392bbaf3e8f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202622524.jpg",
+      "path": "photos/5198d22f-06a5-456b-8ddc-0392bbaf3e8f.jpg",
+      "sha256": "a4ee3aba3e4700ba19c7c7d6866eacbf3ca4025292c4374266fce65ed0dec4c2",
+      "size": 670353,
+      "url": "/api/photos/5198d22f-06a5-456b-8ddc-0392bbaf3e8f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폼폼 장식",
+    "미니 봉제인형"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5160",
+  "updatedAt": null,
+  "version": 0
+}

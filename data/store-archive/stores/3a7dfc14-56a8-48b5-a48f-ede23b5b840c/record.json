@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:35:13.869Z",
+  "floor": "지하층",
+  "id": "3a7dfc14-56a8-48b5-a48f-ede23b5b840c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cc0a606a993d7fb51dcb56826920a975\"",
+      "id": "fb1535b7-66c2-43f5-aeac-476e933b7818",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206098313.jpg",
+      "path": "photos/fb1535b7-66c2-43f5-aeac-476e933b7818.jpg",
+      "sha256": "907bbb5bef0958a621eda2217809656f91d9dd7783ab96f98f47179a9c4753e6",
+      "size": 527545,
+      "url": "/api/photos/fb1535b7-66c2-43f5-aeac-476e933b7818"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "트위드 뜨개실",
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab43",
+  "updatedAt": null,
+  "version": 1
+}

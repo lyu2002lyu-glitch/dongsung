@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:36:46.271Z",
+  "floor": "지하층",
+  "id": "c9993de1-a9e8-4e7a-8a06-5e71ac9fcd7f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b168c2cfe3b64974eaf7e5ec73724b4a\"",
+      "id": "e7d9e4ee-5646-428c-9616-45387317eb27",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206202135.jpg",
+      "path": "photos/e7d9e4ee-5646-428c-9616-45387317eb27.jpg",
+      "sha256": "24e291c0c3d67c47f60c7e9e880ed8b9b2d430afe0eaa4a81a03f2fc66909a19",
+      "size": 578359,
+      "url": "/api/photos/e7d9e4ee-5646-428c-9616-45387317eb27"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "대용량 뜨개용 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb186",
+  "updatedAt": null,
+  "version": 1
+}

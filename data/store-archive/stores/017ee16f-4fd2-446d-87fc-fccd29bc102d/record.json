@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:08:47.523Z",
+  "floor": "지하층",
+  "id": "017ee16f-4fd2-446d-87fc-fccd29bc102d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"18efce4c8e8d0f8d51343a20735fc49b\"",
+      "id": "8fb44403-9809-4249-bae7-0639400a2a4b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208113298.jpg",
+      "path": "photos/8fb44403-9809-4249-bae7-0639400a2a4b.jpg",
+      "sha256": "ba149bfba6e4e34e65e66aef0ea811819d390b57d2c1b5ed6ccd00a9ddf8dcf1",
+      "size": 624949,
+      "url": "/api/photos/8fb44403-9809-4249-bae7-0639400a2a4b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃무늬 레이스 테이프",
+    "장식 레이스 모티프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb249",
+  "updatedAt": null,
+  "version": 1
+}

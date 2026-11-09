@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:26:08.963Z",
+  "floor": "5층",
+  "id": "a502be0f-e2ea-4177-a25d-5c83fd9d3c4d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"aae8029f57a03a2d45adc10520e77b11\"",
+      "id": "8d23b655-3d0c-4037-8194-a39a7e0a39e2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201964482.jpg",
+      "path": "photos/8d23b655-3d0c-4037-8194-a39a7e0a39e2.jpg",
+      "sha256": "23ed9818ab5300d32e59df32c46c5d90a235e9c656b428522789c69ccc44cfe9",
+      "size": 655785,
+      "url": "/api/photos/8d23b655-3d0c-4037-8194-a39a7e0a39e2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "문구 장식 라벨",
+    "그림 장식 라벨"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5091",
+  "updatedAt": null,
+  "version": 0
+}

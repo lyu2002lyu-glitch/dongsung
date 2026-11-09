@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:18:19.927Z",
+  "floor": "지하층",
+  "id": "ac6186b6-684c-4e6a-b496-188cf8a80295",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0b889ba29a818791903af0c4640043aa\"",
+      "id": "e9db8416-8b3a-4dd7-b86f-e2607cfa460d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208684735.jpg",
+      "path": "photos/e9db8416-8b3a-4dd7-b86f-e2607cfa460d.jpg",
+      "sha256": "f74136b2b2fecf92602827c9e371929c14d4a12d77e747df98d663220462a163",
+      "size": 646871,
+      "url": "/api/photos/e9db8416-8b3a-4dd7-b86f-e2607cfa460d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반짝이 수세미실",
+    "메탈릭 뜨개실",
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb580-1",
+  "updatedAt": null,
+  "version": 1
+}

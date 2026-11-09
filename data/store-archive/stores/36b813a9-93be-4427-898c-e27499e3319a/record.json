@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:28:37.947Z",
+  "floor": "지하층",
+  "id": "36b813a9-93be-4427-898c-e27499e3319a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a97914c548c6e9fe70647482f878a0b0\"",
+      "id": "d9c16ebf-dec0-4fd0-a830-14e4ee09675e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209308513.jpg",
+      "path": "photos/d9c16ebf-dec0-4fd0-a830-14e4ee09675e.jpg",
+      "sha256": "373fef3517e3896bf602b0faeca6f985016290a3d627c231a93c6a9e2242fe49",
+      "size": 397805,
+      "url": "/api/photos/d9c16ebf-dec0-4fd0-a830-14e4ee09675e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 원단",
+    "잎사귀 무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb062",
+  "updatedAt": "2026-11-09T09:04:44.709Z",
+  "version": 2
+}

@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:33:16.565Z",
+  "floor": "지하층",
+  "id": "7f51f29a-9c9b-4753-907e-7c4efcd00c4e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6f65e96289457bb5d5f2b7209159bc69\"",
+      "id": "ee18d23b-fec3-4aab-a2cb-bb695389bcde",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209583603.jpg",
+      "path": "photos/ee18d23b-fec3-4aab-a2cb-bb695389bcde.jpg",
+      "sha256": "fed33c04bf05810e75847cee3915881ba729abdd8e1f932cf0566974df2f1c12",
+      "size": 441982,
+      "url": "/api/photos/ee18d23b-fec3-4aab-a2cb-bb695389bcde"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "누빔 원단",
+    "자수 원단",
+    "누빔 파우치"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb070",
+  "updatedAt": "2026-11-09T09:03:15.639Z",
+  "version": 2
+}

@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T05:55:59.569Z",
+  "floor": "지하층",
+  "id": "cc23b7df-bcbc-432d-9af1-c2603e34d1eb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8b110f2ba759f7b3fa2496921b1e0f7f\"",
+      "id": "cf145e4c-e391-4b29-adad-836fa7c39ca0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203754521.jpg",
+      "path": "photos/cf145e4c-e391-4b29-adad-836fa7c39ca0.jpg",
+      "sha256": "23b80a133f326ee493686c9a38fcb09ae5ac78a1426a77e0df270411835fbf5a",
+      "size": 505707,
+      "url": "/api/photos/cf145e4c-e391-4b29-adad-836fa7c39ca0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "포장용 끈",
+    "손잡이 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb107",
+  "updatedAt": "2026-11-09T08:21:20.925Z",
+  "version": 3
+}

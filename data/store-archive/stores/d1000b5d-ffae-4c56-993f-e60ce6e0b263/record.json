@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:26:01.140Z",
+  "floor": "지하층",
+  "id": "d1000b5d-ffae-4c56-993f-e60ce6e0b263",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"99f4ff5be4ca688cb105112b99bd61de\"",
+      "id": "38c49f58-bdb6-42b7-a314-0cfeacf5ae60",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209148417.jpg",
+      "path": "photos/38c49f58-bdb6-42b7-a314-0cfeacf5ae60.jpg",
+      "sha256": "a9347341bd275863a0693c7611acf9fc708b9a7c0cdfa3ec6a238743044d32af",
+      "size": 543725,
+      "url": "/api/photos/38c49f58-bdb6-42b7-a314-0cfeacf5ae60"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "크리스마스 무늬 원단",
+    "줄무늬 원단",
+    "꽃무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb017",
+  "updatedAt": "2026-11-09T09:05:16.373Z",
+  "version": 2
+}

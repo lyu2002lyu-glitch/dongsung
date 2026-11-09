@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:15:41.695Z",
+  "floor": "지하층",
+  "id": "bb63d7f4-9245-431e-9b27-fe141cdd13f4",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ab939764c6b09a6295c61a3a0ba9ed3f\"",
+      "id": "da80759d-7c2f-44c9-ad94-9c2b8d46560b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208527898.jpg",
+      "path": "photos/da80759d-7c2f-44c9-ad94-9c2b8d46560b.jpg",
+      "sha256": "01dca307fb8da122a115a1e1b9d4ed7772617dec1c6cd8a59c73b3af87580ef6",
+      "size": 527642,
+      "url": "/api/photos/da80759d-7c2f-44c9-ad94-9c2b8d46560b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반짝이 수세미실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb532",
+  "updatedAt": null,
+  "version": 1
+}

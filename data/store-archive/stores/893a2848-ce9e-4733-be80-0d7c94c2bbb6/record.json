@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:49:08.090Z",
+  "floor": "지하층",
+  "id": "893a2848-ce9e-4733-be80-0d7c94c2bbb6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0eeed32e2cbc51d361f15d5cfc0702d2\"",
+      "id": "7f3097a8-275c-4b72-a4e3-8aada242394f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206934941.jpg",
+      "path": "photos/7f3097a8-275c-4b72-a4e3-8aada242394f.jpg",
+      "sha256": "af15bf80d58d10add29a4f6a1ccdb87c5c8135083c4980e624113f5126c499a7",
+      "size": 629779,
+      "url": "/api/photos/7f3097a8-275c-4b72-a4e3-8aada242394f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "코바늘"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb94",
+  "updatedAt": null,
+  "version": 1
+}

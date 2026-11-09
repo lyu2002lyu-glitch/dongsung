@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:23:23.779Z",
+  "floor": "5층",
+  "id": "4d710359-3576-4a4e-907a-859ea12a4f55",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"219d9e399118a1295ac44f752bd9d4bb\"",
+      "id": "6084e624-802d-404f-80fd-bc9baf420a7a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201800503.jpg",
+      "path": "photos/6084e624-802d-404f-80fd-bc9baf420a7a.jpg",
+      "sha256": "e89d2c22d40b7e5ec146f17f1e7b90acd9144d15ca920094c7ba0200a5e9b772",
+      "size": 817724,
+      "url": "/api/photos/6084e624-802d-404f-80fd-bc9baf420a7a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "색상 비즈",
+    "모양 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5081",
+  "updatedAt": null,
+  "version": 0
+}

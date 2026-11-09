@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T04:12:51.576Z",
+  "floor": "5층",
+  "id": "8a334c86-51bc-4443-b69f-8c945793613e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"02eab33178f3f13f15403622674f9347\"",
+      "id": "3c35ed5f-3d47-4719-917c-74f82446e1ab",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794197567130.jpg",
+      "path": "photos/3c35ed5f-3d47-4719-917c-74f82446e1ab.jpg",
+      "sha256": "d507dbfdb9c856a51846136110755aa3975ef28e3a7167049f4c422a046c24f4",
+      "size": 1206061,
+      "url": "/api/photos/3c35ed5f-3d47-4719-917c-74f82446e1ab"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "큐빅 장식",
+    "장식 비즈",
+    "캐릭터 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "C5065",
+  "updatedAt": "2026-11-09T04:22:13.095Z",
+  "version": 1
+}

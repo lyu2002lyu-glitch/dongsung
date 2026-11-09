@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:33:55.340Z",
+  "floor": "지하층",
+  "id": "5d781ef2-a19f-40be-b163-86e8bd0640e8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"53736d18a587bdd46ef92970b28c8537\"",
+      "id": "2c8b35b5-0cad-40d1-956d-07c27106e3e0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206030200.jpg",
+      "path": "photos/2c8b35b5-0cad-40d1-956d-07c27106e3e0.jpg",
+      "sha256": "f25ad3c2cc4619e098ac90659009b7e4bfffcd42a411cc0e49447ffb4665a5bc",
+      "size": 516842,
+      "url": "/api/photos/2c8b35b5-0cad-40d1-956d-07c27106e3e0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 두루마리 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab048",
+  "updatedAt": null,
+  "version": 1
+}

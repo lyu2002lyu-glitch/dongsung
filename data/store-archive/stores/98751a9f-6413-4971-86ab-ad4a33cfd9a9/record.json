@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:05:25.435Z",
+  "floor": "지하층",
+  "id": "98751a9f-6413-4971-86ab-ad4a33cfd9a9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"440f150b367a6c8c713eaad21312f437\"",
+      "id": "7fd98ed9-37b6-479f-bb35-9ac2281865dd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204319900.jpg",
+      "path": "photos/7fd98ed9-37b6-479f-bb35-9ac2281865dd.jpg",
+      "sha256": "3ce375fdadb3c8da81a4d1ad18179b1ce88a3e18a036d9b3aef1b3fa942433fb",
+      "size": 533671,
+      "url": "/api/photos/7fd98ed9-37b6-479f-bb35-9ac2281865dd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "요철 무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab026-1",
+  "updatedAt": null,
+  "version": 1
+}

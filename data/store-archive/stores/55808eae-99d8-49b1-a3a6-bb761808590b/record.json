@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:43:30.799Z",
+  "floor": "5층",
+  "id": "55808eae-99d8-49b1-a3a6-bb761808590b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e45493a466ed8bfe55c2f0c9f1fc257e\"",
+      "id": "07cf56ed-2c64-44be-8e83-0f8e49e7cc19",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203006796.jpg",
+      "path": "photos/07cf56ed-2c64-44be-8e83-0f8e49e7cc19.jpg",
+      "sha256": "ed133a7ba1c55d8c8ffb0b9d846e87bc57087172c9f1797cde9d16563a55264d",
+      "size": 627726,
+      "url": "/api/photos/07cf56ed-2c64-44be-8e83-0f8e49e7cc19"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 머리장식",
+    "꽃 모양 머리장식",
+    "머리띠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5201",
+  "updatedAt": null,
+  "version": 0
+}

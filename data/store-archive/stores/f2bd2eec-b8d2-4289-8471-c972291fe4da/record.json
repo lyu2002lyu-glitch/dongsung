@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:31:44.262Z",
+  "floor": "5층",
+  "id": "f2bd2eec-b8d2-4289-8471-c972291fe4da",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"775cc75adf8c0f6438ff38859f936b76\"",
+      "id": "5a44f9c6-9f27-4b1b-ae2e-79e1752018f6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202298774.jpg",
+      "path": "photos/5a44f9c6-9f27-4b1b-ae2e-79e1752018f6.jpg",
+      "sha256": "c8c65f492d0342efde52fdec1a18a43f89fc07cda0cda09d3036eb39e70c7e9f",
+      "size": 840454,
+      "url": "/api/photos/5a44f9c6-9f27-4b1b-ae2e-79e1752018f6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 구슬",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5131",
+  "updatedAt": null,
+  "version": 0
+}

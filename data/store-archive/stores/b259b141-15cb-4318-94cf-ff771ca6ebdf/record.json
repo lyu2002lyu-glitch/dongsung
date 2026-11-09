@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:14:59.577Z",
+  "floor": "지하층",
+  "id": "b259b141-15cb-4318-94cf-ff771ca6ebdf",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7b4df0c240a21a9a20463dbd7eea1a3c\"",
+      "id": "f1d6dd58-d869-4bee-9568-78854f33202a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208484072.jpg",
+      "path": "photos/f1d6dd58-d869-4bee-9568-78854f33202a.jpg",
+      "sha256": "45924997eedaa803c699fa22c4bae9b2370d602030bef6e4c3c4460579f182a1",
+      "size": 396796,
+      "url": "/api/photos/f1d6dd58-d869-4bee-9568-78854f33202a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "오가닉 원단",
+    "꽃무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb527",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:49:27.549Z",
+  "floor": "지하층",
+  "id": "1a78c6bb-25cd-44f7-892a-8ebb6b8014f1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"70b5e95a1fd88c41c978288f2c415ce1\"",
+      "id": "f37fde1a-1864-47a8-9e3c-61f49e4dbe27",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206957467.jpg",
+      "path": "photos/f37fde1a-1864-47a8-9e3c-61f49e4dbe27.jpg",
+      "sha256": "e2fef8239d967b3438323d1ebbf8ff879ae76c0f3207e87fc374502fef9a3537",
+      "size": 600686,
+      "url": "/api/photos/f37fde1a-1864-47a8-9e3c-61f49e4dbe27"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "면 뜨개실",
+    "굵은 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb93",
+  "updatedAt": null,
+  "version": 1
+}

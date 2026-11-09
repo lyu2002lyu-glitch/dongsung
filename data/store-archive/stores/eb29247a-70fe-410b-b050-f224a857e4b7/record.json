@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:39:52.622Z",
+  "floor": "지하층",
+  "id": "eb29247a-70fe-410b-b050-f224a857e4b7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"046573bce296f6eeb52fe75c6338d310\"",
+      "id": "59531fa6-66c2-4855-8bcc-8335000c35d8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206386661.jpg",
+      "path": "photos/59531fa6-66c2-4855-8bcc-8335000c35d8.jpg",
+      "sha256": "1fb40a1f5b5ce2e9f126105130afd4f636530b9d016d1facb6bde2d1eeff22bf",
+      "size": 621564,
+      "url": "/api/photos/59531fa6-66c2-4855-8bcc-8335000c35d8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb196",
+  "updatedAt": null,
+  "version": 1
+}

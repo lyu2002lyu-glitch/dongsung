@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:23:10.932Z",
+  "floor": "지하층",
+  "id": "c2ae9ab2-34c3-40c5-8219-a9453d5bf769",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4ae25bc7bcd9d80ae86c1378b2965a73\"",
+      "id": "21d44ecb-8fbb-4946-852d-9abdb8c7aae4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208978281.jpg",
+      "path": "photos/21d44ecb-8fbb-4946-852d-9abdb8c7aae4.jpg",
+      "sha256": "1405705632004d2f8be5f0bc643e3d2721189135ab744e2b0c3c255f6311be56",
+      "size": 531044,
+      "url": "/api/photos/21d44ecb-8fbb-4946-852d-9abdb8c7aae4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃무늬 레이스 원단",
+    "망사 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb007",
+  "updatedAt": "2026-11-09T09:06:08.387Z",
+  "version": 2
+}

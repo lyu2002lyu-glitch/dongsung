@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:02:04.058Z",
+  "floor": "지하층",
+  "id": "7e7e7516-4f64-4192-a666-ba0140afc568",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5518fee7f15cc35452225af97eb2ed91\"",
+      "id": "5a5b2bc1-26ad-4e19-9df2-812d289a04df",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204116654.jpg",
+      "path": "photos/5a5b2bc1-26ad-4e19-9df2-812d289a04df.jpg",
+      "sha256": "a41330d8900002c1b1ca1e88bf1f111a183aa4017a2422442d8de07efc18c9db",
+      "size": 527710,
+      "url": "/api/photos/5a5b2bc1-26ad-4e19-9df2-812d289a04df"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "흑백 재봉실",
+    "색상 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb280",
+  "updatedAt": null,
+  "version": 1
+}

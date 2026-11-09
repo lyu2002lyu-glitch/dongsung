@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:41:46.452Z",
+  "floor": "5층",
+  "id": "c9c2dc60-cf69-46a7-974f-a4e4f5d48465",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5859008af13bf8c004a810fb25704869\"",
+      "id": "1e8f85e2-2660-4750-aefe-a6135a5f50c1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202900519.jpg",
+      "path": "photos/1e8f85e2-2660-4750-aefe-a6135a5f50c1.jpg",
+      "sha256": "e624a05ab729174a1fee157aaf64efccc95e5e3ed5489c0291e80ef10bddb413",
+      "size": 778629,
+      "url": "/api/photos/1e8f85e2-2660-4750-aefe-a6135a5f50c1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "진주 모양 구슬",
+    "목걸이",
+    "팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5191",
+  "updatedAt": null,
+  "version": 0
+}

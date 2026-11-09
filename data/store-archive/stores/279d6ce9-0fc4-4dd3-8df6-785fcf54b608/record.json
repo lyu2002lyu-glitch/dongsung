@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:42:01.120Z",
+  "floor": "5층",
+  "id": "279d6ce9-0fc4-4dd3-8df6-785fcf54b608",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b66bb1d145128810b3da9fc7f1d3c60f\"",
+      "id": "6ee60f30-7fe2-4fbe-b431-147f5ac0fa4f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202914857.jpg",
+      "path": "photos/6ee60f30-7fe2-4fbe-b431-147f5ac0fa4f.jpg",
+      "sha256": "f808bb6fc6633883e54f55900464e685e0e0fb427972d5d482408b086835046d",
+      "size": 881445,
+      "url": "/api/photos/6ee60f30-7fe2-4fbe-b431-147f5ac0fa4f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금색·은색 체인",
+    "금속 장식 부자재",
+    "단추"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5192",
+  "updatedAt": null,
+  "version": 0
+}

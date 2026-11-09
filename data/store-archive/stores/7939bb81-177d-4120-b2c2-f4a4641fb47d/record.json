@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:23:12.644Z",
+  "floor": "5층",
+  "id": "7939bb81-177d-4120-b2c2-f4a4641fb47d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c0104abf09f7565e3366eb98af1747ba\"",
+      "id": "de2fb86b-8b1a-44b8-b517-02cdc953f884",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201789017.jpg",
+      "path": "photos/de2fb86b-8b1a-44b8-b517-02cdc953f884.jpg",
+      "sha256": "4ea051af5d7792744345f1d9c44417adfa0df7e24bcb0d45804182cc8aabd8b7",
+      "size": 833270,
+      "url": "/api/photos/de2fb86b-8b1a-44b8-b517-02cdc953f884"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "모양 비즈",
+    "열쇠고리 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5079",
+  "updatedAt": null,
+  "version": 0
+}

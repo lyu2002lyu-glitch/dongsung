@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:43:17.495Z",
+  "floor": "5층",
+  "id": "45c329e9-246d-482c-a998-e7e4b7bba38a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"18fdf677d46265c9a11daae226bcc746\"",
+      "id": "90818206-cb45-4aba-815b-f07a42bb1bb9",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202990218.jpg",
+      "path": "photos/90818206-cb45-4aba-815b-f07a42bb1bb9.jpg",
+      "sha256": "7f39636e23c498485f929b9349699a6098536740a8c55ea63668b736ee60b633",
+      "size": 764024,
+      "url": "/api/photos/90818206-cb45-4aba-815b-f07a42bb1bb9"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 단추",
+    "무늬 단추",
+    "장식 단추"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5200",
+  "updatedAt": null,
+  "version": 0
+}

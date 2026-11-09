@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:09:29.415Z",
+  "floor": "지하층",
+  "id": "17bb9e73-fa07-4554-8c82-42454392a7a2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"255657eeb59d778acdac19bf839d7beb\"",
+      "id": "67d56b06-83a6-4cee-99ba-f873867e545c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208155459.jpg",
+      "path": "photos/67d56b06-83a6-4cee-99ba-f873867e545c.jpg",
+      "sha256": "b6b898c0465723a6bb5a59296fa8148e6b3eab13c3167b7e2f78e6fa19dd3030",
+      "size": 553938,
+      "url": "/api/photos/67d56b06-83a6-4cee-99ba-f873867e545c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "타래실",
+    "혼합색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bbw50",
+  "updatedAt": null,
+  "version": 1
+}

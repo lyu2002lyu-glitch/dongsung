@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:14:28.843Z",
+  "floor": "5층",
+  "id": "ae3dcd3a-0637-437e-8f0c-4b45ac764587",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8c387eb768dd688de8ee65a779827517\"",
+      "id": "1c001ffb-1b24-4106-a9e6-80683b5e8d44",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201266008.jpg",
+      "path": "photos/1c001ffb-1b24-4106-a9e6-80683b5e8d44.jpg",
+      "sha256": "135f57cccb5909b7fa80f60049bdcbad6aca8886cff936fa905ade6712994330",
+      "size": 770625,
+      "url": "/api/photos/1c001ffb-1b24-4106-a9e6-80683b5e8d44"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "자수 와펜",
+    "캐릭터 장식 파츠",
+    "꽃 모양 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5037",
+  "updatedAt": null,
+  "version": 0
+}

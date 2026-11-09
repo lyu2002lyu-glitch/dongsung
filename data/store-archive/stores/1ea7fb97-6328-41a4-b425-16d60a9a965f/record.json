@@ -1,0 +1,29 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:38:39.444Z",
+  "floor": "지하층",
+  "id": "1ea7fb97-6328-41a4-b425-16d60a9a965f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"88c03689850c0f3ac8c0a48f07639f3e\"",
+      "id": "adae364e-77fd-478e-a8ef-e0885d02730b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209905666.jpg",
+      "path": "photos/adae364e-77fd-478e-a8ef-e0885d02730b.jpg",
+      "sha256": "4e5cacf5bea023bd72fd90a9d525659f96cc2cb38200cdc73c3e1c34ec5a97a0",
+      "size": 533944,
+      "url": "/api/photos/adae364e-77fd-478e-a8ef-e0885d02730b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "커튼봉",
+    "커튼 링",
+    "커튼 타이백"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb070",
+  "updatedAt": null,
+  "version": 1
+}

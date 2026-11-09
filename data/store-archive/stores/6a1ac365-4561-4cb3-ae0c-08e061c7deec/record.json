@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:33:41.956Z",
+  "floor": "지하층",
+  "id": "6a1ac365-4561-4cb3-ae0c-08e061c7deec",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cdd402ccbda20ef140ad410f379e4a91\"",
+      "id": "c7ba78b0-f63b-4915-84b3-28d1e8ce59cf",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206015192.jpg",
+      "path": "photos/c7ba78b0-f63b-4915-84b3-28d1e8ce59cf.jpg",
+      "sha256": "474fc49f3d4c2d0926a11a6a436ce9e11788f914c09b33ecea4cbb7c04103f26",
+      "size": 526443,
+      "url": "/api/photos/c7ba78b0-f63b-4915-84b3-28d1e8ce59cf"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "타래형 뜨개실",
+    "콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab049",
+  "updatedAt": null,
+  "version": 1
+}

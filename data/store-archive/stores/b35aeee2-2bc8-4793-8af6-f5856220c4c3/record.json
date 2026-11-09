@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:38:48.659Z",
+  "floor": "5층",
+  "id": "b35aeee2-2bc8-4793-8af6-f5856220c4c3",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fbb415451550b0a8305eda9bb380b1b1\"",
+      "id": "e7664694-3320-4513-807b-e8f273a708ae",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202720390.jpg",
+      "path": "photos/e7664694-3320-4513-807b-e8f273a708ae.jpg",
+      "sha256": "385fb4cfbed7de019da93694220cf9ee6d58d8703395076f5df009748668b357",
+      "size": 716816,
+      "url": "/api/photos/e7664694-3320-4513-807b-e8f273a708ae"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "나무색 줄비즈",
+    "폼폼 장식",
+    "색상 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5171",
+  "updatedAt": null,
+  "version": 0
+}

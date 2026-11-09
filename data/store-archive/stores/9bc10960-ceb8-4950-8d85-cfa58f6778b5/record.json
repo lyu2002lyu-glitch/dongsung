@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:14:16.243Z",
+  "floor": "5층",
+  "id": "9bc10960-ceb8-4950-8d85-cfa58f6778b5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"55168700e77637d88ee29cefe3b69e67\"",
+      "id": "9656f49c-51ff-44be-847f-8605d6eb9f09",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201253446.jpg",
+      "path": "photos/9656f49c-51ff-44be-847f-8605d6eb9f09.jpg",
+      "sha256": "0d0b9e34985164bc7a0f3e134d37bd98e1c5edc490c5c05dcf88310d8da6423d",
+      "size": 758818,
+      "url": "/api/photos/9656f49c-51ff-44be-847f-8605d6eb9f09"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 말랑이",
+    "캐릭터 키링",
+    "줄 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5046",
+  "updatedAt": null,
+  "version": 0
+}

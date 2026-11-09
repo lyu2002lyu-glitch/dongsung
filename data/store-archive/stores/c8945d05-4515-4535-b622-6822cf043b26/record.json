@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:15:17.786Z",
+  "floor": "지하층",
+  "id": "c8945d05-4515-4535-b622-6822cf043b26",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ec35e2c1f9d698756492e44f6a04df3e\"",
+      "id": "dff8f071-80b2-41db-b144-9d00f3f85330",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208505959.jpg",
+      "path": "photos/dff8f071-80b2-41db-b144-9d00f3f85330.jpg",
+      "sha256": "8a01ba3578d5aac8e3f66916f6f0c6ad293076ba0e7d843462a0359a0256570c",
+      "size": 500626,
+      "url": "/api/photos/dff8f071-80b2-41db-b144-9d00f3f85330"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "골지 니트 편물 견본",
+    "털이 긴 편물 견본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb529",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,31 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:21:05.304Z",
+  "floor": "지하층",
+  "id": "912083f6-4f71-471b-8e2a-f8423d0792e8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"34b9415e01e24df3e324c19fcc4d4150\"",
+      "id": "e2766a50-d7a4-48f4-b0ef-834045ef87da",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205258179.jpg",
+      "path": "photos/e2766a50-d7a4-48f4-b0ef-834045ef87da.jpg",
+      "sha256": "922ceb3d7f27f6eb2f0d3709fc4d347b912a53741dd1c5fd0ac0359b16255277",
+      "size": 575129,
+      "url": "/api/photos/e2766a50-d7a4-48f4-b0ef-834045ef87da"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가죽실",
+    "코아사",
+    "오색사",
+    "바늘",
+    "자수틀"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab031",
+  "updatedAt": null,
+  "version": 1
+}

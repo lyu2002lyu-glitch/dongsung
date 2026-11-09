@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:14:16.071Z",
+  "floor": "지하층",
+  "id": "83b5e23b-d031-4da3-b3b0-c1834f7f9886",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0f5ac8eed12646fca042a82be4e228f9\"",
+      "id": "98463733-cca5-46c5-bb1d-7138b48734e2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208434844.jpg",
+      "path": "photos/98463733-cca5-46c5-bb1d-7138b48734e2.jpg",
+      "sha256": "49e02c0d031837bfd8af08af2c9310554a6b3345cbb35cdf51ae42115957f147",
+      "size": 627569,
+      "url": "/api/photos/98463733-cca5-46c5-bb1d-7138b48734e2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 지퍼",
+    "로터리 커터",
+    "재봉용 가위",
+    "리본 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb526",
+  "updatedAt": null,
+  "version": 1
+}

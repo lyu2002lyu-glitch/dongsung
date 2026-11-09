@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:09:09.259Z",
+  "floor": "5층",
+  "id": "353ae7b8-cb0e-44dd-a9c8-5ffd9ab8e4c7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7fac97f5443d66b83326dd4d3aac52ba\"",
+      "id": "1547c5bc-133c-4ebf-8f32-45255ccdb7db",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200945602.jpg",
+      "path": "photos/1547c5bc-133c-4ebf-8f32-45255ccdb7db.jpg",
+      "sha256": "e68b8fda56143532d82b7735b620366474c811962c08b673f054ac0b635e74c7",
+      "size": 508739,
+      "url": "/api/photos/1547c5bc-133c-4ebf-8f32-45255ccdb7db"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반지",
+    "펜던트 목걸이",
+    "비즈 목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5017",
+  "updatedAt": null,
+  "version": 0
+}

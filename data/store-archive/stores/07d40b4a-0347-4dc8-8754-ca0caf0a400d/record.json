@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:40:30.679Z",
+  "floor": "5층",
+  "id": "07d40b4a-0347-4dc8-8754-ca0caf0a400d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2fa22c5ade7b7d97153e7fbb84a015a7\"",
+      "id": "5352cc72-fa9b-4217-a3a5-5afb5da06e07",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202825570.jpg",
+      "path": "photos/5352cc72-fa9b-4217-a3a5-5afb5da06e07.jpg",
+      "sha256": "eb24b6a9c8ca0dc658421dbc5511ebc539abba72dc13c2e6869c6c9427d06e71",
+      "size": 645001,
+      "url": "/api/photos/5352cc72-fa9b-4217-a3a5-5afb5da06e07"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "공예용 끈",
+    "색상 리본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5184",
+  "updatedAt": null,
+  "version": 0
+}

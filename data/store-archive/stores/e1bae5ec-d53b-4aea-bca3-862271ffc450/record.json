@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:55:05.556Z",
+  "floor": "지하층",
+  "id": "e1bae5ec-d53b-4aea-bca3-862271ffc450",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9b9a63b8ab89b12fe101b6011913dc06\"",
+      "id": "149e21cb-78da-457a-90d6-e4b62d659d0e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203700810.jpg",
+      "path": "photos/149e21cb-78da-457a-90d6-e4b62d659d0e.jpg",
+      "sha256": "efff9dc46d89c38067761805270a73386c6307bb04d7be5ab98ae20e5571f8b9",
+      "size": 514117,
+      "url": "/api/photos/149e21cb-78da-457a-90d6-e4b62d659d0e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "분홍색·빨간색 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab17",
+  "updatedAt": null,
+  "version": 1
+}

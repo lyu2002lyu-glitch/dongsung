@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:34:57.835Z",
+  "floor": "5층",
+  "id": "9b44e825-87ef-4fc8-9c7e-c33ac9998f64",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b25175d7e86607b495f8555c0bda715f\"",
+      "id": "fe6ce2c4-ce16-4595-92d6-5de30d853f18",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202493407.jpg",
+      "path": "photos/fe6ce2c4-ce16-4595-92d6-5de30d853f18.jpg",
+      "sha256": "286fd8582a47c25575d73a2a76b020efd54b2dbc00b43d21527ccc217b75e071",
+      "size": 719925,
+      "url": "/api/photos/fe6ce2c4-ce16-4595-92d6-5de30d853f18"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "목걸이",
+    "귀걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5146",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:39:20.566Z",
+  "floor": "지하층",
+  "id": "3a3df8f0-b5a3-4b15-b0b2-f021e675bda1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"97fe7c18c9177303f2dc9a592b44b222\"",
+      "id": "3fbd574c-1444-4ff5-918d-1166c9e127ae",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206356665.jpg",
+      "path": "photos/3fbd574c-1444-4ff5-918d-1166c9e127ae.jpg",
+      "sha256": "9608cf71801b64f04461caf8526470dc6c582bd86ac0363e753b9311c245f0f6",
+      "size": 473901,
+      "url": "/api/photos/3fbd574c-1444-4ff5-918d-1166c9e127ae"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트용 원사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bbq91",
+  "updatedAt": null,
+  "version": 1
+}

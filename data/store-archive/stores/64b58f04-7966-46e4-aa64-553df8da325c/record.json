@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:45:02.224Z",
+  "floor": "5층",
+  "id": "64b58f04-7966-46e4-aa64-553df8da325c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a954b8b2cc1bb2a136c36affa2ecf5ca\"",
+      "id": "c0399616-52b2-411d-b409-0432284b3580",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203099263.jpg",
+      "path": "photos/c0399616-52b2-411d-b409-0432284b3580.jpg",
+      "sha256": "cce20162cc6f16c5eac10382de64a1364ae82550456d394df3579408a0b5386b",
+      "size": 730316,
+      "url": "/api/photos/c0399616-52b2-411d-b409-0432284b3580"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "낱개 구슬",
+    "술 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5207",
+  "updatedAt": null,
+  "version": 0
+}

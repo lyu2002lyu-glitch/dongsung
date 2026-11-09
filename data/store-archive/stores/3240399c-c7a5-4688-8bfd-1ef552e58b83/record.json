@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:08:52.137Z",
+  "floor": "5층",
+  "id": "3240399c-c7a5-4688-8bfd-1ef552e58b83",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1556752724c354ac782c3aa69c995867\"",
+      "id": "e3835e6b-5911-47db-b8db-9204d92fd790",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200926769.jpg",
+      "path": "photos/e3835e6b-5911-47db-b8db-9204d92fd790.jpg",
+      "sha256": "8bebf3aa88ec82454847456e969dc7e423e29ac0733b4bd353a21109e89b8344",
+      "size": 667231,
+      "url": "/api/photos/e3835e6b-5911-47db-b8db-9204d92fd790"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "패브릭 꽃 장식",
+    "폼폼"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5015",
+  "updatedAt": null,
+  "version": 0
+}

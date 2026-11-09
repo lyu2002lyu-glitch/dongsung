@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:18:52.130Z",
+  "floor": "5층",
+  "id": "b7551ae9-db5b-47c4-a334-0c638d743029",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fc4dbc25e24e5929c361222372654b03\"",
+      "id": "df364790-6236-4727-b8a6-e3226b953c76",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201528928.jpg",
+      "path": "photos/df364790-6236-4727-b8a6-e3226b953c76.jpg",
+      "sha256": "76f475dc0dd91627ca346194a543dbc62c98333b3c05364ceef9c82029f946a1",
+      "size": 719102,
+      "url": "/api/photos/df364790-6236-4727-b8a6-e3226b953c76"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "패브릭 가방",
+    "미니 봉제 인형",
+    "장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5061",
+  "updatedAt": null,
+  "version": 0
+}

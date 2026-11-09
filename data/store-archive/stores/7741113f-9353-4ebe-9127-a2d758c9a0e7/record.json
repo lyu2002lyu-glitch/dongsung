@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:07:46.858Z",
+  "floor": "5층",
+  "id": "7741113f-9353-4ebe-9127-a2d758c9a0e7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3b7663c850ca200a2a15e843f1f43f30\"",
+      "id": "915cdc9c-b03c-4527-816a-8d6b9c8ab4cb",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200862319.jpg",
+      "path": "photos/915cdc9c-b03c-4527-816a-8d6b9c8ab4cb.jpg",
+      "sha256": "645657d32f919d51dbae1439a159a0313f63e8a5bc763f0f81f57832a62c02b4",
+      "size": 866678,
+      "url": "/api/photos/915cdc9c-b03c-4527-816a-8d6b9c8ab4cb"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 스트랩",
+    "장식 끈",
+    "캐릭터 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5007",
+  "updatedAt": null,
+  "version": 0
+}

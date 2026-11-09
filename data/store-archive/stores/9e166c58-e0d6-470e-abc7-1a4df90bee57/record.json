@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:40:45.481Z",
+  "floor": "5층",
+  "id": "9e166c58-e0d6-470e-abc7-1a4df90bee57",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2ded2de1374ef0f41af8eaff9d84e19f\"",
+      "id": "74f58277-0aac-4f61-947c-9e85c3255923",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202841882.jpg",
+      "path": "photos/74f58277-0aac-4f61-947c-9e85c3255923.jpg",
+      "sha256": "71fb17c40147330258d3d9b533e477aeaf042ebef294d4c8e05e14e7fd43d68f",
+      "size": 697646,
+      "url": "/api/photos/74f58277-0aac-4f61-947c-9e85c3255923"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무늬 스카프",
+    "무지 스카프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5185",
+  "updatedAt": null,
+  "version": 0
+}

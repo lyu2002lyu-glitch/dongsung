@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:47:38.724Z",
+  "floor": "5층",
+  "id": "fe529fd3-558f-44e5-8a8e-7095c4be87d7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a5f22420c58cc320d54ed47937b4a5c3\"",
+      "id": "37489f89-d32e-4723-be43-692f128ed15b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203255592.jpg",
+      "path": "photos/37489f89-d32e-4723-be43-692f128ed15b.jpg",
+      "sha256": "7b20114a4f1e325a361bbe840ecae45388df18b2d7d0cd1c2b38cc635d32bcc4",
+      "size": 631122,
+      "url": "/api/photos/37489f89-d32e-4723-be43-692f128ed15b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "패브릭 가방",
+    "파우치"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5222",
+  "updatedAt": null,
+  "version": 0
+}

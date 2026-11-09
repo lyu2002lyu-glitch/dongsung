@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:12:21.691Z",
+  "floor": "지하층",
+  "id": "47058e85-7e34-4110-959b-bd990f2eb1bf",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1c72dddc1112909e6a987f93587306e7\"",
+      "id": "fd4ef8fa-41b8-4458-9749-db77c2c44596",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204736708.jpg",
+      "path": "photos/fd4ef8fa-41b8-4458-9749-db77c2c44596.jpg",
+      "sha256": "38b6ed66fd727a4fa8aecede805bff9687d01e06d927f615e029f82c496d7e39",
+      "size": 410922,
+      "url": "/api/photos/fd4ef8fa-41b8-4458-9749-db77c2c44596"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 니트 소재",
+    "성글게 짠 니트 소재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab027-4",
+  "updatedAt": null,
+  "version": 1
+}

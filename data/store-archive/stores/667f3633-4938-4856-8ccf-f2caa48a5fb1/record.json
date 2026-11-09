@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:11:48.643Z",
+  "floor": "5층",
+  "id": "667f3633-4938-4856-8ccf-f2caa48a5fb1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"67ffed3baa6dc03784bd9efbf28d694e\"",
+      "id": "5c1d0873-07b9-4216-884f-7a364bb14716",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201104532.jpg",
+      "path": "photos/5c1d0873-07b9-4216-884f-7a364bb14716.jpg",
+      "sha256": "7369a63ef38c980fa46b8579315d936b8a233c461deeb0765d31ae64536b0ef1",
+      "size": 609372,
+      "url": "/api/photos/5c1d0873-07b9-4216-884f-7a364bb14716"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 펜",
+    "마커",
+    "테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5025",
+  "updatedAt": null,
+  "version": 0
+}

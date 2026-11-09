@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:21:58.098Z",
+  "floor": "지하층",
+  "id": "89548a19-989f-447d-ae22-d3714328c50f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"586ca1a1253b152282f2196e0bfb2f19\"",
+      "id": "81693166-0ef2-4cab-a1d3-ce33b82b0bf0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205311571.jpg",
+      "path": "photos/81693166-0ef2-4cab-a1d3-ce33b82b0bf0.jpg",
+      "sha256": "3af3961fbfa166a28ec5127c8390413b6b24a7e6be0469cdab93d4ed8a931526",
+      "size": 546803,
+      "url": "/api/photos/81693166-0ef2-4cab-a1d3-ce33b82b0bf0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "타래형 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab030-3",
+  "updatedAt": null,
+  "version": 1
+}

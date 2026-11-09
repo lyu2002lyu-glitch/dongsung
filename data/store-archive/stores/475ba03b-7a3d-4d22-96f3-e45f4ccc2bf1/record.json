@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:18:36.732Z",
+  "floor": "5층",
+  "id": "475ba03b-7a3d-4d22-96f3-e45f4ccc2bf1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c7c89d246a45dbd3be01e42144a35b01\"",
+      "id": "e1bd0932-3011-467f-bbc3-10740889f011",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201510621.jpg",
+      "path": "photos/e1bd0932-3011-467f-bbc3-10740889f011.jpg",
+      "sha256": "db96e1e80530312973feff3440a6531bda035f634bfab08eedc161c6c3e732d8",
+      "size": 751693,
+      "url": "/api/photos/e1bd0932-3011-467f-bbc3-10740889f011"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄 비즈",
+    "컬러 장식 끈",
+    "진주 모양 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5058",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:28:34.802Z",
+  "floor": "5층",
+  "id": "701d29a9-8584-409b-b382-8f0b35c29228",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3295cb47e61633992854c30cc02466ee\"",
+      "id": "4a09ccb7-6cb9-45b9-9bb0-83d82807f23e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202110987.jpg",
+      "path": "photos/4a09ccb7-6cb9-45b9-9bb0-83d82807f23e.jpg",
+      "sha256": "fea2f8b9bc0c80ee4c3990954d56b8115ba9b92ccb7698a963a59c7d29c0ea11",
+      "size": 635194,
+      "url": "/api/photos/4a09ccb7-6cb9-45b9-9bb0-83d82807f23e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "지갑",
+    "카드지갑",
+    "태슬 키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5101",
+  "updatedAt": null,
+  "version": 0
+}

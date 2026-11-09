@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:22:18.378Z",
+  "floor": "5층",
+  "id": "1c53638b-493d-41ec-ae85-1b76deb88f8b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0f23c4ce18caf543411699f9d53708d6\"",
+      "id": "e0519b16-99c4-46d4-a118-492bacee9725",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201734710.jpg",
+      "path": "photos/e0519b16-99c4-46d4-a118-492bacee9725.jpg",
+      "sha256": "db1350786c4f7c123b542fdd5b024e826de3bbf7ef9ddea5538409d58d09ce3a",
+      "size": 822976,
+      "url": "/api/photos/e0519b16-99c4-46d4-a118-492bacee9725"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 키링",
+    "봉제 가방 장식",
+    "캐릭터 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5072",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:34:47.938Z",
+  "floor": "지하층",
+  "id": "c968f27e-b4f8-42b7-9c3a-8b8011e2de0b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"954d5f2854b198419c074f81f27d3b53\"",
+      "id": "335cbeea-0fd7-42f9-80e1-80b209c35a84",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206082685.jpg",
+      "path": "photos/335cbeea-0fd7-42f9-80e1-80b209c35a84.jpg",
+      "sha256": "f45230cb50516387762aebcd48b7afc299319abd5a8ae9b6bbbe457146c3c9e9",
+      "size": 633972,
+      "url": "/api/photos/335cbeea-0fd7-42f9-80e1-80b209c35a84"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "타래형 뜨개실",
+    "그라데이션 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab45",
+  "updatedAt": null,
+  "version": 1
+}

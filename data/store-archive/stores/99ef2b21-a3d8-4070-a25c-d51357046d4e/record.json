@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:33:07.246Z",
+  "floor": "5층",
+  "id": "99ef2b21-a3d8-4070-a25c-d51357046d4e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e363de1427f80b9fad8d57aeb301e9b2\"",
+      "id": "87ff5cf0-d6cd-4f68-b891-804f434f466d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202383788.jpg",
+      "path": "photos/87ff5cf0-d6cd-4f68-b891-804f434f466d.jpg",
+      "sha256": "ec2a0ddf055917a63dcf9382f56467e8f4107fed2c73f1fb29e5129a9c71c524",
+      "size": 640337,
+      "url": "/api/photos/87ff5cf0-d6cd-4f68-b891-804f434f466d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "키링 고리",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5120",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,28 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:37:55.099Z",
+  "floor": "지하층",
+  "id": "f9180e96-9d1a-4729-84cc-b27e25e19260",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"371b504cf9a67d38fc139fc7abfd31f6\"",
+      "id": "d8397c94-d910-4c99-bd55-8650c552792f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209864550.jpg",
+      "path": "photos/d8397c94-d910-4c99-bd55-8650c552792f.jpg",
+      "sha256": "f0d03110ed8bdc62d62ffe3693d9d5604888be8789837894092ef55c3c8adc32",
+      "size": 400547,
+      "url": "/api/photos/d8397c94-d910-4c99-bd55-8650c552792f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "콘사",
+    "타래실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb068",
+  "updatedAt": "2026-11-09T09:02:52.468Z",
+  "version": 2
+}

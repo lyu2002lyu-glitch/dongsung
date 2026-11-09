@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:39:50.470Z",
+  "floor": "5층",
+  "id": "c305d3ec-0d6f-4c52-9ac2-57093d9b2df6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0a68e839cd2ae14cae6fc9ae712b2bb6\"",
+      "id": "6a4c6efa-8216-4f1b-9645-4c7887763bc0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202784686.jpg",
+      "path": "photos/6a4c6efa-8216-4f1b-9645-4c7887763bc0.jpg",
+      "sha256": "2a7961c6eb76c7a8192914e5baf066bd334ec737e05d387a2d0535e15b7c777e",
+      "size": 775223,
+      "url": "/api/photos/6a4c6efa-8216-4f1b-9645-4c7887763bc0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "팔찌",
+    "링 귀걸이",
+    "장식 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5180",
+  "updatedAt": null,
+  "version": 0
+}

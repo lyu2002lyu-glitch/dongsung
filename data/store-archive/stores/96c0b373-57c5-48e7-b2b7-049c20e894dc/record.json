@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:27:39.446Z",
+  "floor": "지하층",
+  "id": "96c0b373-57c5-48e7-b2b7-049c20e894dc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3843575ee521c4414c903b9e98161e5c\"",
+      "id": "9650ada2-f7e8-449c-b4b3-24b520762567",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205652701.jpg",
+      "path": "photos/9650ada2-f7e8-449c-b4b3-24b520762567.jpg",
+      "sha256": "c2f4c3009dedb2a07ba496f496b7483af6c112bf9b1d2b7d0e0da4f39cea7a04",
+      "size": 599140,
+      "url": "/api/photos/9650ada2-f7e8-449c-b4b3-24b520762567"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반짝이 뜨개실",
+    "혼색 뜨개실",
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab040",
+  "updatedAt": null,
+  "version": 1
+}

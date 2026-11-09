@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:11:24.187Z",
+  "floor": "5층",
+  "id": "228725d9-2fa0-488f-ace3-76bca465307d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"21c54a3d40a15168814badef94a65a14\"",
+      "id": "dfcb68f5-3a29-44e3-9df2-91f7b94ba8f4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201077780.jpg",
+      "path": "photos/dfcb68f5-3a29-44e3-9df2-91f7b94ba8f4.jpg",
+      "sha256": "5b558c972fa65355e9f456d9ba7c12ef55052c207586a0624242bbbc69c0264d",
+      "size": 823645,
+      "url": "/api/photos/dfcb68f5-3a29-44e3-9df2-91f7b94ba8f4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄 비즈",
+    "진주 모양 비즈",
+    "비즈 팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5023",
+  "updatedAt": null,
+  "version": 0
+}

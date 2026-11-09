@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:44:43.907Z",
+  "floor": "5층",
+  "id": "4337f2c8-95f4-41a6-9e0b-0e09b00abba8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"df367e195620557653f7e93ac92cde07\"",
+      "id": "92edc58b-d882-49e1-864f-ccd587160169",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203080859.jpg",
+      "path": "photos/92edc58b-d882-49e1-864f-ccd587160169.jpg",
+      "sha256": "865db2f8c387fa8c2473e3fa2b5addbe8690aca3f99f44caf59580639d3e5c9a",
+      "size": 669733,
+      "url": "/api/photos/92edc58b-d882-49e1-864f-ccd587160169"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체크 원단",
+    "무늬 원단",
+    "누빔 가방",
+    "가방 손잡이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5206",
+  "updatedAt": null,
+  "version": 0
+}

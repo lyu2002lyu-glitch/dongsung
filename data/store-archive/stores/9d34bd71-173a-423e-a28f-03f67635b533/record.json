@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:37:32.165Z",
+  "floor": "5층",
+  "id": "9d34bd71-173a-423e-a28f-03f67635b533",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9463894714d27534628015992e3012e5\"",
+      "id": "f26777bd-0648-4afb-bd5c-6fef98b38d0b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202648897.jpg",
+      "path": "photos/f26777bd-0648-4afb-bd5c-6fef98b38d0b.jpg",
+      "sha256": "f0e25a23d856a4cd8c62c7041140bd5f5f4602ba240a340f68f49a68032773f5",
+      "size": 782405,
+      "url": "/api/photos/f26777bd-0648-4afb-bd5c-6fef98b38d0b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "비즈 팔찌",
+    "색상 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5166",
+  "updatedAt": null,
+  "version": 0
+}

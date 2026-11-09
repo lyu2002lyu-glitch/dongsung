@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:27:20.796Z",
+  "floor": "5층",
+  "id": "61ab58b3-93fa-40b7-98a1-91c86c5ba4c1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"21f8e106b048eaa7fe990cdd68118f1e\"",
+      "id": "b1f4758f-47f4-4cbf-ae47-8e5bfd60de8f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202029934.jpg",
+      "path": "photos/b1f4758f-47f4-4cbf-ae47-8e5bfd60de8f.jpg",
+      "sha256": "a78fa1feca3cb64251a52048be2700296f42cc4d853c9db88ed7c41a5fc13965",
+      "size": 649428,
+      "url": "/api/photos/b1f4758f-47f4-4cbf-ae47-8e5bfd60de8f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 롤 끈",
+    "장식용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5113",
+  "updatedAt": null,
+  "version": 0
+}

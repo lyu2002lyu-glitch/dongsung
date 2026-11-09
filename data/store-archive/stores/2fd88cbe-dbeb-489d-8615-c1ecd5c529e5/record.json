@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:33:20.869Z",
+  "floor": "5층",
+  "id": "2fd88cbe-dbeb-489d-8615-c1ecd5c529e5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3143b8cc50fa9fabb43ab7cf36b1ec49\"",
+      "id": "c21aa22a-4c20-44b0-8e6e-e8319e8091a1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202397465.jpg",
+      "path": "photos/c21aa22a-4c20-44b0-8e6e-e8319e8091a1.jpg",
+      "sha256": "39c55e23cf99fd35a095e9b5000c3ad26c6400c43cfb8e165cdfea3cba6b9e6f",
+      "size": 629045,
+      "url": "/api/photos/c21aa22a-4c20-44b0-8e6e-e8319e8091a1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "스마일 장식",
+    "키링",
+    "장식 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5134",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:07:26.506Z",
+  "floor": "5층",
+  "id": "c59cb2e9-382f-4032-b30d-48371880c333",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"86b63cde78127a6c037751ad7272f0d5\"",
+      "id": "6ab766c3-552f-4042-93e7-5330bdfc7bb3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200842731.jpg",
+      "path": "photos/6ab766c3-552f-4042-93e7-5330bdfc7bb3.jpg",
+      "sha256": "c7447aceac0ebc4564367345a2a1e043d87ebf9c47bacd2f644c304cea10c0f6",
+      "size": 705245,
+      "url": "/api/photos/6ab766c3-552f-4042-93e7-5330bdfc7bb3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식",
+    "컬러 끈",
+    "금속 참"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5005",
+  "updatedAt": null,
+  "version": 0
+}

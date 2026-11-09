@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:20:25.624Z",
+  "floor": "지하층",
+  "id": "73ed5de6-52e0-44ed-8d84-b9f75165c034",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ad1a18283e66114ad0772178c203bc29\"",
+      "id": "0c0ca38a-bac6-45b0-8d46-780e40dc07d5",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205221273.jpg",
+      "path": "photos/0c0ca38a-bac6-45b0-8d46-780e40dc07d5.jpg",
+      "sha256": "e42ad3e0710ad29aeb1844332557b5c93a9f1076de62f8cd3998d2a63e2338c3",
+      "size": 537835,
+      "url": "/api/photos/0c0ca38a-bac6-45b0-8d46-780e40dc07d5"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 콘사",
+    "롤 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab032",
+  "updatedAt": null,
+  "version": 1
+}

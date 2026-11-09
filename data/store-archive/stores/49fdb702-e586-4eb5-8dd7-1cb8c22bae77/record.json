@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:35:14.586Z",
+  "floor": "5층",
+  "id": "49fdb702-e586-4eb5-8dd7-1cb8c22bae77",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4b6113d8ccfa1bb94c1d9b6bbbb3b4eb\"",
+      "id": "695d474a-227c-4037-b34d-76ac1f216855",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202510296.jpg",
+      "path": "photos/695d474a-227c-4037-b34d-76ac1f216855.jpg",
+      "sha256": "ad7969b4519a7d36a50e3633ec8c290fb8230132db37dec658a854e8ee5e9763",
+      "size": 810110,
+      "url": "/api/photos/695d474a-227c-4037-b34d-76ac1f216855"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "건반 모양 키링",
+    "꽃 모양 키링",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5148",
+  "updatedAt": null,
+  "version": 0
+}

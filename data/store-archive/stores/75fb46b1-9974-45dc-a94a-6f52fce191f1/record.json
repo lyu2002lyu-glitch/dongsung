@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:18:00.288Z",
+  "floor": "5층",
+  "id": "75fb46b1-9974-45dc-a94a-6f52fce191f1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0654cfd32ab8618f60f91849482953e6\"",
+      "id": "23c2d694-f507-459a-a815-6fc948c55d52",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201476672.jpg",
+      "path": "photos/23c2d694-f507-459a-a815-6fc948c55d52.jpg",
+      "sha256": "067060733e7a3325b5761a0d71d070f48f29be70aa3d30ddbb41f4a162e90c39",
+      "size": 807696,
+      "url": "/api/photos/23c2d694-f507-459a-a815-6fc948c55d52"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "캐릭터 장식 파츠",
+    "컬러 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5056",
+  "updatedAt": null,
+  "version": 0
+}

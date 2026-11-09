@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:15:24.142Z",
+  "floor": "5층",
+  "id": "a80663b9-25a4-4ae9-9168-7e64b58ae698",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"27ff7e014b5dfc575e5206fc82cffb20\"",
+      "id": "c84fec52-c24b-42db-ab42-4380d64b6c44",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201321278.jpg",
+      "path": "photos/c84fec52-c24b-42db-ab42-4380d64b6c44.jpg",
+      "sha256": "cec3e439f6c412352a4cfdd89ab3da3d8c0a66b6235ff067d4bf30864daebdf6",
+      "size": 888694,
+      "url": "/api/photos/c84fec52-c24b-42db-ab42-4380d64b6c44"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 고리",
+    "가방 연결 부속",
+    "금속 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5042",
+  "updatedAt": null,
+  "version": 0
+}

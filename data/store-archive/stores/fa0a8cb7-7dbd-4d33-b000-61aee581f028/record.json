@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:26:23.417Z",
+  "floor": "5층",
+  "id": "fa0a8cb7-7dbd-4d33-b000-61aee581f028",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3944c1ae05e437c8d46d4b7fadd50957\"",
+      "id": "7946834c-8159-4b27-9bda-ab85862dd23b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201979514.jpg",
+      "path": "photos/7946834c-8159-4b27-9bda-ab85862dd23b.jpg",
+      "sha256": "54414dc1344cb1ca773f9c1258252c704de2a980f71994c7b8ad5009bdc60ba7",
+      "size": 601766,
+      "url": "/api/photos/7946834c-8159-4b27-9bda-ab85862dd23b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폼폼 키링",
+    "미니 파우치",
+    "공예용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5116",
+  "updatedAt": null,
+  "version": 0
+}

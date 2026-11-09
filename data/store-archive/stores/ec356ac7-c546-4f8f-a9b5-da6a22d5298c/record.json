@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:30:20.312Z",
+  "floor": "5층",
+  "id": "ec356ac7-c546-4f8f-a9b5-da6a22d5298c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e624aea29ed5b37092e2a171b1521f33\"",
+      "id": "ea8c8689-b761-4560-880c-5e729246d5a0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202216084.jpg",
+      "path": "photos/ea8c8689-b761-4560-880c-5e729246d5a0.jpg",
+      "sha256": "726323459f451a0038a29e10d6c34f97358970dc9f47c874bf86c3e144d9eb4e",
+      "size": 639740,
+      "url": "/api/photos/ea8c8689-b761-4560-880c-5e729246d5a0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "반려견 의류",
+    "반려견 목장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5127",
+  "updatedAt": null,
+  "version": 0
+}

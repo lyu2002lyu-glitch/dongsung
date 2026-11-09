@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:57:29.450Z",
+  "floor": "지하층",
+  "id": "d46a3ba4-de27-4d2c-adeb-115a5245d6ce",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"404b827ad4ecfe923deb04efc1c6cf58\"",
+      "id": "be4173c1-b4ee-46d2-8612-fac0aa957c38",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207444175.jpg",
+      "path": "photos/be4173c1-b4ee-46d2-8612-fac0aa957c38.jpg",
+      "sha256": "62e87efe084547a26f82b51d777103073611557163b674b38ba508e8a865e85f",
+      "size": 444592,
+      "url": "/api/photos/be4173c1-b4ee-46d2-8612-fac0aa957c38"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실",
+    "굵은 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab136",
+  "updatedAt": null,
+  "version": 1
+}

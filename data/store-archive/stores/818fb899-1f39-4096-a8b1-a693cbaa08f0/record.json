@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:12:20.426Z",
+  "floor": "5층",
+  "id": "818fb899-1f39-4096-a8b1-a693cbaa08f0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e932ea8407a35c8115ecd11ba9ad3e06\"",
+      "id": "fee08639-ebb9-44df-b8e3-ad9953bb7219",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201135522.jpg",
+      "path": "photos/fee08639-ebb9-44df-b8e3-ad9953bb7219.jpg",
+      "sha256": "c0c5b4ebcbc0a8c54c418e27d8ea91168e9882f182e4c151877f9dc6c0f84d5a",
+      "size": 693025,
+      "url": "/api/photos/fee08639-ebb9-44df-b8e3-ad9953bb7219"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 키링",
+    "장식 끈",
+    "컬러 구슬"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5027",
+  "updatedAt": null,
+  "version": 0
+}

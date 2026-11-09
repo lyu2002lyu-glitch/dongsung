@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:22:04.104Z",
+  "floor": "5층",
+  "id": "ee51e214-9e55-450c-934e-3946adae7071",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fe40799a08ce8fb4736ffd1d8ce5ff52\"",
+      "id": "7e4fd7fd-2cff-41ec-ae00-913e0bbb5b82",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201720876.jpg",
+      "path": "photos/7e4fd7fd-2cff-41ec-ae00-913e0bbb5b82.jpg",
+      "sha256": "dccd121cb1fedd891ecde48921f941b84e7b362d8a198df4015129174c3e47e1",
+      "size": 673735,
+      "url": "/api/photos/7e4fd7fd-2cff-41ec-ae00-913e0bbb5b82"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄 비즈",
+    "낱개 비즈",
+    "비즈 공예용 줄"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5070",
+  "updatedAt": null,
+  "version": 0
+}

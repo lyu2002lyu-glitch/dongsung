@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:56:23.882Z",
+  "floor": "지하층",
+  "id": "ce8ab396-b75b-48b8-a2fc-8ae2c9d61391",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ce32843213b9398dc3c63b3e1d2627b2\"",
+      "id": "fe3194bc-5e5f-4173-bce4-84e0927009fe",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203779348.jpg",
+      "path": "photos/fe3194bc-5e5f-4173-bce4-84e0927009fe.jpg",
+      "sha256": "a4c4263a698ae8ab55d14b6fb72e00777cb617ae9cf0959e607439fd58b769e3",
+      "size": 611225,
+      "url": "/api/photos/fe3194bc-5e5f-4173-bce4-84e0927009fe"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "그릇",
+    "접시",
+    "수저",
+    "쟁반"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab005-4",
+  "updatedAt": null,
+  "version": 1
+}

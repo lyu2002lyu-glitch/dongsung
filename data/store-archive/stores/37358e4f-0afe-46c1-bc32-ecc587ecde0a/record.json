@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:30:31.852Z",
+  "floor": "지하층",
+  "id": "37358e4f-0afe-46c1-bc32-ecc587ecde0a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"af182b922a6ddeb9f0442f06b06e317d\"",
+      "id": "4ec3b4db-2e5a-4dba-ab21-d872ea24d9d0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209420267.jpg",
+      "path": "photos/4ec3b4db-2e5a-4dba-ab21-d872ea24d9d0.jpg",
+      "sha256": "8486160d70245063ffb6d8b808b7b001de0d11359d2e4c08d20da03ca28a7709",
+      "size": 388616,
+      "url": "/api/photos/4ec3b4db-2e5a-4dba-ab21-d872ea24d9d0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 원단",
+    "기하학 무늬 원단",
+    "꽃무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb084",
+  "updatedAt": "2026-11-09T09:04:12.469Z",
+  "version": 2
+}

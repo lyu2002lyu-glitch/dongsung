@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:22:45.138Z",
+  "floor": "지하층",
+  "id": "af749818-8694-4407-abd2-63334c33b07a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c7b4f2598dc652699924101bda50eea1\"",
+      "id": "f852cef0-5a17-46f6-89c2-1d0e4c8c2531",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205357139.jpg",
+      "path": "photos/f852cef0-5a17-46f6-89c2-1d0e4c8c2531.jpg",
+      "sha256": "8616ab505f312be4fbba1bf9b763ecb4e188f69871bce96afc04c07bc45f57b5",
+      "size": 662316,
+      "url": "/api/photos/f852cef0-5a17-46f6-89c2-1d0e4c8c2531"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "숟가락·젓가락 세트",
+    "티스푼",
+    "금속 식기"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab002-4",
+  "updatedAt": null,
+  "version": 1
+}

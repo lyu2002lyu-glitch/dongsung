@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:41:29.718Z",
+  "floor": "5층",
+  "id": "c89ca31d-ef72-4e16-be1f-b6c8e1876c97",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"bad07f09fe19c7f3f0ba1bbe994a8413\"",
+      "id": "bb4d9642-ef9a-4328-9203-844f127499f1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202885999.jpg",
+      "path": "photos/bb4d9642-ef9a-4328-9203-844f127499f1.jpg",
+      "sha256": "0b12db5ffbb1f2bed652d5af4cdafd35480c96c2710cbf6fd7c5628b6708d02d",
+      "size": 594529,
+      "url": "/api/photos/bb4d9642-ef9a-4328-9203-844f127499f1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "꽃 장식",
+    "장식 머리띠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5190",
+  "updatedAt": null,
+  "version": 0
+}

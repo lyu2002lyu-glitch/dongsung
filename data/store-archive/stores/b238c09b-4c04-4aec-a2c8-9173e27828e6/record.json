@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:40:07.180Z",
+  "floor": "지하층",
+  "id": "b238c09b-4c04-4aec-a2c8-9173e27828e6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"286b94f73ef03de192ae83eeac17b3e4\"",
+      "id": "cc50bef4-7d7b-464a-84c8-6bb61ac4dfa7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206400601.jpg",
+      "path": "photos/cc50bef4-7d7b-464a-84c8-6bb61ac4dfa7.jpg",
+      "sha256": "10ec7ae2a488cc9d10d56fdb746c4b1c1992c4a61e7a35893236fd01341271ec",
+      "size": 430675,
+      "url": "/api/photos/cc50bef4-7d7b-464a-84c8-6bb61ac4dfa7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비닐봉지ㆍ포장박스"
+  ],
+  "productItemsSource": "admin",
+  "unit": "Bb197",
+  "updatedAt": "2026-11-09T08:15:43.311Z",
+  "version": 2
+}

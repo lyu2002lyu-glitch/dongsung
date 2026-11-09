@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:22:39.069Z",
+  "floor": "5층",
+  "id": "c5ab9826-7d04-4ec1-a9a1-b7913ffb5b7d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"15aa2fb5e3aed7a1711a680885068b38\"",
+      "id": "a66d4fb3-81a2-445a-8970-1d0c18f8c195",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201755231.jpg",
+      "path": "photos/a66d4fb3-81a2-445a-8970-1d0c18f8c195.jpg",
+      "sha256": "46cd63247565f229f15c1e44f3fbc354958ebc039df324fda0bef5081373f21c",
+      "size": 427689,
+      "url": "/api/photos/a66d4fb3-81a2-445a-8970-1d0c18f8c195"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "새틴 리본",
+    "색상별 리본 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5074",
+  "updatedAt": null,
+  "version": 0
+}

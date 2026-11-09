@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:17:52.282Z",
+  "floor": "지하층",
+  "id": "dd7fc107-f26c-4f8a-b227-4a583defc208",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fbe86cbb96055808323526c6e74e85f4\"",
+      "id": "2e8297de-5247-467a-aac1-b9f867231c4b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208660501.jpg",
+      "path": "photos/2e8297de-5247-467a-aac1-b9f867231c4b.jpg",
+      "sha256": "24f5bb6e8baeb7f25f3bf1142ac4afe63ef114fb548751b5af8551e408e3814d",
+      "size": 481058,
+      "url": "/api/photos/2e8297de-5247-467a-aac1-b9f867231c4b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "베이비 알파카 코튼 뜨개실",
+    "멜란지 알파카 뜨개실",
+    "수세미실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb582",
+  "updatedAt": null,
+  "version": 1
+}

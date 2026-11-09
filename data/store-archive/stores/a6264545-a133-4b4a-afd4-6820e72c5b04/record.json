@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:36:19.646Z",
+  "floor": "지하층",
+  "id": "a6264545-a133-4b4a-afd4-6820e72c5b04",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3928d2125fa9686abbcfdff53b1eea73\"",
+      "id": "6c92dc45-35c8-4c57-a227-95a820d58004",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206171371.jpg",
+      "path": "photos/6c92dc45-35c8-4c57-a227-95a820d58004.jpg",
+      "sha256": "8cc424979ae35e0d70713d599876c85cf130a6c3652de74f5ec56e5cf82adf81",
+      "size": 595975,
+      "url": "/api/photos/6c92dc45-35c8-4c57-a227-95a820d58004"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "타래형 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb181",
+  "updatedAt": null,
+  "version": 1
+}

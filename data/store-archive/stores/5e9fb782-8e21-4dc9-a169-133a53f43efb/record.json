@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:46:23.893Z",
+  "floor": "지하층",
+  "id": "5e9fb782-8e21-4dc9-a169-133a53f43efb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0c2aeec30cc8f79d00d82e972a3655a3\"",
+      "id": "63517382-d5fd-4b10-b300-8d509a39eabd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206771388.jpg",
+      "path": "photos/63517382-d5fd-4b10-b300-8d509a39eabd.jpg",
+      "sha256": "9f8259df9b15dfa8cbf434fa42402f1d5ec2f54f1dcae013ef2f865bc07b0f6c",
+      "size": 486909,
+      "url": "/api/photos/63517382-d5fd-4b10-b300-8d509a39eabd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "아동 한복",
+    "한복 모자",
+    "색동저고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab115",
+  "updatedAt": null,
+  "version": 1
+}

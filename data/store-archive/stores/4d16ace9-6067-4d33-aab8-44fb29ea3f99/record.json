@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:38:22.522Z",
+  "floor": "지하층",
+  "id": "4d16ace9-6067-4d33-aab8-44fb29ea3f99",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e4f1078d93c4a6a1c9b6509289dc9674\"",
+      "id": "779bfe19-43b0-47d0-9910-825a8556b0ad",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206294442.jpg",
+      "path": "photos/779bfe19-43b0-47d0-9910-825a8556b0ad.jpg",
+      "sha256": "c922909337c6089a7b798a2dabb1e38e30611b3b8369c032f19f00e19a29ff4c",
+      "size": 448655,
+      "url": "/api/photos/779bfe19-43b0-47d0-9910-825a8556b0ad"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "투명사",
+    "나일론 원사",
+    "금은사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb294",
+  "updatedAt": null,
+  "version": 1
+}

@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:10:31.837Z",
+  "floor": "지하층",
+  "id": "e0a49cd2-11e9-442f-8236-b621fce1c478",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f5950ecb4b4c06832d4909245da789fe\"",
+      "id": "bf5d6c04-3ed1-4d7b-a736-5f797904eadd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204625067.jpg",
+      "path": "photos/bf5d6c04-3ed1-4d7b-a736-5f797904eadd.jpg",
+      "sha256": "86269b73364421fc87adb0166b6059528a0fd69b3a9e44a878eedf007826db71",
+      "size": 667587,
+      "url": "/api/photos/bf5d6c04-3ed1-4d7b-a736-5f797904eadd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "원형 재단칼",
+    "바느질 도구",
+    "공예용 끈",
+    "고리 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab029-3",
+  "updatedAt": null,
+  "version": 1
+}

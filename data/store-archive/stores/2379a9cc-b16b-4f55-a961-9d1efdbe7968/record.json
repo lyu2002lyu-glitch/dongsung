@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:30:52.938Z",
+  "floor": "5층",
+  "id": "2379a9cc-b16b-4f55-a961-9d1efdbe7968",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"201d913618b450e3cfc0ac5af22fffac\"",
+      "id": "be19b521-d8e4-4f66-9b6a-aa5781e11789",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202248588.jpg",
+      "path": "photos/be19b521-d8e4-4f66-9b6a-aa5781e11789.jpg",
+      "sha256": "1e94a1aa22bb8249c1556010f59f7f1d59e23bcd45980b4db13f443eeea96c83",
+      "size": 648201,
+      "url": "/api/photos/be19b521-d8e4-4f66-9b6a-aa5781e11789"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 끈",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5129",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:28:19.032Z",
+  "floor": "지하층",
+  "id": "3d386529-5d9f-4559-b870-535c3223a069",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7f7af57a5aa5257f750b43a248ea3f7b\"",
+      "id": "5ab15fd3-fef8-45f6-b3f0-7037c05b6673",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209285159.jpg",
+      "path": "photos/5ab15fd3-fef8-45f6-b3f0-7037c05b6673.jpg",
+      "sha256": "0f3d1b55f04f776a46f85a1f2a3a485888936520b6685be76d9ca7ce22d6b16d",
+      "size": 592871,
+      "url": "/api/photos/5ab15fd3-fef8-45f6-b3f0-7037c05b6673"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리넨 원단",
+    "워싱 거즈 원단",
+    "체크 원단",
+    "줄무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb027",
+  "updatedAt": "2026-11-09T09:04:48.658Z",
+  "version": 2
+}

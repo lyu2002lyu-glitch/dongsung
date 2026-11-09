@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:39:38.210Z",
+  "floor": "지하층",
+  "id": "dcbedd30-5d05-46b7-8afd-980c4b7e4a64",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cd8929f5f4a1e227f0aa67b0737b0365\"",
+      "id": "f162f042-5116-4753-bfd5-711b2cd833f9",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206373074.jpg",
+      "path": "photos/f162f042-5116-4753-bfd5-711b2cd833f9.jpg",
+      "sha256": "aa9e315199c3562aafef608c737f541a3537c0b3676869cb9be1843a9ba2694c",
+      "size": 493763,
+      "url": "/api/photos/f162f042-5116-4753-bfd5-711b2cd833f9"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "원형 링",
+    "사각 링",
+    "버클",
+    "금속 잠금장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bbq93",
+  "updatedAt": null,
+  "version": 1
+}

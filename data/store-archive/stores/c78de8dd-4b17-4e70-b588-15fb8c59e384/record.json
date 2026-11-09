@@ -1,0 +1,31 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:16:56.073Z",
+  "floor": "지하층",
+  "id": "c78de8dd-4b17-4e70-b588-15fb8c59e384",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"bcb50ed4dcd10d680c967404aa1ee4ea\"",
+      "id": "7ef7edde-fdfd-4e23-9bc5-a0fce3225b34",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208597875.jpg",
+      "path": "photos/7ef7edde-fdfd-4e23-9bc5-a0fce3225b34.jpg",
+      "sha256": "cfbd6541ff07ada960ae8e82adaea1b6e005d087b79b0250a9a9df6444121a83",
+      "size": 755528,
+      "url": "/api/photos/7ef7edde-fdfd-4e23-9bc5-a0fce3225b34"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 체인",
+    "가방 연결 고리",
+    "금속 버클",
+    "인형 키링",
+    "가방 바닥판"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb584",
+  "updatedAt": null,
+  "version": 1
+}

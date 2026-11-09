@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:29:24.074Z",
+  "floor": "지하층",
+  "id": "c90eed12-449e-47fa-a7bc-c430e870672e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c4b1144ba8bc4a33c6d3d58177033253\"",
+      "id": "d9134b7e-16ff-45ed-ab35-fe06ab8abb08",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205753906.jpg",
+      "path": "photos/d9134b7e-16ff-45ed-ab35-fe06ab8abb08.jpg",
+      "sha256": "85add1debdaf3f15af95e0c97f5fddda0b13cb9bacbb333844103c2b8726abd9",
+      "size": 581159,
+      "url": "/api/photos/d9134b7e-16ff-45ed-ab35-fe06ab8abb08"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "혼색 콘사",
+    "털실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab038-1",
+  "updatedAt": null,
+  "version": 1
+}

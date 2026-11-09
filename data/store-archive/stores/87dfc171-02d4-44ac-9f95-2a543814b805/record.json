@@ -1,0 +1,28 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:34:54.269Z",
+  "floor": "지하층",
+  "id": "87dfc171-02d4-44ac-9f95-2a543814b805",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"74ea32c236ab0fe3bb1282edfc50087f\"",
+      "id": "66364dd3-9533-4007-b216-66c18987c74a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209683850.jpg",
+      "path": "photos/66364dd3-9533-4007-b216-66c18987c74a.jpg",
+      "sha256": "bcc6df8a0a63af1eca329d8505b99f2acc9df4cd883728d3c36f598249b407b2",
+      "size": 403820,
+      "url": "/api/photos/66364dd3-9533-4007-b216-66c18987c74a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가운",
+    "수건"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb136",
+  "updatedAt": null,
+  "version": 1
+}

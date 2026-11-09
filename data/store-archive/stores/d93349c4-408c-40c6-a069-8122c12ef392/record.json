@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:45:15.994Z",
+  "floor": "지하층",
+  "id": "d93349c4-408c-40c6-a069-8122c12ef392",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2e7c9f5663c79377e4d65a15631fd397\"",
+      "id": "b44f5c84-69b9-4f4a-ac98-0a854f592cf1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206707090.jpg",
+      "path": "photos/b44f5c84-69b9-4f4a-ac98-0a854f592cf1.jpg",
+      "sha256": "9730e4fce7aab39d2ade329cb84eb112f0f4d0971ab5044a3686f3da37c0f499",
+      "size": 559000,
+      "url": "/api/photos/b44f5c84-69b9-4f4a-ac98-0a854f592cf1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab079",
+  "updatedAt": null,
+  "version": 1
+}

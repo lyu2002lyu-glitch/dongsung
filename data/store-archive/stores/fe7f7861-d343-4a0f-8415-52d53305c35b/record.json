@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:16:32.443Z",
+  "floor": "5층",
+  "id": "fe7f7861-d343-4a0f-8415-52d53305c35b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9c88370226b706f764dfc5417ce622c6\"",
+      "id": "e43d6b9c-4516-4e97-9229-2070b37faf90",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201389371.jpg",
+      "path": "photos/e43d6b9c-4516-4e97-9229-2070b37faf90.jpg",
+      "sha256": "70e294c1723b3106541d4090a59f2de69b810a94d09c676b972245915c184af7",
+      "size": 599080,
+      "url": "/api/photos/e43d6b9c-4516-4e97-9229-2070b37faf90"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "영문 장식 키링",
+    "헤어 고무줄",
+    "땋은 머리끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5046",
+  "updatedAt": null,
+  "version": 0
+}

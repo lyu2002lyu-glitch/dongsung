@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:06:01.968Z",
+  "floor": "지하층",
+  "id": "4be53bcb-e24c-4d0f-b617-ab501cabbc52",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6cc74a18804ac9033b6ef06f3e575510\"",
+      "id": "04d77a0e-3372-4f53-88f1-00d0c4df9f31",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204340887.jpg",
+      "path": "photos/04d77a0e-3372-4f53-88f1-00d0c4df9f31.jpg",
+      "sha256": "58bbb35869c0357b1eeb5596048d937cfd92179685bdf3796640b3720b22816b",
+      "size": 570223,
+      "url": "/api/photos/04d77a0e-3372-4f53-88f1-00d0c4df9f31"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 원단 견본",
+    "색상별 원단 견본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab025-1",
+  "updatedAt": null,
+  "version": 1
+}

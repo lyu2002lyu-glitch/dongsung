@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:08:02.323Z",
+  "floor": "5층",
+  "id": "c46f4b70-837c-4d08-a1ec-8dbe774febe8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"bb638d81b4513a35c66d5353152e97cf\"",
+      "id": "99cd50ff-f2ae-445f-a7ef-ba01d3c3cc24",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200878363.jpg",
+      "path": "photos/99cd50ff-f2ae-445f-a7ef-ba01d3c3cc24.jpg",
+      "sha256": "5feccf82247b3cf36407ebe66ba7a02f73af6a3244948c1814d546fb6e0fa542",
+      "size": 754637,
+      "url": "/api/photos/99cd50ff-f2ae-445f-a7ef-ba01d3c3cc24"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 키링",
+    "캐릭터 키링",
+    "장식 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5011",
+  "updatedAt": null,
+  "version": 0
+}

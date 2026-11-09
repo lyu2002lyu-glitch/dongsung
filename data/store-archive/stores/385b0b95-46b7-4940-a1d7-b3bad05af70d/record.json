@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T07:01:41.652Z",
+  "floor": "지하층",
+  "id": "385b0b95-46b7-4940-a1d7-b3bad05af70d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f80a6fcf1aefcb1b27e8bd2278e0d6e4\"",
+      "id": "21301ce4-c6cd-4dac-ae58-d03b7bf33bce",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207688692.jpg",
+      "path": "photos/21301ce4-c6cd-4dac-ae58-d03b7bf33bce.jpg",
+      "sha256": "f7127cdb7f74387a6939aa8d364cc7cc57a541102ac4942ca503c57568355422",
+      "size": 405070,
+      "url": "/api/photos/21301ce4-c6cd-4dac-ae58-d03b7bf33bce"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "한복"
+  ],
+  "productItemsSource": "admin",
+  "unit": "Ab155",
+  "updatedAt": "2026-11-09T08:16:03.237Z",
+  "version": 2
+}

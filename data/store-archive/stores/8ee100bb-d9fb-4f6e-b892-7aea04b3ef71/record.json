@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:38:00.197Z",
+  "floor": "5층",
+  "id": "8ee100bb-d9fb-4f6e-b892-7aea04b3ef71",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d540712d8718cd89450c157bce5712bb\"",
+      "id": "667a2494-3929-47b6-a8a7-f40b6b1797ca",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202675063.jpg",
+      "path": "photos/667a2494-3929-47b6-a8a7-f40b6b1797ca.jpg",
+      "sha256": "ae085b480cfd2807b456f06a4b3b28955d6ea9e92e20fc91257c704bd31e4b71",
+      "size": 771772,
+      "url": "/api/photos/667a2494-3929-47b6-a8a7-f40b6b1797ca"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 장식 부자재",
+    "모양 비즈",
+    "키링 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5170",
+  "updatedAt": null,
+  "version": 0
+}

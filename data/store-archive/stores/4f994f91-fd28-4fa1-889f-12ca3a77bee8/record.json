@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:24:07.313Z",
+  "floor": "5층",
+  "id": "4f994f91-fd28-4fa1-889f-12ca3a77bee8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1bbfe90f4202621c10089909caa74a40\"",
+      "id": "3c225a4e-dbea-445b-b922-d7deb9dfe9ce",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201839788.jpg",
+      "path": "photos/3c225a4e-dbea-445b-b922-d7deb9dfe9ce.jpg",
+      "sha256": "45fd400a31d220dcb075358df7155bb4f51ced57979cb859d7d0f2e8d09d7ce9",
+      "size": 847110,
+      "url": "/api/photos/3c225a4e-dbea-445b-b922-d7deb9dfe9ce"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "모양 비즈",
+    "장식 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5085",
+  "updatedAt": null,
+  "version": 0
+}

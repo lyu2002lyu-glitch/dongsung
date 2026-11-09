@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:45:13.793Z",
+  "floor": "5층",
+  "id": "955ba2e6-9cd4-43a2-b51c-677b5476ec9b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fc83193332c3c02daaa39d56a0df2792\"",
+      "id": "e29f63b3-bb60-45c6-be93-416a90e41669",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203110933.jpg",
+      "path": "photos/e29f63b3-bb60-45c6-be93-416a90e41669.jpg",
+      "sha256": "78da6ae607bd8938ece320b775c662722a240f57270c322bd2d7c475d1d81b8c",
+      "size": 559788,
+      "url": "/api/photos/e29f63b3-bb60-45c6-be93-416a90e41669"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 곱창 머리끈",
+    "무늬 곱창 머리끈",
+    "진주 모양 장식 머리끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5210",
+  "updatedAt": null,
+  "version": 0
+}

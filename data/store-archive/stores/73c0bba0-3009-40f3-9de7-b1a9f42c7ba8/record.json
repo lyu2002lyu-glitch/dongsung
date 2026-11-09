@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:21:46.023Z",
+  "floor": "5층",
+  "id": "73c0bba0-3009-40f3-9de7-b1a9f42c7ba8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2951731a78d72771f12c5e71514aa652\"",
+      "id": "29409695-10ab-4866-910c-97791d124403",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201700518.jpg",
+      "path": "photos/29409695-10ab-4866-910c-97791d124403.jpg",
+      "sha256": "3af6b169b143af9832104ec0bf8c4554874fa23182d75ef62140f578beaf1d25",
+      "size": 740551,
+      "url": "/api/photos/29409695-10ab-4866-910c-97791d124403"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 비즈",
+    "진주 모양 비즈",
+    "장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5068",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:47:26.728Z",
+  "floor": "5층",
+  "id": "29d7546c-0a25-4056-9d3c-24f18a0dabe6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ed093628afb65e53616e3a9ba36d9af5\"",
+      "id": "6bf41281-bc8e-46a4-99a2-e73d5a4842ae",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203242805.jpg",
+      "path": "photos/6bf41281-bc8e-46a4-99a2-e73d5a4842ae.jpg",
+      "sha256": "f6f6df81060f1831afd637a931420f8522750d8dd2792ccc056ab057893a98a6",
+      "size": 596870,
+      "url": "/api/photos/6bf41281-bc8e-46a4-99a2-e73d5a4842ae"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "로프 스트랩",
+    "연결 고리",
+    "끈 마감 부자재",
+    "색상 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5221",
+  "updatedAt": null,
+  "version": 0
+}

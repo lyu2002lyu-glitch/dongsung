@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:34:03.162Z",
+  "floor": "5층",
+  "id": "c86c6aa0-0beb-4d84-b8bd-0bb5ff75417c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"70621d9b77a14fec3bf152b4f92b76c1\"",
+      "id": "81005e9b-5025-42dd-aec4-904274d1291d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202439762.jpg",
+      "path": "photos/81005e9b-5025-42dd-aec4-904274d1291d.jpg",
+      "sha256": "73bacf052c674f4b321a8d358cb8eac757a94b6a750884d77ebee8aff1032a48",
+      "size": 750323,
+      "url": "/api/photos/81005e9b-5025-42dd-aec4-904274d1291d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "진주 모양 비즈",
+    "체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5140",
+  "updatedAt": null,
+  "version": 0
+}

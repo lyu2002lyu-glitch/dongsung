@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:35:10.952Z",
+  "floor": "지하층",
+  "id": "7282c47a-80a1-4539-8948-67b58659536b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e316df220c5675e0ccd4d707980bed7c\"",
+      "id": "5d162a17-51c7-427e-9204-35b649bd6f86",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209701436.jpg",
+      "path": "photos/5d162a17-51c7-427e-9204-35b649bd6f86.jpg",
+      "sha256": "b2cbe278e2850588e474f3a497e26e28b1fdb2f832f0b16e5df9929ebbd9b836",
+      "size": 408666,
+      "url": "/api/photos/5d162a17-51c7-427e-9204-35b649bd6f86"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 원단",
+    "무늬 원단",
+    "기모 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb115",
+  "updatedAt": null,
+  "version": 1
+}

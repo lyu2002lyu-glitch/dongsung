@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:37:29.891Z",
+  "floor": "지하층",
+  "id": "76ae3ae0-6118-4729-bdf1-aad9c87b6437",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"610de898b076fc9023ed0e15097e8c17\"",
+      "id": "35a79449-5f6f-4df0-8d40-fb93cf03101d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206241925.jpg",
+      "path": "photos/35a79449-5f6f-4df0-8d40-fb93cf03101d.jpg",
+      "sha256": "45ef07a75307493a6cf8bd0d2168066b40cb86ec356f4556175576d3413de362",
+      "size": 547596,
+      "url": "/api/photos/35a79449-5f6f-4df0-8d40-fb93cf03101d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb296",
+  "updatedAt": null,
+  "version": 1
+}

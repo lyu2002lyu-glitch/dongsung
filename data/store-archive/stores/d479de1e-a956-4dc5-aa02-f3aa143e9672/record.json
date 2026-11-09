@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:29:06.374Z",
+  "floor": "5층",
+  "id": "d479de1e-a956-4dc5-aa02-f3aa143e9672",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"031dce8f1d851cf0d8fd73113ae275bb\"",
+      "id": "798b655b-49ae-4024-b0cc-aff4cff7db3c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202140676.jpg",
+      "path": "photos/798b655b-49ae-4024-b0cc-aff4cff7db3c.jpg",
+      "sha256": "b49a1fc00befe5e699f5a77346b71f2732a839a6951a361c906b31a2ba01517c",
+      "size": 717380,
+      "url": "/api/photos/798b655b-49ae-4024-b0cc-aff4cff7db3c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상 비즈",
+    "모양 구슬",
+    "키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5102",
+  "updatedAt": null,
+  "version": 0
+}

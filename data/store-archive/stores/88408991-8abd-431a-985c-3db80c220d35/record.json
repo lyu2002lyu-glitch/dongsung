@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:08:18.260Z",
+  "floor": "5층",
+  "id": "88408991-8abd-431a-985c-3db80c220d35",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"52c845c2d64469ed7f3b4c431e4ac0dd\"",
+      "id": "1e9324b1-a761-4aa2-bf9d-792952574fbf",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200892098.jpg",
+      "path": "photos/1e9324b1-a761-4aa2-bf9d-792952574fbf.jpg",
+      "sha256": "ab03c37a5aa56a65a94e4b59a6ca9c4fb438181012f791bdfbb6aeea302b9bf0",
+      "size": 694941,
+      "url": "/api/photos/1e9324b1-a761-4aa2-bf9d-792952574fbf"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방",
+    "가방 스트랩",
+    "금속 연결 고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5012",
+  "updatedAt": null,
+  "version": 0
+}

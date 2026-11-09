@@ -1,0 +1,31 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:27:10.393Z",
+  "floor": "지하층",
+  "id": "87edec42-838b-4510-be50-e52970cb358d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f3f5df30b102761abb17f2f95b43e194\"",
+      "id": "9267d401-db52-4815-b645-7232517fc037",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209216125.jpg",
+      "path": "photos/9267d401-db52-4815-b645-7232517fc037.jpg",
+      "sha256": "61bc88094c443693d8bd939798699cd72de017943988a4eeb0ba595c7acf0838",
+      "size": 616322,
+      "url": "/api/photos/9267d401-db52-4815-b645-7232517fc037"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "워싱 면 원단",
+    "리넨 원단",
+    "꽃무늬 원단",
+    "체크 원단",
+    "동백꽃 브로치"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb022",
+  "updatedAt": "2026-11-09T09:05:01.451Z",
+  "version": 2
+}

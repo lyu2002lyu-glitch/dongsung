@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:30:10.561Z",
+  "floor": "지하층",
+  "id": "ad9c5037-1ded-4866-b752-03a1fd231128",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"73a4b9f3f271dfac84ae793979e0db02\"",
+      "id": "01aa2546-1482-4a3f-923e-638d08ce7610",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205802235.jpg",
+      "path": "photos/01aa2546-1482-4a3f-923e-638d08ce7610.jpg",
+      "sha256": "41586c638ea374f5bf549fa35e25b7763a7dfea24fc73916009e0786b8cfaf03",
+      "size": 495809,
+      "url": "/api/photos/01aa2546-1482-4a3f-923e-638d08ce7610"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "남아 한복",
+    "여아 한복"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab037",
+  "updatedAt": null,
+  "version": 1
+}

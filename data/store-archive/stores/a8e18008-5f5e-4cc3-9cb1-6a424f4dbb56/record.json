@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:10:47.938Z",
+  "floor": "지하층",
+  "id": "a8e18008-5f5e-4cc3-9cb1-6a424f4dbb56",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9decaa3d1563ee2160af3410c6fada97\"",
+      "id": "4ed9dfbe-d885-427d-8a61-8b01cf1daf84",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204643480.jpg",
+      "path": "photos/4ed9dfbe-d885-427d-8a61-8b01cf1daf84.jpg",
+      "sha256": "c9dd7bfd49a42f313af7c498512899cd2d724bc78ae79cf147e4a9e23067c6ce",
+      "size": 489786,
+      "url": "/api/photos/4ed9dfbe-d885-427d-8a61-8b01cf1daf84"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "직조 무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab029-2",
+  "updatedAt": null,
+  "version": 1
+}

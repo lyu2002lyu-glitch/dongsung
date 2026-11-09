@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:42:43.239Z",
+  "floor": "5층",
+  "id": "487ef1ef-2d73-4a5c-ae38-c66f0ae2548f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1fd123351f54965c449071a6303b854d\"",
+      "id": "c9ceefa2-8df2-4cd2-aba2-4503497064df",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202958933.jpg",
+      "path": "photos/c9ceefa2-8df2-4cd2-aba2-4503497064df.jpg",
+      "sha256": "5bf09f1ee57309d53772d812dae68658f41cec6acf9b1f87b4c8a4110ce043b3",
+      "size": 788762,
+      "url": "/api/photos/c9ceefa2-8df2-4cd2-aba2-4503497064df"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "진주 모양 구슬",
+    "금속 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5196",
+  "updatedAt": null,
+  "version": 0
+}

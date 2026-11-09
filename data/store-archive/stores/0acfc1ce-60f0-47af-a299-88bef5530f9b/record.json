@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:27:53.151Z",
+  "floor": "5층",
+  "id": "0acfc1ce-60f0-47af-a299-88bef5530f9b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9a1bf3fcbae9a52b11ccc7c9058fd284\"",
+      "id": "566152f5-9386-40e6-96aa-b7cbc7f94f78",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202066977.jpg",
+      "path": "photos/566152f5-9386-40e6-96aa-b7cbc7f94f78.jpg",
+      "sha256": "9aa26653ff5e82befed365e73fe853e3f06f4398d5b6b9586c76c9025be208ca",
+      "size": 862050,
+      "url": "/api/photos/566152f5-9386-40e6-96aa-b7cbc7f94f78"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "모양 비즈",
+    "장식 부품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5112",
+  "updatedAt": null,
+  "version": 0
+}

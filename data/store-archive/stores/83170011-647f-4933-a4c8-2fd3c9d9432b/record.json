@@ -1,0 +1,29 @@
+{
+  "building": "N동",
+  "createdAt": "2026-11-09T07:39:55.590Z",
+  "floor": "지하층",
+  "id": "83170011-647f-4933-a4c8-2fd3c9d9432b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e0ca2aedbbc4bfb2be52751014019869\"",
+      "id": "d22bffba-2a04-4d35-8555-bacd6ba43768",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209982499.jpg",
+      "path": "photos/d22bffba-2a04-4d35-8555-bacd6ba43768.jpg",
+      "sha256": "cd5007e53441410bb95a2f666707d5c954a0cb641065ad17fac4ff859bb237b2",
+      "size": 432274,
+      "url": "/api/photos/d22bffba-2a04-4d35-8555-bacd6ba43768"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폴리 트윌 원단",
+    "폴리 태피터 원단",
+    "지퍼 슬라이더"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Nb049",
+  "updatedAt": null,
+  "version": 1
+}

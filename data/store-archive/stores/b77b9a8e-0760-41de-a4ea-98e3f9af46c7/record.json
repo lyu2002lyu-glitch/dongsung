@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:13:46.012Z",
+  "floor": "지하층",
+  "id": "b77b9a8e-0760-41de-a4ea-98e3f9af46c7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6352f87cab7c3e9a2eace1eae5d4da62\"",
+      "id": "bff37e9f-9dcf-475e-8e5b-1719e9192b01",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208392980.jpg",
+      "path": "photos/bff37e9f-9dcf-475e-8e5b-1719e9192b01.jpg",
+      "sha256": "a8212ae2cd78f7886fe0131340e804c76114f329523ebfcadd9f0174d03e1b40",
+      "size": 710486,
+      "url": "/api/photos/bff37e9f-9dcf-475e-8e5b-1719e9192b01"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식 끈",
+    "꼬임 장식 끈",
+    "프린지 트리밍"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb525",
+  "updatedAt": null,
+  "version": 1
+}

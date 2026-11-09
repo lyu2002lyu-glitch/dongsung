@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:09:59.890Z",
+  "floor": "5층",
+  "id": "7e9134c3-8918-419b-8b03-02f78703235f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1dd03796682daad45f5c5d16dd46da26\"",
+      "id": "a6022c33-874b-4c7c-acd8-97af09fe86a3",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794200996219.jpg",
+      "path": "photos/a6022c33-874b-4c7c-acd8-97af09fe86a3.jpg",
+      "sha256": "bd1696ebf18f9a92fa4d211c75c7f518534ff1120fcd9385db9d5d66e61b98bb",
+      "size": 538512,
+      "url": "/api/photos/a6022c33-874b-4c7c-acd8-97af09fe86a3"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 연결 고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5021",
+  "updatedAt": null,
+  "version": 0
+}

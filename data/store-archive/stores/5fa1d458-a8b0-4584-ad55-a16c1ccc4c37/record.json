@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:12:05.599Z",
+  "floor": "지하층",
+  "id": "5fa1d458-a8b0-4584-ad55-a16c1ccc4c37",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e0f3835a566adfe762448b3130b86294\"",
+      "id": "f8d33c41-3dd8-49df-9762-d354337d949e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794204719625.jpg",
+      "path": "photos/f8d33c41-3dd8-49df-9762-d354337d949e.jpg",
+      "sha256": "65086246c1aef5d5878ee9f03b5a63cad30419e302223d8f7df0e8d48f379aa0",
+      "size": 623342,
+      "url": "/api/photos/f8d33c41-3dd8-49df-9762-d354337d949e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개실",
+    "콘사",
+    "반짝이 실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab028",
+  "updatedAt": null,
+  "version": 1
+}

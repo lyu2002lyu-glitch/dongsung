@@ -19,11 +19,10 @@
   "productAnalysisStatus": "ready",
   "productItems": [
     "키링",
-    "키링 고리",
-    "알파벳 참"
+    "키링 고리"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "B5129",
-  "updatedAt": null,
-  "version": 0
+  "updatedAt": "2026-11-09T04:10:39.914Z",
+  "version": 1
 }

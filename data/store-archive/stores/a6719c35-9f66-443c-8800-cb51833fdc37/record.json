@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:25:41.704Z",
+  "floor": "지하층",
+  "id": "a6719c35-9f66-443c-8800-cb51833fdc37",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"349fbecdb669788e55f989190a959f7e\"",
+      "id": "baf2ebcf-9360-45ce-aaf6-f65e5fb796ec",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209131882.jpg",
+      "path": "photos/baf2ebcf-9360-45ce-aaf6-f65e5fb796ec.jpg",
+      "sha256": "eab4b6b0bac78f528267c23002fba6b3eb43b9a43aaa5db3252d068de0710111",
+      "size": 428807,
+      "url": "/api/photos/baf2ebcf-9360-45ce-aaf6-f65e5fb796ec"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "단색 뜨개실",
+    "털실",
+    "혼합색 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb016",
+  "updatedAt": "2026-11-09T09:05:21.980Z",
+  "version": 2
+}

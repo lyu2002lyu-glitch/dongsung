@@ -1,0 +1,27 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:34:03.988Z",
+  "floor": "지하층",
+  "id": "57b390b6-c186-4e28-a5c1-4cc4842317e8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"09e84baf39c99b31a51ead9e9d418475\"",
+      "id": "09d3d782-9450-481e-b77c-63be41f46c10",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794209633015.jpg",
+      "path": "photos/09d3d782-9450-481e-b77c-63be41f46c10.jpg",
+      "sha256": "9479864a01f1edd08232cc93a28d7a408ca3a8fcedf2e1e8e518b7ad5347a4da",
+      "size": 399373,
+      "url": "/api/photos/09d3d782-9450-481e-b77c-63be41f46c10"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 커튼봉"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb067",
+  "updatedAt": "2026-11-09T09:03:01.613Z",
+  "version": 2
+}

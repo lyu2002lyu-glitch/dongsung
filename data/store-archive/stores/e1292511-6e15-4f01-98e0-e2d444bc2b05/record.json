@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:29:36.319Z",
+  "floor": "5층",
+  "id": "e1292511-6e15-4f01-98e0-e2d444bc2b05",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6758d228b632feefd42d15d740e719e6\"",
+      "id": "baeea9f1-feb2-441d-900d-b9c684aead47",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202171368.jpg",
+      "path": "photos/baeea9f1-feb2-441d-900d-b9c684aead47.jpg",
+      "sha256": "1bb67c95f74dcb1e6cbe52d134f59e462e4320e02d1af63d9acb0a6806417796",
+      "size": 612892,
+      "url": "/api/photos/baeea9f1-feb2-441d-900d-b9c684aead47"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "곱창 머리끈",
+    "리본 헤어 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5108",
+  "updatedAt": null,
+  "version": 0
+}

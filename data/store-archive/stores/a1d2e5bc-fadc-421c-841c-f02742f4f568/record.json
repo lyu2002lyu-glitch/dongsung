@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:23:14.268Z",
+  "floor": "지하층",
+  "id": "a1d2e5bc-fadc-421c-841c-f02742f4f568",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d25ac989cc45871a96a668566ad9f92d\"",
+      "id": "8b4aa195-56ad-4782-84ac-3cf322637a17",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205390126.jpg",
+      "path": "photos/8b4aa195-56ad-4782-84ac-3cf322637a17.jpg",
+      "sha256": "fa721cd54f6b0030add917596e486b476a5551713188da36f5d768cdea6b93e5",
+      "size": 598362,
+      "url": "/api/photos/8b4aa195-56ad-4782-84ac-3cf322637a17"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "자수틀",
+    "꼬임 끈",
+    "바느질 도구"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab003-5",
+  "updatedAt": null,
+  "version": 1
+}

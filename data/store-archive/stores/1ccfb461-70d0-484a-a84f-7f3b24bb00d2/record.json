@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:58:49.146Z",
+  "floor": "지하층",
+  "id": "1ccfb461-70d0-484a-a84f-7f3b24bb00d2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e093d538a79e6585d50f2c4596b795f9\"",
+      "id": "6596e0b0-5fcc-4fcf-a960-4355e5cee9ec",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203922677.jpg",
+      "path": "photos/6596e0b0-5fcc-4fcf-a960-4355e5cee9ec.jpg",
+      "sha256": "4d832b9ac52f63ee9abd586fa3b430d89e66053f27789e24461bd30cd2c74e3b",
+      "size": 587515,
+      "url": "/api/photos/6596e0b0-5fcc-4fcf-a960-4355e5cee9ec"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개실 뭉치",
+    "여러 색이 섞인 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab021-4",
+  "updatedAt": null,
+  "version": 1
+}

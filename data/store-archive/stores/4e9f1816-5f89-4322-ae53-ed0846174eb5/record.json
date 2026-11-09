@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:40:53.289Z",
+  "floor": "지하층",
+  "id": "4e9f1816-5f89-4322-ae53-ed0846174eb5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b87a8aa1d5e9512b521dee2f52d724cc\"",
+      "id": "cf26c166-ca2a-4ae9-9392-0b14a1a01803",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794206429105.jpg",
+      "path": "photos/cf26c166-ca2a-4ae9-9392-0b14a1a01803.jpg",
+      "sha256": "dc308cad712f5569d2032446d2c9b4ca8ee38c63391a85a290dbd642051e5ad0",
+      "size": 567778,
+      "url": "/api/photos/cf26c166-ca2a-4ae9-9392-0b14a1a01803"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "콘사",
+    "타래 뜨개실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb201",
+  "updatedAt": null,
+  "version": 1
+}

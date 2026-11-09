@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:33:45.504Z",
+  "floor": "5층",
+  "id": "abafe7cc-8c86-45e6-8767-c0b99f5bc1d7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f51534c1af70458cbce60de00efcdc6b\"",
+      "id": "6ac894df-e007-4ee9-88dc-ee4a4e7585e0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202419936.jpg",
+      "path": "photos/6ac894df-e007-4ee9-88dc-ee4a4e7585e0.jpg",
+      "sha256": "e129026fb0c6aa86c76827e62b64913ab35a4a88d02a63b2b174d2a020d8ab60",
+      "size": 650229,
+      "url": "/api/photos/6ac894df-e007-4ee9-88dc-ee4a4e7585e0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "롤 끈",
+    "무늬 끈",
+    "고리 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5092",
+  "updatedAt": null,
+  "version": 0
+}

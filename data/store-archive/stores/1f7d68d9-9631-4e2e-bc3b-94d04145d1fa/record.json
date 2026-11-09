@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:37:22.230Z",
+  "floor": "5층",
+  "id": "1f7d68d9-9631-4e2e-bc3b-94d04145d1fa",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"963698cb0e732ec336a251c892ea82ac\"",
+      "id": "fea72fd2-6e75-4c20-9c96-a50a837a0332",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202636459.jpg",
+      "path": "photos/fea72fd2-6e75-4c20-9c96-a50a837a0332.jpg",
+      "sha256": "a4393f5914dfb63d9fedeaa24a84317616a554a978ca0815489dbf732e8cd772",
+      "size": 692363,
+      "url": "/api/photos/fea72fd2-6e75-4c20-9c96-a50a837a0332"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "비즈 팔찌",
+    "낱개 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5164",
+  "updatedAt": null,
+  "version": 0
+}

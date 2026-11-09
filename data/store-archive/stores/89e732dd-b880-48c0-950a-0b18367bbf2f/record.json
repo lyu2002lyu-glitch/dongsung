@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:51:30.580Z",
+  "floor": "지하층",
+  "id": "89e732dd-b880-48c0-950a-0b18367bbf2f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6bd252db225937b40c56b8f541b6f7b1\"",
+      "id": "779dfa96-ee83-423b-9886-cf4e02353381",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207078683.jpg",
+      "path": "photos/779dfa96-ee83-423b-9886-cf4e02353381.jpg",
+      "sha256": "3eb191b0f0abac2c2e22946883612f6f7298cfb3a8b0f394ef23a75a4d7da253",
+      "size": 506352,
+      "url": "/api/photos/779dfa96-ee83-423b-9886-cf4e02353381"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개 가방",
+    "케이블 니트 조끼"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb214",
+  "updatedAt": null,
+  "version": 1
+}

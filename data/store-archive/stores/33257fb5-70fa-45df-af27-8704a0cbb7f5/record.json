@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:13:49.352Z",
+  "floor": "5층",
+  "id": "33257fb5-70fa-45df-af27-8704a0cbb7f5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9043804a5728eea27844460280042d03\"",
+      "id": "48d6c205-5111-4e92-8cd1-8ec0fe94c3f6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201225045.jpg",
+      "path": "photos/48d6c205-5111-4e92-8cd1-8ec0fe94c3f6.jpg",
+      "sha256": "c1c360ec671be36d55767ffe8447fce9fdd922475d6b4228956e901087f79744",
+      "size": 870174,
+      "url": "/api/photos/48d6c205-5111-4e92-8cd1-8ec0fe94c3f6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 참",
+    "컬러 펜던트",
+    "장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5034",
+  "updatedAt": null,
+  "version": 0
+}

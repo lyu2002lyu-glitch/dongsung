@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:48:19.492Z",
+  "floor": "5층",
+  "id": "0e9f8c61-041e-4481-8849-da3d07c327fb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c631e84a71c72d4348d667b9acd6841a\"",
+      "id": "d4a77c61-a9a5-4b96-85c1-423f2b88c078",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203296360.jpg",
+      "path": "photos/d4a77c61-a9a5-4b96-85c1-423f2b88c078.jpg",
+      "sha256": "1992905df87235488a3e88e0aac37f6f64567cce69928f5aa2f0278f71fce216",
+      "size": 846371,
+      "url": "/api/photos/d4a77c61-a9a5-4b96-85c1-423f2b88c078"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "열쇠고리",
+    "태슬 장식",
+    "미니 가방 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5225",
+  "updatedAt": null,
+  "version": 0
+}

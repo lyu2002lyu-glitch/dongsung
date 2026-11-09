@@ -1,0 +1,31 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T07:16:21.764Z",
+  "floor": "지하층",
+  "id": "2935df26-5130-4366-ba8e-0d29d1e802a8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8c8d665030f593277fb0cb8197d88233\"",
+      "id": "93f5ad55-606a-4278-903b-465ca1b7e36b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208564277.jpg",
+      "path": "photos/93f5ad55-606a-4278-903b-465ca1b7e36b.jpg",
+      "sha256": "3e2d09df144a1cae591fbd81a0aa80a2ca2957492b50f42f84c85aec86b8267e",
+      "size": 654705,
+      "url": "/api/photos/93f5ad55-606a-4278-903b-465ca1b7e36b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "재단가위",
+    "쪽가위",
+    "지퍼",
+    "가방 연결 고리",
+    "줄자"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb585",
+  "updatedAt": null,
+  "version": 1
+}

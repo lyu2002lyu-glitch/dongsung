@@ -1,0 +1,28 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:32:25.123Z",
+  "floor": "5층",
+  "id": "a3c328a4-5da5-4e5b-ab89-bff063ed36fd",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c42ad51956655c344d50214dfcc475d4\"",
+      "id": "0b56fb1c-3de2-46ed-84bb-d5f5840ee5f1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202339506.jpg",
+      "path": "photos/0b56fb1c-3de2-46ed-84bb-d5f5840ee5f1.jpg",
+      "sha256": "a47269280239a954512098ec1967d20e28989ad518de43d655e8c2aba85f0f98",
+      "size": 791380,
+      "url": "/api/photos/0b56fb1c-3de2-46ed-84bb-d5f5840ee5f1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "미니 바구니",
+    "장식 소품"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5121",
+  "updatedAt": null,
+  "version": 0
+}

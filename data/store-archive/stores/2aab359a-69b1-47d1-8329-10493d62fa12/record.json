@@ -1,0 +1,27 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T06:20:13.499Z",
+  "floor": "지하층",
+  "id": "2aab359a-69b1-47d1-8329-10493d62fa12",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cb02d337d2927e7248b9573f23d29d64\"",
+      "id": "0da81d9a-f28b-423c-b8b2-98cd0c0cdbab",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794205201125.jpg",
+      "path": "photos/0da81d9a-f28b-423c-b8b2-98cd0c0cdbab.jpg",
+      "sha256": "d7c61c6f0a529e1b70a0724f7381558d2e96b0744dfbd1fd513324ee00b6f79b",
+      "size": 640655,
+      "url": "/api/photos/0da81d9a-f28b-423c-b8b2-98cd0c0cdbab"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "색상별 콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab032-4",
+  "updatedAt": null,
+  "version": 1
+}

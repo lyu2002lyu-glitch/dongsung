@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T06:55:11.020Z",
+  "floor": "지하층",
+  "id": "2288b0ec-618c-4336-bceb-411f831fd232",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2e6e74f6689c0d14678bd47d1c602654\"",
+      "id": "2c0a8095-d27f-4c1a-8a7a-e8adefa03e38",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794207301590.jpg",
+      "path": "photos/2c0a8095-d27f-4c1a-8a7a-e8adefa03e38.jpg",
+      "sha256": "4019fc12706bfad304d686551df1b9d3c4a375507808ebcd85b38a656d98ca21",
+      "size": 582777,
+      "url": "/api/photos/2c0a8095-d27f-4c1a-8a7a-e8adefa03e38"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "털 장식사",
+    "배색 뜨개실",
+    "콘사"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb236",
+  "updatedAt": null,
+  "version": 1
+}

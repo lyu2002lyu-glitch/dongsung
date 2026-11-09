@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:23:50.767Z",
+  "floor": "5층",
+  "id": "4e99a8ed-d3b3-40d3-be80-541e3f0e9597",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"860f43a6cff60ccf2cf07b5190fe392f\"",
+      "id": "75a97706-a6ed-45ec-b8b9-10cfd5c9e742",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794201822088.jpg",
+      "path": "photos/75a97706-a6ed-45ec-b8b9-10cfd5c9e742.jpg",
+      "sha256": "22c7c16d3dcf5b5b0f96e518861012936657d4a0a824974fac5ab72bfc586f9f",
+      "size": 831662,
+      "url": "/api/photos/75a97706-a6ed-45ec-b8b9-10cfd5c9e742"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "스트랩 키링",
+    "열쇠고리 부자재",
+    "별 모양 연결 고리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5083",
+  "updatedAt": null,
+  "version": 0
+}

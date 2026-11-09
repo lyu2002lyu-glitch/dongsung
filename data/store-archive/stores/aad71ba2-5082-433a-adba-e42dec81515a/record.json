@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:39:34.500Z",
+  "floor": "지하층",
+  "id": "aad71ba2-5082-433a-adba-e42dec81515a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fe9313851e1857a87a0b25e58126d51c\"",
+      "id": "98f60f06-6897-4be9-9dbe-3ac7eff7793f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202771396.jpg",
+      "path": "photos/98f60f06-6897-4be9-9dbe-3ac7eff7793f.jpg",
+      "sha256": "a10273851fd700b824b6d0da2ac791d377877f2492d4bc7553faa18042cc96aa",
+      "size": 773619,
+      "url": "/api/photos/98f60f06-6897-4be9-9dbe-3ac7eff7793f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "액세서리용 체인",
+    "장식 펜던트",
+    "금속 연결 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Ab178",
+  "updatedAt": null,
+  "version": 1
+}

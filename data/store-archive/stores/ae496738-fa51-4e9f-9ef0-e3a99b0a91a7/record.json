@@ -1,0 +1,29 @@
+{
+  "building": "C동",
+  "createdAt": "2026-11-09T07:20:00.086Z",
+  "floor": "지하층",
+  "id": "ae496738-fa51-4e9f-9ef0-e3a99b0a91a7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e8123910f7621426bd37a9cdf296bab5\"",
+      "id": "1a51e4a8-2fa9-4c80-8296-ed95a34f645c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794208786484.jpg",
+      "path": "photos/1a51e4a8-2fa9-4c80-8296-ed95a34f645c.jpg",
+      "sha256": "94be0b7cba2ab92071495ab8659b3393b1c85f395e4067a34a40255aaf6fd612",
+      "size": 492045,
+      "url": "/api/photos/1a51e4a8-2fa9-4c80-8296-ed95a34f645c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃무늬 천가방",
+    "단색 원단",
+    "줄무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Cb573",
+  "updatedAt": null,
+  "version": 1
+}

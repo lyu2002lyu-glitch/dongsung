@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:48:51.677Z",
+  "floor": "5층",
+  "id": "bee98e00-fed6-411c-8d91-8e758e285797",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8d7b87209f7d81643b2c88ce8b2cebb0\"",
+      "id": "e88ddde2-87c8-4ebf-86dd-73f3a34a4899",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203326511.jpg",
+      "path": "photos/e88ddde2-87c8-4ebf-86dd-73f3a34a4899.jpg",
+      "sha256": "6d257a694f4de12231c0dcafa49b54cee451ac7f2a09d3f91a27c31346b526d3",
+      "size": 600257,
+      "url": "/api/photos/e88ddde2-87c8-4ebf-86dd-73f3a34a4899"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "숄더백",
+    "크로스백",
+    "파우치"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5228",
+  "updatedAt": null,
+  "version": 0
+}

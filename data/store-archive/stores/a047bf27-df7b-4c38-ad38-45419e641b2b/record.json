@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T05:53:35.084Z",
+  "floor": "지하층",
+  "id": "a047bf27-df7b-4c38-ad38-45419e641b2b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"436a08c31930f8579770a44b5ee8fcbf\"",
+      "id": "dc860664-f3c8-4b09-ad78-6f06f0d5dcdc",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794203593043.jpg",
+      "path": "photos/dc860664-f3c8-4b09-ad78-6f06f0d5dcdc.jpg",
+      "sha256": "948db6889c9935eec3b86d68ef2fc4195ff75c997fc53830d62e9a2c465d9b7b",
+      "size": 472662,
+      "url": "/api/photos/dc860664-f3c8-4b09-ad78-6f06f0d5dcdc"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "회색·갈색 재봉실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "Bb285-5",
+  "updatedAt": null,
+  "version": 1
+}

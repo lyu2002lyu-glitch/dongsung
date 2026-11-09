@@ -1,0 +1,29 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:28:49.312Z",
+  "floor": "5층",
+  "id": "53fd009e-4b12-465f-9b5b-d993240bf072",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"bc559ba3cf6d818d200d290fd8019463\"",
+      "id": "653a147f-8fdb-4e01-a1c0-fce92edbde5f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202124745.jpg",
+      "path": "photos/653a147f-8fdb-4e01-a1c0-fce92edbde5f.jpg",
+      "sha256": "7529d083fe6b38d4bf7477a05db34a9e8a4b5364e62b89fb92dab41efce862bd",
+      "size": 717062,
+      "url": "/api/photos/653a147f-8fdb-4e01-a1c0-fce92edbde5f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "팔찌",
+    "목걸이",
+    "태슬 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5110",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "A동",
+  "createdAt": "2026-11-09T05:37:46.783Z",
+  "floor": "5층",
+  "id": "5f84346d-0b9d-4fdb-b6db-faefc12e203d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d2425d312ec401695e422bf5935240f5\"",
+      "id": "d5b25bae-54bd-41d5-896d-539ad8e3bc34",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794202663042.jpg",
+      "path": "photos/d5b25bae-54bd-41d5-896d-539ad8e3bc34.jpg",
+      "sha256": "5e2fd71d8f85ad0a7830380f62333ae2e2e410982ebf5a00d779410cfbf01400",
+      "size": 763479,
+      "url": "/api/photos/d5b25bae-54bd-41d5-896d-539ad8e3bc34"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 펜던트",
+    "태슬 키링",
+    "색상 비즈",
+    "팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5168",
+  "updatedAt": null,
+  "version": 0
+}
