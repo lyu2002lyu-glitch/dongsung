@@ -16,6 +16,13 @@
       "url": "/api/photos/a825f175-0e08-4511-b5f5-defe62da1ebb"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방끈",
+    "천 파우치",
+    "줄무늬 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5030",
   "updatedAt": null,
   "version": 0

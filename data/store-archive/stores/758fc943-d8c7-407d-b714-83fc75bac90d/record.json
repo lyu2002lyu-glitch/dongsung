@@ -16,6 +16,11 @@
       "url": "/api/photos/fd4c63a3-79fb-49f1-8eb4-a0640c2e6cda"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "데님 에코백"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5060",
   "updatedAt": null,
   "version": 0

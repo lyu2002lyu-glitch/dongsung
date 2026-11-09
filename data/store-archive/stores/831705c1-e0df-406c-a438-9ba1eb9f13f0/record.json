@@ -16,6 +16,13 @@
       "url": "/api/photos/785a21b9-e768-4431-b6f2-6507871ba3e0"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "봉제 인형",
+    "장식용 구슬",
+    "액세서리 장식 부자재"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5087",
   "updatedAt": null,
   "version": 0

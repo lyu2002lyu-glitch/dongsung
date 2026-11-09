@@ -16,6 +16,13 @@
       "url": "/api/photos/c81e5db1-4784-4cfa-a7d0-44445ac0fc1e"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "프린트 면 원단",
+    "앞치마"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5056",
   "updatedAt": null,
   "version": 0

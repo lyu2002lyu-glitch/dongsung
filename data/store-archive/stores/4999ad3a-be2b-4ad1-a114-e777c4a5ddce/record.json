@@ -16,6 +16,13 @@
       "url": "/api/photos/dc6bad62-ce26-4721-9d32-a84ee84828ef"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "자수실",
+    "자수 도안",
+    "자수틀"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5069",
   "updatedAt": null,
   "version": 0

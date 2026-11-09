@@ -16,6 +16,13 @@
       "url": "/api/photos/ee23ed90-29be-40f3-839a-09837ed6e29c"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개 인형 키링",
+    "뜨개 꽃",
+    "뜨개 장식품"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5091",
   "updatedAt": null,
   "version": 0

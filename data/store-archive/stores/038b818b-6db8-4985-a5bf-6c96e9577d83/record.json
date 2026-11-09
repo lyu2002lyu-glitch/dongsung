@@ -16,6 +16,14 @@
       "url": "/api/photos/0394920e-707d-4e97-b46b-a277f262b08e"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "헤어 집게핀",
+    "리본 머리장식",
+    "인형 키링"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5061",
   "updatedAt": null,
   "version": 0

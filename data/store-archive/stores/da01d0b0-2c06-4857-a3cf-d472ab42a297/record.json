@@ -16,6 +16,13 @@
       "url": "/api/photos/61e8b97c-fc9e-4ac0-974d-1e19e312166b"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "워싱 광목 원단",
+    "면 코듀로이 원단",
+    "이중 거즈 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5015",
   "updatedAt": null,
   "version": 0

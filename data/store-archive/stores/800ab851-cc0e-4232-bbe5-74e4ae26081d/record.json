@@ -16,6 +16,12 @@
       "url": "/api/photos/78318a4a-0b27-48bb-9888-cce753cfa419"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "가방끈"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5005",
   "updatedAt": null,
   "version": 0

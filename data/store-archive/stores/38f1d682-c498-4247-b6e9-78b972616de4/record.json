@@ -16,6 +16,13 @@
       "url": "/api/photos/4367e0ef-96e7-4884-84dc-e038c34099f5"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리넨 원단",
+    "벨벳 원단",
+    "레이스 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5083",
   "updatedAt": null,
   "version": 0

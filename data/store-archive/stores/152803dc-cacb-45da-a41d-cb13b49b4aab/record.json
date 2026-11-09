@@ -16,6 +16,13 @@
       "url": "/api/photos/afd69fc0-ec58-449a-9e23-1495e4a684f4"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "장식용 구슬",
+    "목걸이"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5089",
   "updatedAt": null,
   "version": 0

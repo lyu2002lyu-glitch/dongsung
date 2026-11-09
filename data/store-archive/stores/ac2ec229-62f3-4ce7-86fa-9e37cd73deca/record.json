@@ -16,6 +16,13 @@
       "url": "/api/photos/94a59ecf-8ff0-43f4-95a7-07b71ccd2500"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈",
+    "줄비즈",
+    "볼체인"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5024",
   "updatedAt": null,
   "version": 0

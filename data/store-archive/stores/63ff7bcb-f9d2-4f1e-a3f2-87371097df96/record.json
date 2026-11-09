@@ -16,6 +16,12 @@
       "url": "/api/photos/5c372d96-4585-47a4-afe7-c55dc299c940"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "털이 있는 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5074",
   "updatedAt": null,
   "version": 0

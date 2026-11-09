@@ -16,6 +16,13 @@
       "url": "/api/photos/5f9d5a49-64bf-431f-974b-7116462a6e0a"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체크 셔츠",
+    "누빔 재킷",
+    "민소매 원피스"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5016",
   "updatedAt": null,
   "version": 0

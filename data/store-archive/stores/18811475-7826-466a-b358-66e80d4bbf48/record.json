@@ -16,6 +16,13 @@
       "url": "/api/photos/c5db846e-d83f-4c85-84eb-09c67b5b6d4f"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "재킷",
+    "셔츠",
+    "조끼"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5025",
   "updatedAt": null,
   "version": 0

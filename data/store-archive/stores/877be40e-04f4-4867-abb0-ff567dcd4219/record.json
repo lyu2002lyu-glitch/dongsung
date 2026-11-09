@@ -16,6 +16,12 @@
       "url": "/api/photos/18bd0551-6a5e-40b5-8682-cf6b787a8e55"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 체인",
+    "액세서리 연결 부자재"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5066",
   "updatedAt": null,
   "version": 0

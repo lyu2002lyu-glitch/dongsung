@@ -16,6 +16,12 @@
       "url": "/api/photos/f81f59c6-29da-4298-a447-6f6d11702efa"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "목걸이",
+    "귀걸이"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5049",
   "updatedAt": null,
   "version": 0

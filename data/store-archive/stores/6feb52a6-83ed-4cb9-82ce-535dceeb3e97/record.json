@@ -16,6 +16,13 @@
       "url": "/api/photos/6e2fe88d-aa34-404c-ac9e-f2114579e926"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "가방 체인",
+    "천 가방"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5018",
   "updatedAt": null,
   "version": 0

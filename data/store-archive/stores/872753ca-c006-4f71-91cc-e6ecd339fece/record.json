@@ -16,6 +16,13 @@
       "url": "/api/photos/072e62bf-1cef-49ae-8427-c4c68491df4d"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈",
+    "미니 인형 장식",
+    "방울 장식"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5046",
   "updatedAt": null,
   "version": 0

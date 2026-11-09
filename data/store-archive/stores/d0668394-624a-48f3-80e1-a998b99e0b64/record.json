@@ -16,6 +16,12 @@
       "url": "/api/photos/d2ba1c81-40b3-4947-a075-c27c53d2f6af"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "프린트 면 원단",
+    "꽃무늬 스커트"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5057",
   "updatedAt": null,
   "version": 0

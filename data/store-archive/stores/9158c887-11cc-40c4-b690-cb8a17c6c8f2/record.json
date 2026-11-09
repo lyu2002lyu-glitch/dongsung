@@ -16,6 +16,11 @@
       "url": "/api/photos/6963be96-5c83-4d52-9975-080f608a306d"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5082",
   "updatedAt": null,
   "version": 0

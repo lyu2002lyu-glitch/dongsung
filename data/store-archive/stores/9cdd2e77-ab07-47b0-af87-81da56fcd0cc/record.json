@@ -16,6 +16,13 @@
       "url": "/api/photos/4d8a5456-81da-41f3-8fa1-f387b4c27a70"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "순모 원단",
+    "체크 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5081",
   "updatedAt": null,
   "version": 0

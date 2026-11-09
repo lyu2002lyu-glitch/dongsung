@@ -16,6 +16,13 @@
       "url": "/api/photos/200a8c46-4235-4895-92a6-73cc67f41db9"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 가디건",
+    "니트 상의",
+    "니트 모자"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5093",
   "updatedAt": null,
   "version": 0

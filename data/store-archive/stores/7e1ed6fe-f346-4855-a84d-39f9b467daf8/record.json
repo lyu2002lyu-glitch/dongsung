@@ -16,6 +16,9 @@
       "url": "/api/photos/87d65e74-915b-4559-8bae-9d0a3c0d3feb"
     }
   ],
+  "productAnalysisStatus": "review",
+  "productItems": [],
+  "productItemsSource": "photo",
   "unit": "C5092",
   "updatedAt": null,
   "version": 0

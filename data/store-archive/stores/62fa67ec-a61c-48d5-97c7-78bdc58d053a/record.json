@@ -16,6 +16,9 @@
       "url": "/api/photos/3543cce6-0f86-4b61-9f9e-6b28f62289e9"
     }
   ],
+  "productAnalysisStatus": "review",
+  "productItems": [],
+  "productItemsSource": "photo",
   "unit": "C5096",
   "updatedAt": null,
   "version": 0

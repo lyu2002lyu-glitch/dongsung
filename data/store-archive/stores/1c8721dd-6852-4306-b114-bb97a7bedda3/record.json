@@ -16,6 +16,14 @@
       "url": "/api/photos/d28d51f9-c147-405f-bfa3-59c76c90005f"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "지퍼",
+    "와펜",
+    "장식 테이프",
+    "버클"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5020",
   "updatedAt": null,
   "version": 0

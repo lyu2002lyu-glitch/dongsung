@@ -16,6 +16,12 @@
       "url": "/api/photos/0e3bad0c-050b-4534-b273-841315196c24"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "꽃 장식"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5048",
   "updatedAt": null,
   "version": 0

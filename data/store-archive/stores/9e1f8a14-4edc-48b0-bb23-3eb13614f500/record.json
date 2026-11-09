@@ -16,6 +16,12 @@
       "url": "/api/photos/e1a1a3f7-f5d0-4ce9-a4ef-5d7957b53839"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "줄무늬 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5029",
   "updatedAt": null,
   "version": 0

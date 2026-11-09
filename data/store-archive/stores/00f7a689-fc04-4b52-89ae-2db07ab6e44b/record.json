@@ -16,6 +16,12 @@
       "url": "/api/photos/384593ca-65bd-4154-9040-a4e195470f8a"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체크 원단",
+    "망사 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5038",
   "updatedAt": null,
   "version": 0

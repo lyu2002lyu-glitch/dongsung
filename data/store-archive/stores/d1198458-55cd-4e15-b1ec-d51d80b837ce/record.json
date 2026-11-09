@@ -16,6 +16,12 @@
       "url": "/api/photos/b0b1be7c-a9f4-4af3-bf07-0eed9774b79b"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "프린트 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5033",
   "updatedAt": null,
   "version": 0

@@ -16,6 +16,13 @@
       "url": "/api/photos/6cb2fb7e-70c4-40ab-9ff4-247ef8bd1202"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체인",
+    "액세서리용 와이어",
+    "비즈"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5043",
   "updatedAt": null,
   "version": 0

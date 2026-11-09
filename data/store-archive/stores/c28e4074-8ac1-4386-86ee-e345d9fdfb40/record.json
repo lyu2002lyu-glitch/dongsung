@@ -16,6 +16,13 @@
       "url": "/api/photos/ff052220-d7a9-49b2-ae4d-0463e49704fd"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "비즈 팔찌",
+    "줄비즈"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5071",
   "updatedAt": null,
   "version": 0

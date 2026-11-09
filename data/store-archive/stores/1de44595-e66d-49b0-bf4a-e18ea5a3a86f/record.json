@@ -16,6 +16,13 @@
       "url": "/api/photos/0f686e8a-1387-42ba-bd66-87b1f3e04206"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "헤어 슈슈",
+    "진주 모양 구슬줄"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5021",
   "updatedAt": null,
   "version": 0

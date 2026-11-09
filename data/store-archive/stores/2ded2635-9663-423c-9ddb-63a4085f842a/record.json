@@ -16,6 +16,13 @@
       "url": "/api/photos/ece38b82-d769-44da-8cb1-ec1f2dc1413a"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "꽃무늬 원단",
+    "잎무늬 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5036",
   "updatedAt": null,
   "version": 0

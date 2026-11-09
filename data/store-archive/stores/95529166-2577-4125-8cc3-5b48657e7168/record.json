@@ -16,6 +16,13 @@
       "url": "/api/photos/f9d3a3bd-3a89-436f-ae77-47a0a6cc99cb"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "천 파우치",
+    "천 가방"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5019",
   "updatedAt": null,
   "version": 0

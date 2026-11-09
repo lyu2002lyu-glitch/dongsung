@@ -16,6 +16,13 @@
       "url": "/api/photos/ad88f36b-9655-4e80-a048-cae98254118e"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "그림 프린트 원단",
+    "프린트 천가방",
+    "꽃무늬 스커트"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5055",
   "updatedAt": null,
   "version": 0

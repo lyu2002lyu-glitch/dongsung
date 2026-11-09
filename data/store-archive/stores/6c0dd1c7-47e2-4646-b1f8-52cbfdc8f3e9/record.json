@@ -16,6 +16,13 @@
       "url": "/api/photos/a15d0322-7514-4fbb-b35e-139df32ff1a1"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "누빔 원단",
+    "프린트 원단",
+    "누빔 가방"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5051",
   "updatedAt": null,
   "version": 0

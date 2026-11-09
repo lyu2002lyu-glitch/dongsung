@@ -16,6 +16,13 @@
       "url": "/api/photos/b74b39b3-9303-4d53-ad45-a39da2aa40df"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "크리스마스 무늬 원단",
+    "풍경 무늬 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5098",
   "updatedAt": null,
   "version": 0

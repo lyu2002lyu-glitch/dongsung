@@ -16,6 +16,14 @@
       "url": "/api/photos/3ad727f0-acb1-4df6-b5ef-39a55c801085"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "물방울무늬 원단",
+    "체크 원단",
+    "셔츠"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5012",
   "updatedAt": null,
   "version": 0

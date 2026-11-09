@@ -16,6 +16,14 @@
       "url": "/api/photos/596bf33e-5ed1-4cc1-8a45-658dca223b2b"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "퀼팅 숄더백",
+    "토트백",
+    "지퍼 파우치",
+    "가방 손잡이"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5050",
   "updatedAt": null,
   "version": 0

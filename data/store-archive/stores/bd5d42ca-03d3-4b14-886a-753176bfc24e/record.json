@@ -16,6 +16,14 @@
       "url": "/api/photos/9e5f59d2-0227-4b0f-91d5-588463fab046"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "코듀로이 원단",
+    "체크 원단",
+    "호피 무늬 원단",
+    "자투리 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5053",
   "updatedAt": null,
   "version": 0

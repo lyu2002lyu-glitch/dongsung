@@ -16,6 +16,13 @@
       "url": "/api/photos/ca413e8d-db5b-4465-96db-c98925980479"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "오가닉 코튼 원단",
+    "아기 내의",
+    "천 인형"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5068",
   "updatedAt": null,
   "version": 0

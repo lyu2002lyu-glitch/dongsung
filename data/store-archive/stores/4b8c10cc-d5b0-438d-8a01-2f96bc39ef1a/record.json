@@ -16,6 +16,14 @@
       "url": "/api/photos/269069e6-c451-44e9-9f6e-97e3409bf604"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃무늬 원단",
+    "체크 원단",
+    "호피무늬 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5073",
   "updatedAt": null,
   "version": 0

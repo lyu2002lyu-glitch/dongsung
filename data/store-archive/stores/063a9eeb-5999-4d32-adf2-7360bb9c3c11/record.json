@@ -16,6 +16,13 @@
       "url": "/api/photos/b736cfb0-a4a4-491a-9467-f12ac083a98b"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체크 원단",
+    "줄무늬 원단",
+    "무지 원단"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5044",
   "updatedAt": null,
   "version": 0

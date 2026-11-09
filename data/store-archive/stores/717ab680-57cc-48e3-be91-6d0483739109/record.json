@@ -16,6 +16,11 @@
       "url": "/api/photos/d27f0299-13a0-496a-80b9-982ee680cf35"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "그림 액자"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5075",
   "updatedAt": null,
   "version": 0

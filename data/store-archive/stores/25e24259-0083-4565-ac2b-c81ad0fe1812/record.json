@@ -16,6 +16,13 @@
       "url": "/api/photos/19480e99-6310-43ab-a8c5-d7f10e239b70"
     }
   ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "구슬 목걸이",
+    "장식 체인",
+    "폼폼 장식"
+  ],
+  "productItemsSource": "photo",
   "unit": "C5008",
   "updatedAt": null,
   "version": 0
