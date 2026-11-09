@@ -132,6 +132,17 @@ def normalize_store(row):
         raise ValueError("Incomplete store metadata")
     if not isinstance(record["version"], int) or record["version"] < 0:
         raise ValueError("Invalid record revision")
+    if "productItems" in row:
+        items = row["productItems"]
+        if not isinstance(items, list) or not all(isinstance(item, str) and item.strip() for item in items):
+            raise ValueError("Invalid product items")
+        record["productItems"] = items
+    for key, allowed in (("productAnalysisStatus", ("ready", "review", "pending", "failed")),
+                         ("productItemsSource", ("photo", "admin"))):
+        if key in row:
+            if row[key] not in allowed:
+                raise ValueError("Invalid " + key)
+            record[key] = row[key]
     if not isinstance(row["photos"], list) or not 1 <= len(row["photos"]) <= 10:
         raise ValueError("Incomplete store photos")
     record["photos"] = []
