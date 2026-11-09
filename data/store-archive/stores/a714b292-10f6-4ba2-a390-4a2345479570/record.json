@@ -1,0 +1,31 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:58:44.850Z",
+  "floor": "5층",
+  "id": "a714b292-10f6-4ba2-a390-4a2345479570",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ca88b6796da3a9ef115fe22d4482d8ed\"",
+      "id": "38e0068b-e92a-40ea-b053-81892dd1e7e0",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189520757.jpg",
+      "path": "photos/38e0068b-e92a-40ea-b053-81892dd1e7e0.jpg",
+      "sha256": "65c0650d243124fdf0d148c195148a4d8fd78d172f1b96634e338a27ba820901",
+      "size": 1180747,
+      "url": "/api/photos/38e0068b-e92a-40ea-b053-81892dd1e7e0"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "헤어 집게핀",
+    "리본 머리핀",
+    "지퍼 파우치",
+    "숄더백"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5098",
+  "updatedAt": null,
+  "version": 0
+}

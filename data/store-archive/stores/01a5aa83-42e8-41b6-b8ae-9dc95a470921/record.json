@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:41:25.050Z",
+  "floor": "5층",
+  "id": "01a5aa83-42e8-41b6-b8ae-9dc95a470921",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a93f1f53af6c84cbd14eb86ac36a14f9\"",
+      "id": "9e9124c9-215c-4a65-b40b-067a5bd0a405",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188478105.jpg",
+      "path": "photos/9e9124c9-215c-4a65-b40b-067a5bd0a405.jpg",
+      "sha256": "e23228ad9bec6ad815e52a4fc76326069aa72a0836f6eb74d92f15bd61af0ee9",
+      "size": 1292329,
+      "url": "/api/photos/9e9124c9-215c-4a65-b40b-067a5bd0a405"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "프릴 리본",
+    "물방울무늬 리본",
+    "무지 리본",
+    "꽃 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5204",
+  "updatedAt": null,
+  "version": 0
+}

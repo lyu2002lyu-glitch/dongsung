@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:52:29.202Z",
+  "floor": "5층",
+  "id": "8a019eb9-1980-4f44-a02f-b0c5a9fc328c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"fe35c91b77b77da19c7f585a70a27ba6\"",
+      "id": "7587b835-fbbe-4d32-9f65-f5e06ac67b83",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189145582.jpg",
+      "path": "photos/7587b835-fbbe-4d32-9f65-f5e06ac67b83.jpg",
+      "sha256": "0ca8fc9fa101b7de8a4471d692abcde9e3802ab03a9ca2418894c3b912a64be7",
+      "size": 1067316,
+      "url": "/api/photos/7587b835-fbbe-4d32-9f65-f5e06ac67b83"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "장식용 구슬",
+    "꽃 장식",
+    "술 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5051",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:06:06.832Z",
+  "floor": "5층",
+  "id": "85a671e6-16ee-462d-b741-97d770d0613b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6514d56976b9d65cc2e357c81a40f6c4\"",
+      "id": "aecef3ca-ce5c-41c4-86fd-e8c497803442",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189964098.jpg",
+      "path": "photos/aecef3ca-ce5c-41c4-86fd-e8c497803442.jpg",
+      "sha256": "bcbba054ea8704bdd2b4c70b707c474ff7098f4ad9fdd009f86ca81fb24a8a1f",
+      "size": 1490774,
+      "url": "/api/photos/aecef3ca-ce5c-41c4-86fd-e8c497803442"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "목걸이",
+    "장식 펜던트",
+    "진주 모양 비즈",
+    "액세서리용 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5147",
+  "updatedAt": null,
+  "version": 0
+}

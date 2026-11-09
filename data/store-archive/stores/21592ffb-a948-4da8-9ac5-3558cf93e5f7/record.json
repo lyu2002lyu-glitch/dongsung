@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:14:30.463Z",
+  "floor": "5층",
+  "id": "21592ffb-a948-4da8-9ac5-3558cf93e5f7",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b49aa0ffac71b41f04163cfc86cb0489\"",
+      "id": "d4b5c874-1355-42f8-8ea6-bd6fd9bbbe83",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190464772.jpg",
+      "path": "photos/d4b5c874-1355-42f8-8ea6-bd6fd9bbbe83.jpg",
+      "sha256": "8b7f38ac68384444ad980d279aa99d5f71dcd407f49f23cc7f2100e9b692cef6",
+      "size": 1195785,
+      "url": "/api/photos/d4b5c874-1355-42f8-8ea6-bd6fd9bbbe83"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "비즈 키링",
+    "자수 와펜"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5185",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:12:23.795Z",
+  "floor": "5층",
+  "id": "1803d44e-f30f-4f37-a019-c00a4e46d5f1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8b90c62272676fff99a65a9b109ec10f\"",
+      "id": "4b6980ce-d47f-4a5a-8ec5-01a295d38439",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190339189.jpg",
+      "path": "photos/4b6980ce-d47f-4a5a-8ec5-01a295d38439.jpg",
+      "sha256": "0789f33abec358615da87d9e911cfdb1b4739e58a62ab81f935dca7f109b9583",
+      "size": 811733,
+      "url": "/api/photos/4b6980ce-d47f-4a5a-8ec5-01a295d38439"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "천 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5168",
+  "updatedAt": null,
+  "version": 0
+}

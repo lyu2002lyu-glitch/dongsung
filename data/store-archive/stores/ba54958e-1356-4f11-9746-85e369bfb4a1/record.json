@@ -1,0 +1,29 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T02:03:07.031Z",
+  "floor": "",
+  "id": "ba54958e-1356-4f11-9746-85e369bfb4a1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"50fd301a6c4c0f6490ea087d95399021\"",
+      "id": "a753b50e-6469-47c2-8a73-596de942d39d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189782923.jpg",
+      "path": "photos/a753b50e-6469-47c2-8a73-596de942d39d.jpg",
+      "sha256": "d8816592c7667625b7d39395254a73d054f1b6c907c0455d179c56c8a25b0dc6",
+      "size": 1191537,
+      "url": "/api/photos/a753b50e-6469-47c2-8a73-596de942d39d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "폼폼 키링",
+    "인형 키링",
+    "태슬 키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5183-1",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:55:49.917Z",
+  "floor": "5층",
+  "id": "b8ccc1f5-4d58-4324-8e2f-8a221bc3a774",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d28bae2b47e8c62b5e2279dac270b57e\"",
+      "id": "25a58cc3-189f-4a77-950b-d06d8fe03b2a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189346793.jpg",
+      "path": "photos/25a58cc3-189f-4a77-950b-d06d8fe03b2a.jpg",
+      "sha256": "23ef448b700ca3118f651f32ef394358905cdf64806fe73133179bb6872c3489",
+      "size": 1218704,
+      "url": "/api/photos/25a58cc3-189f-4a77-950b-d06d8fe03b2a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체인 목걸이",
+    "링 귀걸이",
+    "액세서리 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5080",
+  "updatedAt": null,
+  "version": 0
+}

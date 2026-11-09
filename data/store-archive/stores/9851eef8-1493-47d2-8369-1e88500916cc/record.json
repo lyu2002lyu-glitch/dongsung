@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:38:49.231Z",
+  "floor": "5층",
+  "id": "9851eef8-1493-47d2-8369-1e88500916cc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"efb59dc0a48c010bc42c8959c5f73e3d\"",
+      "id": "c61f9b48-7314-43ba-921a-aecb9bf097e4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188324025.jpg",
+      "path": "photos/c61f9b48-7314-43ba-921a-aecb9bf097e4.jpg",
+      "sha256": "c9945ad4176ffe2e1c7391d95153f1eaff8031cc9ef869ea17aa98bb1c95ea22",
+      "size": 1259410,
+      "url": "/api/photos/c61f9b48-7314-43ba-921a-aecb9bf097e4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 장식",
+    "공예용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5010",
+  "updatedAt": null,
+  "version": 0
+}

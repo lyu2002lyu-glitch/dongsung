@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:57:27.146Z",
+  "floor": "5층",
+  "id": "0477aeb7-b3a4-48d0-b506-b654cba6c861",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"811e24f89e229cb1233e2bdc8c9d2215\"",
+      "id": "650dfc7a-16e4-43e9-bae6-2b9ecdcb375b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189441502.jpg",
+      "path": "photos/650dfc7a-16e4-43e9-bae6-2b9ecdcb375b.jpg",
+      "sha256": "7f36540b694d327cd7e309d218e6aee5f2a79f0e4db32564a6053adcf126a64b",
+      "size": 1422936,
+      "url": "/api/photos/650dfc7a-16e4-43e9-bae6-2b9ecdcb375b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "시드 비즈",
+    "구슬 귀걸이",
+    "비즈 팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5090",
+  "updatedAt": null,
+  "version": 0
+}

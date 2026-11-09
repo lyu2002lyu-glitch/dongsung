@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:45:22.009Z",
+  "floor": "5층",
+  "id": "eecc9cf9-9757-461c-8982-bb02928052d8",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e51bd811424b211d4bf6d0bc40172df1\"",
+      "id": "e379a678-27f8-4108-b875-af79fa2b7515",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188716596.jpg",
+      "path": "photos/e379a678-27f8-4108-b875-af79fa2b7515.jpg",
+      "sha256": "2f06ecc3d36b4a2e8b27ce16bed43ae2c6035c7f856a41badbc1670909690d0c",
+      "size": 1248500,
+      "url": "/api/photos/e379a678-27f8-4108-b875-af79fa2b7515"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 리본",
+    "물방울무늬 리본",
+    "줄무늬 리본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5036",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:59:20.470Z",
+  "floor": "5층",
+  "id": "03466158-4f71-47d9-a16d-e128816e0d3d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7ca32cdaa836136e4011df5d9ae3795a\"",
+      "id": "f4a7a8a0-7927-41d2-88fb-8cb589e2ed5e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189557823.jpg",
+      "path": "photos/f4a7a8a0-7927-41d2-88fb-8cb589e2ed5e.jpg",
+      "sha256": "bcf0b11655d65bb815130cb310debe0d4759a9b9e389f38215f969509b96a2be",
+      "size": 1214910,
+      "url": "/api/photos/f4a7a8a0-7927-41d2-88fb-8cb589e2ed5e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "펜던트 목걸이",
+    "십자가 목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5102",
+  "updatedAt": null,
+  "version": 0
+}

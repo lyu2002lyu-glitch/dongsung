@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:01:59.646Z",
+  "floor": "5층",
+  "id": "bde3e777-283d-4d4f-9ec6-199643318837",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"49338b65bbe01b7064fc653a6d1bc986\"",
+      "id": "b52cf2ac-3e15-4cbf-b7ab-35254ad0f4e4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189716863.jpg",
+      "path": "photos/b52cf2ac-3e15-4cbf-b7ab-35254ad0f4e4.jpg",
+      "sha256": "d07409be4124462b8ab381c97c1926542756bb2f4b06caae028b64fdd6acb17f",
+      "size": 1428568,
+      "url": "/api/photos/b52cf2ac-3e15-4cbf-b7ab-35254ad0f4e4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "진주 모양 줄비즈",
+    "색상 줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5123",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:43:46.552Z",
+  "floor": "5층",
+  "id": "347f24b5-fa98-419b-9a5e-2d6370f924b2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c76a56b9954d2b5ddc23ceea6e3e4bd0\"",
+      "id": "08eac028-ec99-453b-b4f4-328fcca7e055",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188621847.jpg",
+      "path": "photos/08eac028-ec99-453b-b4f4-328fcca7e055.jpg",
+      "sha256": "baed9d379dd6750b0dd1743422e24df5396c1193d1d503997b24193ccf98f3b4",
+      "size": 1204421,
+      "url": "/api/photos/08eac028-ec99-453b-b4f4-328fcca7e055"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "드롭 귀걸이",
+    "링 귀걸이",
+    "펜던트 목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5025",
+  "updatedAt": null,
+  "version": 0
+}

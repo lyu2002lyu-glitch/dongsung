@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:56:23.951Z",
+  "floor": "5층",
+  "id": "4f342ed4-fefe-4c91-ae5f-80951530de9e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"29c4d0c18140b6746ab436edfba37a26\"",
+      "id": "9c25e221-0e40-4bb9-aa2e-5f07359b502e",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189373642.jpg",
+      "path": "photos/9c25e221-0e40-4bb9-aa2e-5f07359b502e.jpg",
+      "sha256": "d501459e129351cd08f2e36d47aebb985016bc6c91b27826eb9b5c6e92f85345",
+      "size": 1387853,
+      "url": "/api/photos/9c25e221-0e40-4bb9-aa2e-5f07359b502e"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 장식 볼펜",
+    "키링 고리",
+    "모양 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5085",
+  "updatedAt": null,
+  "version": 0
+}

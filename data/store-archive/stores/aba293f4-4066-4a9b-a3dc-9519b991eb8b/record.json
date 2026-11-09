@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:15:51.787Z",
+  "floor": "5층",
+  "id": "aba293f4-4066-4a9b-a3dc-9519b991eb8b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"81e076e91f66c100c7743ec7539f8044\"",
+      "id": "360e71c0-c34d-4e58-b6f1-14c115548e0a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190545851.jpg",
+      "path": "photos/360e71c0-c34d-4e58-b6f1-14c115548e0a.jpg",
+      "sha256": "2dbab8a71d728f04453cf6835cbc183cf6ff362a5562d9c7999d06c8abbe13fc",
+      "size": 1221364,
+      "url": "/api/photos/360e71c0-c34d-4e58-b6f1-14c115548e0a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "음식 미니어처",
+    "동물 미니어처",
+    "미니어처 진열대"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5194",
+  "updatedAt": null,
+  "version": 0
+}

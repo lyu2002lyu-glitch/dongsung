@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:52:56.285Z",
+  "floor": "5층",
+  "id": "e76b374f-2af8-4b5b-9d68-a8e4e46508a2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"b198b39acfbf8de6f528dba524b9b7ea\"",
+      "id": "0430f2e6-0eb3-4e2d-832e-90a9f5156bf7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189171481.jpg",
+      "path": "photos/0430f2e6-0eb3-4e2d-832e-90a9f5156bf7.jpg",
+      "sha256": "7f3f730345404222a2cb88f4e6956f70ce039cf165df8a7e3bb0737c36302e8f",
+      "size": 1261249,
+      "url": "/api/photos/0430f2e6-0eb3-4e2d-832e-90a9f5156bf7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "투명 줄비즈",
+    "투명 장식 구슬",
+    "색상 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5067",
+  "updatedAt": null,
+  "version": 0
+}

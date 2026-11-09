@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:40:25.573Z",
+  "floor": "5층",
+  "id": "1bf5768f-0a83-456e-b81f-2fa06ab37c49",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1d4656ca453b9f2b5297294b423bebc4\"",
+      "id": "1b9c8d50-60b6-4291-8f45-832c54233988",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188421842.jpg",
+      "path": "photos/1b9c8d50-60b6-4291-8f45-832c54233988.jpg",
+      "sha256": "2063f562cf5ae058580a58edf4c288f91392145651dc447d24cfc70a878f2f22",
+      "size": 1132699,
+      "url": "/api/photos/1b9c8d50-60b6-4291-8f45-832c54233988"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 머리띠 틀",
+    "무지 머리띠",
+    "헤어핀 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5200",
+  "updatedAt": null,
+  "version": 0
+}

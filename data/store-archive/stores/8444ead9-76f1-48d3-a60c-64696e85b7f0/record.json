@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:15:12.784Z",
+  "floor": "5층",
+  "id": "8444ead9-76f1-48d3-a60c-64696e85b7f0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"50b1608833a3978a55f9e14ed32532e6\"",
+      "id": "45b301e2-fdb0-481a-8c68-5f92133d314b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190509921.jpg",
+      "path": "photos/45b301e2-fdb0-481a-8c68-5f92133d314b.jpg",
+      "sha256": "fe19eb79af1855da771baaa42f6d6c2c4cfc4c84351cb36ef6e9b5f873dbec4d",
+      "size": 1116217,
+      "url": "/api/photos/45b301e2-fdb0-481a-8c68-5f92133d314b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "채소·과일 봉제인형",
+    "화분 모양 봉제인형",
+    "인형 키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5190",
+  "updatedAt": null,
+  "version": 0
+}

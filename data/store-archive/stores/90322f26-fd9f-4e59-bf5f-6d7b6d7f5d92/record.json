@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:03:34.128Z",
+  "floor": "5층",
+  "id": "90322f26-fd9f-4e59-bf5f-6d7b6d7f5d92",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"586469f4e6f7f679cfc331e4791199c9\"",
+      "id": "b795aeb3-62b3-44ba-bc5d-f6f4ddb055f6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189811716.jpg",
+      "path": "photos/b795aeb3-62b3-44ba-bc5d-f6f4ddb055f6.jpg",
+      "sha256": "a164720f3957528cd17a4c7e0f44fc9691828f8f12e59e4837fc27ac6aa4bc7b",
+      "size": 1431733,
+      "url": "/api/photos/b795aeb3-62b3-44ba-bc5d-f6f4ddb055f6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "비즈 팔찌",
+    "줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5127",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:52:12.958Z",
+  "floor": "5층",
+  "id": "12be9e18-8222-4ace-92bf-c67d244ab824",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6db83ab5d9c59d3955e33da052a8225f\"",
+      "id": "b8400495-a3b4-44e3-ad8a-6f20110f093b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189130198.jpg",
+      "path": "photos/b8400495-a3b4-44e3-ad8a-6f20110f093b.jpg",
+      "sha256": "1f7867f76fdc4f2e1d07c4a6b7014247581f8d3dd31e37d4de17e204f20dc662",
+      "size": 1240436,
+      "url": "/api/photos/b8400495-a3b4-44e3-ad8a-6f20110f093b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "과일 모양 장식 파츠",
+    "투명 장식 파츠",
+    "색상 끈",
+    "줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5054",
+  "updatedAt": null,
+  "version": 0
+}

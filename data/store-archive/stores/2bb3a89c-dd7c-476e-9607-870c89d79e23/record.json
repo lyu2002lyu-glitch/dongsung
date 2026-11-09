@@ -1,0 +1,29 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:49:40.550Z",
+  "floor": "",
+  "id": "2bb3a89c-dd7c-476e-9607-870c89d79e23",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4dcff9be8be5549496aad4d8efbfd110\"",
+      "id": "f41ea01a-eb31-4542-b291-a18fa95fb5b4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188977508.jpg",
+      "path": "photos/f41ea01a-eb31-4542-b291-a18fa95fb5b4.jpg",
+      "sha256": "3a908401d232992c4e4620ae3e2efe539da1571d3ee98c14e222e53f77aee25e",
+      "size": 1313209,
+      "url": "/api/photos/f41ea01a-eb31-4542-b291-a18fa95fb5b4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "구슬 비즈",
+    "진주 모양 비즈",
+    "색상 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5050-1",
+  "updatedAt": null,
+  "version": 0
+}

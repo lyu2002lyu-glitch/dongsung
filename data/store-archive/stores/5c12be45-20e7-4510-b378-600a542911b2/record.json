@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:44:59.039Z",
+  "floor": "5층",
+  "id": "5c12be45-20e7-4510-b378-600a542911b2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"912d8678bc51b79a1091a10fd0a298ec\"",
+      "id": "d6fbc292-c68d-4a68-b66a-a8ddb4fc784a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188694535.jpg",
+      "path": "photos/d6fbc292-c68d-4a68-b66a-a8ddb4fc784a.jpg",
+      "sha256": "af5439e48860607bbf96765f83ac147232e4f7b06001aacdc770ef8033ee4229",
+      "size": 1331007,
+      "url": "/api/photos/d6fbc292-c68d-4a68-b66a-a8ddb4fc784a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 스트랩",
+    "비즈 팔찌",
+    "장식 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5034",
+  "updatedAt": null,
+  "version": 0
+}

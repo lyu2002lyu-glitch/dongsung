@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:37:40.381Z",
+  "floor": "5층",
+  "id": "6b59e3a0-cc47-4c17-9c6d-9352e13a47a4",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4fcaf9e5cc3d969bc878f1618b5b7022\"",
+      "id": "dc7e7fa5-2242-4309-99f9-cf412a4caf82",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188255311.jpg",
+      "path": "photos/dc7e7fa5-2242-4309-99f9-cf412a4caf82.jpg",
+      "sha256": "ec47e6a82a379515d06cc427ecdbe43977d5734e2bd4f4c7a779f4a390e04efd",
+      "size": 1074225,
+      "url": "/api/photos/dc7e7fa5-2242-4309-99f9-cf412a4caf82"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이 스트랩"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5005",
+  "updatedAt": null,
+  "version": 0
+}

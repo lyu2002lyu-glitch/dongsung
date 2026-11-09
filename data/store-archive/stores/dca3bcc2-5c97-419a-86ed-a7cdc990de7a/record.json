@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:12:58.709Z",
+  "floor": "5층",
+  "id": "dca3bcc2-5c97-419a-86ed-a7cdc990de7a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a40ab4280b6bb7d27c262f577f72c431\"",
+      "id": "572ccc3a-baac-4bc1-ae73-0c86bcf1405c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190375529.jpg",
+      "path": "photos/572ccc3a-baac-4bc1-ae73-0c86bcf1405c.jpg",
+      "sha256": "175daa3171331227087cf6a5373dd008bda5b1f882eca6597b7802190ddec166",
+      "size": 1287203,
+      "url": "/api/photos/572ccc3a-baac-4bc1-ae73-0c86bcf1405c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "목걸이용 체인",
+    "볼 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5170",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:06:34.448Z",
+  "floor": "5층",
+  "id": "5a496fe1-2345-4bb9-9e93-0355af553087",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"10c588b79e5d0cfd8db3cffa04e5bdbb\"",
+      "id": "5cd01f87-4acd-45fd-bb47-8a17155de1d9",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189991273.jpg",
+      "path": "photos/5cd01f87-4acd-45fd-bb47-8a17155de1d9.jpg",
+      "sha256": "5b9b2967d082d08c42195cc04f0cf69780d6d24f26b01a8168d5678d55f42600",
+      "size": 1408920,
+      "url": "/api/photos/5cd01f87-4acd-45fd-bb47-8a17155de1d9"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "모루 철사",
+    "모루 꽃",
+    "뜨개 꽃",
+    "비즈 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5141",
+  "updatedAt": null,
+  "version": 0
+}

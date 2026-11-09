@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:11:43.664Z",
+  "floor": "5층",
+  "id": "ac9087d0-7aad-4ba3-9356-6183ee35bb63",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7e082ccf5d18d7975c93b60e8e31fbc8\"",
+      "id": "9d7f26ff-d84e-41ce-96cd-f538c7dc229d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190299640.jpg",
+      "path": "photos/9d7f26ff-d84e-41ce-96cd-f538c7dc229d.jpg",
+      "sha256": "959ae4f328066a07d1b02767c0d7b7921b6b771c0290966a6ce67ef1f2d1ebfc",
+      "size": 1378931,
+      "url": "/api/photos/9d7f26ff-d84e-41ce-96cd-f538c7dc229d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체인 스트랩",
+    "색상 비즈",
+    "투명 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5166",
+  "updatedAt": null,
+  "version": 0
+}

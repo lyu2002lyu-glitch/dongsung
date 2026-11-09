@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:58:32.023Z",
+  "floor": "5층",
+  "id": "421d8f2f-f584-43a6-bd73-2d0b763eddc2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5ed9a43412c9f0b49500cd3d64c620cb\"",
+      "id": "3132dffb-7d7a-43d0-a484-61072fdabfc9",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189502535.jpg",
+      "path": "photos/3132dffb-7d7a-43d0-a484-61072fdabfc9.jpg",
+      "sha256": "6e0c3a759ac3c1ad5be54fbb906e0d8d04e7d0da8dbce1301897220b58728c43",
+      "size": 1226654,
+      "url": "/api/photos/3132dffb-7d7a-43d0-a484-61072fdabfc9"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "인형 키링",
+    "비즈 키링",
+    "곱창 머리끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5097",
+  "updatedAt": null,
+  "version": 0
+}

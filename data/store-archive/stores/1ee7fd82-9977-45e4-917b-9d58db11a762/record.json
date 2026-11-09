@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:40:43.026Z",
+  "floor": "5층",
+  "id": "1ee7fd82-9977-45e4-917b-9d58db11a762",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"17375107e8e71b888a3ad199f5f55470\"",
+      "id": "85d9b086-4ef4-4966-a8f4-0f60c8b8b366",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188438997.jpg",
+      "path": "photos/85d9b086-4ef4-4966-a8f4-0f60c8b8b366.jpg",
+      "sha256": "dd80486b1c51406a338573d58588ae7d192194c74343d3d28390269a2169292d",
+      "size": 1238025,
+      "url": "/api/photos/85d9b086-4ef4-4966-a8f4-0f60c8b8b366"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "롤 리본",
+    "리본 매듭 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5201",
+  "updatedAt": null,
+  "version": 0
+}

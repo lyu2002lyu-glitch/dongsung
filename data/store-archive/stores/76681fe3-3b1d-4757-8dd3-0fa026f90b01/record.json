@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:52:41.398Z",
+  "floor": "5층",
+  "id": "76681fe3-3b1d-4757-8dd3-0fa026f90b01",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"252b61981479e8e5206ab5fbd9afb784\"",
+      "id": "a6ed0aa8-7752-4b8b-a68d-cf2e3dc95902",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189157502.jpg",
+      "path": "photos/a6ed0aa8-7752-4b8b-a68d-cf2e3dc95902.jpg",
+      "sha256": "b29dd17aa9f34b03bc1bdc75d86b1699aa34dfbb3a5cdff3a291bcb6621a1362",
+      "size": 1018462,
+      "url": "/api/photos/a6ed0aa8-7752-4b8b-a68d-cf2e3dc95902"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "천연석 팔찌",
+    "펜던트 목걸이",
+    "귀걸이",
+    "피어싱"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5050",
+  "updatedAt": null,
+  "version": 0
+}

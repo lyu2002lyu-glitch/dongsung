@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:14:42.021Z",
+  "floor": "5층",
+  "id": "a1ca2164-fda7-43fb-8898-4c7e30280663",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"603a9daa5bc1ca9fa5eefc724d1e40a6\"",
+      "id": "efb7e862-20b9-4808-b00b-1baebea73aab",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190479328.jpg",
+      "path": "photos/efb7e862-20b9-4808-b00b-1baebea73aab.jpg",
+      "sha256": "2ebeca357dc77265e86e55d4497ea575faa1beab80cb599416da79117a4a13c2",
+      "size": 1028761,
+      "url": "/api/photos/efb7e862-20b9-4808-b00b-1baebea73aab"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "액세서리 케이스",
+    "선물 포장 상자",
+    "조임끈 주머니"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5187",
+  "updatedAt": null,
+  "version": 0
+}

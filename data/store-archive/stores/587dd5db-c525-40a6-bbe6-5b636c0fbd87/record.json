@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:41:38.146Z",
+  "floor": "5층",
+  "id": "587dd5db-c525-40a6-bbe6-5b636c0fbd87",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"539e1e2e51edca2e88a67e9083a5aaa8\"",
+      "id": "a5e8773a-71d6-4969-97b4-d041baee4d15",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188494072.jpg",
+      "path": "photos/a5e8773a-71d6-4969-97b4-d041baee4d15.jpg",
+      "sha256": "dfefcf43a9b2664bc5c247f86851de5bda3e879ababd06dd44c6c818f1b71d21",
+      "size": 1243150,
+      "url": "/api/photos/a5e8773a-71d6-4969-97b4-d041baee4d15"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "아일릿",
+    "금속 연결 고리",
+    "장식 끈",
+    "원형 재단칼날"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5205",
+  "updatedAt": null,
+  "version": 0
+}

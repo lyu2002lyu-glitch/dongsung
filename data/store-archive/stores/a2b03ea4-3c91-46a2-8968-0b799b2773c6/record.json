@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:44:00.502Z",
+  "floor": "5층",
+  "id": "a2b03ea4-3c91-46a2-8968-0b799b2773c6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1e6a64b3ec019a9c9a8a4f907c31b001\"",
+      "id": "ea9798d9-ceac-4cdb-9604-f7b5cdab6ab6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188634911.jpg",
+      "path": "photos/ea9798d9-ceac-4cdb-9604-f7b5cdab6ab6.jpg",
+      "sha256": "daf25609ca151cfa2fe4c6961b0d0c16d2c319bc96adc729825ea5fb5749317c",
+      "size": 1288008,
+      "url": "/api/photos/ea9798d9-ceac-4cdb-9604-f7b5cdab6ab6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 와펜",
+    "글자 와펜",
+    "엠블럼 와펜"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5026",
+  "updatedAt": null,
+  "version": 0
+}

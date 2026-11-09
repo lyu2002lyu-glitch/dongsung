@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:00:13.582Z",
+  "floor": "5층",
+  "id": "cfbaccef-5bec-46f4-84cc-1d414d5fed99",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8c28fe37d895493a4cafdffade4ca1fa\"",
+      "id": "15a41c37-7e41-4930-aeb5-8d4b62332186",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189610845.jpg",
+      "path": "photos/15a41c37-7e41-4930-aeb5-8d4b62332186.jpg",
+      "sha256": "4f3c99b4a75711c9fe0475f725ef97f8ca001f781c5dfeb02d7b4d6fbc67f748",
+      "size": 1275115,
+      "url": "/api/photos/15a41c37-7e41-4930-aeb5-8d4b62332186"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "손목 스트랩",
+    "태슬 키링",
+    "미니 지갑",
+    "팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5109",
+  "updatedAt": null,
+  "version": 0
+}

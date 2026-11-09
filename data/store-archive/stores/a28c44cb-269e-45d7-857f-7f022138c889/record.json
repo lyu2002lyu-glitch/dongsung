@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:09:45.139Z",
+  "floor": "5층",
+  "id": "a28c44cb-269e-45d7-857f-7f022138c889",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2cd31a339f7a368acfc97023c968e13e\"",
+      "id": "b8857690-65b4-4412-8bd5-6dd57ac7b9b7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190180882.jpg",
+      "path": "photos/b8857690-65b4-4412-8bd5-6dd57ac7b9b7.jpg",
+      "sha256": "ef17b1dc69ec3318c7c9f94b803b82e2f0cac06a059b664a65fe8525604a0356",
+      "size": 1311291,
+      "url": "/api/photos/b8857690-65b4-4412-8bd5-6dd57ac7b9b7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "진주 모양 비즈",
+    "인형 키링",
+    "술 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5154",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:40:08.436Z",
+  "floor": "5층",
+  "id": "a9884b5e-349b-4752-ac68-a6fe15197b9a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3bb0a108d2234f8de8361ef0e312d884\"",
+      "id": "19e758c0-bbd9-4d09-ad56-03d581105b37",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188401990.jpg",
+      "path": "photos/19e758c0-bbd9-4d09-ad56-03d581105b37.jpg",
+      "sha256": "dba9c900f50799ef6a754fe68148fb97e5e225b43827dd54fecc83429f1d3d2d",
+      "size": 1112633,
+      "url": "/api/photos/19e758c0-bbd9-4d09-ad56-03d581105b37"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "곱창 머리끈",
+    "장식 단추"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5198",
+  "updatedAt": null,
+  "version": 0
+}

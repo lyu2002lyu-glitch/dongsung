@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:39:29.746Z",
+  "floor": "5층",
+  "id": "7d840088-89df-4d0f-8de7-ea4845b20826",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"471eb2a2c0b86adc7eab3c92e834572c\"",
+      "id": "126376f1-8460-4338-82ba-3b8ae6f2da73",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188364606.jpg",
+      "path": "photos/126376f1-8460-4338-82ba-3b8ae6f2da73.jpg",
+      "sha256": "73799f7f8e037a763ae7554fde83270b883cb187464ee1a3d702261f95fef882",
+      "size": 1352781,
+      "url": "/api/photos/126376f1-8460-4338-82ba-3b8ae6f2da73"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "가방 손잡이",
+    "지갑용 금속 프레임",
+    "바이어스 테이프",
+    "초실"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5016",
+  "updatedAt": null,
+  "version": 0
+}

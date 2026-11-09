@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:37:57.443Z",
+  "floor": "5층",
+  "id": "1ffa0dac-d69f-4845-96ee-1c93388ca2ac",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"51731a351b5b929186b202fbe6586ef4\"",
+      "id": "453315ec-052e-471f-8090-5242ecd5d199",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188273748.jpg",
+      "path": "photos/453315ec-052e-471f-8090-5242ecd5d199.jpg",
+      "sha256": "41011c7fc074815ed0ca1efe8178ceca1c3e366a770b8d3eeedb69484be6906d",
+      "size": 1203326,
+      "url": "/api/photos/453315ec-052e-471f-8090-5242ecd5d199"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "구슬 비즈",
+    "과일 모양 장식 파츠",
+    "동물 모양 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5006",
+  "updatedAt": null,
+  "version": 0
+}

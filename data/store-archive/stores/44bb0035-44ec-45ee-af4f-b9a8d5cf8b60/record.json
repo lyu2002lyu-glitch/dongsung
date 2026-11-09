@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:13:27.123Z",
+  "floor": "5층",
+  "id": "44bb0035-44ec-45ee-af4f-b9a8d5cf8b60",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"d0bf38e472a176e9baa82d9cc3d00a37\"",
+      "id": "95e7204f-df22-4ad4-ab61-a916745952d5",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190403108.jpg",
+      "path": "photos/95e7204f-df22-4ad4-ab61-a916745952d5.jpg",
+      "sha256": "b0fbd3ceae0664fc056a2d992e93088ea10ee6152b38e5854aa1a173ee27236f",
+      "size": 1266408,
+      "url": "/api/photos/95e7204f-df22-4ad4-ab61-a916745952d5"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "공예용 끈",
+    "구슬 비즈",
+    "액세서리 연결 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5175",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:49:25.636Z",
+  "floor": "5층",
+  "id": "7697286c-a3c3-4371-8e57-e886d287cc06",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"62ca36e27206d6d84a1826877fd683cc\"",
+      "id": "6b9f33d8-bfd5-4e7a-9de2-cf262a16ef63",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188962934.jpg",
+      "path": "photos/6b9f33d8-bfd5-4e7a-9de2-cf262a16ef63.jpg",
+      "sha256": "67e9b177aa74412a7a87b807a25bb811569243d670613ab916c5eec8528617d0",
+      "size": 1307310,
+      "url": "/api/photos/6b9f33d8-bfd5-4e7a-9de2-cf262a16ef63"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "재봉실",
+    "바느질 바늘",
+    "골무",
+    "가위"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5048",
+  "updatedAt": null,
+  "version": 0
+}

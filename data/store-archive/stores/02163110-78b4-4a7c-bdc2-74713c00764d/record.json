@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:51:55.568Z",
+  "floor": "5층",
+  "id": "02163110-78b4-4a7c-bdc2-74713c00764d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"91fbdb18c79d8bb0c98eb80ea9be0b70\"",
+      "id": "890c19e6-6cb7-4123-99fa-18c25666154a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189110120.jpg",
+      "path": "photos/890c19e6-6cb7-4123-99fa-18c25666154a.jpg",
+      "sha256": "e500b243afbb8c306d5cc99bedb5a07e63a17f723299b33c32b9a4574123f213",
+      "size": 1280674,
+      "url": "/api/photos/890c19e6-6cb7-4123-99fa-18c25666154a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 테이프",
+    "똑딱핀",
+    "머리띠",
+    "리본 머리장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5063",
+  "updatedAt": null,
+  "version": 0
+}

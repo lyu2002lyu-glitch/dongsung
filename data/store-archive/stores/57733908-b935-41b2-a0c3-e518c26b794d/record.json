@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:58:11.572Z",
+  "floor": "5층",
+  "id": "57733908-b935-41b2-a0c3-e518c26b794d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"ddd807cced1f8108a453763c77c5195d\"",
+      "id": "2cc101de-46b0-48dd-9bcc-407924e2c38f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189487661.jpg",
+      "path": "photos/2cc101de-46b0-48dd-9bcc-407924e2c38f.jpg",
+      "sha256": "f1702eb5be4d81181948193ca3df10dc2ec5c18df336a16b20fb87543efa7ce2",
+      "size": 1475314,
+      "url": "/api/photos/2cc101de-46b0-48dd-9bcc-407924e2c38f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 팔찌",
+    "줄비즈",
+    "낱개 구슬",
+    "금속 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5095",
+  "updatedAt": null,
+  "version": 0
+}

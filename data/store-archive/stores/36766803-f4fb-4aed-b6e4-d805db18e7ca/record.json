@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:39:51.645Z",
+  "floor": "5층",
+  "id": "36766803-f4fb-4aed-b6e4-d805db18e7ca",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3a46481d310d1d24698b5e6572bebea1\"",
+      "id": "5b7de8b3-f2cf-4835-9ca9-50fc40cbfd7a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188384702.jpg",
+      "path": "photos/5b7de8b3-f2cf-4835-9ca9-50fc40cbfd7a.jpg",
+      "sha256": "3e701aa87bd957cd2718fb8a54a7100405021a0c2cc747bbae7c86aa735952e0",
+      "size": 1250541,
+      "url": "/api/photos/5b7de8b3-f2cf-4835-9ca9-50fc40cbfd7a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "동물 얼굴 파우치",
+    "동물 인형 키링",
+    "음식 모양 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5017",
+  "updatedAt": null,
+  "version": 0
+}

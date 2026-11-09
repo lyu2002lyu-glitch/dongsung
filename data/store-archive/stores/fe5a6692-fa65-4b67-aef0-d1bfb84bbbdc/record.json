@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:13:15.374Z",
+  "floor": "5층",
+  "id": "fe5a6692-fa65-4b67-aef0-d1bfb84bbbdc",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c9408a3e152c32c2fe9638459f0151e6\"",
+      "id": "c16ceb8c-1ffe-4cf4-816b-d7b1a3d0955c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190391201.jpg",
+      "path": "photos/c16ceb8c-1ffe-4cf4-816b-d7b1a3d0955c.jpg",
+      "sha256": "5f826638fe6dd1d76e338b6b612d9677ce6e0e964d8c93edef04893752ba3a55",
+      "size": 1260040,
+      "url": "/api/photos/c16ceb8c-1ffe-4cf4-816b-d7b1a3d0955c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "지퍼",
+    "재봉실",
+    "자수실",
+    "가방 손잡이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5173",
+  "updatedAt": null,
+  "version": 0
+}

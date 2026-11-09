@@ -1,0 +1,29 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:48:34.796Z",
+  "floor": "",
+  "id": "19893344-7c03-4593-aae2-7584b99ff7a9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"05eccef8b826c92fea2aba358a615c61\"",
+      "id": "ff69734e-520b-4395-8cea-b5e826de2b6f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188908908.jpg",
+      "path": "photos/ff69734e-520b-4395-8cea-b5e826de2b6f.jpg",
+      "sha256": "6ac8a9ce141001361e5f87a998331f464f3b5f4b126dc37670d92055d3dede20",
+      "size": 1241827,
+      "url": "/api/photos/ff69734e-520b-4395-8cea-b5e826de2b6f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "비즈 팔찌",
+    "색상 줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5043-1",
+  "updatedAt": null,
+  "version": 0
+}

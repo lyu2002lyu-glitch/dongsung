@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:59:36.248Z",
+  "floor": "5층",
+  "id": "a20c74bd-9073-4fcf-b9dd-452f14e64b8b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0576d9700c285b838f03f2ca41be360c\"",
+      "id": "f712dbf6-2e60-4157-a386-072773e7d67f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189572006.jpg",
+      "path": "photos/f712dbf6-2e60-4157-a386-072773e7d67f.jpg",
+      "sha256": "2020fee173839d7b023f02fe4dd3e376f88198a83856a680126f4d7a03aef110",
+      "size": 1066043,
+      "url": "/api/photos/f712dbf6-2e60-4157-a386-072773e7d67f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "숄더백",
+    "미니 토트백",
+    "지퍼 파우치",
+    "슬리퍼"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5104",
+  "updatedAt": null,
+  "version": 0
+}

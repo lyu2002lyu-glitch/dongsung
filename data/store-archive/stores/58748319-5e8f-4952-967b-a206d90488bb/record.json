@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:11:22.609Z",
+  "floor": "5층",
+  "id": "58748319-5e8f-4952-967b-a206d90488bb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"66890b608a7c4f82b6f2b5ea64aaf349\"",
+      "id": "12df40ab-f6b3-426b-9230-bf08e2dfaf5c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190279148.jpg",
+      "path": "photos/12df40ab-f6b3-426b-9230-bf08e2dfaf5c.jpg",
+      "sha256": "4f2196fb6dafb4fc2837cc8b9bd075f9447b53cff40601b16e73c7049e0115f8",
+      "size": 1278272,
+      "url": "/api/photos/12df40ab-f6b3-426b-9230-bf08e2dfaf5c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "토끼 봉제인형",
+    "뜨개 장식",
+    "열쇠고리 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5164",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:46:39.392Z",
+  "floor": "5층",
+  "id": "562bc8b9-7d9d-4097-a2d3-ed65a84f53a0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"59ba020fd55e32a3ab5ba4a028e745ed\"",
+      "id": "86014bcb-8f84-4c55-a150-9acdc7b3e378",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188795783.jpg",
+      "path": "photos/86014bcb-8f84-4c55-a150-9acdc7b3e378.jpg",
+      "sha256": "862c03cb4db262347bb245b2ad68326cffa47ccdbc516dee98b41041630ad4ca",
+      "size": 1287653,
+      "url": "/api/photos/86014bcb-8f84-4c55-a150-9acdc7b3e378"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "시드 비즈",
+    "무늬 구슬",
+    "꽃 모양 장식 파츠",
+    "액세서리 연결 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5211",
+  "updatedAt": null,
+  "version": 0
+}

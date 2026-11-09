@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:48:49.622Z",
+  "floor": "5층",
+  "id": "440f2e76-cd0a-4382-b7b2-a94bc646a839",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c7dbcab8d619d478c06f03a6c4d25858\"",
+      "id": "2960e11a-945a-4c66-bbf6-bff7ae4e68d4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188926669.jpg",
+      "path": "photos/2960e11a-945a-4c66-bbf6-bff7ae4e68d4.jpg",
+      "sha256": "79fe64bd851781935ce7a829b0686eec6d5f341624404be5d85f5a1d18fa980e",
+      "size": 1239440,
+      "url": "/api/photos/2960e11a-945a-4c66-bbf6-bff7ae4e68d4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "서지컬 스틸 체인",
+    "액세서리 연결 부자재",
+    "펜던트",
+    "귀걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5043",
+  "updatedAt": null,
+  "version": 0
+}

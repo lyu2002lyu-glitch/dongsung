@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:58:58.103Z",
+  "floor": "5층",
+  "id": "0235fab7-2a55-4067-b57b-d0c4757a538f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"140fddf73f2221ef2d505610936bc6a8\"",
+      "id": "5e04a7cc-f6ca-4818-8fa0-21c1c6b7489d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189535059.jpg",
+      "path": "photos/5e04a7cc-f6ca-4818-8fa0-21c1c6b7489d.jpg",
+      "sha256": "dfffe6442610231134d9fd077508139ff1e398d1ca5015130f6a81b145200a5a",
+      "size": 1325329,
+      "url": "/api/photos/5e04a7cc-f6ca-4818-8fa0-21c1c6b7489d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 테이프",
+    "장식용 꼬임끈",
+    "레이스 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5100",
+  "updatedAt": null,
+  "version": 0
+}

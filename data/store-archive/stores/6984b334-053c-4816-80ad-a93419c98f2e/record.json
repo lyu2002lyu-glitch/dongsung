@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:01:17.859Z",
+  "floor": "5층",
+  "id": "6984b334-053c-4816-80ad-a93419c98f2e",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"8e835aa11d560253b9a6b7794ef8d1f0\"",
+      "id": "b1a54ac8-0418-484e-accd-7aaae582240d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189674467.jpg",
+      "path": "photos/b1a54ac8-0418-484e-accd-7aaae582240d.jpg",
+      "sha256": "f5c5d90ac2949d97660641b5b8541f43f37a4a159dcf3993588a62724d2c3202",
+      "size": 1452932,
+      "url": "/api/photos/b1a54ac8-0418-484e-accd-7aaae582240d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "천연 자개 비즈",
+    "색상 줄비즈",
+    "비즈 팔찌"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5116",
+  "updatedAt": null,
+  "version": 0
+}

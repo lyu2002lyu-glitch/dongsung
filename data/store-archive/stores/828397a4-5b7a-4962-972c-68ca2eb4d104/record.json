@@ -1,0 +1,29 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:48:07.637Z",
+  "floor": "",
+  "id": "828397a4-5b7a-4962-972c-68ca2eb4d104",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"90adc0560fd3d13545b542499c9622a4\"",
+      "id": "b0a95d4c-818d-4487-9842-978596861d5b",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188882745.jpg",
+      "path": "photos/b0a95d4c-818d-4487-9842-978596861d5b.jpg",
+      "sha256": "e371e79851b161ff0061046019678788af23233d7be15164bfd672dcbed9bc1f",
+      "size": 1147602,
+      "url": "/api/photos/b0a95d4c-818d-4487-9842-978596861d5b"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "음식 모양 미니어처 파츠",
+    "동물 모양 장식 파츠",
+    "키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5216-2",
+  "updatedAt": null,
+  "version": 0
+}

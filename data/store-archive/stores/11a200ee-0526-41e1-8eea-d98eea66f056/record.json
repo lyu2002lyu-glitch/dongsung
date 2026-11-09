@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:12:43.005Z",
+  "floor": "5층",
+  "id": "11a200ee-0526-41e1-8eea-d98eea66f056",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e85cc2a8641721256fe5584e74dc7fe8\"",
+      "id": "7be36158-c9c3-4693-9502-10c43ff95f87",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190358916.jpg",
+      "path": "photos/7be36158-c9c3-4693-9502-10c43ff95f87.jpg",
+      "sha256": "6a3b912b231705611aa15323015ba81182ae079843b1eec8a7d17b411828bb6b",
+      "size": 1274128,
+      "url": "/api/photos/7be36158-c9c3-4693-9502-10c43ff95f87"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 리본",
+    "반짝이 리본",
+    "리본 장식 머리띠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5169",
+  "updatedAt": null,
+  "version": 0
+}

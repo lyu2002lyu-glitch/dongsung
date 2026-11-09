@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:51:38.225Z",
+  "floor": "5층",
+  "id": "1a468588-7946-4ac9-9a8b-610b4402d071",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"07f76fa1f465f8a40439000363c20641\"",
+      "id": "131040b7-5814-4bc6-ae1e-07289a750dfe",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189094457.jpg",
+      "path": "photos/131040b7-5814-4bc6-ae1e-07289a750dfe.jpg",
+      "sha256": "5e5133ea6caeaa7895d8b1180e25a670d069e9f0ac46bf7ffbeb0da7894b738c",
+      "size": 1100330,
+      "url": "/api/photos/131040b7-5814-4bc6-ae1e-07289a750dfe"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 가디건",
+    "체크 셔츠",
+    "스카프",
+    "니트 목도리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5061",
+  "updatedAt": null,
+  "version": 0
+}

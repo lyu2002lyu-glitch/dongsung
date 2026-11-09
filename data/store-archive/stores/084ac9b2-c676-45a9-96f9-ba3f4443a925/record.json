@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:14:13.911Z",
+  "floor": "5층",
+  "id": "084ac9b2-c676-45a9-96f9-ba3f4443a925",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"934e546dcea2583731bd2ef9d525320e\"",
+      "id": "66d0a2bc-c7e9-43f2-ba0c-744dc50b125c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190450907.jpg",
+      "path": "photos/66d0a2bc-c7e9-43f2-ba0c-744dc50b125c.jpg",
+      "sha256": "09f682a0fa178ee0dc8b6103ab31e6b764d395104bd01bfb27422743c159c347",
+      "size": 1369828,
+      "url": "/api/photos/66d0a2bc-c7e9-43f2-ba0c-744dc50b125c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 키링",
+    "비즈 스트랩",
+    "술 장식 키링",
+    "공예용 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5183",
+  "updatedAt": null,
+  "version": 0
+}

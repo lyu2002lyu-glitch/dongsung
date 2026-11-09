@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:37:14.842Z",
+  "floor": "5층",
+  "id": "6c977b32-2c9c-4c1c-8d76-9aa4ff873daa",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"a4610c14b0cf6af4bb1afd7d57bd6d6b\"",
+      "id": "7467973c-bce0-4b63-a486-af4ea2523a0c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188230437.jpg",
+      "path": "photos/7467973c-bce0-4b63-a486-af4ea2523a0c.jpg",
+      "sha256": "40e8b4efe95ed6927185b3f7c1ed78ac081a3e441eacd3606017759355fcb23f",
+      "size": 1095955,
+      "url": "/api/photos/7467973c-bce0-4b63-a486-af4ea2523a0c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "스팽글 꽃 장식",
+    "진주 모양 비즈",
+    "비즈 꽃 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5003",
+  "updatedAt": null,
+  "version": 0
+}

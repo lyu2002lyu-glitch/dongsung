@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:38:28.469Z",
+  "floor": "5층",
+  "id": "ee738533-c5c7-40b1-8ac3-3f890a3b7a24",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"847608d1e9410728de6c8ff60858c930\"",
+      "id": "5df2419a-2bcc-42c7-b6d9-abaa7d4be075",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188304913.jpg",
+      "path": "photos/5df2419a-2bcc-42c7-b6d9-abaa7d4be075.jpg",
+      "sha256": "33d4e438bb8d5d22f737d6753d09e17718d64726deaae7d97823d2f84a4ea1f5",
+      "size": 1065524,
+      "url": "/api/photos/5df2419a-2bcc-42c7-b6d9-abaa7d4be075"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리띠",
+    "스크런치(곱창 머리끈)",
+    "장식 리본"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5009",
+  "updatedAt": null,
+  "version": 0
+}

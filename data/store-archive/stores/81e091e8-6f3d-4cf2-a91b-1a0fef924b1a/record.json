@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:41:06.993Z",
+  "floor": "5층",
+  "id": "81e091e8-6f3d-4cf2-a91b-1a0fef924b1a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e662e0fc913914b005d68d03b9fc0cc9\"",
+      "id": "09d07f69-3d06-40a8-93ee-92914670da14",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188458180.jpg",
+      "path": "photos/09d07f69-3d06-40a8-93ee-92914670da14.jpg",
+      "sha256": "ad672257e2ae031f8e453c3bc8584688b0926ecd306397a887cf54707fbd9551",
+      "size": 1298930,
+      "url": "/api/photos/09d07f69-3d06-40a8-93ee-92914670da14"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃무늬 원단",
+    "줄무늬 원단",
+    "기하학무늬 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5203",
+  "updatedAt": null,
+  "version": 0
+}

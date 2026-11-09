@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:10:27.521Z",
+  "floor": "5층",
+  "id": "393fddab-5351-417a-9c39-11238c562c48",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e6fef259367c7dd912ae5392671f2f0e\"",
+      "id": "a8a6734e-ae05-4473-b07d-4ab74a5462cd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190224137.jpg",
+      "path": "photos/a8a6734e-ae05-4473-b07d-4ab74a5462cd.jpg",
+      "sha256": "535b46cbf90883c625b9bfde998c70d514b75c248487a542565d7a4248b36b79",
+      "size": 1085494,
+      "url": "/api/photos/a8a6734e-ae05-4473-b07d-4ab74a5462cd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "천 머리띠",
+    "리본 장식",
+    "천 꽃 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5159",
+  "updatedAt": null,
+  "version": 0
+}

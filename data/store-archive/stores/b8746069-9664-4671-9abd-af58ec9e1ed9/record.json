@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:50:36.298Z",
+  "floor": "5층",
+  "id": "b8746069-9664-4671-9abd-af58ec9e1ed9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2564f55c7a02e550d29ece5b01c222a3\"",
+      "id": "e1c2465c-ba8e-4fa5-8e7b-bd4f7c797139",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189032299.jpg",
+      "path": "photos/e1c2465c-ba8e-4fa5-8e7b-bd4f7c797139.jpg",
+      "sha256": "8f419a11ab8339d145bb8ea0e187a60792b0391e4b06bf90a12732b138d7a836",
+      "size": 1149281,
+      "url": "/api/photos/e1c2465c-ba8e-4fa5-8e7b-bd4f7c797139"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 리본 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5055",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:10:15.271Z",
+  "floor": "5층",
+  "id": "faf5eff6-4b0d-4428-8de3-d5fa0544ddda",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3f435d986e9357d911e8cee54a10a905\"",
+      "id": "30e1d753-9755-4a2b-89f9-1e53867add51",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190211754.jpg",
+      "path": "photos/30e1d753-9755-4a2b-89f9-1e53867add51.jpg",
+      "sha256": "c41cde42c32202abc1939f4e22613ae5593f4989e94a8cfc091c20b0e59c75a6",
+      "size": 1518900,
+      "url": "/api/photos/30e1d753-9755-4a2b-89f9-1e53867add51"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "체인 스트랩",
+    "금색·은색 장식 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5158",
+  "updatedAt": null,
+  "version": 0
+}

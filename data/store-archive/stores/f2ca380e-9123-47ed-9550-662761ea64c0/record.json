@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:51:06.844Z",
+  "floor": "5층",
+  "id": "f2ca380e-9123-47ed-9550-662761ea64c0",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"88f1ca93dd3f7b9e809aac19463d63d4\"",
+      "id": "0cba5c2b-0d94-4170-9029-43f4bfb77edf",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189062885.jpg",
+      "path": "photos/0cba5c2b-0d94-4170-9029-43f4bfb77edf.jpg",
+      "sha256": "861dbe81454ac3b4b946c21d1d4dd86b86b3d8ff1fa61d8f1d09e7313d9cca1b",
+      "size": 1287921,
+      "url": "/api/photos/0cba5c2b-0d94-4170-9029-43f4bfb77edf"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "자카드 양말",
+    "줄무늬 양말",
+    "장갑",
+    "무늬 천가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5060",
+  "updatedAt": null,
+  "version": 0
+}

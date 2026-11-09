@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:47:17.876Z",
+  "floor": "5층",
+  "id": "52a6a5c2-62b2-476b-a73a-a9bf053a0743",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"25e8d8040182838590f6c6f361184e19\"",
+      "id": "b08a6b4f-d4d1-463c-a346-27d473a440ad",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188833827.jpg",
+      "path": "photos/b08a6b4f-d4d1-463c-a346-27d473a440ad.jpg",
+      "sha256": "d2b10e462c388a9ede8383d265b7e2f2c646397fbd874e4f87ea685166e4e780",
+      "size": 1330884,
+      "url": "/api/photos/b08a6b4f-d4d1-463c-a346-27d473a440ad"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "무지 원단",
+    "꽃무늬 원단",
+    "그림 프린트 원단"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5215",
+  "updatedAt": null,
+  "version": 0
+}

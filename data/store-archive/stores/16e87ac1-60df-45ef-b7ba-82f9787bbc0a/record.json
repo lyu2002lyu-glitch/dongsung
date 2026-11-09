@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:11:10.783Z",
+  "floor": "5층",
+  "id": "16e87ac1-60df-45ef-b7ba-82f9787bbc0a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e8c1b2548c6f52d3aa08e4fa1c254bae\"",
+      "id": "2d7c43db-3f2c-4d92-b272-fcee8a85e8e7",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190266578.jpg",
+      "path": "photos/2d7c43db-3f2c-4d92-b272-fcee8a85e8e7.jpg",
+      "sha256": "19cced5addc262a11d556c99ec84e0eda842506479e7d0d83a28e0b163650086",
+      "size": 1243123,
+      "url": "/api/photos/2d7c43db-3f2c-4d92-b272-fcee8a85e8e7"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 모양 큐빅 장식",
+    "장식 스톤",
+    "금속 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5163",
+  "updatedAt": null,
+  "version": 0
+}

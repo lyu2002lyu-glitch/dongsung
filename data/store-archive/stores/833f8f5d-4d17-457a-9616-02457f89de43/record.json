@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:44:41.700Z",
+  "floor": "5층",
+  "id": "833f8f5d-4d17-457a-9616-02457f89de43",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"47355a7c62b72efdb6ec9ed9b71e170b\"",
+      "id": "2b5f33ad-dda8-4718-8b66-8babf71b8ac2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188671458.jpg",
+      "path": "photos/2b5f33ad-dda8-4718-8b66-8babf71b8ac2.jpg",
+      "sha256": "c06ab3fb58627a0953e693f6d98490a4eb1ffe0cff767dadcc549b78fefbdd98",
+      "size": 1218586,
+      "url": "/api/photos/2b5f33ad-dda8-4718-8b66-8babf71b8ac2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "뜨개 가방",
+    "동물 모양 뜨개 인형",
+    "무늬 천 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5033",
+  "updatedAt": null,
+  "version": 0
+}

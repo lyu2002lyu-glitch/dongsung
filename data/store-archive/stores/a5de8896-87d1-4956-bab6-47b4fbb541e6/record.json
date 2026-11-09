@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:00:30.166Z",
+  "floor": "5층",
+  "id": "a5de8896-87d1-4956-bab6-47b4fbb541e6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1ad3aed21913a2bee9b0ec6a5ec099fc\"",
+      "id": "be2d76c9-0e16-4293-8aa1-de9a98406c9d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189627266.jpg",
+      "path": "photos/be2d76c9-0e16-4293-8aa1-de9a98406c9d.jpg",
+      "sha256": "bd23df3a18c2e78712be1b07d32e3a7189f53a50eb9ba1789996ffb28567af8c",
+      "size": 1280300,
+      "url": "/api/photos/be2d76c9-0e16-4293-8aa1-de9a98406c9d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "큐빅 스톤",
+    "색상별 장식 스톤"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5111",
+  "updatedAt": null,
+  "version": 0
+}

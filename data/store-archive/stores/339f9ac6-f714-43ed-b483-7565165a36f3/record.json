@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:07:30.361Z",
+  "floor": "5층",
+  "id": "339f9ac6-f714-43ed-b483-7565165a36f3",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"28b260f226ad94e9f9f6598c859430f1\"",
+      "id": "6fee0229-7ed6-4500-831d-37edb7d7dd45",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190045770.jpg",
+      "path": "photos/6fee0229-7ed6-4500-831d-37edb7d7dd45.jpg",
+      "sha256": "275e09a006d0e53240e78e58fcfb16d57ef359fe3168778449bac3e8ad3d7a40",
+      "size": 1267729,
+      "url": "/api/photos/6fee0229-7ed6-4500-831d-37edb7d7dd45"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금색 체인",
+    "은색 체인",
+    "볼체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5146",
+  "updatedAt": null,
+  "version": 0
+}

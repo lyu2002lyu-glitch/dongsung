@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:46:56.154Z",
+  "floor": "5층",
+  "id": "82a53edb-e27c-4f76-bf27-f9d29eed680c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7b9cf4ac39280765fbefd03fe0a623e7\"",
+      "id": "1dd07c09-61c9-4830-918f-0c09bf823a84",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188812127.jpg",
+      "path": "photos/1dd07c09-61c9-4830-918f-0c09bf823a84.jpg",
+      "sha256": "307523cef7b5177b37be5e4e693e74bdae68b0f96fde3854bb173424bfdfa0e5",
+      "size": 1243941,
+      "url": "/api/photos/1dd07c09-61c9-4830-918f-0c09bf823a84"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "동물 인형 키링",
+    "인형용 멜빵바지",
+    "인형용 상의"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5213",
+  "updatedAt": null,
+  "version": 0
+}

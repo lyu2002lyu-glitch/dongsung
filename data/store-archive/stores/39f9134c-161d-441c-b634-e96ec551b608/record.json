@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:54:45.588Z",
+  "floor": "5층",
+  "id": "39f9134c-161d-441c-b634-e96ec551b608",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3f619c15b8cbb67d3106c2e9dce825f0\"",
+      "id": "fd248419-9a84-463d-84fb-daefd50abd42",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189282514.jpg",
+      "path": "photos/fd248419-9a84-463d-84fb-daefd50abd42.jpg",
+      "sha256": "71961de506637e22b161b633065c7f7bec6ff6ffce385d1de1c571ba6ef8a41f",
+      "size": 1130697,
+      "url": "/api/photos/fd248419-9a84-463d-84fb-daefd50abd42"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "장식 반지",
+    "비즈 팔찌",
+    "뱅글 팔찌",
+    "목걸이"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5072",
+  "updatedAt": null,
+  "version": 0
+}

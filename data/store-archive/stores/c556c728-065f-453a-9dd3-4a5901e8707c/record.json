@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:46:12.402Z",
+  "floor": "5층",
+  "id": "c556c728-065f-453a-9dd3-4a5901e8707c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5c842f9fc7b7fcdf2d8dcd3be719497f\"",
+      "id": "dbdf9aaa-580f-41d1-9764-cd6a7277048c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188768699.jpg",
+      "path": "photos/dbdf9aaa-580f-41d1-9764-cd6a7277048c.jpg",
+      "sha256": "a048682c83caa801e8007538d9007c4ccc9dfaf13a33e839779cafb12f0a3fba",
+      "size": 1203111,
+      "url": "/api/photos/dbdf9aaa-580f-41d1-9764-cd6a7277048c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "과일·동물 모양 장식 단추",
+    "열쇠 모양 장식",
+    "리본 키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5040",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:09:10.008Z",
+  "floor": "5층",
+  "id": "4b1045f4-037b-4414-9446-94acc348550c",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"c50ba7b0f885f018325f6fdea8bc5bd6\"",
+      "id": "c1e87958-8751-4c45-9597-9c2ed6749f0f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190146920.jpg",
+      "path": "photos/c1e87958-8751-4c45-9597-9c2ed6749f0f.jpg",
+      "sha256": "9a38b710dbab9753b265409bac5835e209999c55cd90895ce2c87d16d8246668",
+      "size": 1357853,
+      "url": "/api/photos/c1e87958-8751-4c45-9597-9c2ed6749f0f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "캐릭터 봉제 인형",
+    "캐릭터 피규어",
+    "미니어처 장난감"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5151",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:39:11.379Z",
+  "floor": "5층",
+  "id": "4c3af270-4c6b-4434-b981-62eefb3904bf",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"78572472f07211aea98e06db290c3dcc\"",
+      "id": "29d1092e-3156-4f8e-a23a-8bff95a3d5a1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188344131.jpg",
+      "path": "photos/29d1092e-3156-4f8e-a23a-8bff95a3d5a1.jpg",
+      "sha256": "9aefee8293dd7214dd77fd5a97a8a3ae67d85e877415850c7b8a31162ce5d67d",
+      "size": 1250106,
+      "url": "/api/photos/29d1092e-3156-4f8e-a23a-8bff95a3d5a1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "구슬 키링",
+    "장식용 비즈",
+    "모양 장식 파츠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5014",
+  "updatedAt": null,
+  "version": 0
+}

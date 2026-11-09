@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:03:20.649Z",
+  "floor": "5층",
+  "id": "98910b1b-2af5-40e7-970f-cb35c59be89b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6710e7ef64cb67dbdf4a8b65cda18190\"",
+      "id": "bca3e8fe-6086-490b-a4b3-616a4214e1a4",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189798344.jpg",
+      "path": "photos/bca3e8fe-6086-490b-a4b3-616a4214e1a4.jpg",
+      "sha256": "662b335f1906bc2c51d0028a61885d7f254707afd208714110025b77e6493602",
+      "size": 1228323,
+      "url": "/api/photos/bca3e8fe-6086-490b-a4b3-616a4214e1a4"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "태슬 키링",
+    "귀걸이",
+    "목걸이",
+    "진주 모양 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5125",
+  "updatedAt": null,
+  "version": 0
+}

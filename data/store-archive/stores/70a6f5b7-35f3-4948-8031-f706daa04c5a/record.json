@@ -1,0 +1,30 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:47:37.586Z",
+  "floor": "",
+  "id": "70a6f5b7-35f3-4948-8031-f706daa04c5a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"24d6fde830b02edc25ee01cb15f5f050\"",
+      "id": "fdf18d29-9b3c-4106-ac48-895ee3c1f4da",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188852486.jpg",
+      "path": "photos/fdf18d29-9b3c-4106-ac48-895ee3c1f4da.jpg",
+      "sha256": "d15ca304bbdf0df12f06aa40d981e543dceba989e77c58ac375ccaba344fcffc",
+      "size": 1105985,
+      "url": "/api/photos/fdf18d29-9b3c-4106-ac48-895ee3c1f4da"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "크리스마스 머리띠",
+    "버킷햇",
+    "니트 목도리",
+    "미니 가방"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5216-1",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:49:11.786Z",
+  "floor": "5층",
+  "id": "e0dc2297-0f07-48a0-9d93-e6f82649b9a1",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"18c0a991c362df98bb703502a494fc46\"",
+      "id": "1a55f949-f5fb-4492-9b5c-4f1e6285ed23",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188945762.jpg",
+      "path": "photos/1a55f949-f5fb-4492-9b5c-4f1e6285ed23.jpg",
+      "sha256": "445cb20564437b3cb6029aca2ae15c7005a8142387afd3dac46e1b82896b5f35",
+      "size": 1379968,
+      "url": "/api/photos/1a55f949-f5fb-4492-9b5c-4f1e6285ed23"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "원형 비즈",
+    "사각 비즈",
+    "장식용 폼폼",
+    "줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5046",
+  "updatedAt": null,
+  "version": 0
+}

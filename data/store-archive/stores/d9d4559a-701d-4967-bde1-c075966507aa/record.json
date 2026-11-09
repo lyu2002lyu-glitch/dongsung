@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:54:02.292Z",
+  "floor": "5층",
+  "id": "d9d4559a-701d-4967-bde1-c075966507aa",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"4a2a52031fe22624628de746c1847480\"",
+      "id": "b08fc978-8390-4c56-ba57-841205d8bd29",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189238535.jpg",
+      "path": "photos/b08fc978-8390-4c56-ba57-841205d8bd29.jpg",
+      "sha256": "804f0c0bef78538903a159a4a3ec425c0ed1663ebed782abbb1f0866d34e5e7b",
+      "size": 1158483,
+      "url": "/api/photos/b08fc978-8390-4c56-ba57-841205d8bd29"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "리본 머리핀",
+    "크리스마스 머리띠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5075",
+  "updatedAt": null,
+  "version": 0
+}

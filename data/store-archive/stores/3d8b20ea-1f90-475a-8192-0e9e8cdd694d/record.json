@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:08:57.956Z",
+  "floor": "5층",
+  "id": "3d8b20ea-1f90-475a-8192-0e9e8cdd694d",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9336421f45a2752ce010b7fd2eed5c65\"",
+      "id": "156ecf1c-908f-4311-b368-459de298f750",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190135548.jpg",
+      "path": "photos/156ecf1c-908f-4311-b368-459de298f750.jpg",
+      "sha256": "86fdf359c9380894009d0d520d8db14dfe72ce8eade53885ce4cefaa6db77bb5",
+      "size": 1051685,
+      "url": "/api/photos/156ecf1c-908f-4311-b368-459de298f750"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 코사지",
+    "천 꽃 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5150",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:08:46.104Z",
+  "floor": "5층",
+  "id": "6adce39b-7e8a-419d-bbf8-5e34b6ce45f3",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"938259178df51ba64d58d4228b1ed66f\"",
+      "id": "0fd44823-25a6-4d3d-917f-05248ede288f",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190120083.jpg",
+      "path": "photos/0fd44823-25a6-4d3d-917f-05248ede288f.jpg",
+      "sha256": "a5155125e1a3ad57a1603d9aaebc60c9a6b6b32ad5044daa58853eddcfcb778f",
+      "size": 1333275,
+      "url": "/api/photos/0fd44823-25a6-4d3d-917f-05248ede288f"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "동물 피규어",
+    "미니어처 가구",
+    "미니어처 나무"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5149",
+  "updatedAt": null,
+  "version": 0
+}

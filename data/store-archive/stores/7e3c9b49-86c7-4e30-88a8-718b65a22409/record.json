@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:44:21.205Z",
+  "floor": "5층",
+  "id": "7e3c9b49-86c7-4e30-88a8-718b65a22409",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"130aa83b07de76c44a84161720f821b8\"",
+      "id": "5a99f5f7-368a-4dfe-85df-dded73ff0228",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188658238.jpg",
+      "path": "photos/5a99f5f7-368a-4dfe-85df-dded73ff0228.jpg",
+      "sha256": "3833243ad73c29d18aa661bda17dcdb2feec2ed5462cda22aafc89af6a108b36",
+      "size": 1008418,
+      "url": "/api/photos/5a99f5f7-368a-4dfe-85df-dded73ff0228"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "집게 머리핀",
+    "리본 장식 집게핀",
+    "머리띠"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5032",
+  "updatedAt": null,
+  "version": 0
+}

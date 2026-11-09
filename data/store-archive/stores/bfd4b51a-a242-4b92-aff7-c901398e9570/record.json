@@ -1,0 +1,29 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T02:02:44.255Z",
+  "floor": "",
+  "id": "bfd4b51a-a242-4b92-aff7-c901398e9570",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"21fcc26c5dbe6f15b69ab539f3ceff2a\"",
+      "id": "7d13d7af-ca4d-467b-8cc0-923ec320ef79",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189759749.jpg",
+      "path": "photos/7d13d7af-ca4d-467b-8cc0-923ec320ef79.jpg",
+      "sha256": "6a1f172736450c258401aeb4bdeecdc145ed1af4960bcf79b6168e07a82625e8",
+      "size": 1264025,
+      "url": "/api/photos/7d13d7af-ca4d-467b-8cc0-923ec320ef79"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "헤어 집게핀",
+    "장식 머리핀",
+    "곱창 머리끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "A5144-1b",
+  "updatedAt": null,
+  "version": 0
+}

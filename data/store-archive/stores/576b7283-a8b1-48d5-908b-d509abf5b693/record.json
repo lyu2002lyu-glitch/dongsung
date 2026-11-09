@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:57:54.969Z",
+  "floor": "5층",
+  "id": "576b7283-a8b1-48d5-908b-d509abf5b693",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2c18c6b53c6dd10107a4bb6579fa02a8\"",
+      "id": "c6e12b46-06bb-4729-90fd-39a65aaa516a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189471882.jpg",
+      "path": "photos/c6e12b46-06bb-4729-90fd-39a65aaa516a.jpg",
+      "sha256": "4ec9ab1a52711265281583e4a4e45e467006397583bd919937e68fd54860fd69",
+      "size": 1123717,
+      "url": "/api/photos/c6e12b46-06bb-4729-90fd-39a65aaa516a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "리본 장식",
+    "곱창 머리끈",
+    "리본 테이프"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5094",
+  "updatedAt": null,
+  "version": 0
+}

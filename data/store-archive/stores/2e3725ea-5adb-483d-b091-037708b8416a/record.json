@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:00:01.276Z",
+  "floor": "5층",
+  "id": "2e3725ea-5adb-483d-b091-037708b8416a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0bc06834fcd31b539d36b0fb2072ec01\"",
+      "id": "fdc3636f-d8bc-4c87-a524-aab091abb458",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189597604.jpg",
+      "path": "photos/fdc3636f-d8bc-4c87-a524-aab091abb458.jpg",
+      "sha256": "467dbedeb7496c8b190e24c7919631a392361a2d03549e43a774af78e2c4c180",
+      "size": 1264820,
+      "url": "/api/photos/fdc3636f-d8bc-4c87-a524-aab091abb458"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "서지컬 스틸 연결고리",
+    "액세서리 체인",
+    "금속 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5105",
+  "updatedAt": null,
+  "version": 0
+}

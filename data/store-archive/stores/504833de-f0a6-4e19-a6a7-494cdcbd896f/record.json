@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:00:59.883Z",
+  "floor": "5층",
+  "id": "504833de-f0a6-4e19-a6a7-494cdcbd896f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"edeab5fd0450134a61334b8999bc74e0\"",
+      "id": "baa99326-0f48-4117-80d7-b46f749e0cb1",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189657211.jpg",
+      "path": "photos/baa99326-0f48-4117-80d7-b46f749e0cb1.jpg",
+      "sha256": "7253637a1725438f181281b12d8fd0561d7f6f9884d6f3d54d39d7e745b074e7",
+      "size": 1401584,
+      "url": "/api/photos/baa99326-0f48-4117-80d7-b46f749e0cb1"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "진주 모양 줄비즈",
+    "시드 비즈",
+    "장식용 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5114",
+  "updatedAt": null,
+  "version": 0
+}

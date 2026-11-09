@@ -1,0 +1,27 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:55:18.896Z",
+  "floor": "5층",
+  "id": "d21918e8-8dd1-4794-8248-59b97a36413a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2241b095f957f2d2e24277575c4175cc\"",
+      "id": "65cf88de-b365-4c89-84e2-ecf69025c892",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189312822.jpg",
+      "path": "photos/65cf88de-b365-4c89-84e2-ecf69025c892.jpg",
+      "sha256": "15f60bbadcd4ac4454c69ad20a5801b49f3989aa4f2d1cd98cc292403f4a0f06",
+      "size": 1141615,
+      "url": "/api/photos/65cf88de-b365-4c89-84e2-ecf69025c892"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "액세서리용 금속 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5077",
+  "updatedAt": null,
+  "version": 0
+}

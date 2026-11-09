@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:55:31.974Z",
+  "floor": "5층",
+  "id": "e141635f-c5f0-4096-9cdd-029266023771",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"55743986e4fac5fd166f835ab624d1a6\"",
+      "id": "ac4f6dc9-73fb-45e6-951f-7e384c6d4a21",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189328404.jpg",
+      "path": "photos/ac4f6dc9-73fb-45e6-951f-7e384c6d4a21.jpg",
+      "sha256": "33da8b2de86ca25921261ba0d7f95082e6e5e90c3b2ddeb75c545fb96676eccb",
+      "size": 1486529,
+      "url": "/api/photos/ac4f6dc9-73fb-45e6-951f-7e384c6d4a21"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "나무 구슬",
+    "줄비즈",
+    "낱개 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5078",
+  "updatedAt": null,
+  "version": 0
+}

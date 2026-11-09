@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:06:21.873Z",
+  "floor": "5층",
+  "id": "df36a90b-9fe4-4257-b77b-6a652935ba18",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1c219b7c084a37b6b0752a2fc73d5da5\"",
+      "id": "12d8abca-6612-4192-b172-cb4d77b74b92",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189977652.jpg",
+      "path": "photos/12d8abca-6612-4192-b172-cb4d77b74b92.jpg",
+      "sha256": "345438644095561bd4224484bf441aaa7c593807b87d657b398e3f5aab65620f",
+      "size": 1481280,
+      "url": "/api/photos/12d8abca-6612-4192-b172-cb4d77b74b92"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "줄비즈",
+    "모양 비즈",
+    "장식 반지"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5139",
+  "updatedAt": null,
+  "version": 0
+}

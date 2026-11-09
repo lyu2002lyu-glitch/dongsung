@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:56:46.674Z",
+  "floor": "5층",
+  "id": "cf2621b3-05af-4f4f-8639-2fd4f757b42f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"53692a1facf07161a94639faa607666a\"",
+      "id": "e32838f4-d45d-47dd-94fb-86704590d717",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189400927.jpg",
+      "path": "photos/e32838f4-d45d-47dd-94fb-86704590d717.jpg",
+      "sha256": "d3608288a28b9c5aa9b57a3fbbea8a77c70a24a5ee2435a7cb5e588cb909916a",
+      "size": 1179604,
+      "url": "/api/photos/e32838f4-d45d-47dd-94fb-86704590d717"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "봉제 인형 키링",
+    "비즈 스트랩",
+    "장식 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5087",
+  "updatedAt": null,
+  "version": 0
+}

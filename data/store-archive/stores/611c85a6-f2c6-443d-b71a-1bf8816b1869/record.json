@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:03:58.721Z",
+  "floor": "5층",
+  "id": "611c85a6-f2c6-443d-b71a-1bf8816b1869",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7b724e1af6595ae1a3747323c22af1b0\"",
+      "id": "7a53626a-42d3-4eab-bcfd-16172c22ad93",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189831254.jpg",
+      "path": "photos/7a53626a-42d3-4eab-bcfd-16172c22ad93.jpg",
+      "sha256": "9d3c164e594f0fa255449a08f6f9301d017815b91c4268df27ba65fec077322e",
+      "size": 1517175,
+      "url": "/api/photos/7a53626a-42d3-4eab-bcfd-16172c22ad93"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "키링",
+    "키링 고리",
+    "알파벳 참"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5129",
+  "updatedAt": null,
+  "version": 0
+}

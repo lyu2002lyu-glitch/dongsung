@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:42:55.879Z",
+  "floor": "5층",
+  "id": "85a62ac9-e391-42f2-b875-899bb012dd52",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"95356ba0e041a9314e8a5a8d4fbc139c\"",
+      "id": "51619367-c223-4a8a-9dc5-864c3d79c7db",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188570621.jpg",
+      "path": "photos/51619367-c223-4a8a-9dc5-864c3d79c7db.jpg",
+      "sha256": "0ea885a515e0ec53495c4cbaab7840497416d0719721d212208de23b54221510",
+      "size": 1502160,
+      "url": "/api/photos/51619367-c223-4a8a-9dc5-864c3d79c7db"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "컬러 공예 끈",
+    "반짝이 장식 끈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5022",
+  "updatedAt": null,
+  "version": 0
+}

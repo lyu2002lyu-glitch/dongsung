@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:13:59.408Z",
+  "floor": "5층",
+  "id": "76695390-3d67-4221-b70d-6b4261e38285",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2f4737f521b2e1766be65bb7152ef1c1\"",
+      "id": "43215f5f-3a18-495d-87ee-b41f382b6bab",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190436618.jpg",
+      "path": "photos/43215f5f-3a18-495d-87ee-b41f382b6bab.jpg",
+      "sha256": "1f9213ddc6da35f5dc502848880c470eb5438d789217fcc2924b68aa975a1afe",
+      "size": 1268266,
+      "url": "/api/photos/43215f5f-3a18-495d-87ee-b41f382b6bab"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "큐빅 장식 머리띠",
+    "큐빅 장식 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5178",
+  "updatedAt": null,
+  "version": 0
+}

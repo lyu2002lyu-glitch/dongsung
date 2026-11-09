@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:13:41.091Z",
+  "floor": "5층",
+  "id": "4e4a84bb-7c57-4ef6-8ff2-1a27f2b9130f",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"1f9d0e50cb8d9309072d9bfc94d020e6\"",
+      "id": "20a12465-a4ac-46a5-9ff7-084f44016258",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190418211.jpg",
+      "path": "photos/20a12465-a4ac-46a5-9ff7-084f44016258.jpg",
+      "sha256": "b466f8888600815b0eed0d8f337a68d474a61f05027a0855a0e10cbed44c2f8a",
+      "size": 1383883,
+      "url": "/api/photos/20a12465-a4ac-46a5-9ff7-084f44016258"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "펜던트 목걸이",
+    "팔찌",
+    "훈장 모양 브로치",
+    "장식 핀"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5176",
+  "updatedAt": null,
+  "version": 0
+}

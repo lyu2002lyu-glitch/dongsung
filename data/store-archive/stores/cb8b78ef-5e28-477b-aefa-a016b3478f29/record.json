@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:15:00.614Z",
+  "floor": "5층",
+  "id": "cb8b78ef-5e28-477b-aefa-a016b3478f29",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7dc52042f3f9346df284ecc07ee426e1\"",
+      "id": "0f15c944-9a69-41b8-940f-46ff3ab9c8cb",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190496319.jpg",
+      "path": "photos/0f15c944-9a69-41b8-940f-46ff3ab9c8cb.jpg",
+      "sha256": "809eed1da27b8c4c3431b5f8039abbc1a2ab3593e5f4ca7b0e825e2b0945f4b5",
+      "size": 1307593,
+      "url": "/api/photos/0f15c944-9a69-41b8-940f-46ff3ab9c8cb"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리끈",
+    "네일 팁"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5189",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:46:24.549Z",
+  "floor": "5층",
+  "id": "a3aeba5b-8d3a-4780-a105-8ffdb350685b",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f7653a4c5abaeae955a6e648fb71ea83\"",
+      "id": "9e3bcade-924d-4e21-a36f-493ec49c8a53",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188781062.jpg",
+      "path": "photos/9e3bcade-924d-4e21-a36f-493ec49c8a53.jpg",
+      "sha256": "2428de0028807c11a5765f188613dfcee856864681954e8bc094e248dfdc9d04",
+      "size": 1279788,
+      "url": "/api/photos/9e3bcade-924d-4e21-a36f-493ec49c8a53"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "신발 장식 파츠",
+    "스마일 장식 파츠",
+    "진주 모양 비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5041",
+  "updatedAt": null,
+  "version": 0
+}

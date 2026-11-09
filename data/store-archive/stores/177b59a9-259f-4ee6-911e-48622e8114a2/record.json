@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:38:13.001Z",
+  "floor": "5층",
+  "id": "177b59a9-259f-4ee6-911e-48622e8114a2",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"6e54f153d696c7da558814958efef33d\"",
+      "id": "3c44002f-8c20-4654-b674-0de1291f721d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188288677.jpg",
+      "path": "photos/3c44002f-8c20-4654-b674-0de1291f721d.jpg",
+      "sha256": "a9f763f48dec782dad66e6eb36d73facce99de2eb873251457b939024a706438",
+      "size": 1214982,
+      "url": "/api/photos/3c44002f-8c20-4654-b674-0de1291f721d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "꽃 코사지",
+    "리본 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5008",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:06:56.009Z",
+  "floor": "5층",
+  "id": "2bb5d591-6f85-4fb9-9a96-bd39f9c4a8e9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"5fc0e6038330b290f7a9441a281aa27a\"",
+      "id": "8882f412-312d-4416-9915-aa4a724b83e8",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190012676.jpg",
+      "path": "photos/8882f412-312d-4416-9915-aa4a724b83e8.jpg",
+      "sha256": "9f6e9fbe8a8253699aa2db7faf098085d02f6f6b965f02f1b333cc9c2cda08a2",
+      "size": 1252350,
+      "url": "/api/photos/8882f412-312d-4416-9915-aa4a724b83e8"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "천 꽃 장식",
+    "장미 조화",
+    "장식용 깃털"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5143",
+  "updatedAt": null,
+  "version": 0
+}

@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:43:32.415Z",
+  "floor": "5층",
+  "id": "4d5d1ee9-3615-47f6-97ff-d2dde62031b6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"9f599dccae3b547dcee21f06cdc81804\"",
+      "id": "00c0f393-51ed-4158-ac19-6ef4c7f95078",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188607530.jpg",
+      "path": "photos/00c0f393-51ed-4158-ac19-6ef4c7f95078.jpg",
+      "sha256": "9066256a193723d903df2b32d779366df0805d7c95ea30484116d0537b9d7e25",
+      "size": 1117971,
+      "url": "/api/photos/00c0f393-51ed-4158-ac19-6ef4c7f95078"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "깃털 장식",
+    "꽃 모양 장식",
+    "진주 모양 비즈 줄"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5024",
+  "updatedAt": null,
+  "version": 0
+}

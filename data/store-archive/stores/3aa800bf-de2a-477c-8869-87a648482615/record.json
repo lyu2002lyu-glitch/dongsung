@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:00:42.671Z",
+  "floor": "5층",
+  "id": "3aa800bf-de2a-477c-8869-87a648482615",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"3001dbd4ededc13b9b4f18b67e8d8616\"",
+      "id": "301fb5fa-dbab-4b55-a8cd-10ac530a533a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189639000.jpg",
+      "path": "photos/301fb5fa-dbab-4b55-a8cd-10ac530a533a.jpg",
+      "sha256": "f3ffc5164551d0a887f0306e3d424160c76ea7436c613654258ca3dc4c8f1173",
+      "size": 1435538,
+      "url": "/api/photos/301fb5fa-dbab-4b55-a8cd-10ac530a533a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "과일·채소 모양 뜨개 키링",
+    "동물 인형 키링",
+    "꽃 모양 뜨개 장식"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5112",
+  "updatedAt": null,
+  "version": 0
+}

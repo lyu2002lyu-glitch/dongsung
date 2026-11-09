@@ -1,0 +1,31 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:53:31.882Z",
+  "floor": "5층",
+  "id": "4ca75677-bccf-449e-b89e-fd2fc91e1871",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"0cd16654d196675cae4a6aec4aa1af0a\"",
+      "id": "30d58e9d-e685-41b9-975c-6e73131431b6",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189208358.jpg",
+      "path": "photos/30d58e9d-e685-41b9-975c-6e73131431b6.jpg",
+      "sha256": "4e9834bd07b993f8fac54aad842435260e9914bb621d16de011fa73beb9cf3ba",
+      "size": 1446963,
+      "url": "/api/photos/30d58e9d-e685-41b9-975c-6e73131431b6"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "비즈 목걸이",
+    "줄비즈",
+    "금속 펜던트",
+    "연결고리",
+    "액세서리 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5073",
+  "updatedAt": null,
+  "version": 0
+}

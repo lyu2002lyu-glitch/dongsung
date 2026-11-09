@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:15:34.883Z",
+  "floor": "5층",
+  "id": "de040443-fa16-42a0-8547-21a1e58d4bb9",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"7d6187e940e7a6c5d68650d1d8e7bef6\"",
+      "id": "f0b8c928-3c01-491b-bd48-3a3c4c3eb9d2",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190530433.jpg",
+      "path": "photos/f0b8c928-3c01-491b-bd48-3a3c4c3eb9d2.jpg",
+      "sha256": "79f66fed3c7409ad405336a8ed7cd9059670b9c8190f61104eb54cef1c0425a3",
+      "size": 1218764,
+      "url": "/api/photos/f0b8c928-3c01-491b-bd48-3a3c4c3eb9d2"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "봉제인형",
+    "인형 키링",
+    "캐릭터 파우치",
+    "캐릭터 크로스백"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5191",
+  "updatedAt": null,
+  "version": 0
+}

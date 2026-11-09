@@ -1,0 +1,28 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:50:17.845Z",
+  "floor": "",
+  "id": "67c5acb6-e7a2-4178-8d72-6513b8c5a4f6",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"61b81d227779616752ee3f543ddfbcee\"",
+      "id": "184dfa64-a591-4309-b6a3-94f82594b38a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189011337.jpg",
+      "path": "photos/184dfa64-a591-4309-b6a3-94f82594b38a.jpg",
+      "sha256": "0ad1b8c32bfc973232ef849100c66ccb4a15e2577c64e5dd21a078a9c04636bc",
+      "size": 1466016,
+      "url": "/api/photos/184dfa64-a591-4309-b6a3-94f82594b38a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "원형 줄비즈",
+    "색상 줄비즈"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5053-1",
+  "updatedAt": null,
+  "version": 0
+}

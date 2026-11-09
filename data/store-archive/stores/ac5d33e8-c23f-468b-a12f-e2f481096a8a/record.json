@@ -1,0 +1,30 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T01:45:39.843Z",
+  "floor": "",
+  "id": "ac5d33e8-c23f-468b-a12f-e2f481096a8a",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"2a4747d87514573c8cb8792f68ffde18\"",
+      "id": "303824ab-21da-4fb3-81f0-74ca1c2ed845",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188734847.jpg",
+      "path": "photos/303824ab-21da-4fb3-81f0-74ca1c2ed845.jpg",
+      "sha256": "9077a7b5488624ea79a6ccacd68bf2f165d4afdc80f09709196e6ae50e065920",
+      "size": 1029573,
+      "url": "/api/photos/303824ab-21da-4fb3-81f0-74ca1c2ed845"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "니트 장갑",
+    "반장갑",
+    "레이스 스카프",
+    "털목도리"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5037-1",
+  "updatedAt": null,
+  "version": 0
+}

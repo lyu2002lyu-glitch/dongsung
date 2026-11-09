@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:09:25.153Z",
+  "floor": "5층",
+  "id": "215abb3b-9198-4d6c-9e31-5253cdc562b3",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"612118957b7f480767d3d75972f39dcb\"",
+      "id": "e5c916b3-46d5-43c9-852d-5761f5548dcd",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190161084.jpg",
+      "path": "photos/e5c916b3-46d5-43c9-852d-5761f5548dcd.jpg",
+      "sha256": "e500b4677a2cb3a425e6b9bb8b6e36e90ba50b7807f1fec4822d5509018cfd7b",
+      "size": 1247783,
+      "url": "/api/photos/e5c916b3-46d5-43c9-852d-5761f5548dcd"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "곱창 머리끈",
+    "알파벳 비즈",
+    "장식용 구슬"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5152",
+  "updatedAt": null,
+  "version": 0
+}

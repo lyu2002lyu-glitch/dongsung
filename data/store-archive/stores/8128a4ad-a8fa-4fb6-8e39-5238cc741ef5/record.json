@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:42:20.493Z",
+  "floor": "5층",
+  "id": "8128a4ad-a8fa-4fb6-8e39-5238cc741ef5",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"cfc64bb20f39eeffd50f11a01c5cad92\"",
+      "id": "39584063-c7b9-48b6-b800-da9402bbc16d",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188535926.jpg",
+      "path": "photos/39584063-c7b9-48b6-b800-da9402bbc16d.jpg",
+      "sha256": "1cb781f577a7111bd3c0e9d265f498f0de237b866d190871d4cdbf5089f85dd0",
+      "size": 1279142,
+      "url": "/api/photos/39584063-c7b9-48b6-b800-da9402bbc16d"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "패턴 조각천",
+    "천 가방",
+    "지퍼"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5018",
+  "updatedAt": null,
+  "version": 0
+}

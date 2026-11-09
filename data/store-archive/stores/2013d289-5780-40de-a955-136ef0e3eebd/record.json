@@ -1,0 +1,30 @@
+{
+  "building": "",
+  "createdAt": "2026-11-09T02:02:16.989Z",
+  "floor": "",
+  "id": "2013d289-5780-40de-a955-136ef0e3eebd",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"234b79a524e1e16ac923318963acf88e\"",
+      "id": "c8c9294b-ea38-4494-8011-fa44cc9c6162",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189733591.jpg",
+      "path": "photos/c8c9294b-ea38-4494-8011-fa44cc9c6162.jpg",
+      "sha256": "0f55fd0518e80a5520332992fb083bfd727bc8b3c91aabebad3634654ffa825d",
+      "size": 1077874,
+      "url": "/api/photos/c8c9294b-ea38-4494-8011-fa44cc9c6162"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "별 모양 가방 장식",
+    "하트 모양 가방 장식",
+    "액세서리용 체인",
+    "장식 펜던트"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5124-1",
+  "updatedAt": null,
+  "version": 0
+}

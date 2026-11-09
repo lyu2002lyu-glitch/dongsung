@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:57:12.740Z",
+  "floor": "5층",
+  "id": "81bc3bab-32d1-4878-bc46-49e9b580ccbb",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"666bd97cc5582d921296d7ed7485d834\"",
+      "id": "0ac8f0f3-c6ea-4181-a445-11655778c29a",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794189427504.jpg",
+      "path": "photos/0ac8f0f3-c6ea-4181-a445-11655778c29a.jpg",
+      "sha256": "6da379a0e5a45386f941ff42ddddbd2e1507543f09b2355fb8df933e774b9306",
+      "size": 1118967,
+      "url": "/api/photos/0ac8f0f3-c6ea-4181-a445-11655778c29a"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "액세서리 연결고리",
+    "잠금장식",
+    "체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5069",
+  "updatedAt": null,
+  "version": 0
+}

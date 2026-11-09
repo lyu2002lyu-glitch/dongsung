@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:07:11.997Z",
+  "floor": "5층",
+  "id": "127f133b-a153-402c-aaeb-abe161a8bf03",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"eca2a200956ae1d5c118e147bbeea736\"",
+      "id": "4827400a-5783-45e8-b6be-3b649a191697",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190027971.jpg",
+      "path": "photos/4827400a-5783-45e8-b6be-3b649a191697.jpg",
+      "sha256": "8a5c9480798aee0207bc286c7ed37a323a7e4dafb2169736afb69dd2825056e6",
+      "size": 1272753,
+      "url": "/api/photos/4827400a-5783-45e8-b6be-3b649a191697"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "알파벳 비즈",
+    "스마일 장식",
+    "비즈 스트랩"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5145",
+  "updatedAt": null,
+  "version": 0
+}

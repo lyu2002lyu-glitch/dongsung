@@ -1,0 +1,28 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:10:00.298Z",
+  "floor": "5층",
+  "id": "21588678-2aed-4c86-ba87-e07089318964",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"153215015f304cc06a2bc79fb64d9fa1\"",
+      "id": "c89d943f-7834-4399-bc63-b7c4823c4c5c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190197376.jpg",
+      "path": "photos/c89d943f-7834-4399-bc63-b7c4823c4c5c.jpg",
+      "sha256": "f6df56d15e709fd07447d8ba29a79fee5fa7b12308c06cb7abdbac91f6b70556",
+      "size": 1468259,
+      "url": "/api/photos/c89d943f-7834-4399-bc63-b7c4823c4c5c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금색·은색 장식 체인",
+    "볼 체인"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5155",
+  "updatedAt": null,
+  "version": 0
+}

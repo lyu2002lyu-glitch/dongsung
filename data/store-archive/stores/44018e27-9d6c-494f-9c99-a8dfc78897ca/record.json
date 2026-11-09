@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T02:10:55.254Z",
+  "floor": "5층",
+  "id": "44018e27-9d6c-494f-9c99-a8dfc78897ca",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"f27a538f4a047cf3bd6479e199ddf7a4\"",
+      "id": "d671596b-805f-4823-b2d9-6901430a7655",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794190250887.jpg",
+      "path": "photos/d671596b-805f-4823-b2d9-6901430a7655.jpg",
+      "sha256": "07a8ed03cead9fcd66b5c8448385c990d03a068bbd97e2bb67f02892b3f4ef7e",
+      "size": 1264890,
+      "url": "/api/photos/d671596b-805f-4823-b2d9-6901430a7655"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "머리핀",
+    "장식 머리띠",
+    "단추",
+    "꽃·하트 장식 부자재"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5160",
+  "updatedAt": null,
+  "version": 0
+}

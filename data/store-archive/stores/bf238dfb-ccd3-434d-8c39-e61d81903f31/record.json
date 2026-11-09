@@ -1,0 +1,30 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:43:18.744Z",
+  "floor": "5층",
+  "id": "bf238dfb-ccd3-434d-8c39-e61d81903f31",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"e48d8b89917ddd3c95b09ba98d47e5d1\"",
+      "id": "0ed41e0b-8db3-4695-a939-ae50b82e71ed",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188593914.jpg",
+      "path": "photos/0ed41e0b-8db3-4695-a939-ae50b82e71ed.jpg",
+      "sha256": "0943b63bcf33bbbd317808d0bd119666d7c7691ac893f950d37a2a29081429e6",
+      "size": 1199859,
+      "url": "/api/photos/0ed41e0b-8db3-4695-a939-ae50b82e71ed"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "금속 연결 고리",
+    "키링 고리",
+    "볼체인",
+    "체인 줄"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5023",
+  "updatedAt": null,
+  "version": 0
+}

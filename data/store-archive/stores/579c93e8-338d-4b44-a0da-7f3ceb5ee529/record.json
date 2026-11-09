@@ -1,0 +1,29 @@
+{
+  "building": "B동",
+  "createdAt": "2026-11-09T01:42:03.882Z",
+  "floor": "5층",
+  "id": "579c93e8-338d-4b44-a0da-7f3ceb5ee529",
+  "name": "",
+  "photos": [
+    {
+      "etag": "\"85226a248fcbfe42c2cdb45920fc1d90\"",
+      "id": "39641696-ba21-4a32-8b04-62f75a64c29c",
+      "mime": "image/jpeg",
+      "name": "매장사진-1794188515508.jpg",
+      "path": "photos/39641696-ba21-4a32-8b04-62f75a64c29c.jpg",
+      "sha256": "981a62460d54fe5d95fcb8d804ccbf484786f617fe2e4491d0ae2b22b5751495",
+      "size": 1323618,
+      "url": "/api/photos/39641696-ba21-4a32-8b04-62f75a64c29c"
+    }
+  ],
+  "productAnalysisStatus": "ready",
+  "productItems": [
+    "매듭 키링",
+    "리본 키링",
+    "미니어처 키링"
+  ],
+  "productItemsSource": "photo",
+  "unit": "B5207",
+  "updatedAt": null,
+  "version": 0
+}
