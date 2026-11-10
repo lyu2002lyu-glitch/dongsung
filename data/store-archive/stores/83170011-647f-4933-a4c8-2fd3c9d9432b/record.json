@@ -18,12 +18,10 @@
   ],
   "productAnalysisStatus": "ready",
   "productItems": [
-    "폴리 트윌 원단",
-    "폴리 태피터 원단",
-    "지퍼 슬라이더"
+    "토탈 부자재 매장"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "Nb049",
-  "updatedAt": null,
-  "version": 1
+  "updatedAt": "2026-11-10T01:24:11.948Z",
+  "version": 2
 }

@@ -18,10 +18,10 @@
   ],
   "productAnalysisStatus": "ready",
   "productItems": [
-    "롤 원단"
+    "토탈 부자재 매장"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "Nb002",
-  "updatedAt": null,
-  "version": 1
+  "updatedAt": "2026-11-10T01:23:32.281Z",
+  "version": 2
 }

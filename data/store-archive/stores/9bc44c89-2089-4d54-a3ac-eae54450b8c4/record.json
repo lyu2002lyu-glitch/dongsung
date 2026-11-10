@@ -18,11 +18,11 @@
   ],
   "productAnalysisStatus": "ready",
   "productItems": [
-    "검정 원단",
-    "흰색 원단"
+    "안감",
+    "심지"
   ],
-  "productItemsSource": "photo",
+  "productItemsSource": "admin",
   "unit": "Nb003",
-  "updatedAt": null,
-  "version": 1
+  "updatedAt": "2026-11-10T01:23:24.912Z",
+  "version": 2
 }
