@@ -1,7 +1,7 @@
 {
   "building": "A동",
   "createdAt": "2026-11-09T05:25:47.834Z",
-  "floor": "6층",
+  "floor": "5층",
   "id": "65712717-200f-46e8-9683-c13df247acfb",
   "name": "",
   "photos": [
@@ -23,7 +23,7 @@
     "장식 펜던트"
   ],
   "productItemsSource": "photo",
-  "unit": "A6093",
-  "updatedAt": null,
-  "version": 0
+  "unit": "A5093",
+  "updatedAt": "2026-11-10T23:45:17.001Z",
+  "version": 1
 }

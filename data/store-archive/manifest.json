@@ -1,7 +1,7 @@
 {
   "format": "store-archive/v1",
   "origin": "https://ddm-store-log-lyu.vercel.app",
-  "photoCount": 552,
+  "photoCount": 549,
   "records": [
     {
       "id": "00f7a689-fc04-4b52-89ae-2db07ab6e44b",
@@ -497,11 +497,6 @@
       "id": "2cfd71b6-dc25-4626-a294-a378e98ce2eb",
       "recordSha256": "510d738e9882ee0ed0f95835b33cef65329f5929461587f97f4bfe608e7912e7",
       "version": 0
-    },
-    {
-      "id": "2d2a0568-2d2a-4c60-a11b-e9cd6434367d",
-      "recordSha256": "1bb227792e36e968d08745db979d6c0148fc52f2693b1b879758baf021bad5de",
-      "version": 1
     },
     {
       "id": "2d674413-5982-49cc-bdda-bbea84b736a7",
@@ -1069,11 +1064,6 @@
       "version": 1
     },
     {
-      "id": "62fa67ec-a61c-48d5-97c7-78bdc58d053a",
-      "recordSha256": "e7626b8e42e479a1635e7f6f269335d2dc9b8920152ac2f6cc2c902cc0631bcc",
-      "version": 1
-    },
-    {
       "id": "63ff7bcb-f9d2-4f1e-a3f2-87371097df96",
       "recordSha256": "e5ca590d9f261767b792ca4a765aee758da55e71c7d08b58824f245c41ca407b",
       "version": 1
@@ -1095,8 +1085,8 @@
     },
     {
       "id": "65712717-200f-46e8-9683-c13df247acfb",
-      "recordSha256": "f351dfcdd9745d88e994d93f589468ce631ee707ac0e120745bd29d1d52bb572",
-      "version": 0
+      "recordSha256": "2cd4d54a17317e76aa458d471eba26bdfd69e94e9d36fa8e512f0f9071056bc0",
+      "version": 1
     },
     {
       "id": "6619b98b-09e8-40eb-86ac-04e0dcfeb688",
@@ -2314,11 +2304,6 @@
       "version": 1
     },
     {
-      "id": "cd60e92f-cd6c-4b55-be6a-cfb2ca1b3688",
-      "recordSha256": "cc04596e499f3e37393398e7b3459a32c62f015592398e6167266f18cf3dc1a9",
-      "version": 1
-    },
-    {
       "id": "cdb35ec5-c951-497d-b792-d81c6ec3cff1",
       "recordSha256": "f66d74d9b3ac6ba5f3cc8709f39aea5c2302898fbbf2d72b0b2246136e435fb6",
       "version": 1
@@ -2764,7 +2749,7 @@
       "version": 0
     }
   ],
-  "snapshotSha256": "9708bf23f0a10e0659fb14533112ada30088deccb6b5674664bdd13e2b2d4f50",
-  "storeCount": 552,
-  "syncedAt": "2026-11-10T03:04:04.480590+00:00"
+  "snapshotSha256": "1aebcdc64a2b6e26a9fbf9de935ee7fe766d7b4d7509d098c4c5743f3ea3be19",
+  "storeCount": 549,
+  "syncedAt": "2026-11-10T23:54:06.546531+00:00"
 }
