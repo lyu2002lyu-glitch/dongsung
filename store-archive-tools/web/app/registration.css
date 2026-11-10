@@ -23,3 +23,19 @@
 .registration-submit { border-top: 1px solid var(--line); margin-top: 25px; padding-top: 19px; }
 .registration-submit .button { margin-top: 13px; width: 100%; min-height: 49px; font-size: 15px; }
 @media (max-width: 700px) { .registration-scroll { padding: 20px; padding-bottom: max(28px, env(safe-area-inset-bottom)); } .native-picker { min-height: 88px; } }
+
+.saved-receipt {
+  display: flex; align-items: center; gap: 14px; margin: 0 0 24px;
+  padding: 18px 20px; border: 1px solid #bbdfcc; border-radius: 12px;
+  background: #ecf7f1; color: #275f45;
+}
+.saved-receipt > svg { flex: none; }
+.saved-receipt h2 { font-size: 16px; margin: 0 0 4px; }
+.saved-receipt p { font-size: 13px; overflow-wrap: anywhere; }
+.saved-receipt .button { margin-left: auto; }
+.saved-receipt .receipt-close { flex: none; }
+@media(max-width: 700px) {
+  .saved-receipt { display: grid; grid-template-columns: 24px minmax(0,1fr) 32px; gap: 10px; padding: 16px; }
+  .saved-receipt .button { grid-column: 2; grid-row: 2; justify-self: start; margin: 0; }
+  .saved-receipt .receipt-close { grid-column: 3; grid-row: 1; }
+}
