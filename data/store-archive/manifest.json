@@ -1,7 +1,7 @@
 {
   "format": "store-archive/v1",
   "origin": "https://ddm-store-log-lyu.vercel.app",
-  "photoCount": 549,
+  "photoCount": 548,
   "records": [
     {
       "id": "00f7a689-fc04-4b52-89ae-2db07ab6e44b",
@@ -457,11 +457,6 @@
       "id": "29d7546c-0a25-4056-9d3c-24f18a0dabe6",
       "recordSha256": "234e40d3284368fbc17e250dde82e5875e2d4dff53071971cb6f65b370a0638c",
       "version": 0
-    },
-    {
-      "id": "29eff917-4c9e-4298-a59d-746c7b3db5a3",
-      "recordSha256": "1b46ca29e3104283ae5237f1e9aed229f8554ee2daa041ba51c0c078178c290e",
-      "version": 1
     },
     {
       "id": "2a01b830-2be7-43bc-8a31-6d0da07ad0e7",
@@ -2749,7 +2744,7 @@
       "version": 0
     }
   ],
-  "snapshotSha256": "1aebcdc64a2b6e26a9fbf9de935ee7fe766d7b4d7509d098c4c5743f3ea3be19",
-  "storeCount": 549,
-  "syncedAt": "2026-11-10T23:54:06.546531+00:00"
+  "snapshotSha256": "b09fd136160f2e973cb825ff266a914d86e545f65e6fd73e2c877892de8df298",
+  "storeCount": 548,
+  "syncedAt": "2026-11-11T03:14:45.517112+00:00"
 }
